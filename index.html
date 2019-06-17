@@ -78,7 +78,7 @@ _tmr.push({id: "3126847", type: "pageView", start: (new Date()).getTime()});
         
         a:link,
         a:visited {
-            color: #38488f;
+            color: #000000;
             text-decoration: none;
         }
         
@@ -107,6 +107,12 @@ _tmr.push({id: "3126847", type: "pageView", start: (new Date()).getTime()});
         p {
             font-size: 15px;
         }
+		
+		textarea {
+    width: 90%;
+    height: 50px;
+    resize: none;
+   } 
     </style>
 </head>
 
@@ -120,12 +126,13 @@ _tmr.push({id: "3126847", type: "pageView", start: (new Date()).getTime()});
             <a href="https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters" rel="nofollow"><img src="https://camo.githubusercontent.com/63c52cbe56b275bb1feb440bc5dc210920a5981f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f73796e7461782d416447756172642d2532333035613830302e737667" alt="syntaxADG" data-canonical-src="https://img.shields.io/badge/syntax-AdGuard-%2305a800.svg" style="max-width:100%;"></a>
         </p>
         <p>Filters for blocking pop-ups and anti-adblock bypass.</p>
-        <textarea autofocus style="width:100%;">https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt</textarea>
+        <textarea autofocus style="width:100%;" readonly>https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt https://easylist-downloads.adblockplus.org/antiadblockfilters.txt</textarea>
 
         <body>
-            <a href="abp:subscribe?location=https%3A%2F%2Fraw.githubusercontent.com%2Fbogachenko%2Ffuckfuckadblock%2Fmaster%2Ffuckfuckadblock.txt&amp;title=Fuck%20Fuckadblock">
-                <button onlick="return false;">Subscribe</button>
-            </a>
+		<button onlick="return false;">
+		<a href="https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2Fbogachenko%2Ffuckfuckadblock%2Fmaster%2Ffuckfuckadblock.txt&amp;title=Fuck%20Fuckadblock&amp;requiresLocation=https%3A%2F%2Feasylist-downloads.adblockplus.org%2Fantiadblockfilters.txt&amp;requiresTitle=Adblock%20Warning%20Removal%20List">Subscribe</a>
+ 
+          </button>
     </div>
     </body>
 
