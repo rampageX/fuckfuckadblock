@@ -8,12 +8,15 @@
 document.ondragstart = noselect;
 document.onselectstart = noselect;
 document.oncontextmenu = noselect;
-function noselect() {return false;}
+
+function noselect() {
+ return false;
+}
 document.onkeydown = function(e) {
-        if (e.ctrlKey && 
-            (e.keyCode === 85 )) {
-            return false;
-        }
+ if (e.ctrlKey &&
+  (e.keyCode === 85)) {
+  return false;
+ }
 };
 </script>
     <style type="text/css">
