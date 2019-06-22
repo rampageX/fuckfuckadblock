@@ -1,169 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<title>Fuck Fuckadblock</title>
-<meta name="title" content="Fuck Fuckadblock">
-<meta name="description" content="Filters for blocking pop-ups and anti-adblock bypass.">
-<meta name="keywords" content="adblock, adblockplus, ublock0, ublock, ublockorigin, popup, popups, fuckadblock, fuckfuckadblock, anti-adblock, blocking, adguard, adblock-plus, ublock-origin, antiadblockbypass, blockadblock, popunder, bypass, antiadblock, bogachenkoffa, bogachenko">
-<meta name="robots" content="index, follow">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="language" content="English">
-<meta name="author" content="Bogachenko Vyacheslav">
-<meta property="og:title" content="Don't touch my Adblocker!">
-<meta property="og:site_name" content="Fuck Fuckadblock">
-<meta property="og:url" content="https://bogachenko.github.io/fuckfuckadblock/">
-<meta property="og:description" content="Filters for blocking pop-ups and anti-adblock bypass">
-<meta property="og:type" content="website">
-<meta property="og:image" content="">
-<meta name="google-site-verification" content="a1FhNV_UUtKFQjqAqTssAIwyFkEoa1WOcsUnRTPEatY" />
-<meta name="msvalidate.01" content="41920080EDF4EA06F745B3FBDC4903B1" />
-<link rel="icon" href="data:image/x-icon;base64,AAABAAEAyMgAAAEACADLBwAAFgAAAIlQTkcNChoKAAAADUlIRFIAAADIAAAAyAgGAAAArViungAAB5JJREFUeJzt3X2MZfccx/H3drdWq5RiVymqNn3YPmDbLdWIajykkSZKS0l2qWbRDRX1FCIk/vAPSQVp+E80kaYhESL4Q2yCph4iaC1pBUkJEjSxEamHrj/Ozpod937mnnO/55w15/1KJtmduff7O3cz772/ycz87ibgMJJmOmHsC5COZwYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBXMD2QUc3kBvdy/4DzLVx13lK4XXvvL2T+AFQz6IVXwGUamLe5i5BXhjD3MXYSAqsw84vafZl/U0dz0GojLX9Dh7B3Blj/PnMRCV2dXj7M3ADT3On8dAVOImYHvPazy35/mzGIhKvGKANc4CXjbAOqsZiEo8Z4A1NgN7B1hnNQPR0m4GnjjQWkNvswxES7t6wLWeAbx8wPUMREsbYnu14gRgz8DrSZ3dAjx+4DUvHXAtA9FShtzurDiTfr8puZqBaCnPHmHNTcDrBlrLQNTZe4HTRlp790DrDBbIh2nKH+vtef0/xJk28uO+qsfZ63kacN0A6/gMos6eNeLam4DrB1jHQNTJB4DHjnwNQ2yzDESdvHTsCwDOoP8v1g1EnVw09gXQbLNe3fMaBqLWPgScOvZFHHFJz/MNRK29ZOwLWOUpwOt7nG8gauXR1GyvHgR+XzAH4NqiObNs6XG2NqD30ESyrHuAv1NzyEMfJ6ms8BlErby4aM4B4BtFs04HbiyatZaBaGHbgAsK5vwN+BhwK81Wq8Iri+asZSBa2DuAUwrmHAQOHfnzvQXzoL9tloFoYS8qmnPXqj8fKJq5HXhL0azVDEQL2QZcWDDnIeC2VX//KM2Wq0IfJ6sMFsgHGf7g5ocHeWTZRnnc7wJOLphzP3Dfqr8fAn5eMBf6+dVfn0G0kKrt1fdnvO+uGe/rYhvwtqJZKwxE6zoDOL9gzr+B22e8/zPAPwrmQ/0JKwaidd0CnFQw59fM/qL8IM3Wq0L1NstAtK4XFs35UfjYrK1XF0+gCbqKgSg6G9hZMOcwcGf4+OdotmAVKk9aMRBFbwUeWTDnd8AXw8cPAL8pWAdqT1oxEEVVrw344wVuk7ZgbZxG80OVFQxEc+0Eziua9dUFbvOForWg7sQVA9Fc+4GtBXP+BHx6gdvdSbMVq1B14oqBaK6q7dVPW9z2J0VrPg54f8EcA9FMFwHnFs36Zovbfq1oTah5NSoD0Uz7gUcUzPkr8JEWt/8U8OeCdaFmm2UgmunyojkHO9znnqK1T6X5YdFlGIj+x27gnKJZ3+5wn28VrQ3LH3C3oQ+vPh7q/3983G8CTlxyBjSHMnyiw/1u5b+/cbisC1nukInj4XNIx5nnF825D/hth/tV/o7IY4B3L3F/A9ExLqf5+asKdy9x3+8UXQMsdxKL52LpGDdS90nx5iNvY1vZZnXZtvkMomNcNvYF9OAU4H0d72sgOuoKYMfYF9GTKzvez0B01A1s3D33BTS/s96WgeiosV7HcQiPAt7Z4X4GIqB5SYNnjn0RPetyMouBCIC9wOaxL6Jn59Oc0NKGgQjY2NurFSfTnC/choGIq4Czxr6IgVzR8vYGIvYynU+E82j3n8FU/l0UXDr2BQzoJODtLW5vIBN3NXDm2BcxsDa/SmwgE7eH6X0S7GTxH8ic2r+N1tg99gWMYCtw84K3NZAJexXw9KJZD9D/L4L9suhaYfFtloFM2GtpPvEqtDnap6tFTmdc1Dks9nrvBjJhldurqpd0Tr5cOGsrcNMCtzOQiboeeGrRrAeBTxbNSm4H/lg4b5GTWwxkol5D3faqy9E+Xf2scNa5rP8saiATdUnhrO8WzlrPgcJZJ9Kc4JIYyATtof1Ptc7zEM1rDA7l49S9bDSsf4KLgUzQdYWz7gd+VThvPYeAXxTOO5v8k8wGMkEXF876YeGsRX2vcNYWYF/4uIFMzBuAJxfNehi4o2hWG58F/lU4L22zDGRiri2c9QDDfP9jrR/QvKR0lR3M/866gUxM5fZqiO+ez1P5XfUtNAfmzWIgE7IPeFLhvK8XzmrrS8Xz5n2hbiATck3hrL8AtxXOa+vzwB8K5+1g9uFyBjIhuwpnDfnd83nuLZy1mebgvLUMZCL2A9sL51Wevt5V5QvtwOxt1ibgcPE60obhM4gUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgU/AcYcVE0w+otjAAAAABJRU5ErkJggg==">
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<style type="text/css">
-body {
-    background-color: #f0f0f2;
-    margin: 0;
-    padding: 0;
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none
-}
-
-#main-block {
-    width: 700px;
-    margin: 5em auto;
-    padding: 50px;
-    background-color: #fff;
-    border-radius: 1em
-}
-
-a:link,
-a:visited {
-    color: #000;
-    text-decoration: none
-}
-
-@media (max-width: 700px) {
-    body {
-        background-color: #f0f0f2
-    }
-    div {
-        width: auto;
-        margin: 0 auto;
-        border-radius: 0;
-        padding: 1em
-    }
-}
-
-#main-block {
-    border: 1px solid ThreeDShadow;
-    border-radius: 3px
-}
-
-h1 {
-    border-bottom: 1px solid ThreeDLightShadow;
-    font-size: 160%
-}
-
-p {
-    font-size: 15px
-}
-
-textarea {
-    width: 90%;
-    height: 50px;
-    resize: none
-}
-
-h3 {
-    border-bottom: 1px solid ThreeDLightShadow;
-    font-size: 100%
-}
-
-#subscription-options {
-    display: none
-}
-</style>
+    <title>Fuck Fuckadblock</title>
+    <meta name="title" content="Fuck Fuckadblock">
+    <meta name="description" content="Filters for blocking pop-ups and anti-adblock bypass.">
+    <meta name="keywords" content="adblock, adblockplus, ublock0, ublock, ublockorigin, popup, popups, fuckadblock, fuckfuckadblock, anti-adblock, blocking, adguard, adblock-plus, ublock-origin, antiadblockbypass, blockadblock, popunder, bypass, antiadblock, bogachenkoffa, bogachenko">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="author" content="Bogachenko Vyacheslav">
+    <meta property="og:title" content="Don't touch my Adblocker!">
+    <meta property="og:site_name" content="Fuck Fuckadblock">
+    <meta property="og:url" content="https://bogachenko.github.io/fuckfuckadblock/">
+    <meta property="og:description" content="Filters for blocking pop-ups and anti-adblock bypass">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="">
+    <meta name="google-site-verification" content="a1FhNV_UUtKFQjqAqTssAIwyFkEoa1WOcsUnRTPEatY" />
+    <meta name="msvalidate.01" content="41920080EDF4EA06F745B3FBDC4903B1" />
+    <link rel="icon" href="data:image/x-icon;base64,AAABAAEAyMgAAAEACADLBwAAFgAAAIlQTkcNChoKAAAADUlIRFIAAADIAAAAyAgGAAAArViungAAB5JJREFUeJzt3X2MZfccx/H3drdWq5RiVymqNn3YPmDbLdWIajykkSZKS0l2qWbRDRX1FCIk/vAPSQVp+E80kaYhESL4Q2yCph4iaC1pBUkJEjSxEamHrj/Ozpod937mnnO/55w15/1KJtmduff7O3cz772/ycz87ibgMJJmOmHsC5COZwYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBQYiBXMD2QUc3kBvdy/4DzLVx13lK4XXvvL2T+AFQz6IVXwGUamLe5i5BXhjD3MXYSAqsw84vafZl/U0dz0GojLX9Dh7B3Blj/PnMRCV2dXj7M3ADT3On8dAVOImYHvPazy35/mzGIhKvGKANc4CXjbAOqsZiEo8Z4A1NgN7B1hnNQPR0m4GnjjQWkNvswxES7t6wLWeAbx8wPUMREsbYnu14gRgz8DrSZ3dAjx+4DUvHXAtA9FShtzurDiTfr8puZqBaCnPHmHNTcDrBlrLQNTZe4HTRlp790DrDBbIh2nKH+vtef0/xJk28uO+qsfZ63kacN0A6/gMos6eNeLam4DrB1jHQNTJB4DHjnwNQ2yzDESdvHTsCwDOoP8v1g1EnVw09gXQbLNe3fMaBqLWPgScOvZFHHFJz/MNRK29ZOwLWOUpwOt7nG8gauXR1GyvHgR+XzAH4NqiObNs6XG2NqD30ESyrHuAv1NzyEMfJ6ms8BlErby4aM4B4BtFs04HbiyatZaBaGHbgAsK5vwN+BhwK81Wq8Iri+asZSBa2DuAUwrmHAQOHfnzvQXzoL9tloFoYS8qmnPXqj8fKJq5HXhL0azVDEQL2QZcWDDnIeC2VX//KM2Wq0IfJ6sMFsgHGf7g5ocHeWTZRnnc7wJOLphzP3Dfqr8fAn5eMBf6+dVfn0G0kKrt1fdnvO+uGe/rYhvwtqJZKwxE6zoDOL9gzr+B22e8/zPAPwrmQ/0JKwaidd0CnFQw59fM/qL8IM3Wq0L1NstAtK4XFs35UfjYrK1XF0+gCbqKgSg6G9hZMOcwcGf4+OdotmAVKk9aMRBFbwUeWTDnd8AXw8cPAL8pWAdqT1oxEEVVrw344wVuk7ZgbZxG80OVFQxEc+0Eziua9dUFbvOForWg7sQVA9Fc+4GtBXP+BHx6gdvdSbMVq1B14oqBaK6q7dVPW9z2J0VrPg54f8EcA9FMFwHnFs36Zovbfq1oTah5NSoD0Uz7gUcUzPkr8JEWt/8U8OeCdaFmm2UgmunyojkHO9znnqK1T6X5YdFlGIj+x27gnKJZ3+5wn28VrQ3LH3C3oQ+vPh7q/3983G8CTlxyBjSHMnyiw/1u5b+/cbisC1nukInj4XNIx5nnF825D/hth/tV/o7IY4B3L3F/A9ExLqf5+asKdy9x3+8UXQMsdxKL52LpGDdS90nx5iNvY1vZZnXZtvkMomNcNvYF9OAU4H0d72sgOuoKYMfYF9GTKzvez0B01A1s3D33BTS/s96WgeiosV7HcQiPAt7Z4X4GIqB5SYNnjn0RPetyMouBCIC9wOaxL6Jn59Oc0NKGgQjY2NurFSfTnC/choGIq4Czxr6IgVzR8vYGIvYynU+E82j3n8FU/l0UXDr2BQzoJODtLW5vIBN3NXDm2BcxsDa/SmwgE7eH6X0S7GTxH8ic2r+N1tg99gWMYCtw84K3NZAJexXw9KJZD9D/L4L9suhaYfFtloFM2GtpPvEqtDnap6tFTmdc1Dks9nrvBjJhldurqpd0Tr5cOGsrcNMCtzOQiboeeGrRrAeBTxbNSm4H/lg4b5GTWwxkol5D3faqy9E+Xf2scNa5rP8saiATdUnhrO8WzlrPgcJZJ9Kc4JIYyATtof1Ptc7zEM1rDA7l49S9bDSsf4KLgUzQdYWz7gd+VThvPYeAXxTOO5v8k8wGMkEXF876YeGsRX2vcNYWYF/4uIFMzBuAJxfNehi4o2hWG58F/lU4L22zDGRiri2c9QDDfP9jrR/QvKR0lR3M/866gUxM5fZqiO+ez1P5XfUtNAfmzWIgE7IPeFLhvK8XzmrrS8Xz5n2hbiATck3hrL8AtxXOa+vzwB8K5+1g9uFyBjIhuwpnDfnd83nuLZy1mebgvLUMZCL2A9sL51Wevt5V5QvtwOxt1ibgcPE60obhM4gUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgUGIgU/AcYcVE0w+otjAAAAABJRU5ErkJggg==">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <style type="text/css">
+        body {
+            background-color: #f0f0f2;
+            margin: 0;
+            padding: 0;
+            font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none
+        }
+        
+        #main-block {
+            width: 700px;
+            margin: 5em auto;
+            padding: 50px;
+            background-color: #fff;
+            border-radius: 1em
+        }
+        
+        a:link,
+        a:visited {
+            color: #000;
+            text-decoration: none
+        }
+        
+        @media (max-width: 700px) {
+            body {
+                background-color: #f0f0f2
+            }
+            div {
+                width: auto;
+                margin: 0 auto;
+                border-radius: 0;
+                padding: 1em
+            }
+        }
+        
+        #main-block {
+            border: 1px solid ThreeDShadow;
+            border-radius: 3px
+        }
+        
+        h1 {
+            border-bottom: 1px solid ThreeDLightShadow;
+            font-size: 160%
+        }
+        
+        p {
+            font-size: 15px
+        }
+        
+        textarea {
+            width: 90%;
+            height: 50px;
+            resize: none
+        }
+        
+        h3 {
+            border-bottom: 1px solid ThreeDLightShadow;
+            font-size: 100%
+        }
+    </style>
 </head>
+
 <body>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142204431-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142204431-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-142204431-1');
-</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+        gtag('config', 'UA-142204431-1');
+    </script>
 
-   ym(54089512, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true,
-        webvisor:true
-   });
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/54089512" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function(m, e, t, r, i, k, a) {
+            m[i] = m[i] || function() {
+                (m[i].a = m[i].a || []).push(arguments)
+            };
+            m[i].l = 1 * new Date();
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-<!-- Rating@Mail.ru counter -->
-<script type="text/javascript">
-var _tmr = window._tmr || (window._tmr = []);
-_tmr.push({id: "3126847", type: "pageView", start: (new Date()).getTime()});
-(function (d, w, id) {
-  if (d.getElementById(id)) return;
-  var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
-  ts.src = "https://top-fwz1.mail.ru/js/code.js";
-  var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
-  if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
-})(document, window, "topmailru-code");
-</script><noscript><div>
-<img src="https://top-fwz1.mail.ru/counter?id=3126847;js=na" style="border:0;position:absolute;left:-9999px;" alt="Top.Mail.Ru" />
-</div></noscript>
+        ym(54089512, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true,
+            webvisor: true
+        });
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/54089512" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
 
-<script>
-<!-- Main script -->
-$(document).click(function (a) {
-    if ($(a.target).closest(".list").length) return;
-    $(".list").slideUp("slow");
-    a.stopPropagation()
-});
-$('.hide').click(function () {
-    $(this).siblings(".list").slideToggle("slow");
-    return false
-});
-</script>
-<div id="main-block">
-<h1>Fuck Fuckadblock</h1>
-<p>
-<a href="https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/LICENSE.md" rel="nofollow"><img src="https://camo.githubusercontent.com/531df5338be586dc17d6f8ad2696409f97b7c4aa/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4d49542d2532333366623931322e737667" alt="license" data-canonical-src="https://img.shields.io/badge/license-MIT-%233fb912.svg" style="max-width:100%;"></a>
-<br>
-<a href="https://github.com/gorhill/uBlock/wiki/Static-filter-syntax"><img src="https://camo.githubusercontent.com/cbf1a1f116533f13f0448ad6a0480557ec8c8066/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f73796e7461782d75426c6f636b2532304f726967696e2d2532336336313330302e737667" alt="syntaxUBo" data-canonical-src="https://img.shields.io/badge/syntax-uBlock%20Origin-%23c61300.svg" style="max-width:100%;"></a>
-<a href="https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters" rel="nofollow"><img src="https://camo.githubusercontent.com/63c52cbe56b275bb1feb440bc5dc210920a5981f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f73796e7461782d416447756172642d2532333035613830302e737667" alt="syntaxADG" data-canonical-src="https://img.shields.io/badge/syntax-AdGuard-%2305a800.svg" style="max-width:100%;"></a>
-</p>
-<p>Filters for blocking pop-ups and anti-adblock bypass.</p>
-<a href="" class="hide">
-<button onlick="return false;">Subscription options</button>
-</a>
-<div id="subscription-options" class="list">
-<h3>GitHub</h3>
-<textarea autofocus style="width:100%;" readonly>https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt</textarea>
-<button onlick="return false;">
-<a href="https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2Fbogachenko%2Ffuckfuckadblock%2Fmaster%2Ffuckfuckadblock.txt&amp;title=Fuck%20Fuckadblock">Subscribe</a>
-</button>
-<h3>CDN</h3>
-<textarea autofocus style="width:100%;" readonly>https://raw.githack.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt https://cdn.statically.io/gh/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt https://cdn.jsdelivr.net/gh/bogachenko/fuckfuckadblock/fuckfuckadblock.txt</textarea>
-</div>
-</div>
+    <!-- Rating@Mail.ru counter -->
+    <script type="text/javascript">
+        var _tmr = window._tmr || (window._tmr = []);
+        _tmr.push({
+            id: "3126847",
+            type: "pageView",
+            start: (new Date()).getTime()
+        });
+        (function(d, w, id) {
+            if (d.getElementById(id)) return;
+            var ts = d.createElement("script");
+            ts.type = "text/javascript";
+            ts.async = true;
+            ts.id = id;
+            ts.src = "https://top-fwz1.mail.ru/js/code.js";
+            var f = function() {
+                var s = d.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(ts, s);
+            };
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else {
+                f();
+            }
+        })(document, window, "topmailru-code");
+    </script>
+    <noscript>
+        <div>
+            <img src="https://top-fwz1.mail.ru/counter?id=3126847;js=na" style="border:0;position:absolute;left:-9999px;" alt="Top.Mail.Ru" />
+        </div>
+    </noscript>
+
+    <div id="main-block">
+        <h1>Fuck Fuckadblock</h1>
+        <p>
+            <a href="https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/LICENSE.md" rel="nofollow"><img src="https://camo.githubusercontent.com/531df5338be586dc17d6f8ad2696409f97b7c4aa/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4d49542d2532333366623931322e737667" alt="license" data-canonical-src="https://img.shields.io/badge/license-MIT-%233fb912.svg" style="max-width:100%;"></a>
+            <br>
+            <a href="https://github.com/gorhill/uBlock/wiki/Static-filter-syntax"><img src="https://camo.githubusercontent.com/cbf1a1f116533f13f0448ad6a0480557ec8c8066/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f73796e7461782d75426c6f636b2532304f726967696e2d2532336336313330302e737667" alt="syntaxUBo" data-canonical-src="https://img.shields.io/badge/syntax-uBlock%20Origin-%23c61300.svg" style="max-width:100%;"></a>
+            <a href="https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters" rel="nofollow"><img src="https://camo.githubusercontent.com/63c52cbe56b275bb1feb440bc5dc210920a5981f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f73796e7461782d416447756172642d2532333035613830302e737667" alt="syntaxADG" data-canonical-src="https://img.shields.io/badge/syntax-AdGuard-%2305a800.svg" style="max-width:100%;"></a>
+        </p>
+        <p>Filters for blocking pop-ups and anti-adblock bypass.</p>
+
+        <div id="subscription-options">
+            <h3>GitHub</h3>
+            <textarea autofocus style="width:100%;" readonly>https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt</textarea>
+            <button onlick="return false;">
+                <a href="https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2Fbogachenko%2Ffuckfuckadblock%2Fmaster%2Ffuckfuckadblock.txt&amp;title=Fuck%20Fuckadblock">Subscribe</a>
+            </button>
+            <h3>CDN</h3>
+            <textarea autofocus style="width:100%;" readonly>https://raw.githack.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt https://cdn.statically.io/gh/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt https://cdn.jsdelivr.net/gh/bogachenko/fuckfuckadblock/fuckfuckadblock.txt</textarea>
+        </div>
+    </div>
 </body>
+
 </html>
