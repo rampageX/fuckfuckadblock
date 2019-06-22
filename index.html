@@ -63,9 +63,18 @@ _tmr.push({id: "3126847", type: "pageView", start: (new Date()).getTime()});
 </script><noscript><div>
 <img src="https://top-fwz1.mail.ru/counter?id=3126847;js=na" style="border:0;position:absolute;left:-9999px;" alt="Top.Mail.Ru" />
 </div></noscript>
+
 <script>
 <!-- Main script -->
-eval(function(p,a,c,k,e,r){e=function(c){return c.toString(a)};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('$(5).1(2(a){6($(a.7).8(".0").9)3;$(".0").b("4");a.c()});$(\'.d\').1(2(){$(e).f(".0").g("4");3 h});',18,18,'list|click|function|return|slow|document|if|target|closest|length||slideUp|stopPropagation|hide|this|siblings|slideToggle|false'.split('|'),0,{}))
+$(document).click(function (a) {
+    if ($(a.target).closest(".list").length) return;
+    $(".list").slideUp("slow");
+    a.stopPropagation()
+});
+$('.hide').click(function () {
+    $(this).siblings(".list").slideToggle("slow");
+    return false
+});
 </script>
 <div id="main-block">
 <h1>Fuck Fuckadblock</h1>
