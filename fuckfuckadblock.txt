@@ -412,7 +412,7 @@
 @@||kxcdn.com/js/pop.js$script
 @@||mellowads.com^$script,subdocument,domain=hop.bz|cryptomininggame.com
 @@||oloadcdn.net/subtitle/$xmlhttprequest
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=miroir1.trackr.fr|rte.ie|bowandtie.ru|meteologix.com|weather.us|unlockapk.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=miroir1.trackr.fr|rte.ie|bowandtie.ru|meteologix.com|weather.us|unlockapk.com|webkod.pl
 @@||rapidvid.*/assets/js/videojs-contrib-ads.js$script
 @@||rapidvideo.*/assets/$stylesheet,script,~third-party
 @@||uptostream.com/assets/$stylesheet,script,~third-party
