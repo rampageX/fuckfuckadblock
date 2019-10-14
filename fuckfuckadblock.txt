@@ -313,6 +313,7 @@
 ||xstreamcdn.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.hlsmp4.com *.google.com *.cloudflare.com *.gstatic.com;
 ||yourbittorrent2.com^$csp=script-src 'self' 'unsafe-inline' *.cloudflare.com;
 ||yts.*^$csp=script-src 'self' 'unsafe-inline' *.addthis.com *.google.com *.cloudflare.com;
+||asianclub.tv^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval';
 
 !*$xmlhttprequest,~third-party,domain=
 *$frame,~third-party,domain=kickassanime.ru
