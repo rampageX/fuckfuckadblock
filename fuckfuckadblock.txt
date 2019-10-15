@@ -387,6 +387,7 @@
 
 !@@*$script,third-party,domain=
 !@@*$xmlhttprequest,script,third-party,domain=
+@@*$xmlhttprequest,third-party,domain=replay.watch
 @@*$script,~third-party,domain=sawlive.tv
 @@*$stealth,domain=24video.site|9anime.is|9anime.ru|9anime.to|9anime.tv|cablegratis.tv|embed.streamx.live|fmovies.to|hotmovs.com|hxload.co|pictogo.net|premiumtvchannels.com|prettyfast.to|redcdn.pl|solidfiles.com|stream365.live|sweetbc4.club|thegay.com|tvokazje.pl|txxx.com|upornia.com|xn--e1afprfv.org|yaeby.me|yourupload.com|moviescouch.club|moviescouch.in
 @@*$xmlhttprequest,script,~third-party,domain=boxing-live.stream|fbstream.io|homerun.re|hqq.tv|live-ufc.stream|livef1.stream|livemotgp.stream|mlbstream.io|muzlan.top|nbastream.io|nflstream.io|nhlstream.io|programiz.com|readcomiconline.to|reevown.com|rugbystream.me|soccer-live.stream|strikeout.co|tennisstream.me|vipleague.bz|vipleague.cc|waaw.tv|waaw1.tv
