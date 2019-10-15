@@ -890,9 +890,6 @@ beautypackaging.com,coatingsworld.com,contractpharma.com,happi.com,inkworldmagaz
 euro-fh.de,sexvid.xxx##+js(abort-on-property-read.js, pu)
 euro-fh.de,sexvid.xxx#%#//scriptlet("abort-on-property-read", "pu")
 
-ffmovies.ru,kissanime.*##+js(abort-current-inline-script.js, parseInt, incrementClicks)
-ffmovies.ru,kissanime.*#%#//scriptlet("abort-current-inline-script", "parseInt", "incrementClicks")
-
 yesmangasbr.com,yesmangas1.com##+js(setTimeout-defuser.js, testDisplay)
 yesmangasbr.com,yesmangas1.com#%#//scriptlet("prevent-setTimeout", "testDisplay")
 
