@@ -791,8 +791,11 @@ aii.sh,animeyt2.tv,ebookdz.com,femefun.com,movie25com.com,movie2kfree.com,movie2
 eroclips.org,pornbimbo.com,ketubanjiwa.com,funkcje.net##+js(setTimeout-defuser.js, (), 2000)
 eroclips.org,pornbimbo.com,ketubanjiwa.com,funkcje.net#%#//scriptlet("prevent-setTimeout", "()", "2000")
 
-rim-world.com,voyageforum.com,seedoff2.innal.top,spaste.com##+js(setTimeout-defuser.js, (), 5000)
-rim-world.com,voyageforum.com,seedoff2.innal.top,spaste.com#%#//scriptlet("prevent-setTimeout", "()", "5000")
+rim-world.com,voyageforum.com,seedoff2.innal.top,spaste.com,kissanime.ru##+js(setTimeout-defuser.js, (), 5000)
+rim-world.com,voyageforum.com,seedoff2.innal.top,spaste.com,kissanime.ru#%#//scriptlet("prevent-setTimeout", "()", "5000")
+
+kissanime.ru##+js(setTimeout-defuser.js, (), 3000)
+kissanime.ru#%#//scriptlet("prevent-setTimeout", "()", "3000")
 
 polygon.com,guide.com##+js(abort-on-property-write.js, loadOutbrain)
 polygon.com,guide.com#%#//scriptlet("abort-on-property-write", "loadOutbrain")
