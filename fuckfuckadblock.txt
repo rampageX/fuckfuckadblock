@@ -794,8 +794,8 @@ eroclips.org,pornbimbo.com,ketubanjiwa.com,funkcje.net#%#//scriptlet("prevent-se
 rim-world.com,voyageforum.com,seedoff2.innal.top,spaste.com,kissanime.ru##+js(setTimeout-defuser.js, (), 5000)
 rim-world.com,voyageforum.com,seedoff2.innal.top,spaste.com,kissanime.ru#%#//scriptlet("prevent-setTimeout", "()", "5000")
 
-kissanime.ru##+js(setTimeout-defuser.js, (), 3000)
-kissanime.ru#%#//scriptlet("prevent-setTimeout", "()", "3000")
+kissanime.ru##+js(abort-on-property-read.js, InitCloseButton)
+kissanime.ru#%#//scriptlet("abort-on-property-read", "InitCloseButton")
 
 polygon.com,guide.com##+js(abort-on-property-write.js, loadOutbrain)
 polygon.com,guide.com#%#//scriptlet("abort-on-property-write", "loadOutbrain")
