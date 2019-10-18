@@ -1176,3 +1176,6 @@ nrj-play.fr#%#//scriptlet("set-constant", "adBlockDetector.isEnabled", "falseFun
 feet9.com##+js(abort-on-property-read, __ADX_URL_U)
 feet9.com#%#//scriptlet("abort-on-property-read", "__ADX_URL_U")
 
+adn.com##+js(abort-on-property-read, MG2Loader)
+adn.com#%#//scriptlet("abort-on-property-read", "MG2Loader")
+
