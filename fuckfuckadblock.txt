@@ -792,8 +792,8 @@ aii.sh,animeyt2.tv,ebookdz.com,femefun.com,movie25com.com,movie2kfree.com,movie2
 69games.xxx,altaisouvenirs.ru,atv.pw,audioboo.ru,erzsebet.org,gayforit.eu,hxload.co,iporntv.net,jetload.net,justupload.io,kapectv.com,kope.cc,live-rutor.org,megatfile.cc,mylinks.xyz,new-rutor.org,porcore.com,porno365.cc,pornosexrolik.info,rutor.info,rutor.is,rutor.mytorr.fun,search.tfile.me,sebeadmin.ru,slomal-telefon.ru,sound-park.*,soundpark-club.*,soundpark.*,the-rutor.org,uptostream.com,xhamster.com,safelinkblog.com,porndoe.com##+js(abort-current-inline-script.js, document.createElement, script)
 69games.xxx,altaisouvenirs.ru,atv.pw,audioboo.ru,erzsebet.org,gayforit.eu,hxload.co,iporntv.net,jetload.net,justupload.io,kapectv.com,kope.cc,live-rutor.org,megatfile.cc,mylinks.xyz,new-rutor.org,porcore.com,porno365.cc,pornosexrolik.info,rutor.info,rutor.is,rutor.mytorr.fun,search.tfile.me,sebeadmin.ru,slomal-telefon.ru,sound-park.*,soundpark-club.*,soundpark.*,the-rutor.org,uptostream.com,xhamster.com,safelinkblog.com,porndoe.com#%#//scriptlet("abort-current-inline-script", "document.createElement", "script")
 
-eroclips.org,pornbimbo.com,ketubanjiwa.com,funkcje.net##+js(setTimeout-defuser.js, (), 2000)
-eroclips.org,pornbimbo.com,ketubanjiwa.com,funkcje.net#%#//scriptlet("prevent-setTimeout", "()", "2000")
+eroclips.org,pornbimbo.com,ketubanjiwa.com,funkcje.net,rjno1.com,savevideo.me##+js(setTimeout-defuser.js, (), 2000)
+eroclips.org,pornbimbo.com,ketubanjiwa.com,funkcje.net,rjno1.com,savevideo.me#%#//scriptlet("prevent-setTimeout", "()", "2000")
 
 rim-world.com,voyageforum.com,seedoff2.innal.top,spaste.com,kissanime.ru##+js(setTimeout-defuser.js, (), 5000)
 rim-world.com,voyageforum.com,seedoff2.innal.top,spaste.com,kissanime.ru#%#//scriptlet("prevent-setTimeout", "()", "5000")
@@ -870,12 +870,6 @@ unlockapk.com#%#//scriptlet("abort-on-property-write", "opads")
 indishare.*,ouo.*,solarmoviex.to,mlbstream.io,hyperdebrid.net,the123movieshub.net##+js(abort-current-inline-script.js, decodeURI, atob)
 indishare.*,ouo.*,solarmoviex.to,mlbstream.io,hyperdebrid.net,the123movieshub.net#%#//scriptlet("abort-current-inline-script", "decodeURI", "atob")
 
-postimg.*##+js(abort-current-inline-script.js, atob, void)
-postimg.*#%#//scriptlet("abort-current-inline-script", "atob", "void")
-
-rjno1.com##+js(setTimeout-defuser.js, rjnocanrunads, 3000)
-rjno1.com#%#//scriptlet("prevent-setTimeout", "rjnocanrunads", "3000")
-
 letmejerk.com,pornktube.*##+js(addEventListener-defuser.js, load, exoJsPop)
 letmejerk.com,pornktube.*#%#//scriptlet("prevent-addEventListener", "load", "exoJsPop")
 
@@ -888,17 +882,14 @@ di.se#%#//scriptlet("abort-on-property-read", "diConf.servicePlusClientId")
 empireshort.com,vidstreaming.io,zbnfhsk.com,nnmclub.*##+js(abort-current-inline-script.js, decodeURIComponent, parseInt)
 empireshort.com,vidstreaming.io,zbnfhsk.com,nnmclub.*#%#//scriptlet("abort-current-inline-script", "decodeURIComponent", "parseInt")
 
-savevideo.me##+js(abort-current-inline-script.js, $, banner)
-savevideo.me#%#//scriptlet("abort-current-inline-script", "$", "banner")
-
 countrygames.net,cut-w.in,uiz.io,semawur.com,bercara.com,sukakesehattan.com,in11.site##+js(setTimeout-defuser.js, checkAdblockUser)
 countrygames.net,cut-w.in,uiz.io,semawur.com,bercara.com,sukakesehattan.com,in11.site#%#//scriptlet("prevent-setTimeout", "checkAdblockUser")
 
 beautypackaging.com,coatingsworld.com,contractpharma.com,happi.com,inkworldmagazine.com,labelandnarrowweb.com,mpo-mag.com,nutraceuticalsworld.com##+js(abort-on-property-read.js, adblockerpopup)
 beautypackaging.com,coatingsworld.com,contractpharma.com,happi.com,inkworldmagazine.com,labelandnarrowweb.com,mpo-mag.com,nutraceuticalsworld.com#%#//scriptlet("abort-on-property-read", "adblockerpopup")
 
-euro-fh.de,sexvid.xxx##+js(abort-on-property-read.js, pu)
-euro-fh.de,sexvid.xxx#%#//scriptlet("abort-on-property-read", "pu")
+euro-fh.de,sexvid.xxx,bestblowjobvids.com##+js(abort-on-property-read.js, pu)
+euro-fh.de,sexvid.xxx,bestblowjobvids.com#%#//scriptlet("abort-on-property-read", "pu")
 
 yesmangasbr.com,yesmangas1.com##+js(setTimeout-defuser.js, testDisplay)
 yesmangasbr.com,yesmangas1.com#%#//scriptlet("prevent-setTimeout", "testDisplay")
@@ -942,8 +933,8 @@ adp-checker.ru,animeyt2.tv,gratisaftehalen.nl,kissasian.sh,pitbullofficial.com,s
 300mbmovies.life,a7hl-am.com,bolly4u.*,bolly4uhd.*,dualinks.club,nnmclub.*,onlinefreehdmovies.com,xxx-image.com,closermag.fr##+js(abort-on-property-read.js, XMLHttpRequest)
 300mbmovies.life,a7hl-am.com,bolly4u.*,bolly4uhd.*,dualinks.club,nnmclub.*,onlinefreehdmovies.com,xxx-image.com,closermag.fr#%#//scriptlet("abort-on-property-read", "XMLHttpRequest")
 
-cheatground.ru,her-sey.net,mshelxxx.ru.com,nnmclub.*,simply-hentai.com,uwatchfree.st,waiset.su##+js(set-constant.js, String.fromCharCode, noopFunc)
-cheatground.ru,her-sey.net,mshelxxx.ru.com,nnmclub.*,simply-hentai.com,uwatchfree.st,waiset.su#%#//scriptlet("set-constant", "String.fromCharCode", "noopFunc")
+cheatground.ru,her-sey.net,mshelxxx.ru.com,nnmclub.*,simply-hentai.com,uwatchfree.st,waiset.su,bestblowjobvids.com##+js(set-constant.js, String.fromCharCode, noopFunc)
+cheatground.ru,her-sey.net,mshelxxx.ru.com,nnmclub.*,simply-hentai.com,uwatchfree.st,waiset.su,bestblowjobvids.com#%#//scriptlet("set-constant", "String.fromCharCode", "noopFunc")
 
 apurogol.net,arenavision.*,arenavision.us,assistirfilmesonlinex.biz,cinetux.online,divxonline.tv,elitegol.tv,elitegoltv.me,freekidsmovies.tv,futbolenvivoaldia.com,futbolenvivoaldia.tv,futbollibre.online,golrojadirecta.com,gpstorrent.com,groovesharks.org,hqq.*,intergoles.net,ipick.ca,justintvdeportes.net,legionprogramas.org,maxflixhd.com,mp3buscador.com,pelisplay.tv,pelisplus.*,pelix.tv,pirlo-tv.online,pirlotv.com.es,pirlotvonline.me,pistoldownloads.com,revoir-replay.com,rojadirectahd.online,rojadirectatv.tv,series21.com,series911.com,seriesnovelas.net,seriesnovelas.netwp,streamelite.net,tarjetaroja.online,tarjetarojaonline.es,tarjetarojaonline.tv,tarjetarojatv.tv,tizipu.org,top7mp3.com,tvrojadirecta.me,voir.streamelite.net,xilften.net,aovivosport.live,futbolhoy.com.ar,pelisplus.tv##+js(abort-on-property-write.js, smrtSP)
 apurogol.net,arenavision.*,arenavision.us,assistirfilmesonlinex.biz,cinetux.online,divxonline.tv,elitegol.tv,elitegoltv.me,freekidsmovies.tv,futbolenvivoaldia.com,futbolenvivoaldia.tv,futbollibre.online,golrojadirecta.com,gpstorrent.com,groovesharks.org,hqq.*,intergoles.net,ipick.ca,justintvdeportes.net,legionprogramas.org,maxflixhd.com,mp3buscador.com,pelisplay.tv,pelisplus.*,pelix.tv,pirlo-tv.online,pirlotv.com.es,pirlotvonline.me,pistoldownloads.com,revoir-replay.com,rojadirectahd.online,rojadirectatv.tv,series21.com,series911.com,seriesnovelas.net,seriesnovelas.netwp,streamelite.net,tarjetaroja.online,tarjetarojaonline.es,tarjetarojaonline.tv,tarjetarojatv.tv,tizipu.org,top7mp3.com,tvrojadirecta.me,voir.streamelite.net,xilften.net,aovivosport.live,futbolhoy.com.ar,pelisplus.tv#%#//scriptlet("abort-on-property-write", "smrtSP")
