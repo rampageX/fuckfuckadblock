@@ -864,6 +864,9 @@ empflix.com,tnaflix.com#%#//scriptlet("abort-on-property-write", "exoloaderLocat
 worder.cat,esportes.r7.com,thesimsresource.com,satoshiquiz.com##+js(abort-on-property-write.js, ga)
 worder.cat,esportes.r7.com,thesimsresource.com,satoshiquiz.com#%#//scriptlet("abort-on-property-write", "ga")
 
+unlockapk.com##+js(abort-on-property-write.js, opads)
+unlockapk.com#%#//scriptlet("abort-on-property-write", "opads")
+
 indishare.*,ouo.*,solarmoviex.to,mlbstream.io,hyperdebrid.net,the123movieshub.net##+js(abort-current-inline-script.js, decodeURI, atob)
 indishare.*,ouo.*,solarmoviex.to,mlbstream.io,hyperdebrid.net,the123movieshub.net#%#//scriptlet("abort-current-inline-script", "decodeURI", "atob")
 
