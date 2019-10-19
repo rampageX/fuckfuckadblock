@@ -369,6 +369,7 @@
 ||adservice.google.$xmlhttprequest,redirect=nooptext,domain=tubia.com
 ||adservice.google.com^$script,redirect=noopjs,domain=espn1420.com
 ||assets.adobedtm.com^$script
+||camsexvideo.net/assets/js/scripts.js^$script
 ||bonbonyou.com^$script,~third-party
 ||cdn.carbuzz.com/*/AntiAdBlocker*.js$script
 ||electric-house.ru/forum/script_electric_min.js$script,domain=electric-house.ru
@@ -461,6 +462,7 @@ inoreader.com###sinner_container
 ksta.de,express.de###wl-overlay-wrapper
 lifo.gr###slideout
 lovi.fm##.sponsor
+camsexvideo.net##.trailer-sidebar, .footer-content
 maxiporno.tv###fadeinbox
 newsfilter.org###dkm-floater
 noizz.pl##div.contentInfo:has(a[href="abp:subscribe?location=http%3A%2F%2Flib.onet.pl%2Fs.csr%2Fwhitelist%2Fnoizz.pl.txt&title=noizz.pl"])
