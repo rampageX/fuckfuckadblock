@@ -1110,6 +1110,9 @@ lotechnocan.org,rusporno.co,razorlink.us,force-download.es,bro.adca.st,jpost.com
 andaluciainformacion.es,delta-optimist.com,deporvillage.*,estevanmercury.ca,financnici.cz,game-wisdom.com,hometalk.com,hopamchuan.com,newyorker.com,nsnews.com,osobnosti.cz,panovnici.cz,pitchfork.com,princegeorgecitizen.com,racingsportscars.com,richmond-news.com,spisovatele.cz,thompsoncitizen.net,thurrott.com,timescolonist.com,tricitynews.com,tripadvisor.*,vancourier.com,vashmagazin.ua,vqporn.com,weyburnreview.com,wired.com,yorktonthisweek.com##+js(abort-on-property-write.js, adblockDetect)
 andaluciainformacion.es,delta-optimist.com,deporvillage.*,estevanmercury.ca,financnici.cz,game-wisdom.com,hometalk.com,hopamchuan.com,newyorker.com,nsnews.com,osobnosti.cz,panovnici.cz,pitchfork.com,princegeorgecitizen.com,racingsportscars.com,richmond-news.com,spisovatele.cz,thompsoncitizen.net,thurrott.com,timescolonist.com,tricitynews.com,tripadvisor.*,vancourier.com,vashmagazin.ua,vqporn.com,weyburnreview.com,wired.com,yorktonthisweek.com#%#//scriptlet("abort-on-property-write", "adblockDetect")
 
+allure.com,bienpublic.com,epicurious.com,ledauphine.com,leprogres.fr,logirus.ru,newyorker.com,pitchfork.com,teenvogue.com,them.us,tripadvisor.*,wmagazine.com##+js(abort-on-property-write.js, AdBlockDetect)
+allure.com,bienpublic.com,epicurious.com,ledauphine.com,leprogres.fr,logirus.ru,newyorker.com,pitchfork.com,teenvogue.com,them.us,tripadvisor.*,wmagazine.com#%#//scriptlet("abort-on-property-write", "AdBlockDetect")
+
 calciomercato.com,clik.*,filmandseries.com,javfinder.*,linksht.com,pasty.link,robloxscripts.com,sosiali.com,kachelmannwetter.com##+js(setTimeout-defuser.js, _0x)
 calciomercato.com,clik.*,filmandseries.com,javfinder.*,linksht.com,pasty.link,robloxscripts.com,sosiali.com,kachelmannwetter.com#%#//scriptlet("prevent-setTimeout", "_0x")
 
