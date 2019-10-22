@@ -1083,8 +1083,8 @@ chip.cz,g.cz,idnes.cz,labuznik.cz,moviemaniac.org,spisovatele.cz,watch-jav-engli
 cartoon-sex.tv,morehardporn.com,watchmygf.cc,fakeporn.tv,watchmyexgf.net##+js(abort-on-property-read.js, prPuShown)
 cartoon-sex.tv,morehardporn.com,watchmygf.cc,fakeporn.tv,watchmyexgf.net#%#//scriptlet("abort-on-property-read", "prPuShown")
 
-alrincon.com,indo168.club,iranproud2.net,seks.com,semi168.net,storengy.com,take.az,turkbet.tv##+js(abort-current-inline-script.js, makePopunder, /^(?:pop2under|mypopunder|PopHelper|doPopunder)$/)
-alrincon.com,indo168.club,iranproud2.net,seks.com,semi168.net,storengy.com,take.az,turkbet.tv#%#//scriptlet("abort-current-inline-script", "makePopunder", "/^(?:pop2under|mypopunder|PopHelper|doPopunder)$/")
+alrincon.com,indo168.club,iranproud2.net,seks.com,semi168.net,storengy.com,take.az,turkbet.tv,turkbettv3.com,turkbettv.com,turkbettv2.com,turkbettv5.com,turkbettv4.com,bioskop168.pro,xxxshare.net##+js(abort-current-inline-script.js, makePopunder, /^(?:pop2under|mypopunder|PopHelper|doPopunder)$/)
+alrincon.com,indo168.club,iranproud2.net,seks.com,semi168.net,storengy.com,take.az,turkbet.tv,turkbettv3.com,turkbettv.com,turkbettv2.com,turkbettv5.com,turkbettv4.com,bioskop168.pro,xxxshare.net#%#//scriptlet("abort-current-inline-script", "makePopunder", "/^(?:pop2under|mypopunder|PopHelper|doPopunder)$/")
 
 vivo.sx,motherless.com,streamcloud.eu##+js(abort-current-inline-script.js, Math.random, encodeURIComponent)
 vivo.sx,motherless.com,streamcloud.eu#%#//scriptlet("abort-current-inline-script", "Math.random", "encodeURIComponent")
