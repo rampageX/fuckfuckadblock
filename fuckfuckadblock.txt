@@ -1089,8 +1089,8 @@ alrincon.com,indo168.club,iranproud2.net,seks.com,semi168.net,storengy.com,take.
 vivo.sx,motherless.com,streamcloud.eu##+js(abort-current-inline-script.js, Math.random, encodeURIComponent)
 vivo.sx,motherless.com,streamcloud.eu#%#//scriptlet("abort-current-inline-script", "Math.random", "encodeURIComponent")
 
-up-4ever.*,nbcnews.com##+js(abort-on-property-read.js, adsDisabled)
-up-4ever.*,nbcnews.com#%#//scriptlet("abort-on-property-read", "adsDisabled")
+up-4ever.*,nbcnews.com,msnbc.com,today.com,startribune.com,krasmix.ru,palkkadata.fi,suomienglantisanakirja.fi##+js(abort-on-property-read.js, adsDisabled)
+up-4ever.*,nbcnews.com,msnbc.com,today.com,startribune.com,krasmix.ru,palkkadata.fi,suomienglantisanakirja.fi#%#//scriptlet("abort-on-property-read", "adsDisabled")
 
 lewat.club,romfirmware.com,blogspot.com,boycracked.com##+js(abort-on-property-write.js, ignielAdBlock)
 lewat.club,romfirmware.com,blogspot.com,boycracked.com#%#//scriptlet("abort-on-property-write", "ignielAdBlock")
@@ -1101,8 +1101,8 @@ notebookcheck-hu.com,notebookcheck.com,notebookcheck.net,notebookcheck.org,noteb
 24porno.vip,egybest2.com,egybest4.com,mp4s.org,watchmovies.pk,hotmovs.com,cutlinks.*,tubepornclassic.com,cambro.tv,moviescouch.*##+js(abort-on-property-read.js, localStorage)
 24porno.vip,egybest2.com,egybest4.com,mp4s.org,watchmovies.pk,hotmovs.com,cutlinks.*,tubepornclassic.com,cambro.tv,moviescouch.*#%#//scriptlet("abort-on-property-read", "localStorage")
 
-epress1.com,peekvids.com,playvid.com,playvids.com,pornflip.com,pornoeggs.com,sjbook.co.kr,teamprofit.com##+js(abort-on-property-write.js, pop_target)
-epress1.com,peekvids.com,playvid.com,playvids.com,pornflip.com,pornoeggs.com,sjbook.co.kr,teamprofit.com#%#//scriptlet("abort-on-property-write", "pop_target")
+cube-design.co.jp,epress1.com,peekvids.com,playvid.com,playvids.com,pornflip.com,pornoeggs.com,sjbook.co.kr,teamprofit.com##+js(abort-on-property-write.js, pop_target)
+cube-design.co.jp,epress1.com,peekvids.com,playvid.com,playvids.com,pornflip.com,pornoeggs.com,sjbook.co.kr,teamprofit.com#%#//scriptlet("abort-on-property-write", "pop_target")
 
 lotechnocan.org,rusporno.co,razorlink.us,force-download.es,bro.adca.st,jpost.com,convert-me.com,keezmovies.com,uiz.io##+js(abort-on-property-read.js, atob)
 lotechnocan.org,rusporno.co,razorlink.us,force-download.es,bro.adca.st,jpost.com,convert-me.com,keezmovies.com,uiz.io#%#//scriptlet("abort-on-property-read", "atob")
