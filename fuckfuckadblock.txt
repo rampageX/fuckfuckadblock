@@ -1101,16 +1101,13 @@ notebookcheck-hu.com,notebookcheck.com,notebookcheck.net,notebookcheck.org,noteb
 24porno.vip,egybest2.com,egybest4.com,mp4s.org,watchmovies.pk,hotmovs.com,cutlinks.*,tubepornclassic.com,cambro.tv,moviescouch.*##+js(abort-on-property-read.js, localStorage)
 24porno.vip,egybest2.com,egybest4.com,mp4s.org,watchmovies.pk,hotmovs.com,cutlinks.*,tubepornclassic.com,cambro.tv,moviescouch.*#%#//scriptlet("abort-on-property-read", "localStorage")
 
-countrygames.net,cogamer.net##+js(addEventListener-defuser.js, click, openWindow)
-countrygames.net,cogamer.net#%#//scriptlet("prevent-addEventListener", "click", "openWindow")
-
 epress1.com,peekvids.com,playvid.com,playvids.com,pornflip.com,pornoeggs.com,sjbook.co.kr,teamprofit.com##+js(abort-on-property-write.js, pop_target)
 epress1.com,peekvids.com,playvid.com,playvids.com,pornflip.com,pornoeggs.com,sjbook.co.kr,teamprofit.com#%#//scriptlet("abort-on-property-write", "pop_target")
 
 lotechnocan.org,rusporno.co,razorlink.us,force-download.es,bro.adca.st,jpost.com,convert-me.com,keezmovies.com,uiz.io##+js(abort-on-property-read.js, atob)
 lotechnocan.org,rusporno.co,razorlink.us,force-download.es,bro.adca.st,jpost.com,convert-me.com,keezmovies.com,uiz.io#%#//scriptlet("abort-on-property-read", "atob")
 
-newyorker.com,pitchfork.com,tripadvisor.*,vqporn.com,wired.com##+js(abort-on-property-write.js, adblockDetect)
+newyorker.com,pitchfork.com,tripadvisor.*,vqporn.com,wired.com,hometalk.com,deporvillage.com,thurrott.com,timescolonist.com,andaluciainformacion.es,hopamchuan.com,vancourier.com,deporvillage.it,osobnosti.cz,vashmagazin.ua,richmond-news.com,nsnews.com,princegeorgecitizen.com,racingsportscars.com,deporvillage.pt,tricitynews.com,game-wisdom.com,weyburnreview.com##+js(abort-on-property-write.js, adblockDetect)
 newyorker.com,pitchfork.com,tripadvisor.*,vqporn.com,wired.com#%#//scriptlet("abort-on-property-write", "adblockDetect")
 
 calciomercato.com,clik.*,filmandseries.com,javfinder.*,linksht.com,pasty.link,robloxscripts.com,sosiali.com,kachelmannwetter.com##+js(setTimeout-defuser.js, _0x)
@@ -1143,14 +1140,8 @@ architecturenow.co.nz,autopista.es,aviationcv.com,bandwidthplace.com,blackcoin.i
 vev.red,vev.io,vidup.io,vidop.icu##+js(abort-current-inline-script.js, __INITIAL_STATE__)
 vev.red,vev.io,vidup.io,vidop.icu#%#//scriptlet("abort-current-inline-script", "__INITIAL_STATE__")
 
-xxxtubezoo.com,zooredtube.*,zootube1.com##+js(abort-on-property-read.js, popunderSetup)
-xxxtubezoo.com,zooredtube.*,zootube1.com#%#//scriptlet("abort-on-property-read", "popunderSetup")
-
 kresy.pl,mambiznes.pl,prnews.pl,weszlo.com##+js(abort-current-inline-script.js, parseInt, adblock)
 kresy.pl,mambiznes.pl,prnews.pl,weszlo.com#%#//scriptlet("abort-current-inline-script", "parseInt", "adblock")
-
-fxporn69.*,realgfporn.com,titsbox.com##+js(addEventListener-defuser.js, click, exopop)
-fxporn69.*,realgfporn.com,titsbox.com#%#//scriptlet("prevent-addEventListener", "click", "exopop")
 
 indiatimes.com##+js(setTimeout-defuser.js, adBlockDetectionStart)
 indiatimes.com#%#//scriptlet("prevent-setTimeout", "adBlockDetectionStart")
