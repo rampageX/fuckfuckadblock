@@ -1038,8 +1038,8 @@ readcomiconline.to,vidsrc.*,animeshow.tv,animenova.org,animeplus.tv,animetoon.or
 boxing-live.stream,fbstream.io,homerun.re,live-ufc.stream,livef1.stream,livemotgp.stream,mlbstream.io,nbastream.io,nflstream.io,nhlstream.io,rugbystream.me,soccer-live.stream,strikeout.co,strikeout.nu,tennisstream.me,vipleague.*##+js(addEventListener-defuser.js, /^(?:mousedown|pointerdown)$/, 297)
 boxing-live.stream,fbstream.io,homerun.re,live-ufc.stream,livef1.stream,livemotgp.stream,mlbstream.io,nbastream.io,nflstream.io,nhlstream.io,rugbystream.me,soccer-live.stream,strikeout.co,strikeout.nu,tennisstream.me,vipleague.*#%#//scriptlet("prevent-addEventListener", "/^(?:mousedown|pointerdown)$/", "297")
 
-crazyshit.com,fetishshrine.com,katestube.com,keezmovies.com,newsfilter.org,pornxs.com,sleazyneasy.com,sxyprn.com,vikiporn.com##+js(abort-on-property-read.js, raSettings)
-crazyshit.com,fetishshrine.com,katestube.com,keezmovies.com,newsfilter.org,pornxs.com,sleazyneasy.com,sxyprn.com,vikiporn.com#%#//scriptlet("abort-on-property-read", "raSettings")
+crazyshit.com,fetishshrine.com,katestube.com,keezmovies.com,newsfilter.org,pornxs.com,sleazyneasy.com,sxyprn.com,vikiporn.com,imagebam.com##+js(abort-on-property-read.js, raSettings)
+crazyshit.com,fetishshrine.com,katestube.com,keezmovies.com,newsfilter.org,pornxs.com,sleazyneasy.com,sxyprn.com,vikiporn.com,imagebam.com#%#//scriptlet("abort-on-property-read", "raSettings")
 
 readcomiconline.to,kisstvshow.to,readcomiconline.to##+js(abort-on-property-write.js, adbWarn)
 readcomiconline.to,kisstvshow.to,readcomiconline.to#%#//scriptlet("abort-on-property-write", "adbWarn")
