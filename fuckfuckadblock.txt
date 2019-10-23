@@ -305,6 +305,7 @@
 ||vidhd.*^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.jwpcdn.com;
 ||vidlox.me^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.vidlox.me *.jsdelivr.net *.cloudflare.com *.bootstrapcdn.com *.rawgit.com; img-src *;
 ||vidoza.net^$csp=script-src 'self' 'unsafe-inline' *.vidoza.net *.cloudflare.com; frame-src 'self';
+||vshare.eu^$csp=script-src 'self' 'unsafe-inline' *.vshare.eu *.cloudflare.com *.googleapis.com; frame-src 'self';
 ||vidstreaming.io^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.gstatic.com *.jwplatform.com *.jwpcdn.com *.disqus.com disqus.com *.disquscdn.com;
 ||vidtoro.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.vidtodo.com vidtodo.com;
 ||waaw.tv^$csp=script-src 'self' 'unsafe-inline' *.waaw.tv *.google.com *.cloudflare.com *.gstatic.com *.recaptcha.net *.jsdelivr.net *.googleapis.com *.disqus.com disqus.com *.disquscdn.com cackle.me *.cackle.me *.addthis.com;
