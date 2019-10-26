@@ -437,6 +437,7 @@ amgreatness.com###adtoniq-msgr-bar
 applesfera.com##.ad-cen
 arstechnica.com##.ars-appeal-container
 automobiledimension.com##.avisdiv
+techmuzz.com##.overlay-open.overlay-data.overlay
 avgle.com##center > div > a[target="_blank"]
 bdupload.*##[href*="/dloadbutton.php"]
 beforeitsnews.com###ad-message
