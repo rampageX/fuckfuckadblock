@@ -408,7 +408,7 @@
 @@/^https?:\/\/(www\.)?.*\/ad[svbx]?([_-a-zA-Z0-9.]{1,15})?\.js/$script,xmlhttprequest
 @@/^https?:\/\/(www\.)?.*\/adv(ert(ise|ising|isement)?)?([_-a-zA-Z0-9.]{1,15})?\.js/$xmlhttprequest,script
 @@||ad.71i.de/somtag/loader/loader.js$script,domain=sportdeutschland.tv
-@@||adservice.google.com^$script,xmlhttprequest,domain=player.tubia.com
+@@||adservice.google.com^$script,xmlhttprequest,domain=player.tubia.com|uploadship.com
 @@||arkadiumhosted.com/assets/*/*-ads-*.js$script
 @@||cdn.jsdelivr.net/*/videojs-contrib-ads/$script
 @@||cdn.jsdelivr.net/*/videojs.ads.min.js$script
@@ -420,7 +420,7 @@
 @@||kxcdn.com/js/pop.js$script
 @@||mellowads.com^$script,subdocument,domain=hop.bz|cryptomininggame.com
 @@||oloadcdn.net/subtitle/$xmlhttprequest
-@@||pagead2.googlesyndication.com^$script,domain=miroir1.trackr.fr|rte.ie|bowandtie.ru|meteologix.com|weather.us|unlockapk.com|webkod.pl
+@@||pagead2.googlesyndication.com^$script,domain=miroir1.trackr.fr|rte.ie|bowandtie.ru|meteologix.com|weather.us|unlockapk.com|webkod.pl|uploadship.com
 @@||rapidvid.*/assets/js/videojs-contrib-ads.js$script
 @@||rapidvideo.*/assets/$stylesheet,script,~third-party
 @@||uptostream.com/assets/$stylesheet,script,~third-party
