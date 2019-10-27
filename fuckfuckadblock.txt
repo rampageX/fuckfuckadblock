@@ -328,7 +328,7 @@
 *$xmlhttprequest,~third-party,domain=geoguessr.com
 */*.php?aid=pause_$important
 */*.php|$important,script,domain=rapidvid.to|rapidvideo.com|rapidvideo.is|solopajeros.com|vivud.com
-*/*.php|$important,script,xmlhttprequest,domain=alrincon.com|dailyimages.xyz|fullhdtekpartizle.org|girlsofdesire.org|hotmovs.com|hotpornfile.org|icegay.tv|ipicture.su|javfinder.is|javmec.com|krasivoeporno.tv|lbtube.com|mangovideo.pw|maxiporno.tv|momvids.com|newsfilter.org|orgazmtv.com|pandavideo.pw|pornalin.com|porno-kino.site|porno.sexy|porntopic.com|turboimagehost.com|ukrainie.sexy|vio.to|xxxdessert.com|xyzcomics.com|youx.xxx
+*/*.php|$important,script,xmlhttprequest,domain=alrincon.com|dailyimages.xyz|fullhdtekpartizle.org|girlsofdesire.org|hotmovs.com|hotpornfile.org|icegay.tv|ipicture.su|javfinder.is|javmec.com|krasivoeporno.tv|lbtube.com|mangovideo.pw|maxiporno.tv|momvids.com|newsfilter.org|orgazmtv.com|pandavideo.pw|pornalin.com|porno-kino.site|porno.sexy|porntopic.com|turboimagehost.com|ukrainie.sexy|vio.to|xxxdessert.com|xyzcomics.com|youx.xxx|babestube.com
 */*.php|$important,subdocument,domain=thevid.tv
 */AntiAdBlocker*.js$script,important
 */adblock-modal.js$script,important
@@ -913,8 +913,8 @@ pluspremieres.*,jpidols.tv#%#//scriptlet("prevent-setInterval")
 100percentfedup.com,betanews.com,bigleaguepolitics.com,colorfuleyes.org,gelbooru.com,ilovemyfreedom.org,teaparty.org,thegatewaypundit.com,usersub.com,your-daily-girl.com##+js(abort-on-property-read.js, adtoniq)
 100percentfedup.com,betanews.com,bigleaguepolitics.com,colorfuleyes.org,gelbooru.com,ilovemyfreedom.org,teaparty.org,thegatewaypundit.com,usersub.com,your-daily-girl.com#%#//scriptlet("abort-on-property-read", "adtoniq")
 
-fembed.*,fox-dl.com,katestube.com,loadingz.com,nulled.life,psystreams.com,pussyspot.net,qdembed.com,repelisgo.*,vikiporn.com,watchhouseonline.net,wildpictures.net,zbporn.com,700mbdownload.*,kinox.*,kinoz.*,nudogram.com,0xxx.ws,filmywap.*,igfap.com,yomovies.*,faucethero.*,cuevanago.com,cuevana2.io##+js(abort-on-property-read.js, decodeURI)
-fembed.*,fox-dl.com,katestube.com,loadingz.com,nulled.life,psystreams.com,pussyspot.net,qdembed.com,repelisgo.*,vikiporn.com,watchhouseonline.net,wildpictures.net,zbporn.com,700mbdownload.*,kinox.*,kinoz.*,nudogram.com,0xxx.ws,filmywap.*,igfap.com,yomovies.*,faucethero.*,cuevanago.com,cuevana2.io#%#//scriptlet("abort-on-property-read", "decodeURI")
+fembed.*,fox-dl.com,katestube.com,loadingz.com,nulled.life,psystreams.com,pussyspot.net,qdembed.com,repelisgo.*,vikiporn.com,watchhouseonline.net,wildpictures.net,zbporn.com,700mbdownload.*,kinox.*,kinoz.*,nudogram.com,0xxx.ws,filmywap.*,igfap.com,yomovies.*,faucethero.*,cuevanago.com,cuevana2.io,babestube.com##+js(abort-on-property-read.js, decodeURI)
+fembed.*,fox-dl.com,katestube.com,loadingz.com,nulled.life,psystreams.com,pussyspot.net,qdembed.com,repelisgo.*,vikiporn.com,watchhouseonline.net,wildpictures.net,zbporn.com,700mbdownload.*,kinox.*,kinoz.*,nudogram.com,0xxx.ws,filmywap.*,igfap.com,yomovies.*,faucethero.*,cuevanago.com,cuevana2.io,babestube.com#%#//scriptlet("abort-on-property-read", "decodeURI")
 
 adp-checker.ru,animeyt2.tv,gratisaftehalen.nl,kissasian.sh,pitbullofficial.com,shlyahten.ru,surfsees.com,mangahosted.com,megagames.com##+js(abort-current-inline-script.js, fuckAdBlock, undefined)
 adp-checker.ru,animeyt2.tv,gratisaftehalen.nl,kissasian.sh,pitbullofficial.com,shlyahten.ru,surfsees.com,mangahosted.com,megagames.com#%#//scriptlet("abort-current-inline-script", "fuckAdBlock", "undefined")
