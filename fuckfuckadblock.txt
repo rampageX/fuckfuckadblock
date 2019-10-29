@@ -266,6 +266,7 @@
 ||ourl.io^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.google.com *.gstatic.com;
 ||pandavideo.pw^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval'; frame-src *;
 ||picbaron.com^$csp=script-src 'self';
+||mirrorace.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com;
 ||pirateiro.com^$csp=script-src 'self' 'unsafe-inline';
 ||pornalin.com^$csp=script-src 'self' 'unsafe-inline' *.hwcdn.net; media-src 'self' *.hwcdn.net; frame-src 'none'; connect-src *.hwcdn.net;
 ||pornhd.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.pornhd.com *.awemwh.com *.dditscdn.com;
