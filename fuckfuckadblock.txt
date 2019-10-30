@@ -1172,3 +1172,6 @@ mercurynews.com,denverpost.com,ocregister.com,bostonherald.com,reviewjournal.com
 webmd.com,cbssports.com,popsci.com,metacritic.com,thoughtcatalog.com,msn.com,sportingnews.com,cnet.com,goal.com,gamespot.com,ratemyprofessors.com,everydayhealth.com##+js(abort-on-property-read, Object.prototype.iadb)
 webmd.com,cbssports.com,popsci.com,metacritic.com,thoughtcatalog.com,msn.com,sportingnews.com,cnet.com,goal.com,gamespot.com,ratemyprofessors.com,everydayhealth.com#%#//scriptlet("abort-on-property-read", "Object.prototype.iadb")
 
+moneyhouse.ch##+js(setTimeout-defuser.js, bait)
+moneyhouse.ch#%#//scriptlet("prevent-setTimeout", "bait")
+
