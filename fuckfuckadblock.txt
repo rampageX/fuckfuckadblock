@@ -731,8 +731,8 @@ knilife.com,nwtehranmusic.com,rmdown.com,tenttom.com,userscloud.com,xopenload.*,
 akanosora.com,blogspot.com,dictionnaire-medical.net,direct-link.net,direkt-wissen.com,dreamfancy.org,ebookdz.com,fxporn69.*,information-portal.net,mega-debrit.com,tricxbd.com,up-load.io,xxxmomporn.top,turkleech.com,firelinks.me,anibatch.me##+js(setTimeout-defuser.js, nextFunction, 2000)
 akanosora.com,blogspot.com,dictionnaire-medical.net,direct-link.net,direkt-wissen.com,dreamfancy.org,ebookdz.com,fxporn69.*,information-portal.net,mega-debrit.com,tricxbd.com,up-load.io,xxxmomporn.top,turkleech.com,firelinks.me,anibatch.me#%#//scriptlet("prevent-setTimeout", "nextFunction", "2000")
 
-anonyviet.com,cutearn.ca,cutsouf.*,earn-url.com,earnbig.ca,hexafile.net,mycumx.com,sardeath.com,shortit.ca,tistory.com,wegner.tech,vozdesportiva.com,magesy.*,majesy.*##+js(setTimeout-defuser.js, nextFunction, 250)
-anonyviet.com,cutearn.ca,cutsouf.*,earn-url.com,earnbig.ca,hexafile.net,mycumx.com,sardeath.com,shortit.ca,tistory.com,wegner.tech,vozdesportiva.com,magesy.*,majesy.*#%#//scriptlet("prevent-setTimeout", "nextFunction", "250")
+anonyviet.com,cutearn.ca,cutsouf.*,earn-url.com,earnbig.ca,hexafile.net,mycumx.com,sardeath.com,shortit.ca,tistory.com,wegner.tech,vozdesportiva.com,magesy.*,majesy.*,lompat.in##+js(setTimeout-defuser.js, nextFunction, 250)
+anonyviet.com,cutearn.ca,cutsouf.*,earn-url.com,earnbig.ca,hexafile.net,mycumx.com,sardeath.com,shortit.ca,tistory.com,wegner.tech,vozdesportiva.com,magesy.*,majesy.*,lompat.in#%#//scriptlet("prevent-setTimeout", "nextFunction", "250")
 
 jzrputtbut.net,mmwgopsoyfhzk.net,olgkzlwln.net,opjav.com,pandavideo.pw,rhvgmritmziwcm.net,zbqhfbetlmni.net,xopenload.*,senimovie.co,pornkino.cc##+js(addEventListener-defuser.js, click, popunder)
 jzrputtbut.net,mmwgopsoyfhzk.net,olgkzlwln.net,opjav.com,pandavideo.pw,rhvgmritmziwcm.net,zbqhfbetlmni.net,xopenload.*,senimovie.co,pornkino.cc#%#//scriptlet("prevent-addEventListener", "click", "popunder")
