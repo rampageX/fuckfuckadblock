@@ -435,6 +435,7 @@
 @@||googletagmanager.com/gtm.js$script,domain=eclipse.org|anisubindo.video
 @@||xyz^$third-party,script,subdocument,xmlhttprequest
 @@||pw^$third-party,xmlhttprequest,script
+@@*/adsbygoogle.js$script
 
 1fichier.com##.ct_warn
 kimcartoon.to,readcomiconline.to###adbWarnContainer
