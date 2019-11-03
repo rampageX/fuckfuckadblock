@@ -207,7 +207,7 @@
 ||1movies.*^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.jwpcdn.com *.gstatic.com *.addthis.com *.google.com;
 ||1337x.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src *;
 ||admew.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.google.com *.gstatic.com;
-||adshort.*^$csp=script-src 'self' 'unsafe-inline' data: *.google.com *.gstatic.com *.recaptcha.net;
+||adshort.*^$csp=script-src 'self' 'unsafe-inline' data: *.google.com *.gstatic.com *.recaptcha.net *.adshort.co;
 ||adsrt.*^$csp=script-src 'self' 'unsafe-inline' data: *.google.com *.gstatic.com;
 ||animeflv.ru^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.google.com *.googleapis.com *.gstatic.com *.facebook.net *.facebook.com *.disqus.com disqus.com *.disquscdn.com;
 ||animeforce.*^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.facebook.com *.facebook.com *.pinterest.com;
