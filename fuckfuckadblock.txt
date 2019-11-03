@@ -330,6 +330,8 @@
 *$xmlhttprequest,domain=sexvid.xxx|fantasti.cc|redtube.com|redtube.net.pl|redtube.pl|redtube.co.pl|redtube.com.br|redtube.cn.com|redtube.ru.com|redtube.xxx
 *$xmlhttprequest,third-party,domain=letsupload.co|ssrmovies.club|uploadever.com|userscloud.com|porno.sexy
 *$xmlhttprequest,~third-party,domain=geoguessr.com
+/^https?:\/\/(.*\.)?netlify\.com\/[a-zA-Z]{6}\.js$/$script
+||185.165.169.108^$websocket
 */*.php?aid=pause_$important
 */*.php|$important,script,domain=rapidvid.to|rapidvideo.com|rapidvideo.is|solopajeros.com|vivud.com
 */*.php|$important,script,xmlhttprequest,domain=alrincon.com|dailyimages.xyz|fullhdtekpartizle.org|girlsofdesire.org|hotmovs.com|hotpornfile.org|icegay.tv|ipicture.su|javfinder.is|javmec.com|krasivoeporno.tv|lbtube.com|mangovideo.pw|maxiporno.tv|momvids.com|newsfilter.org|orgazmtv.com|pandavideo.pw|pornalin.com|porno-kino.site|porno.sexy|porntopic.com|turboimagehost.com|ukrainie.sexy|vio.to|xxxdessert.com|xyzcomics.com|youx.xxx|babestube.com
