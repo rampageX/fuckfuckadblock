@@ -493,6 +493,7 @@ sex3.com##.inplb
 speedporn.net,hdjavonline.com,avgigi.com##.happy-inside-player
 sport-express.ru###notice.ab-notice
 trendingviews.co,ashemaletv.com###playerOverlay
+myfxbook.com###adPopUpContainer
 tube8.com###adBlockAlertWrap
 tv-onlinehd.com###ventana-flotante
 venea.net##.ag_banner, .ag_content
