@@ -871,8 +871,8 @@ empflix.com,tnaflix.com#%#//scriptlet("abort-on-property-read", "ads.pop_url")
 empflix.com,tnaflix.com##+js(abort-on-property-write.js, exoloaderLocation)
 empflix.com,tnaflix.com#%#//scriptlet("abort-on-property-write", "exoloaderLocation")
 
-worder.cat,esportes.r7.com,thesimsresource.com,satoshiquiz.com##+js(abort-on-property-write.js, ga)
-worder.cat,esportes.r7.com,thesimsresource.com,satoshiquiz.com#%#//scriptlet("abort-on-property-write", "ga")
+worder.cat,esportes.r7.com,thesimsresource.com,satoshiquiz.com,gamepur.com##+js(abort-on-property-write.js, ga)
+worder.cat,esportes.r7.com,thesimsresource.com,satoshiquiz.com,gamepur.com#%#//scriptlet("abort-on-property-write", "ga")
 
 unlockapk.com##+js(abort-on-property-write.js, opads)
 unlockapk.com#%#//scriptlet("abort-on-property-write", "opads")
