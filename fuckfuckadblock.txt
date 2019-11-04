@@ -370,7 +370,8 @@
 */stopblock.js$script,important
 */wp-adblock-$important,script,redirect=fuckadblock.js-3.2.0
 */wp-adblock-$important,script,redirect=prevent-fab-3.2.0
-*/wp-content/plugins/end-of-adblock-cycle/*$script
+*/wp-content/plugins/end-of-adblock-cycle/$script
+*/wp-content/plugins/kill-adblock/$script
 */xvideo.js|$script,~third-party
 /\/(propadbl\_epxhd|galaxad\_tpx|galax\_adsepxhd)([0-9]{1,2})?\.js/$script,domain=topeuropix.net|europixhd.net,important
 /^https?:\/\/(.*\.)?netlify\.com\/[a-zA-Z]{6}\.js$/$script
