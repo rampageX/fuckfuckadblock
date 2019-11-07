@@ -436,6 +436,7 @@
 @@||kxcdn.com/js/pop.js$script
 @@||mellowads.com^$script,subdocument,domain=hop.bz|cryptomininggame.com
 @@||oloadcdn.net/subtitle/$xmlhttprequest
+@@*/dfp/dfp-$xmlhttprequest
 @@||pagead2.googlesyndication.com^$script,domain=miroir1.trackr.fr|rte.ie|bowandtie.ru|meteologix.com|weather.us|unlockapk.com|webkod.pl|uploadship.com
 @@||pw^$third-party,xmlhttprequest,script
 @@||rapidvid.*/assets/js/videojs-contrib-ads.js$script
