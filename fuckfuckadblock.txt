@@ -1114,8 +1114,8 @@ lewat.club,romfirmware.com,blogspot.com,boycracked.com#%#//scriptlet("abort-on-p
 notebookcheck-hu.com,notebookcheck.com,notebookcheck.net,notebookcheck.org,notebookcheck.biz,notebookcheck.it,notebookcheck.nl,notebookcheck.info,notebookcheck-tr.com,notebookcheck.se,notebookcheck-ru.com,iporntv.net##+js(abort-current-inline-script.js, document.createElement, iframe)
 notebookcheck-hu.com,notebookcheck.com,notebookcheck.net,notebookcheck.org,notebookcheck.biz,notebookcheck.it,notebookcheck.nl,notebookcheck.info,notebookcheck-tr.com,notebookcheck.se,notebookcheck-ru.com,iporntv.net##+js(abort-current-inline-script.js, document.createElement, iframe)
 
-24porno.vip,egybest2.com,egybest4.com,mp4s.org,watchmovies.pk,hotmovs.com,cutlinks.*,tubepornclassic.com,cambro.tv,moviescouch.*##+js(abort-on-property-read.js, localStorage)
-24porno.vip,egybest2.com,egybest4.com,mp4s.org,watchmovies.pk,hotmovs.com,cutlinks.*,tubepornclassic.com,cambro.tv,moviescouch.*#%#//scriptlet("abort-on-property-read", "localStorage")
+24porno.vip,egybest2.com,egybest4.com,mp4s.org,watchmovies.pk,hotmovs.com,cutlinks.*,tubepornclassic.com,cambro.tv,moviescouch.*,aulrains.com##+js(abort-on-property-read.js, localStorage)
+24porno.vip,egybest2.com,egybest4.com,mp4s.org,watchmovies.pk,hotmovs.com,cutlinks.*,tubepornclassic.com,cambro.tv,moviescouch.*,aulrains.com#%#//scriptlet("abort-on-property-read", "localStorage")
 
 cube-design.co.jp,epress1.com,peekvids.com,playvid.com,playvids.com,pornflip.com,pornoeggs.com,sjbook.co.kr,teamprofit.com##+js(abort-on-property-write.js, pop_target)
 cube-design.co.jp,epress1.com,peekvids.com,playvid.com,playvids.com,pornflip.com,pornoeggs.com,sjbook.co.kr,teamprofit.com#%#//scriptlet("abort-on-property-write", "pop_target")
