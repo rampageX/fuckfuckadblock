@@ -55,6 +55,8 @@
 ###ads-blocked
 ###ads_warning
 ###advertisementjsalert
+###ai-adb-message
+###ai-adb-overlay
 ###antiAdBlock
 ###antiBlock
 ###anti_adblock
@@ -64,6 +66,7 @@
 ###detection-block-overlay
 ###dom_adblock
 ###fnAdblockingOverlay
+###fuck-adb-enabled
 ###galepro-core-adb-enabled
 ###message_adblock
 ###nafikblock
@@ -138,8 +141,6 @@
 ##.warning-adblock
 ##.warning-adblock-box
 ##.wgAdBlockMessage
-###ai-adb-overlay
-###ai-adb-message
 
 #@##ad_test
 #@##adchecker
@@ -732,9 +733,6 @@ daddylive.live,faselhd.*,watchhowimetyourmother.online,watchmadmenonline.com,wat
 4inlook.com,bdsmporn.cc,beeload.com,belloporno.com,bestxvideos.site,celebsepna.com,cocoporn.net,comicspornos.com,cushyporn.com,douxporno.com,faperplace.com,flix555.com,freeadultvideos.cc,freepornstream.cc,french-streams.com,ftopx.com,gaysamadores.com.br,generalpornmovies.com,gonzoporn.cc,gravuregirlz.com,gutteruncensored.org,letsjerk.is,luscious.net,mature.bz,mmmoffice.mx,mycumx.com,mypornstarbook.net,onlinefetishporn.cc,onlinexxx.cc,peetube.cc,pornktube.*,pornoreino.com,porntube18.cc,pornult.com,rapidvideo.*,sexv.video,simply-hentai.com,streamextreme.cc,streamporn.cc,supermzigo.co.tz,tegra.ir,thisvid.com,tmohentai.com,tubxxporn.com,tvporn.cc,vqporn.com,watchporn.cc,webcamrips.com,webcamshows.org,worldsex.com,xasiat.com,xuandan.com,xxxonline.cc,xxxopenload.com,pornhd.com,cutadlink.com,gottanut.com,rapidvid.*,get-to.link,likuoo.video##+js(addEventListener-defuser.js, /^(?:load|click)$/, popMagic)
 4inlook.com,bdsmporn.cc,beeload.com,belloporno.com,bestxvideos.site,celebsepna.com,cocoporn.net,comicspornos.com,cushyporn.com,douxporno.com,faperplace.com,flix555.com,freeadultvideos.cc,freepornstream.cc,french-streams.com,ftopx.com,gaysamadores.com.br,generalpornmovies.com,gonzoporn.cc,gravuregirlz.com,gutteruncensored.org,letsjerk.is,luscious.net,mature.bz,mmmoffice.mx,mycumx.com,mypornstarbook.net,onlinefetishporn.cc,onlinexxx.cc,peetube.cc,pornktube.*,pornoreino.com,porntube18.cc,pornult.com,rapidvideo.*,sexv.video,simply-hentai.com,streamextreme.cc,streamporn.cc,supermzigo.co.tz,tegra.ir,thisvid.com,tmohentai.com,tubxxporn.com,tvporn.cc,vqporn.com,watchporn.cc,webcamrips.com,webcamshows.org,worldsex.com,xasiat.com,xuandan.com,xxxonline.cc,xxxopenload.com,pornhd.com,cutadlink.com,gottanut.com,rapidvid.*,get-to.link,likuoo.video#%#//scriptlet("prevent-addEventListener", "/^(?:load|click)$/", "popMagic")
 
-cscscholarships.net,fas.li,jntufastupdates.com,likn.xyz,novaenreta.space,techperiod.com,thefilmbay.com,tmohentai.com,tieusunguoinoitieng.com##+js(abort-on-property-read.js, blockAdBlock)
-cscscholarships.net,fas.li,jntufastupdates.com,likn.xyz,novaenreta.space,techperiod.com,thefilmbay.com,tmohentai.com,tieusunguoinoitieng.com#%#//scriptlet("abort-on-property-read", "blockAdBlock")
-
 bellinghamherald.com,dailyprogress.com,dothaneagle.com,elpais.com,fredericksburg.com,godanriver.com,greensboro.com,heraldcourier.com,hickoryrecord.com,jg-tc.com,journalnow.com,kearneyhub.com,kenoshanews.com,madison.com,magicvalley.com,martinsvillebulletin.com,mcdowellnews.com,morganton.com,mtlblog.com,newsadvance.com,nonpareilonline.com,nptelegraph.com,nwitimes.com,oanow.com,okdiario.com,omaha.com,pressofatlanticcity.com,richmond.com,roanoke.com,scnow.com,starexponent.com,starherald.com,statesville.com,theeagle.com,theindependent.com,trib.com,tulsaworld.com,wacotrib.com,yorknewstimes.com,newschoolers.com,kupujemprodajem.com##+js(abort-current-inline-script.js, googlefc)
 bellinghamherald.com,dailyprogress.com,dothaneagle.com,elpais.com,fredericksburg.com,godanriver.com,greensboro.com,heraldcourier.com,hickoryrecord.com,jg-tc.com,journalnow.com,kearneyhub.com,kenoshanews.com,madison.com,magicvalley.com,martinsvillebulletin.com,mcdowellnews.com,morganton.com,mtlblog.com,newsadvance.com,nonpareilonline.com,nptelegraph.com,nwitimes.com,oanow.com,okdiario.com,omaha.com,pressofatlanticcity.com,richmond.com,roanoke.com,scnow.com,starexponent.com,starherald.com,statesville.com,theeagle.com,theindependent.com,trib.com,tulsaworld.com,wacotrib.com,yorknewstimes.com,newschoolers.com,kupujemprodajem.com#%#//scriptlet("abort-current-inline-script", "googlefc")
 
@@ -761,9 +759,6 @@ anime-free.net,investgram.ru,krasivoeporno.tv,nasheporno.tv,nefig.me,orgazmtv.co
 
 5278.mobi,aeroports-voyages.fr,asiananimaltube.org,availablejobstoday.com,bardebatom.com.br,couponcodetracker.com,dir50.net,doyki.com,fishrecipes.net,forpiano.com,freegames.net,hentaifreak.org,hustlermagazine.com,igrejabatista.org,ilmeteo.it,imgoutlet.com,imgrock.info,imgrock.net,indo168.club,jobnet.co.il,kaotic.com,khodrobox.com,legendas.tv,mysimplecreditmatch.com,ouo.*,podkarpacielive.pl,russianrape.org,semi168.net,senimovies.net,shink.*,spashopaz.com,stealmytraffic.com,subscenter.info,thevideo.me,topavailablejobs.com,turkceanimeizle.com,ultradownloads.com.br,vidup.me,voodaith7e.com,vrporn.com,zikjkh4d.site,tranimeizle.com##+js(abort-on-property-read.js, jsPopunder)
 5278.mobi,aeroports-voyages.fr,asiananimaltube.org,availablejobstoday.com,bardebatom.com.br,couponcodetracker.com,dir50.net,doyki.com,fishrecipes.net,forpiano.com,freegames.net,hentaifreak.org,hustlermagazine.com,igrejabatista.org,ilmeteo.it,imgoutlet.com,imgrock.info,imgrock.net,indo168.club,jobnet.co.il,kaotic.com,khodrobox.com,legendas.tv,mysimplecreditmatch.com,ouo.*,podkarpacielive.pl,russianrape.org,semi168.net,senimovies.net,shink.*,spashopaz.com,stealmytraffic.com,subscenter.info,thevideo.me,topavailablejobs.com,turkceanimeizle.com,ultradownloads.com.br,vidup.me,voodaith7e.com,vrporn.com,zikjkh4d.site,tranimeizle.com#%#//scriptlet("abort-on-property-read", "jsPopunder")
-
-1921681254.tech,blogginggyanbox.com,buyitonline.store,clk.*,counsellingresult2016.in,gifsis.com,iitjeemainguide.in##+js(set-constant.js, blockAdBlock, true)
-1921681254.tech,blogginggyanbox.com,buyitonline.store,clk.*,counsellingresult2016.in,gifsis.com,iitjeemainguide.in#%#//scriptlet("set-constant", "blockAdBlock", "true")
 
 allnorilsk.ru,hotpornfile.org,olegon.ru,automobiledimension.com,mangahosted.com##+js(abort-on-property-read.js, onload)
 allnorilsk.ru,hotpornfile.org,olegon.ru,automobiledimension.com,mangahosted.com#%#//scriptlet("abort-on-property-read", "onload")
@@ -815,6 +810,9 @@ weszlo.com,prnews.pl,mambiznes.pl,kresy.pl,dadhero.pl#%#//scriptlet("abort-curre
 
 proxyrarbg.*,rarbg.is,rarbg.to,rarbg.unblockall.org,rarbg.unblocked.kim,rarbg2019.org,rarbgaccess.org,rarbgcore.org,rarbgdata.org,rarbgenter.org,rarbgget.org,rarbggo.org,rarbgmirror.*,rarbgp2p.org,rarbgproxy.*,rarbgprx.org,rarbgto.org,rarbgtor.org,rarbgunblock.*,rarbgweb.org,rarbgproxied.*,unblockedrarbg.org##+js(abort-on-property-read.js, LieDetector)
 proxyrarbg.*,rarbg.is,rarbg.to,rarbg.unblockall.org,rarbg.unblocked.kim,rarbg2019.org,rarbgaccess.org,rarbgcore.org,rarbgdata.org,rarbgenter.org,rarbgget.org,rarbggo.org,rarbgmirror.*,rarbgp2p.org,rarbgproxy.*,rarbgprx.org,rarbgto.org,rarbgtor.org,rarbgunblock.*,rarbgweb.org,rarbgproxied.*,unblockedrarbg.org#%#//scriptlet("abort-on-property-read", "LieDetector")
+
+porndex.com,upgrand.*,2giga.link,dbupload.*##+js(addEventListener-defuser.js, click)
+porndex.com,upgrand.*,2giga.link,dbupload.*##+js(addEventListener-defuser.js, click)
 
 aii.sh,animeyt2.tv,ebookdz.com,femefun.com,movie25com.com,movie2kfree.com,movie2khd.org,newsyou.info,openloadmovies.bz,pervertslut.com,rutorgames.info,streamingworld.*,swatchseries.to,xmovies8net.org,yesvids.com,watchseries.*,frkmusic.cc,ulinx.org,adbull.*,mixloads.com,nitroflare.com,ruspornvideos.com,1movies.*##+js(set-constant.js, String.prototype.charCodeAt, trueFunc)
 aii.sh,animeyt2.tv,ebookdz.com,femefun.com,movie25com.com,movie2kfree.com,movie2khd.org,newsyou.info,openloadmovies.bz,pervertslut.com,rutorgames.info,streamingworld.*,swatchseries.to,xmovies8net.org,yesvids.com,watchseries.*,frkmusic.cc,ulinx.org,adbull.*,mixloads.com,nitroflare.com,ruspornvideos.com,1movies.*#%#//scriptlet("set-constant", "String.prototype.charCodeAt", "trueFunc")
