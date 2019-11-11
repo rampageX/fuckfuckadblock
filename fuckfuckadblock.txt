@@ -411,7 +411,9 @@
 @@*$xmlhttprequest,script,~third-party,domain=boxing-live.stream|fbstream.io|homerun.re|hqq.tv|live-ufc.stream|livef1.stream|livemotgp.stream|mlbstream.io|muzlan.top|nbastream.io|nflstream.io|nhlstream.io|programiz.com|readcomiconline.to|reevown.com|rugbystream.me|soccer-live.stream|strikeout.co|tennisstream.me|vipleague.bz|vipleague.cc|waaw.tv|waaw1.tv
 @@*$xmlhttprequest,third-party,domain=replay.watch
 @@*/adblock.php$script,xmlhttprequest
-@@*/adsbygoogle.js|third-party$script
+@@*/adsbygoogle.js|$third-party,script
+@@*/videojs-contrib-ads.min.js|$script
+@@*/videojs-contrib-ads.js|$script
 @@*/dfp.js|$script,xmlhttprequest
 @@*/dfp/dfp-$xmlhttprequest
 @@*/ima3.js|$script,xmlhttprequest
@@ -436,7 +438,7 @@
 @@||gemius.pl^$script,xmlhttprequest,domain=polsatnews.pl|lrt.lt|puhutv.com|wp.pl|redefine.pl|tvn24.pl|stronazdrowia.pl|x-link.pl|eskago.pl
 @@||geoguessr.com/_ads/$script
 @@||googletagmanager.com/gtm.js$script,domain=eclipse.org|anisubindo.video
-@@||imasdk.googleapis.com^$script,domain=flashgirlgames.com|hqq.tv|hqq.watch|onlinesudoku.games|player.tubia.com|rapidvid.to|rapidvideo.com|rapidvideo.is|uptostream.com|waaw.tv|waaw1.tv|wilmaa.com|wuxiaworld.com|yandexcdn.com|polsatnews.pl|klix.ba
+@@||imasdk.googleapis.com^$script,domain=flashgirlgames.com|hqq.tv|hqq.watch|onlinesudoku.games|player.tubia.com|rapidvid.to|rapidvideo.com|rapidvideo.is|uptostream.com|waaw.tv|waaw1.tv|wilmaa.com|wuxiaworld.com|yandexcdn.com|polsatnews.pl|klix.ba|online-rossiya1.tv
 @@||kxcdn.com/js/pop.js$script
 @@||mellowads.com^$script,subdocument,domain=hop.bz|cryptomininggame.com
 @@||mystream.to/pop.js|$script
