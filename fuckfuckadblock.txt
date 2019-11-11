@@ -1062,8 +1062,8 @@ porn.com,kiss-anime.*#%#//scriptlet("set-constant", "String.prototype.charAt", "
 chrt.pw,egy.best,egybest.*,egybest2.com,egybest4.com,europixhd.*,hdeuropix.*,short.pe,topeuropix.net,uploadbuzz.*,uploadbyte.com,uploadever.com,ustreamix.*,ustreamyx.*,watchmovies.pk,tv-onlinehd.com,katmovie.*##+js(setTimeout-defuser.js, '0x)
 chrt.pw,egy.best,egybest.*,egybest2.com,egybest4.com,europixhd.*,hdeuropix.*,topeuropix.net,short.pe,uploadbyte.com,uploadever.com,uploadbuzz.*,ustreamix.*,ustreamyx.*,watchmovies.pk,tv-onlinehd.com,katmovie.*#%#//scriptlet("prevent-setTimeout", "'0x")
 
-clik.*,doxysexy.com,zooqle.*,nonstopfuck.com,sucknature.com,dizilla.com,rustorka.*,bs.to,vivo.sx,burningseries.co##+js(addEventListener-defuser.js, /^(?:click|mousedown)$/, preventDefault)
-clik.*,doxysexy.com,zooqle.*,nonstopfuck.com,sucknature.com,dizilla.com,rustorka.*,bs.to,vivo.sx,burningseries.co#%#//scriptlet("prevent-addEventListener", "/^(?:click|mousedown)$/", "preventDefault")
+clik.*,doxysexy.com,zooqle.*,nonstopfuck.com,sucknature.com,dizilla.com,rustorka.*,bs.to,burningseries.co##+js(addEventListener-defuser.js, /^(?:click|mousedown)$/, preventDefault)
+clik.*,doxysexy.com,zooqle.*,nonstopfuck.com,sucknature.com,dizilla.com,rustorka.*,bs.to,burningseries.co#%#//scriptlet("prevent-addEventListener", "/^(?:click|mousedown)$/", "preventDefault")
 
 epress1.com,hotpornfile.org,sjbook.co.kr##+js(abort-on-property-write.js, popup)
 epress1.com,hotpornfile.org,sjbook.co.kr#%#//scriptlet("abort-on-property-write", "popup")
@@ -1095,8 +1095,8 @@ cartoon-sex.tv,morehardporn.com,watchmygf.cc,fakeporn.tv,watchmyexgf.net#%#//scr
 alrincon.com,indo168.club,iranproud2.net,seks.com,semi168.net,storengy.com,take.az,turkbet.tv,turkbettv3.com,turkbettv.com,turkbettv2.com,turkbettv5.com,turkbettv4.com,bioskop168.pro,xxxshare.net##+js(abort-current-inline-script.js, makePopunder, /^(?:pop2under|mypopunder|PopHelper|doPopunder)$/)
 alrincon.com,indo168.club,iranproud2.net,seks.com,semi168.net,storengy.com,take.az,turkbet.tv,turkbettv3.com,turkbettv.com,turkbettv2.com,turkbettv5.com,turkbettv4.com,bioskop168.pro,xxxshare.net#%#//scriptlet("abort-current-inline-script", "makePopunder", "/^(?:pop2under|mypopunder|PopHelper|doPopunder)$/")
 
-vivo.sx,motherless.com,streamcloud.eu##+js(abort-current-inline-script.js, Math.random, encodeURIComponent)
-vivo.sx,motherless.com,streamcloud.eu#%#//scriptlet("abort-current-inline-script", "Math.random", "encodeURIComponent")
+motherless.com,streamcloud.eu##+js(abort-current-inline-script.js, Math.random, encodeURIComponent)
+motherless.com,streamcloud.eu#%#//scriptlet("abort-current-inline-script", "Math.random", "encodeURIComponent")
 
 up-4ever.*,nbcnews.com,msnbc.com,today.com,startribune.com,krasmix.ru,palkkadata.fi,suomienglantisanakirja.fi##+js(abort-on-property-read.js, adsDisabled)
 up-4ever.*,nbcnews.com,msnbc.com,today.com,startribune.com,krasmix.ru,palkkadata.fi,suomienglantisanakirja.fi#%#//scriptlet("abort-on-property-read", "adsDisabled")
