@@ -431,7 +431,7 @@
 @@||ad.71i.de/somtag/loader/loader.js$script,domain=sportdeutschland.tv
 @@||adservice.google.com^$script,xmlhttprequest,domain=player.tubia.com|uploadship.com
 @@||arkadiumhosted.com/assets/*/*-ads-*.js$script
-@@||cdn.jsdelivr.net/*/videojs-contrib-ads/$script
+@@||cdn.jsdelivr.net/*/videojs-contrib-ads/$script,stylesheet
 @@||cdn.jsdelivr.net/*/videojs.ads.min.js$script
 @@||cdnjs.cloudflare.com/*/blockadblock.$script,third-party
 @@||cdnjs.cloudflare.com/*/fuckadblock.$script,third-party
@@ -517,7 +517,7 @@ wize.life###wl-container
 xhamster.com##.xplayer-banner
 youx.xxx###player-banner
 
-*$third-party,xmlhttprequest,domain=streamango.com,badfilter
+*$third-party,xmlhttprequest,domain=streamango.com|hindipix.in,badfilter
 *$domain=kinozal-tv.appspot.com,badfilter
 *$first-party,subdocument,domain=mp4upload.com,badfilter
 *$popup,domain=dailyuploads.net,badfilter
