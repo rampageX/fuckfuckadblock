@@ -521,7 +521,7 @@ youx.xxx###player-banner
 *$domain=kinozal-tv.appspot.com,badfilter
 *$first-party,subdocument,domain=mp4upload.com,badfilter
 *$popup,domain=dailyuploads.net,badfilter
-*$third-party,script,domain=jetload.net|waaw.tv|hentai-share.tv|hentai-share.tv|gdriveplayer.us,badfilter
+*$third-party,script,domain=jetload.net|waaw.tv|hentai-share.tv|hentai-share.tv|gdriveplayer.us|hindipix.in,badfilter
 *$third-party,stylesheet,domain=rapidvideo.com|vidlox.me,badfilter
 *$third-party,subdocument,domain=vidcloud.icu,badfilter
 *$third-party,xmlhttprequest,domain=kshows.to|vev.red|k-vid.net,badfilter
