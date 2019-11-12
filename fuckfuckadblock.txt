@@ -836,14 +836,8 @@ kissanime.ru,devacurl.com,abucoins.com#%#//scriptlet("abort-on-property-read", "
 polygon.com,guide.com,grandrapids.xyz##+js(abort-on-property-write.js, loadOutbrain)
 polygon.com,guide.com,grandrapids.xyz#%#//scriptlet("abort-on-property-write", "loadOutbrain")
 
-arcinfo.ch,bidouillesikea.com,grands-meres.net,lenouvelliste.ch,lippycorn.com,livepeople.fr,olhardigital.com.br,planificacionmedios.com,ptitchef.com,recreatisse.com,turf-fr.com,worldfreeware.com,zmoe.ru##+js(abort-on-property-read.js, adbackDebug)
-arcinfo.ch,bidouillesikea.com,grands-meres.net,lenouvelliste.ch,lippycorn.com,livepeople.fr,olhardigital.com.br,planificacionmedios.com,ptitchef.com,recreatisse.com,turf-fr.com,worldfreeware.com,zmoe.ru#%#//scriptlet("abort-on-property-read", "adbackDebug")
-
 desinhibition.com,illicoporno.com,jacquieetmichel.net,jacquieetmichelblog.fr,jacquieetmichelelite.com,jacquieetmicheltv.net,jacquieetmicheltv2.net,lavideodujourjetm.net,lavoixdux.com,tonpornodujour.com,vosfemmes.com,voyeurfrance.net,yaysavings.com##+js(set-constant.js, is_adblocked, false)
 desinhibition.com,illicoporno.com,jacquieetmichel.net,jacquieetmichelblog.fr,jacquieetmichelelite.com,jacquieetmicheltv.net,jacquieetmicheltv2.net,lavideodujourjetm.net,lavoixdux.com,tonpornodujour.com,vosfemmes.com,voyeurfrance.net,yaysavings.com#%#//scriptlet("set-constant", "is_adblocked", "false")
-
-jovempan.uol.com.br,lippycorn.com,planificacionmedios.com,recreatisse.com,worldfreeware.com,zmoe.ru##+js(abort-on-property-read.js, window.adback_wording)
-jovempan.uol.com.br,lippycorn.com,planificacionmedios.com,recreatisse.com,worldfreeware.com,zmoe.ru#%#//scriptlet("abort-on-property-read", "window.adback_wording")
 
 asoccer.co.il,athyrium.eu,bilgisayarbilisim.net,blackhatworld.com,bmwfaq.org,civicx.com,controlbooth.com,dbstalk.com,digiex.net,forum.bestflowers.ru,gamekiller.net,gotitans.com,hiphopshelter.com,hornfans.com,ihax.fr,lilhonda.com,myteamspeak.ru,osxinfo.net,pakistan.web.pk,paperzonevn.com,parents.at,pflegeboard.de,photrio.com,portaliz.info,r3owners.net,redcafe.net,sandalwoodking.rocks,seoxa.club,snbforums.com,svtperformance.com,talkceltic.net,tilersforums.co.uk,tivocommunity.com,toptipstricks.net,traderviet.com,truckingboards.com,zdravtrav.ru##+js(abort-on-property-write.js, AdBlockDetectorWorkaround)
 asoccer.co.il,athyrium.eu,bilgisayarbilisim.net,blackhatworld.com,bmwfaq.org,civicx.com,controlbooth.com,dbstalk.com,digiex.net,forum.bestflowers.ru,gamekiller.net,gotitans.com,hiphopshelter.com,hornfans.com,ihax.fr,lilhonda.com,myteamspeak.ru,osxinfo.net,pakistan.web.pk,paperzonevn.com,parents.at,pflegeboard.de,photrio.com,portaliz.info,r3owners.net,redcafe.net,sandalwoodking.rocks,seoxa.club,snbforums.com,svtperformance.com,talkceltic.net,tilersforums.co.uk,tivocommunity.com,toptipstricks.net,traderviet.com,truckingboards.com,zdravtrav.ru#%#//scriptlet("abort-on-property-write", "AdBlockDetectorWorkaround")
