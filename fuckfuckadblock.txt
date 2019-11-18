@@ -420,6 +420,7 @@
 @@*/dfp/dfp-$xmlhttprequest
 @@*/googima.js|$script
 @@*/ima3.js|$script,xmlhttprequest
+@@*/js/popads.js|$script
 @@*/noadblock.js$script,xmlhttprequest
 @@*/pop.js|$script,xmlhttprequest
 @@*/reklama.js|$script,xmlhttprequest
@@ -467,6 +468,7 @@ automobiledimension.com##.avisdiv
 avgle.com##center > div > a[target="_blank"]
 bdupload.*##[href*="/dloadbutton.php"]
 beforeitsnews.com###ad-message
+wstream.video,akvideo.stream##[onclick^="window.open"]
 camsexvideo.net##.trailer-sidebar, .footer-content
 celebsroulette.com###kt_player > a[target="_blank"]
 d-navi004.com###snsbox
@@ -685,8 +687,8 @@ imgdew.*,imgoutlet.*,imgrock.*,imgtown.*,imgview.*,letmejerk.com#%#//scriptlet("
 1movies.*,700mbdownload.*,downloadming.*,foumovies.*,full4movies.co,harleyquinnwidget.com,hdpopcorns.*,holavid.com,moviescouch.*,moviescounter.*,mydownloadtube.*,rdxhd.*,uppit.com,vidzi.tv,kickass.*,tasma.ru,stream4free.live##+js(abort-on-property-write.js, decodeURIComponent)
 1movies.*,700mbdownload.*,downloadming.*,foumovies.*,full4movies.co,harleyquinnwidget.com,hdpopcorns.*,holavid.com,moviescouch.*,moviescounter.*,mydownloadtube.*,rdxhd.*,uppit.com,vidzi.tv,kickass.*,tasma.ru,stream4free.live#%#//scriptlet("abort-on-property-write", "decodeURIComponent")
 
-123movies.*,18tube.club,300mbdownload.ws,adshort.*,ally.sh,ask4movie.com,beelink.in,blackcoin.info,ddl.to,dkanonymous.tk,doramashd.com,estrenosdoramas.net,ethereumfaucet.info,fastoshi.site,fbstream.io,filma24.cc,filmlinks4u.is,flashx.*,gaypornwave.com,imagefruit.com,imgrock.*,imgshots.com,japgay.com,javfhd.net,javfinder.is,kinoseans.pl,litecoinfaucet.info,mangovideo.pw,mirrorace.com,mlbstream.io,monerofaucet.info,mygoodstream.pw,myreadingmanga.info,nbastream.io,nemfaucet.info,nflstream.io,nhlstream.io,piratebay.live,porndish.com,rapidvideo.*,shink.*,sportstream.tv,strikeout.co,thehiddenbay.com,vidtoro.*,vipleague.*,xopenload.*,xrpfaucet.info,youav.com,ytmp3.eu,rapidvid.*,bitporno.com##+js(popads.net.js)
-123movies.*,18tube.club,300mbdownload.ws,adshort.*,ally.sh,ask4movie.com,beelink.in,blackcoin.info,ddl.to,dkanonymous.tk,doramashd.com,estrenosdoramas.net,ethereumfaucet.info,fastoshi.site,fbstream.io,filma24.cc,filmlinks4u.is,flashx.*,gaypornwave.com,imagefruit.com,imgrock.*,imgshots.com,japgay.com,javfhd.net,javfinder.is,kinoseans.pl,litecoinfaucet.info,mangovideo.pw,mirrorace.com,mlbstream.io,monerofaucet.info,mygoodstream.pw,myreadingmanga.info,nbastream.io,nemfaucet.info,nflstream.io,nhlstream.io,piratebay.live,porndish.com,rapidvideo.*,shink.*,sportstream.tv,strikeout.co,thehiddenbay.com,vidtoro.*,vipleague.*,xopenload.*,xrpfaucet.info,youav.com,ytmp3.eu,rapidvid.*,bitporno.com#%#//scriptlet("prevent-popads-net")
+123movies.*,18tube.club,300mbdownload.ws,adshort.*,ally.sh,ask4movie.com,beelink.in,blackcoin.info,ddl.to,dkanonymous.tk,doramashd.com,estrenosdoramas.net,ethereumfaucet.info,fastoshi.site,fbstream.io,filma24.cc,filmlinks4u.is,flashx.*,gaypornwave.com,imagefruit.com,imgrock.*,imgshots.com,japgay.com,javfhd.net,javfinder.is,kinoseans.pl,litecoinfaucet.info,mangovideo.pw,mirrorace.com,mlbstream.io,monerofaucet.info,mygoodstream.pw,myreadingmanga.info,nbastream.io,nemfaucet.info,nflstream.io,nhlstream.io,piratebay.live,porndish.com,rapidvideo.*,shink.*,sportstream.tv,strikeout.co,thehiddenbay.com,vidtoro.*,vipleague.*,xopenload.*,xrpfaucet.info,youav.com,ytmp3.eu,rapidvid.*,bitporno.com,wstream.video##+js(popads.net.js)
+123movies.*,18tube.club,300mbdownload.ws,adshort.*,ally.sh,ask4movie.com,beelink.in,blackcoin.info,ddl.to,dkanonymous.tk,doramashd.com,estrenosdoramas.net,ethereumfaucet.info,fastoshi.site,fbstream.io,filma24.cc,filmlinks4u.is,flashx.*,gaypornwave.com,imagefruit.com,imgrock.*,imgshots.com,japgay.com,javfhd.net,javfinder.is,kinoseans.pl,litecoinfaucet.info,mangovideo.pw,mirrorace.com,mlbstream.io,monerofaucet.info,mygoodstream.pw,myreadingmanga.info,nbastream.io,nemfaucet.info,nflstream.io,nhlstream.io,piratebay.live,porndish.com,rapidvideo.*,shink.*,sportstream.tv,strikeout.co,thehiddenbay.com,vidtoro.*,vipleague.*,xopenload.*,xrpfaucet.info,youav.com,ytmp3.eu,rapidvid.*,bitporno.com,wstream.video#%#//scriptlet("prevent-popads-net")
 
 daddylive.live,faselhd.*,watchhowimetyourmother.online,watchmadmenonline.com,watchonceuponatimeonline.com,watchsexandthecity.com,watchsouthpark.online,watchtrailerparkboys.com##+js(abort-on-property-read.js, require)
 daddylive.live,faselhd.*,watchhowimetyourmother.online,watchmadmenonline.com,watchonceuponatimeonline.com,watchsexandthecity.com,watchsouthpark.online,watchtrailerparkboys.com#%#//scriptlet("abort-on-property-read", "require")
@@ -1122,4 +1124,3 @@ webmd.com,cbssports.com,popsci.com,metacritic.com,thoughtcatalog.com,sportingnew
 
 moneyhouse.ch,claimcoins.cc##+js(setTimeout-defuser.js, bait)
 moneyhouse.ch,claimcoins.cc#%#//scriptlet("prevent-setTimeout", "bait")
-
