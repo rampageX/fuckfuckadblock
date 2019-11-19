@@ -258,10 +258,10 @@
 ||kisshentai.net^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.myanimelist.net *.cdn-dena.com *.rapidvideo.is *.playercdn.net openload.co *.openload.co openload.io *.openload.io openload.link *.openload.link openload.pw *.openload.pw oload.biz *.oload.biz oload.cc *.oload.cc oload.best *.oload.best oload.party *.oload.party oload.club *.oload.club oload.download *.oload.download oload.fun *.oload.fun oload.info *.oload.info oload.life *.oload.life oload.network *.oload.network oload.press *.oload.press oload.services *.oload.services oload.site *.oload.site oload.space *.oload.space oload.stream *.oload.stream oload.tv *.oload.tv oload.win *.oload.win oload.website *.oload.website oladblock.me *.oladblock.me oladblock.services *.oladblock.services oladblock.xyz *.oladblock.xyz *.oloadcdn.net streamcherry.com *.fruithosted.net *.jwpcdn.com rapidvid.to *.facebook.com *.facebook.net *.addthis.com *.disqus.com disqus.com *.disquscdn.com oload.vip *.oload.vip *.openload.cz openload.cz *.oload.cz oload.cz *.oload.icu oload.icu *.oload.monster oload.monster *.rapidvideo.com *.bitporno.com *.addthisedge.com;
 ||limetorrents.info^$csp=script-src 'self' 'unsafe-inline' *.googleapis.com;
 ||magnetdl.com^$csp=script-src 'self' 'unsafe-inline';
-||mangovideo.pw^$csp=script-src 'self' 'unsafe-inline'; connect-src 'none';
+||mangovideo.pw^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.addthis.com; connect-src 'none'; frame-src 'self' data: *.addthis.com;
 ||mcloud.to^$csp=default-src 'self' 'unsafe-inline' blob: *.mcloud.to *.fmovies.to *.solarmoviex.to *.ffmovies.ru *.9anime.to *.putlockertv.to *.googleapis.com *.jwpcdn.com *.akacdn.ru *.gstatic.com;
 ||mirrorace.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com;
-||monova.to^$csp=script-src 'self' 'unsafe-inline';
+||monova.to^$csp=script-src 'self' 'unsafe-inline' *.twitter.com;
 ||mp4upload.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.mp4upload.com *.jquery.com *.bootstrapcdn.com;
 ||msembed.net^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: *.gstatic.com *.cloudflare.com *.google.com *.msembed.net *.mystream.to;
 ||nekopoi.*^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.chatango.com *.jquery.com *.vidlox.me *.jsdelivr.net vidoza.net vidlox.me *.cloudflare.com *.gstatic.com nekopoi.care nekopoi.lol nekopoi.ga nekopoi.cash *.chatango.com streamcherry.com *.twitter.com *.disqus.com disqus.com *.disquscdn.com *.facebook.net *.facebook.com *.google.com *.googleapis.com;
