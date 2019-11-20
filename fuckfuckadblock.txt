@@ -308,7 +308,7 @@
 ||uploadbuzz.*^$csp=script-src 'self' 'unsafe-inline' *.cloudflare.com *.gstatic.com *.google.com *.solvemedia.com *.recaptcha.net;
 ||uptobox.com^$csp=script-src 'self' * 'unsafe-inline' *.gstatic.com *.google.com *.googleapis.com;
 ||userscloud.com^$csp=script-src 'self' 'unsafe-inline' *.cloudflare.com *.gstatic.com *.google.com *.solvemedia.com *.recaptcha.net;
-||ventax.net^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com; frame-src 'self' data: *.google.com
+/^https?:\/\/(ventax\.net|voxc\.org)/$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com; frame-src 'self' data: *.google.com;
 ||verystream.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.verystream.net *.verystream.com *.cloudflare.com *.google.com *.gstatic.com; img-src *;
 ||vidbom.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.vidbom.com *.jwpcdn.com;
 ||vidhd.*^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.jwpcdn.com;
