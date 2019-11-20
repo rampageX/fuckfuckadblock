@@ -212,7 +212,6 @@
 ||9anime.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.akacdn.ru *.blogspot.com *.googleusercontent.com *.googleapis.com *.jwpcdn.com *.rapidvideo.com *.rapidvid.to rapidvid.to *.rapidvideo.is *.playercdn.net openload.co *.openload.co openload.io *.openload.io openload.link *.openload.link openload.pw *.openload.pw oload.biz *.oload.biz oload.cc *.oload.cc oload.club *.oload.club oload.download *.oload.download oload.fun *.oload.fun oload.info *.oload.info oload.life *.oload.life oload.network *.oload.network oload.press *.oload.press oload.services *.oload.services oload.site *.oload.site oload.space *.oload.space oload.stream *.oload.stream oload.tv *.oload.tv oload.win *.oload.win oload.website *.oload.website oload.best *.oload.best oladblock.me *.oladblock.me oladblock.services *.oladblock.services oladblock.xyz *.oladblock.xyz *.oloadcdn.net mcloud.to *.mcloud.to streamango.com *.fruithosted.net *.mp4upload.com prettyfast.to oload.party *.oload.party *.disqus.com disqus.com *.twitter.com *.facebook.net *.facebook.com *.google.com *.disquscdn.com *.gstatic.com *.addthis.com oload.vip *.oload.vip *.openload.cz openload.cz *.oload.cz oload.cz *.oload.icu oload.icu *.oload.monster oload.monster verystream.com *.verystream.net *.verystream.com cdnimg.xyz vidstreaming.io *.fembed.com;
 ||1337x.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src *;
 ||admew.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.google.com *.gstatic.com;
-||adshort.*^$csp=script-src 'self' 'unsafe-inline' data: *.google.com *.gstatic.com *.recaptcha.net *.adshort.co;
 ||adsrt.*^$csp=script-src 'self' 'unsafe-inline' data: *.google.com *.gstatic.com;
 ||animeflv.ru^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.google.com *.googleapis.com *.gstatic.com *.facebook.net *.facebook.com *.disqus.com disqus.com *.disquscdn.com;
 ||animeforce.*^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.facebook.com *.facebook.com *.pinterest.com;
@@ -307,7 +306,7 @@
 ||uploadbuzz.*^$csp=script-src 'self' 'unsafe-inline' *.cloudflare.com *.gstatic.com *.google.com *.solvemedia.com *.recaptcha.net;
 ||uptobox.com^$csp=script-src 'self' * 'unsafe-inline' *.gstatic.com *.google.com *.googleapis.com;
 ||userscloud.com^$csp=script-src 'self' 'unsafe-inline' *.cloudflare.com *.gstatic.com *.google.com *.solvemedia.com *.recaptcha.net;
-/^https?:\/\/(ventax\.net|voxc\.org|short\.pe|icutlink\.com)/$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com *.recaptcha.net *.solvemedia.com; frame-src 'self' data: *.google.com;
+/^https?:\/\/(ventax|voxc|short|icutlink|landd|adshort|ac\-mo)\.(com?|net|pe|org|xyz|club)/$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com *.recaptcha.net *.solvemedia.com; frame-src 'self' data: *.google.com;
 ||verystream.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.verystream.net *.verystream.com *.cloudflare.com *.google.com *.gstatic.com; img-src *;
 ||vidbom.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.vidbom.com *.jwpcdn.com;
 ||vidhd.*^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.jwpcdn.com;
