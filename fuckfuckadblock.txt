@@ -1111,6 +1111,6 @@ cbssports.com,cnet.com,everydayhealth.com,gamespot.com,goal.com,metacritic.com,p
 claimcoins.cc,moneyhouse.ch##+js(setTimeout-defuser.js, bait)
 claimcoins.cc,moneyhouse.ch#%#//scriptlet("prevent-setTimeout", "bait")
 
-sccponline.com,softwarecrackguru.com,hotgameplus.com,smartpeople.id,techmuzz.com,sedot.link##+js(abort-on-property-write.js, downloadJSAtOnload)
-sccponline.com,softwarecrackguru.com,hotgameplus.com,smartpeople.id,techmuzz.com,sedot.link#%#//scriptlet("abort-on-property-write", "downloadJSAtOnload")
+sccponline.com,softwarecrackguru.com,hotgameplus.com,smartpeople.id,techmuzz.com,sedot.link,felanovia.com##+js(abort-on-property-write.js, downloadJSAtOnload)
+sccponline.com,softwarecrackguru.com,hotgameplus.com,smartpeople.id,techmuzz.com,sedot.link,felanovia.com#%#//scriptlet("abort-on-property-write", "downloadJSAtOnload")
 
