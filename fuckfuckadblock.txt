@@ -435,7 +435,7 @@
 @@||cdnjs.cloudflare.com/*/blockadblock.$script,third-party
 @@||cdnjs.cloudflare.com/*/fuckadblock.$script,third-party
 @@||doubleclick.net^$xmlhttprequest,domain=linksht.com
-@@||gemius.pl^$script,xmlhttprequest,domain=polsatnews.pl|lrt.lt|puhutv.com|wp.pl|redefine.pl|tvn24.pl|stronazdrowia.pl|x-link.pl|eskago.pl
+@@||gemius.pl^$script,xmlhttprequest
 @@||geoguessr.com/_ads/$script
 @@||googletagmanager.com/gtm.js$script,domain=eclipse.org|anisubindo.video
 @@||imasdk.googleapis.com^$script,domain=flashgirlgames.com|hqq.tv|hqq.watch|onlinesudoku.games|player.tubia.com|rapidvid.to|rapidvideo.com|rapidvideo.is|uptostream.com|waaw.tv|waaw1.tv|wilmaa.com|wuxiaworld.com|yandexcdn.com|polsatnews.pl|klix.ba|online-rossiya1.tv|usatoday.com|gazzetta.it
