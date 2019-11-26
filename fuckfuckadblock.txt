@@ -451,6 +451,7 @@
 @@||uptostream.com/assets/$stylesheet,script,~third-party
 @@||webshark.pl/adserver/*$script
 @@||wstream.*/js/popads.js|$script,~third-party
+@@||lowcygier.pl/*.js?*=*&ad_$script
 
 1fichier.com##.ct_warn
 123link.*##.ads-block-warning
@@ -490,6 +491,7 @@ lovi.fm##.sponsor
 maxiporno.tv###fadeinbox
 myfxbook.com###adPopUpContainer
 newsfilter.org###dkm-floater
+lowcygier.pl##.adblock-info
 noizz.pl##div.contentInfo:has(a[href="abp:subscribe?location=http%3A%2F%2Flib.onet.pl%2Fs.csr%2Fwhitelist%2Fnoizz.pl.txt&title=noizz.pl"])
 ocen-piwo.pl###osiemnascielat
 pol-news24.pl###ppsPopupBgOverlay, .ppsPopupListsShell.ppsPopupShell
