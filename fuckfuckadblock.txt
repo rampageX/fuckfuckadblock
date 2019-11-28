@@ -265,7 +265,7 @@
 ||monova.to^$csp=script-src 'self' 'unsafe-inline' *.twitter.com;
 ||mp4upload.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.mp4upload.com *.jquery.com *.bootstrapcdn.com;
 ||msembed.net^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: *.gstatic.com *.cloudflare.com *.google.com *.msembed.net *.mystream.to;
-||nekopoi.*^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.chatango.com *.jquery.com *.vidlox.me *.jsdelivr.net vidoza.net vidlox.me *.cloudflare.com *.gstatic.com nekopoi.care nekopoi.lol nekopoi.ga nekopoi.cash *.chatango.com streamcherry.com *.twitter.com *.disqus.com disqus.com *.disquscdn.com *.facebook.net *.facebook.com *.google.com *.googleapis.com discordapp.com;
+||nekopoi.*^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.chatango.com *.jquery.com *.vidlox.me *.jsdelivr.net vidoza.net vidlox.me *.cloudflare.com *.gstatic.com nekopoi.care nekopoi.lol nekopoi.ga nekopoi.cash *.chatango.com streamcherry.com *.twitter.com *.disqus.com disqus.com *.disquscdn.com *.facebook.net *.facebook.com *.google.com *.googleapis.com discordapp.com onlystream.tv *.onlystream.tv vidlox.me;
 ||newcloud.tv^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.newcloud.tv; connect-src 'self' data:;
 ||newsfilter.org^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.googleapis.com *.gstatic.com *.google.com *.solvemedia.com *.addthis.com;
 ||novelplanet.me^$csp=script-src 'self' 'unsafe-inline' data: *.gstatic.com *.google.com;
