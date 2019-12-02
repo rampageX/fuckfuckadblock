@@ -317,7 +317,7 @@
 ||waaw.tv^$csp=script-src 'self' 'unsafe-inline' *.waaw.tv *.google.com *.cloudflare.com *.gstatic.com *.recaptcha.net *.jsdelivr.net *.googleapis.com *.disqus.com disqus.com *.disquscdn.com cackle.me *.cackle.me *.addthis.com discordapp.com;
 ||waiset.su^$csp=script-src 'self' vk.com *.cloudflare.com;
 ||windows-portal.pw^$csp=script-src 'self' * blob: data:;
-/^https?:\/\/([a-z]+\.)?xhamster([0-9]{1})?\.[a-z]+\//$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.gstatic.com *.stripst.com *.xhcdn.com *.ahcdn.com *.flixcdn.com *.googleapis.com;
+/^https?:\/\/([a-z]+\.)?xhamster([0-9]{1})?\.[a-z]+\//$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.gstatic.com *.xhcdn.com *.googleapis.com;
 ||xn--e1afprfv.org^$csp=connect-src 'none';
 ||yourbittorrent2.com^$csp=script-src 'self' 'unsafe-inline' *.cloudflare.com;
 ||yts.*^$csp=script-src 'self' 'unsafe-inline' *.addthis.com *.google.com *.cloudflare.com;
