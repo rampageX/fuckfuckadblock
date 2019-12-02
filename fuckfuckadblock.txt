@@ -428,9 +428,9 @@
 @@/^https?:\/\/(.*\.)?(freevpn4you\.net\/ads\/|freeopenvpn\.org\/units\/|all\-episodes\.tv\/ad\/banner\/|(nf|cc|cn|fox)\-fan\.tv\/images\/ad(block)?\.jpg|inoreader\.com\/adv\/|cdntvn\.pl\/img\/fakty\/ico\_advert\.png|simpsonsua\.com\.ua\/adv\.png)/$image,script,xmlhttprequest,domain=all-episodes.tv|cc-fan.tv|cn-fan.tv|fox-fan.tv|freeopenvpn.org|freevpn4you.net|nf-fan.tv|simpsonsua.com.ua|tvn24.pl
 @@/^https?:\/\/(.*\.)?adocean\.pl\/(.*\/)?ad\.(js|xml)\?/$script,xmlhttprequest,domain=tvn24.pl
 @@/^https?:\/\/(www\.)?.*\/([_-a-zA-Z0-9.]{1,15})?ad[svbxo]?\.js/$script,xmlhttprequest
-@@/^https?:\/\/(www\.)?.*\/([_-a-zA-Z0-9.]{1,15})?ad[vs](er(ve)?t?(ise|ising|isement)?)?\.js/$xmlhttprequest,script
+@@/^https?:\/\/(www\.)?.*\/([_-a-zA-Z0-9.]{1,17})?ad[vs](er(ve)?t?(ise|ising|isement)?)?\.js/$xmlhttprequest,script
 @@/^https?:\/\/(www\.)?.*\/ad[svbxo]?([_-a-zA-Z0-9.]{1,15})?\.js/$script,xmlhttprequest
-@@/^https?:\/\/(www\.)?.*\/ad[vs](er(ve)?t?(ise|ising|isement)?)?([_-a-zA-Z0-9.]{1,15})?\.js/$xmlhttprequest,script
+@@/^https?:\/\/(www\.)?.*\/ad[vs](er(ve)?t?(ise|ising|isement)?)?([_-a-zA-Z0-9.]{1,17})?\.js/$xmlhttprequest,script
 @@||ad.71i.de/somtag/loader/loader.js$script,domain=sportdeutschland.tv
 @@||adservice.google.com^$script,xmlhttprequest,domain=player.tubia.com|uploadship.com
 @@||arkadiumhosted.com/assets/*/*-ads-*.js$script
