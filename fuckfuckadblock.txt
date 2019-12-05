@@ -1128,3 +1128,5 @@ claimcoins.cc,moneyhouse.ch#%#//scriptlet("prevent-setTimeout", "bait")
 sccponline.com,softwarecrackguru.com,hotgameplus.com,smartpeople.id,techmuzz.com,sedot.link,felanovia.com##+js(abort-on-property-write.js, downloadJSAtOnload)
 sccponline.com,softwarecrackguru.com,hotgameplus.com,smartpeople.id,techmuzz.com,sedot.link,felanovia.com#%#//scriptlet("abort-on-property-write", "downloadJSAtOnload")
 
+thedailybeast.com,masteroverwatch.com,inspirock.com,practicequiz.com,mykor.ru,nordeclair.fr,lasemainedansleboulonnais.fr,guideautoweb.com##+js(abort-on-property-read, detectAdBlock)
+thedailybeast.com,masteroverwatch.com,inspirock.com,practicequiz.com,mykor.ru,nordeclair.fr,lasemainedansleboulonnais.fr,guideautoweb.com#%#//scriptlet("abort-on-property-read", "detectAdBlock")
