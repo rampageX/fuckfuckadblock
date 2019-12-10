@@ -770,8 +770,8 @@ douploads.*,uploadrar.*,androiddownload.net##+js(abort-current-inline-script.js,
 dailymotion.com,gamer-info.com,gsurl.*,hotmovs.com,kino-live2.org,short.pe,vidbob.com##+js(addEventListener-defuser.js, mousedown, preventDefault)
 dailymotion.com,gamer-info.com,gsurl.*,hotmovs.com,kino-live2.org,short.pe,vidbob.com#%#//scriptlet("prevent-addEventListener", "mousedown", "preventDefault")
 
-dadhero.pl,kresy.pl,mambiznes.pl,prnews.pl,weszlo.com,natemat.pl##+js(abort-current-inline-script.js, parseInt, adblock)
-dadhero.pl,kresy.pl,mambiznes.pl,prnews.pl,weszlo.com,natemat.pl#%#//scriptlet("abort-current-inline-script", "parseInt", "adblock")
+dadhero.pl,kresy.pl,mambiznes.pl,prnews.pl,weszlo.com,natemat.pl,gazetawroclawska.pl##+js(abort-current-inline-script.js, parseInt, adblock)
+dadhero.pl,kresy.pl,mambiznes.pl,prnews.pl,weszlo.com,natemat.pl,gazetawroclawska.pl#%#//scriptlet("abort-current-inline-script", "parseInt", "adblock")
 
 proxyrarbg.*,rarbg.is,rarbg.to,rarbg.unblockall.org,rarbg.unblocked.kim,rarbg2019.org,rarbgaccess.org,rarbgcore.org,rarbgdata.org,rarbgenter.org,rarbgget.org,rarbggo.org,rarbgmirror.*,rarbgp2p.org,rarbgproxied.*,rarbgproxy.*,rarbgprx.org,rarbgto.org,rarbgtor.org,rarbgunblock.*,rarbgweb.org,unblockedrarbg.org##+js(abort-on-property-read.js, LieDetector)
 proxyrarbg.*,rarbg.is,rarbg.to,rarbg.unblockall.org,rarbg.unblocked.kim,rarbg2019.org,rarbgaccess.org,rarbgcore.org,rarbgdata.org,rarbgenter.org,rarbgget.org,rarbggo.org,rarbgmirror.*,rarbgp2p.org,rarbgproxied.*,rarbgproxy.*,rarbgprx.org,rarbgto.org,rarbgtor.org,rarbgunblock.*,rarbgweb.org,unblockedrarbg.org#%#//scriptlet("abort-on-property-read", "LieDetector")
