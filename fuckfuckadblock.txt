@@ -893,8 +893,8 @@ adultvideoz.net,mangoporn.*,pandavideo.pw,playpornfree.xyz,pornkino.cc,speedporn
 0xxx.ws,700mbdownload.*,babestube.com,cuevana2.io,cuevanago.com,faucethero.*,fembed.*,filmywap.*,fox-dl.com,igfap.com,katestube.com,kinox.*,kinoz.*,loadingz.com,nudogram.com,nulled.life,oload.*,psystreams.com,pussyspot.net,qdembed.com,repelisgo.*,repelisgo.io,vikiporn.com,watchhouseonline.net,wildpictures.net,yomovies.*,zbporn.com##+js(abort-on-property-read.js, decodeURI)
 0xxx.ws,700mbdownload.*,babestube.com,cuevana2.io,cuevanago.com,faucethero.*,fembed.*,filmywap.*,fox-dl.com,igfap.com,katestube.com,kinox.*,kinoz.*,loadingz.com,nudogram.com,nulled.life,oload.*,psystreams.com,pussyspot.net,qdembed.com,repelisgo.*,repelisgo.io,vikiporn.com,watchhouseonline.net,wildpictures.net,yomovies.*,zbporn.com#%#//scriptlet("abort-on-property-read", "decodeURI")
 
-adp-checker.ru,animeyt2.tv,gratisaftehalen.nl,kissasian.sh,pitbullofficial.com,shlyahten.ru,surfsees.com,mangahosted.com,megagames.com##+js(abort-current-inline-script.js, fuckAdBlock, undefined)
-adp-checker.ru,animeyt2.tv,gratisaftehalen.nl,kissasian.sh,pitbullofficial.com,shlyahten.ru,surfsees.com,mangahosted.com,megagames.com#%#//scriptlet("abort-current-inline-script", "fuckAdBlock", "undefined")
+adp-checker.ru,animeyt2.tv,gratisaftehalen.nl,kissasian.sh,pitbullofficial.com,shlyahten.ru,surfsees.com,mangahosted.com,megagames.com,infoua.biz##+js(abort-current-inline-script.js, fuckAdBlock, undefined)
+adp-checker.ru,animeyt2.tv,gratisaftehalen.nl,kissasian.sh,pitbullofficial.com,shlyahten.ru,surfsees.com,mangahosted.com,megagames.com,infoua.biz#%#//scriptlet("abort-current-inline-script", "fuckAdBlock", "undefined")
 
 9xupload.*,descargas2020.*,jyra.online,kino-live2.org,limitsizamca.org,mediafire.com,sloomp.space,unblocked.to,stfly.io##+js(addEventListener-defuser.js, /^(?:click|mousedown)$/)
 9xupload.*,descargas2020.*,jyra.online,kino-live2.org,limitsizamca.org,mediafire.com,sloomp.space,unblocked.to,stfly.io#%#//scriptlet("prevent-addEventListener", "/^(?:click|mousedown)$/")
