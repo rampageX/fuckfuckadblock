@@ -467,6 +467,7 @@
 123link.*##.dark.i-said-no-thing-can-stop-me-warning
 alghad.com###tie-popup-adblock, .tie-popup-container, .tie-popup.is-fixed-popup
 amgreatness.com###adtoniq-msgr-bar
+weather2day.co.il###ab-notice
 applesfera.com##.ad-cen
 arstechnica.com##.ars-appeal-container
 automobiledimension.com##.avisdiv
