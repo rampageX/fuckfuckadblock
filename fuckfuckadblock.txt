@@ -1057,8 +1057,8 @@ blogspot.com,boycracked.com,lewat.club,romfirmware.com#%#//scriptlet("abort-on-p
 notebookcheck-hu.com,notebookcheck.com,notebookcheck.net,notebookcheck.org,notebookcheck.biz,notebookcheck.it,notebookcheck.nl,notebookcheck.info,notebookcheck-tr.com,notebookcheck.se,notebookcheck-ru.com,iporntv.net##+js(abort-current-inline-script.js, document.createElement, iframe)
 notebookcheck-hu.com,notebookcheck.com,notebookcheck.net,notebookcheck.org,notebookcheck.biz,notebookcheck.it,notebookcheck.nl,notebookcheck.info,notebookcheck-tr.com,notebookcheck.se,notebookcheck-ru.com,iporntv.net##+js(abort-current-inline-script.js, document.createElement, iframe)
 
-24porno.vip,aulrains.com,cambro.tv,cutlinks.*,egybest2.com,egybest4.com,hotmovs.com,ladepeche.fr,mixdrop.co,moviescouch.*,mp4s.org,tubepornclassic.com,watchmovies.pk,upera.co##+js(abort-on-property-read.js, localStorage)
-24porno.vip,aulrains.com,cambro.tv,cutlinks.*,egybest2.com,egybest4.com,hotmovs.com,ladepeche.fr,mixdrop.co,moviescouch.*,mp4s.org,tubepornclassic.com,watchmovies.pk,upera.co#%#//scriptlet("abort-on-property-read", "localStorage")
+24porno.vip,aulrains.com,cambro.tv,cutlinks.*,egybest2.com,egybest4.com,hotmovs.com,ladepeche.fr,mixdrop.co,moviescouch.*,mp4s.org,tubepornclassic.com,watchmovies.pk,upera.co,9to5google.com,9to5mac.com,9to5toys.com,electrek.co##+js(abort-on-property-read.js, localStorage)
+24porno.vip,aulrains.com,cambro.tv,cutlinks.*,egybest2.com,egybest4.com,hotmovs.com,ladepeche.fr,mixdrop.co,moviescouch.*,mp4s.org,tubepornclassic.com,watchmovies.pk,upera.co,9to5google.com,9to5mac.com,9to5toys.com,electrek.co#%#//scriptlet("abort-on-property-read", "localStorage")
 
 cube-design.co.jp,epress1.com,peekvids.com,playvid.com,playvids.com,pornflip.com,pornoeggs.com,sjbook.co.kr,teamprofit.com##+js(abort-on-property-write.js, pop_target)
 cube-design.co.jp,epress1.com,peekvids.com,playvid.com,playvids.com,pornflip.com,pornoeggs.com,sjbook.co.kr,teamprofit.com#%#//scriptlet("abort-on-property-write", "pop_target")
