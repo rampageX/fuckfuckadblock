@@ -847,6 +847,9 @@ unlockapk.com#%#//scriptlet("abort-on-property-write", "opads")
 hyperdebrid.net,indishare.*,mlbstream.io,ouo.*,solarmoviex.to,the123movieshub.net##+js(abort-current-inline-script.js, decodeURI, atob)
 hyperdebrid.net,indishare.*,mlbstream.io,ouo.*,solarmoviex.to,the123movieshub.net#%#//scriptlet("abort-current-inline-script", "decodeURI", "atob")
 
+uiz.io,varagh.com##+js(abort-current-inline-script.js, $, adBlock)
+uiz.io,varagh.com#%#//scriptlet("abort-current-inline-script", "$", "adBlock")
+
 di.se##+js(setInterval-defuser.js, runAdBlockPaywall, 1000)
 di.se#%#//scriptlet("prevent-setInterval", "runAdBlockPaywall", "1000")
 
