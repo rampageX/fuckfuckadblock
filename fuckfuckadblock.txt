@@ -1121,8 +1121,8 @@ cbssports.com,cnet.com,everydayhealth.com,gamespot.com,goal.com,metacritic.com,p
 claimcoins.cc,moneyhouse.ch##+js(setTimeout-defuser.js, bait)
 claimcoins.cc,moneyhouse.ch#%#//scriptlet("prevent-setTimeout", "bait")
 
-sccponline.com,softwarecrackguru.com,hotgameplus.com,smartpeople.id,techmuzz.com,sedot.link,felanovia.com,ominfoupdate.com##+js(abort-on-property-write.js, downloadJSAtOnload)
-sccponline.com,softwarecrackguru.com,hotgameplus.com,smartpeople.id,techmuzz.com,sedot.link,felanovia.com,ominfoupdate.com#%#//scriptlet("abort-on-property-write", "downloadJSAtOnload")
+sccponline.com,softwarecrackguru.com,hotgameplus.com,smartpeople.id,techmuzz.com,sedot.link,felanovia.com,ominfoupdate.com,ver-hentai.com##+js(abort-on-property-write.js, downloadJSAtOnload)
+sccponline.com,softwarecrackguru.com,hotgameplus.com,smartpeople.id,techmuzz.com,sedot.link,felanovia.com,ominfoupdate.com,ver-hentai.com#%#//scriptlet("abort-on-property-write", "downloadJSAtOnload")
 
 thedailybeast.com,masteroverwatch.com,inspirock.com,practicequiz.com,mykor.ru,nordeclair.fr,lasemainedansleboulonnais.fr,guideautoweb.com##+js(abort-on-property-read, detectAdBlock)
 thedailybeast.com,masteroverwatch.com,inspirock.com,practicequiz.com,mykor.ru,nordeclair.fr,lasemainedansleboulonnais.fr,guideautoweb.com#%#//scriptlet("abort-on-property-read", "detectAdBlock")
