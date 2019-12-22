@@ -308,8 +308,8 @@
 @@*/videojs-contrib-ads.min.js|$script
 @@/^https?:\/\/(.*\.)?(freevpn4you\.net\/ads\/|freeopenvpn\.org\/units\/|all\-episodes\.tv\/ad\/banner\/|(nf|cc|cn|fox)\-fan\.tv\/images\/ad(block)?\.jpg|inoreader\.com\/adv\/|cdntvn\.pl\/img\/fakty\/ico\_advert\.png|simpsonsua\.com\.ua\/adv\.png|static\.goolive\.de\/media\/static\/images\/smileys\/ad\.gif)/$image,script,xmlhttprequest,domain=all-episodes.tv|cc-fan.tv|cn-fan.tv|fox-fan.tv|freeopenvpn.org|freevpn4you.net|nf-fan.tv|simpsonsua.com.ua|tvn24.pl|goolive.de
 @@/^https?:\/\/(.*\.)?adocean\.pl\/(.*\/)?ad\.(js|xml)\?/$script,xmlhttprequest,domain=tvn24.pl
-@@/^https?:\/\/(www\.)?.*\/([_-a-zA-Z0-9.]{1,15})?ad[svbxo]?\.js/$script,xmlhttprequest
-@@/^https?:\/\/(www\.)?.*\/([_-a-zA-Z0-9.]{1,17})?ad[vs](er(ve)?t?(ise|ising|isement)?)?\.js/$xmlhttprequest,script
+@@/^https?:\/\/(www\.)?.*\/([_-a-zA-Z0-9.]{1,15})?ad[svbxo]?(\.min)?\.js/$script,xmlhttprequest
+@@/^https?:\/\/(www\.)?.*\/([_-a-zA-Z0-9.]{1,17})?ad[vs](er(ve)?t?(ise|ising|isement)?)?(\.min)?\.js/$xmlhttprequest,script
 @@/^https?:\/\/(www\.)?.*\/ad[svbxo]?([_-a-zA-Z0-9.]{1,15})?\.js/$script,xmlhttprequest
 @@/^https?:\/\/(www\.)?.*\/ad[vs](er(ve)?t?(ise|ising|isement)?)?([_-a-zA-Z0-9.]{1,17})?\.js/$xmlhttprequest,script
 @@||ad.71i.de/somtag/loader/loader.js$script,domain=sportdeutschland.tv
@@ -577,8 +577,8 @@ cutlinks.*,knilife.com,nwtehranmusic.com,putlocker.*,rmdown.com,streamp1ay.*,ten
 4x0.me,akanosora.com,anibatch.me,anime-i.com,blogspot.com,complete2unlock.com,dictionnaire-medical.net,direct-link.net,direkt-wissen.com,dreamfancy.org,ebookdz.com,firelinks.me,fxporn69.*,information-portal.net,mega-debrit.com,protect-link.biz,tricxbd.com,turkleech.com,up-load.io,xxxmomporn.top##+js(setTimeout-defuser.js, nextFunction, 2000)
 4x0.me,akanosora.com,anibatch.me,anime-i.com,blogspot.com,complete2unlock.com,dictionnaire-medical.net,direct-link.net,direkt-wissen.com,dreamfancy.org,ebookdz.com,firelinks.me,fxporn69.*,information-portal.net,mega-debrit.com,protect-link.biz,tricxbd.com,turkleech.com,up-load.io,xxxmomporn.top#%#//scriptlet("prevent-setTimeout", "nextFunction", "2000")
 
-4downfiles.*,anonyviet.com,cutearn.ca,cutsouf.*,earn-url.com,earnbig.ca,hexafile.net,lompat.in,magesy.*,majesy.*,mycumx.com,sardeath.com,shortit.ca,tistory.com,vozdesportiva.com,wegner.tech##+js(setTimeout-defuser.js, nextFunction, 250)
-4downfiles.*,anonyviet.com,cutearn.ca,cutsouf.*,earn-url.com,earnbig.ca,hexafile.net,lompat.in,magesy.*,majesy.*,mycumx.com,sardeath.com,shortit.ca,tistory.com,vozdesportiva.com,wegner.tech#%#//scriptlet("prevent-setTimeout", "nextFunction", "250")
+4downfiles.*,anonyviet.com,cutearn.ca,cutsouf.*,earn-url.com,earnbig.ca,hexafile.net,lompat.in,magesy.*,majesy.*,mycumx.com,sardeath.com,shortit.ca,tistory.com,vozdesportiva.com,wegner.tech,animee.xyz##+js(setTimeout-defuser.js, nextFunction, 250)
+4downfiles.*,anonyviet.com,cutearn.ca,cutsouf.*,earn-url.com,earnbig.ca,hexafile.net,lompat.in,magesy.*,majesy.*,mycumx.com,sardeath.com,shortit.ca,tistory.com,vozdesportiva.com,wegner.tech,animee.xyz#%#//scriptlet("prevent-setTimeout", "nextFunction", "250")
 
 jzrputtbut.net,mmwgopsoyfhzk.net,olgkzlwln.net,opjav.com,pandavideo.pw,pornkino.cc,rhvgmritmziwcm.net,senimovie.co,xopenload.*,zbqhfbetlmni.net##+js(addEventListener-defuser.js, click, popunder)
 jzrputtbut.net,mmwgopsoyfhzk.net,olgkzlwln.net,opjav.com,pandavideo.pw,pornkino.cc,rhvgmritmziwcm.net,senimovie.co,xopenload.*,zbqhfbetlmni.net#%#//scriptlet("prevent-addEventListener", "click", "popunder")
