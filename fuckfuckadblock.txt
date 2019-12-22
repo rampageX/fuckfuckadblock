@@ -59,6 +59,7 @@
 ###ai-adb-overlay
 ###antiAdBlock
 ###antiBlock
+###fab
 ###anti_adblock
 ###check_ad_block
 ###detectadblock
