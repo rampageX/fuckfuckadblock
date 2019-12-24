@@ -188,7 +188,7 @@
 /(adbetclickin)\.pink/$third-party,important
 /(adswrapme)\.click/$third-party,important
 /(btez8|dolphincdn|keapeiros|lasimakiz)\.xyz/$third-party,important
-/(cachefly|chouftak|eetsooso|karisimbi|popcash|smartclick)\.net/$third-party,important
+/(chouftak|eetsooso|karisimbi|popcash|smartclick)\.net/$third-party,important
 /(clcknads|arda0hylt58g4wg0)\.pro/$third-party,important
 /(click2m)\.org/$third-party,important
 /(clickmon)\.co\.kr/$third-party,important
