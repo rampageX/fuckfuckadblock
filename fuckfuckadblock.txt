@@ -140,6 +140,7 @@
 *##.svg-adblock-full
 *##.svg-adblock-full--box
 *##.top-bar-adblock
+*#adBlockAlertWrap
 *##.warning-adblock
 *##.warning-adblock-box
 *##.wgAdBlockMessage
@@ -209,7 +210,7 @@
 *$xmlhttprequest,third-party,domain=letsupload.co|ssrmovies.club|uploadever.com|userscloud.com|porno.sexy
 *$xmlhttprequest,~third-party,domain=geoguessr.com
 */*.php?aid=pause_$important
-*/*.php|$important,script,domain=rapidvid.to|rapidvideo.com|rapidvideo.is|solopajeros.com|vivud.com
+*/*.php|$important,script,domain=solopajeros.com|vivud.com
 */*.php|$important,script,xmlhttprequest,domain=alrincon.com|dailyimages.xyz|fullhdtekpartizle.org|girlsofdesire.org|hotmovs.com|hotpornfile.org|icegay.tv|ipicture.su|javfinder.is|javmec.com|krasivoeporno.tv|lbtube.com|mangovideo.pw|maxiporno.tv|momvids.com|newsfilter.org|orgazmtv.com|pandavideo.pw|pornalin.com|porno-kino.site|porno.sexy|porntopic.com|turboimagehost.com|ukrainie.sexy|vio.to|xxxdessert.com|xyzcomics.com|youx.xxx|babestube.com|javfinder.id
 */*.php|$important,subdocument,domain=thevid.tv
 */AntiAdBlocker*.js$script
@@ -226,7 +227,6 @@
 */blockcake.js$script
 */crypta.js|$script,third-party,important
 */dust/newserv.js|$script,important
-*/xvideos*.js|$script,important
 */fac.php|$important
 */forum/docs/requests.js$script,domain=nnm-club.lib|nnm-club.me|nnm-club.ws|nnmclub.ro|nnmclub.to|nontorclub.in.net,important
 */fuckadblock-$script,redirect=fuckadblock.js-3.2.0
@@ -234,6 +234,7 @@
 */fuckadblock.$script,redirect=fuckadblock.js-3.2.0
 */fuckadblock.$script,redirect=prevent-fab-3.2.0
 */genads.php$script,domain=rapidvideo.com|rapidvid.to|rapidvideo.is
+*/js/ht.js?$important,script
 */js/sorar.js|$script,important
 */ntfc.php?$important
 */pop2.js|$script
@@ -252,6 +253,7 @@
 */wp-content/plugins/end-of-adblock-cycle/$script
 */wp-content/plugins/kill-adblock/$script
 */xvideo.js|$script,~third-party
+*/xvideos*.js|$script,important
 /\/(propadbl\_epxhd|galaxad\_tpx|galax\_adsepxhd)([0-9]{1,2})?\.js/$script,domain=topeuropix.net|europixhd.net,important
 /^https?:\/\/(.*\.)?netlify\.com\/[a-zA-Z]{6}\.js$/$script
 /^https?:\/\/(www\.)?identi\.li\/js\/(identili|display([0-9]{2,3})?)\.js/$script,important
@@ -268,14 +270,12 @@
 ||assets.adobedtm.com^$script
 ||bonbonyou.com^$script,~third-party
 ||camsexvideo.net/assets/js/scripts.js$script,important
-||vidcloud.co/js/invideo.min.js$script
-||vidcloud.co/js/lib3/script.$script
-||vidcloud.co/js/lib3/license.js$script
 ||cdn.*/static/js/amvn.js$script
 ||doubleclick.net^$important,script,redirect=noopjs,domain=freeiptv.life
 ||doubleclick.net^$important,xmlhttprequest,redirect=nooptext,domain=filmix.cc
 ||electric-house.ru/forum/script_electric_min.js$script,domain=electric-house.ru
 ||exe.io/files/glasss.js$script
+||go.infotekno.net/abp.js$script,important
 ||imasdk.googleapis.com^$important,script,redirect=noopjs,domain=dplay.dk
 ||megatube.xxx^$subdocument,~third-party
 ||npttech.com/advertising.js|$important,script,redirect=fuckadblock.js-3.2.0
@@ -287,9 +287,12 @@
 ||popads.net/pop.js|$script,redirect=noopjs,important
 ||pornoxo.com/*/js/popundr/script.js$script,important
 ||prxiy.com/stevenbaltay.js$script,important
-||go.infotekno.net/abp.js$script,important
 ||rockstargame.su/adb_script$script,important
+||spankcdn.net/*/pht*/pht*.js$script,important
 ||uptostream.com/assets/$subdocument,important
+||vidcloud.co/js/invideo.min.js$script
+||vidcloud.co/js/lib3/license.js$script
+||vidcloud.co/js/lib3/script.$script
 
 !@@*$script,third-party,domain=
 !@@*$xmlhttprequest,script,third-party,domain=
@@ -540,8 +543,8 @@ culturemap.com,football365.com,northern-scot.co.uk,planetf1.com,popmatters.com#%
 linkberuang.*,njiir.com,razorlink.us##+js(set-constant.js, safelink.adblock, false)
 linkberuang.*,njiir.com,razorlink.us#%#//scriptlet("set-constant", "safelink.adblock", "false")
 
-20sat.com,69games.xxx,astikitline.es,beemp3s.*,camwhores.tv,ceesty.com,clkmein.com,corneey.com,dailyuploads.*,descargas2020.*,destyy.com,europixhd.*,festyy.com,flashx.*,gamcore.com,gestyy.com,gnula.*,gomovieshub.io,hdeuropix.*,imgmonkey.com,javlot.com,kaotic.com,mispelisyseries.com,moviesin.co,mp3skulls.to,nudogram.com,porntrex.com,putlocker.tl,putlockers.*,putlockertv.*,sh.st,sonyoutube.com,topeuropix.net,torrentlocura.com,torrentrapid.com,tumejortorrent.com,tvsinpagar.com,vidnode.net,vidstreaming.io,vidtodo.com,viid.me,watch-series.*,xdrive.cc,xmoviesforyou.com,xrares.com##+js(abort-current-inline-script.js, parseInt, tabunder)
-20sat.com,69games.xxx,astikitline.es,beemp3s.*,camwhores.tv,ceesty.com,clkmein.com,corneey.com,dailyuploads.*,descargas2020.*,destyy.com,europixhd.*,festyy.com,flashx.*,gamcore.com,gestyy.com,gnula.*,gomovieshub.io,hdeuropix.*,imgmonkey.com,javlot.com,kaotic.com,mispelisyseries.com,moviesin.co,mp3skulls.to,nudogram.com,porntrex.com,putlocker.tl,putlockers.*,putlockertv.*,sh.st,sonyoutube.com,topeuropix.net,torrentlocura.com,torrentrapid.com,tumejortorrent.com,tvsinpagar.com,vidnode.net,vidstreaming.io,vidtodo.com,viid.me,watch-series.*,xdrive.cc,xmoviesforyou.com,xrares.com#%#//scriptlet("abort-current-inline-script", "parseInt", "tabunder")
+20sat.com,69games.xxx,astikitline.es,beemp3s.*,camwhores.tv,ceesty.com,clkmein.com,corneey.com,dailyuploads.*,descargas2020.*,destyy.com,europixhd.*,festyy.com,flashx.*,gamcore.com,gestyy.com,gnula.*,gomovieshub.io,hdeuropix.*,imgmonkey.com,javlot.com,kaotic.com,mispelisyseries.com,moviesin.co,mp3skulls.to,nudogram.com,porntrex.com,putlocker.tl,putlockers.*,putlockertv.*,sh.st,sonyoutube.com,topeuropix.net,torrentlocura.com,torrentrapid.com,tumejortorrent.com,tvsinpagar.com,vidnode.net,vidstreaming.io,vidtodo.com,viid.me,watch-series.*,xdrive.cc,xmoviesforyou.com,xrares.com,pornsocket.com##+js(abort-current-inline-script.js, parseInt, tabunder)
+20sat.com,69games.xxx,astikitline.es,beemp3s.*,camwhores.tv,ceesty.com,clkmein.com,corneey.com,dailyuploads.*,descargas2020.*,destyy.com,europixhd.*,festyy.com,flashx.*,gamcore.com,gestyy.com,gnula.*,gomovieshub.io,hdeuropix.*,imgmonkey.com,javlot.com,kaotic.com,mispelisyseries.com,moviesin.co,mp3skulls.to,nudogram.com,porntrex.com,putlocker.tl,putlockers.*,putlockertv.*,sh.st,sonyoutube.com,topeuropix.net,torrentlocura.com,torrentrapid.com,tumejortorrent.com,tvsinpagar.com,vidnode.net,vidstreaming.io,vidtodo.com,viid.me,watch-series.*,xdrive.cc,xmoviesforyou.com,xrares.com,pornsocket.com#%#//scriptlet("abort-current-inline-script", "parseInt", "tabunder")
 
 ceesty.com,clkmein.com,gestyy.com,sh.st,viid.me##+js(set-constant.js, adsBlockerDetector, noopFunc)
 ceesty.com,clkmein.com,gestyy.com,sh.st,viid.me#%#//scriptlet("set-constant", "adsBlockerDetector", "noopFunc")
