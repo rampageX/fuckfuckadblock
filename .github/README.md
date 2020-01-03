@@ -19,11 +19,6 @@ Or add it manually using this RAW link — `https://raw.githubusercontent.com/bo
 3. `https://cdn.jsdelivr.net/gh/bogachenko/fuckfuckadblock/fuckfuckadblock.txt`
 
 ### Disclaimer
-#### Adguard
-
-This list uses scriptlets, some products from Adguard, for example Adguard for Windows, do not yet support scriptlets, if you want to use this sheet, then I recommend you to use the Adguard extension.
-
-Please read this [issue #2](https://github.com/bogachenko/fuckfuckadblock/issues/2)
 
 #### Adblock Plus
 
