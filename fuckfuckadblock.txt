@@ -312,6 +312,7 @@
 @@*$xmlhttprequest,third-party,domain=replay.watch
 @@*/adblock.php$script,xmlhttprequest
 @@*/dfp.js|$script,xmlhttprequest
+@@/\/ad[svbxo]?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)$/$image
 @@*/dfp/dfp-$xmlhttprequest
 @@*/googima.js|$script
 @@*/ima3.js|$script,xmlhttprequest
