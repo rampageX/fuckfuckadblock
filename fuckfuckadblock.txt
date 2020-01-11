@@ -885,8 +885,8 @@ kiss-anime.*,porn.com#%#//scriptlet("set-constant", "String.prototype.charAt", "
 chrt.pw,egy.best,egybest.*,egybest2.com,egybest4.com,europixhd.*,hdeuropix.*,katmovie.*,short.pe,topeuropix.net,tv-onlinehd.com,uploadbuzz.*,uploadbyte.com,uploadever.com,ustreamix.*,ustreamyx.*,watchmovies.pk,upload4earn.org##+js(setTimeout-defuser.js, '0x)
 chrt.pw,egy.best,egybest.*,egybest2.com,egybest4.com,europixhd.*,hdeuropix.*,katmovie.*,short.pe,topeuropix.net,tv-onlinehd.com,uploadbuzz.*,uploadbyte.com,uploadever.com,ustreamix.*,ustreamyx.*,watchmovies.pk,upload4earn.org#%#//scriptlet("prevent-setTimeout", "'0x")
 
-bs.to,burningseries.co,clik.*,dizilla.com,doxysexy.com,nonstopfuck.com,rustorka.*,sucknature.com,zooqle.*##+js(addEventListener-defuser.js, /^(?:click|mousedown)$/, preventDefault)
-bs.to,burningseries.co,clik.*,dizilla.com,doxysexy.com,nonstopfuck.com,rustorka.*,sucknature.com,zooqle.*#%#//scriptlet("prevent-addEventListener", "/^(?:click|mousedown)$/", "preventDefault")
+bs.to,burningseries.co,clik.*,dizilla.com,doxysexy.com,nonstopfuck.com,rustorka.*,sucknature.com,zooqle.*,dwa21.org##+js(addEventListener-defuser.js, /^(?:click|mousedown)$/, preventDefault)
+bs.to,burningseries.co,clik.*,dizilla.com,doxysexy.com,nonstopfuck.com,rustorka.*,sucknature.com,zooqle.*,dwa21.org#%#//scriptlet("prevent-addEventListener", "/^(?:click|mousedown)$/", "preventDefault")
 
 edvok.com,flashx.*,megatfile.cc,oko.sh,primpogoda.ru,zippyshare.com##+js(abort-current-inline-script.js, String.fromCharCode, decodeURIComponent)
 edvok.com,flashx.*,megatfile.cc,oko.sh,primpogoda.ru,zippyshare.com#%#//scriptlet("abort-current-inline-script", "String.fromCharCode", "decodeURIComponent")
