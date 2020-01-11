@@ -858,11 +858,11 @@ anyxxxsex.com,bigjapaneseporn.com,bigsexhub.com,fullasiantube.com,hotpornsexvide
 crazyshit.com,donk69.com,fantasti.cc,gfjizz.com,pornxs.com,pornxt.com,smutr.com,yuvutu.com##+js(abort-on-property-write.js, phtData)
 crazyshit.com,donk69.com,fantasti.cc,gfjizz.com,pornxs.com,pornxt.com,smutr.com,yuvutu.com#%#//scriptlet("abort-on-property-write", "phtData")
 
-69games.xxx,adultvideoz.net,cutadlink.net,drakorindofilms.net,fullhdxxx.com,gamcore.com,goodav17.com,hclips.com,hentaifreak.org,hotmovs.com,inidramaku.com,jobnet.co.il,mangoporn.*,playpornfree.*,pornalin.com,pornoxo.com,senimovies.net,speedporn.*,streamtajm.*,thegay.com,uiporn.com,upornia.com,watchpornfree.*,xozilla.com,senimovie.co,ayo21.com,movie8stream.com,kshowsubindo.org,kordramass.com##+js(abort-on-property-read.js, popunder)
-69games.xxx,adultvideoz.net,cutadlink.net,drakorindofilms.net,fullhdxxx.com,gamcore.com,goodav17.com,hclips.com,hentaifreak.org,hotmovs.com,inidramaku.com,jobnet.co.il,mangoporn.*,playpornfree.*,pornalin.com,pornoxo.com,senimovies.net,speedporn.*,streamtajm.*,thegay.com,uiporn.com,upornia.com,watchpornfree.*,xozilla.com,senimovie.co,ayo21.com,movie8stream.com,kshowsubindo.org,kordramass.com#%#//scriptlet("abort-on-property-read", "popunder")
+69games.xxx,adultvideoz.net,cutadlink.net,drakorindofilms.net,fullhdxxx.com,gamcore.com,goodav17.com,hclips.com,hentaifreak.org,hotmovs.com,inidramaku.com,jobnet.co.il,mangoporn.*,playpornfree.*,pornalin.com,pornoxo.com,senimovies.net,speedporn.*,streamtajm.*,thegay.com,uiporn.com,upornia.com,watchpornfree.*,xozilla.com,senimovie.co,ayo21.com,movie8stream.com,kshowsubindo.org,kordramass.com,oujanime.com##+js(abort-on-property-read.js, popunder)
+69games.xxx,adultvideoz.net,cutadlink.net,drakorindofilms.net,fullhdxxx.com,gamcore.com,goodav17.com,hclips.com,hentaifreak.org,hotmovs.com,inidramaku.com,jobnet.co.il,mangoporn.*,playpornfree.*,pornalin.com,pornoxo.com,senimovies.net,speedporn.*,streamtajm.*,thegay.com,uiporn.com,upornia.com,watchpornfree.*,xozilla.com,senimovie.co,ayo21.com,movie8stream.com,kshowsubindo.org,kordramass.com,oujanime.com#%#//scriptlet("abort-on-property-read", "popunder")
 
-kordramass.com,kshowsubindo.org,senimovie.co##+js(abort-current-inline-script.js, document.onclick, popunder)
-kordramass.com,kshowsubindo.org,senimovie.co#%#//scriptlet("abort-current-inline-script", "document.onclick", "popunder")
+kordramass.com,kshowsubindo.org,senimovie.co,oujanime.com##+js(abort-current-inline-script.js, document.onclick, popunder)
+kordramass.com,kshowsubindo.org,senimovie.co,oujanime.com#%#//scriptlet("abort-current-inline-script", "document.onclick", "popunder")
 
 animenova.org,animeplus.tv,animeshow.tv,animetoon.org,animewow.org,goodanime.co,mangapanda.com,mangareader.net,readcomiconline.to,toonget.net,toonova.net,vidsrc.*##+js(set-constant.js, String.fromCharCode, trueFunc)
 animenova.org,animeplus.tv,animeshow.tv,animetoon.org,animewow.org,goodanime.co,mangapanda.com,mangareader.net,readcomiconline.to,toonget.net,toonova.net,vidsrc.*#%#//scriptlet("set-constant", "String.fromCharCode", "trueFunc")
