@@ -243,6 +243,7 @@
 */fuckadblock.$script,redirect=fuckadblock.js-3.2.0
 */fuckadblock.$script,redirect=prevent-fab-3.2.0
 */js/ht.js?$important,script
+*/adblockrampok.js$script,important
 */js/sorar.js|$script,important
 */ntfc.php?$important
 */pop2.js|$script
