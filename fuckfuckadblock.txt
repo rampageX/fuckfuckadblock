@@ -375,9 +375,9 @@ full-stream.co,full-stream.nu##a[href^="//"][rel="nofollow norefferer noopener"]
 gamesubject.com###headb
 gelbooru.com##a[href*="/track/"][target="_blank"]
 gelbooru.com##a[href^="https://gelbooru.com/redirect.php"]
-getrelax.club,javfree.club###main_content:style(display: block !important;)
-getrelax.club,javfree.club##.loaded-popup-wrapper
-getrelax.club,javfree.club#$##adisblock { display: none!important; }
+getrelax.club,javfree.club,getrelax.cc###main_content:style(display: block !important;)
+getrelax.club,javfree.club,getrelax.cc##.loaded-popup-wrapper
+getrelax.club,javfree.club,getrelax.cc#$##adisblock { display: none!important; }
 girlsofdesire.org##div[class][id]:has-text(You have Adblock enabled. Website features not working properly, please try disabling Adblock. Thank You.)
 gottanut.com##.reclam-overlayVid-desktop
 hdfilmcehennemi1.com###pageskin
