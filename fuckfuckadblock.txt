@@ -225,7 +225,7 @@
 *$xmlhttprequest,third-party,domain=letsupload.co|ssrmovies.club|uploadever.com|userscloud.com|porno.sexy
 *$xmlhttprequest,~third-party,domain=geoguessr.com
 */*.php?aid=pause_$important
-*/*.php|$important,script,domain=solopajeros.com|vivud.com
+*/*.php|$important,script,domain=solopajeros.com|vivud.com|moviesand.com
 */*.php|$important,script,xmlhttprequest,domain=alrincon.com|dailyimages.xyz|fullhdtekpartizle.org|girlsofdesire.org|hotmovs.com|hotpornfile.org|icegay.tv|ipicture.su|javfinder.is|javmec.com|krasivoeporno.tv|lbtube.com|mangovideo.pw|maxiporno.tv|momvids.com|newsfilter.org|orgazmtv.com|pandavideo.pw|pornalin.com|porno-kino.site|porno.sexy|porntopic.com|turboimagehost.com|ukrainie.sexy|vio.to|xxxdessert.com|xyzcomics.com|youx.xxx|babestube.com|javfinder.id
 */*.php|$important,subdocument,domain=thevid.tv
 */AntiAdBlocker*.js$script
