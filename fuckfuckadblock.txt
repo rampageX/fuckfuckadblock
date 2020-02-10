@@ -43,7 +43,6 @@
 *###adblock-notice
 *###adblock-overlay
 *###adblock-wrapper
-*###adblockDetect
 *###adblockWarningPopup
 *###adblock__container
 *###adblock_detected
@@ -104,7 +103,6 @@
 *##.adbd-message
 *##.adbd-wrapper
 *##.adblock
-*##.adblock
 *##.adblock-detect
 *##.adblock-info
 *##.adblock-modal
@@ -144,7 +142,6 @@
 *##.js-adb-msg
 *##.js-checkad-warning
 *##.kill-adblock-container
-*##.kill-adblock-container
 *##.msg-AdBlock
 *##.n-banner--adblocked
 *##.noadblock
@@ -155,7 +152,6 @@
 *##.top-bar-adblock
 *##.warning-adblock
 *##.warning-adblock-box
-*##.wgAdBlockMessage
 *##.wgAdBlockMessage
 
 *#@##ad_test
@@ -253,8 +249,6 @@
 */js/ht.js?$important,script
 */js/sorar.js|$script,important
 */ntfc.php?$important
-*/pop2.js|$script
-*/pop.js|$script
 */pop/js/$script
 */pu/?psid=$script,important
 */s/su.php?t=$script,xmlhttprequest,important
@@ -369,7 +363,7 @@
 @@*/ima3.js|$script,xmlhttprequest
 @@*/noadblock.js$script,xmlhttprequest
 @@*/player_ads.html$subdocument
-@@*/pop.js|$script,xmlhttprequest
+@@*/pop.js|$script,xmlhttprequest,~third-party
 @@*/popads.js|$script,~third-party
 @@*/reklama.js|$script,xmlhttprequest
 @@*/videojs-contrib-ads.js|$script
@@ -393,9 +387,7 @@
 @@||kxcdn.com/js/pop.js$script
 @@||lowcygier.pl/*.js?*=*&ad_$script
 @@||mellowads.com^$script,subdocument,domain=hop.bz|cryptomininggame.com
-@@||mystream.to/pop.js|$script
 @@||pagead2.googlesyndication.com^$script,domain=miroir1.trackr.fr|rte.ie|bowandtie.ru|meteologix.com|weather.us|unlockapk.com|webkod.pl|uploadship.com|namobilu.com|myjest.com|4lpha.one|myjest.com|messletters.com|fontyukle.net|camera.aeonax.com
-@@||prostream.to/js/pop.js|$script
 @@||uptostream.com/assets/$stylesheet,script,~third-party
 @@||webshark.pl/adserver/*$script
 
