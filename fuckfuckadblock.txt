@@ -345,17 +345,10 @@
 ||prxiy.com/stevenbaltay.js$script,important
 ||rockstargame.su/adb_script$script,important
 ||spankcdn.net/*/pht*/pht*.js$script,important
-||sportt.space/ad-m.js|$script,important
 ||storage.googleapis.com/vkcdnservice.appspot.com/$script,important
 ||uptostream.com/assets/$subdocument,important
 /^https?:\/\/vidcloud\.co\/js\/(lib3\/(license|script)|invideo\.min)\./$important,script
 
-!@@*$script,third-party,domain=
-!@@*$xmlhttprequest,script,third-party,domain=
-@@*$script,~third-party,domain=sawlive.tv|1001tracklists.com|soccer24hd.com|vup.to|a2zp30.com
-@@*$subdocument,third-party,domain=scat.gold
-@@*$xmlhttprequest,script,~third-party,domain=boxing-live.stream|fbstream.io|homerun.re|hqq.tv|live-ufc.stream|livef1.stream|livemotgp.stream|mlbstream.io|muzlan.top|nbastream.io|nflstream.io|nhlstream.io|programiz.com|readcomiconline.to|reevown.com|rugbystream.me|soccer-live.stream|strikeout.co|tennisstream.me|vipleague.bz|vipleague.cc|waaw.tv|waaw1.tv
-@@*$xmlhttprequest,third-party,domain=replay.watch
 @@*/adblock.php$script,xmlhttprequest
 @@*/dfp.js|$script,xmlhttprequest
 @@*/dfp/dfp-$xmlhttprequest
@@ -363,11 +356,10 @@
 @@*/ima3.js|$script,xmlhttprequest
 @@*/noadblock.js$script,xmlhttprequest
 @@*/player_ads.html$subdocument
-@@*/pop.js|$script,xmlhttprequest,~third-party
+@@*/pop.js|$script,xmlhttprequest,domain=prostream.to|procdnvids.net|mystream.to|kxcdn.com
 @@*/popads.js|$script,~third-party
 @@*/reklama.js|$script,xmlhttprequest
-@@*/videojs-contrib-ads.js|$script
-@@*/videojs-contrib-ads.min.js|$script
+@@*/videojs-contrib-ads.$script
 @@/\/ad[svbxo]?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)$/$image
 @@/\/ad[vs](er(ve)?t?(ise|ising|isement)?)?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)$/$image
 @@/^https?:\/\/(.*\.)?adocean\.pl\/(.*\/)?ad\.(js|xml)\?/$script,xmlhttprequest,domain=tvn24.pl
@@ -375,7 +367,6 @@
 @@/^https?:\/\/(www\.)?.*\/([_-a-zA-Z0-9.]{1,17})?ad[vs](er(ve)?t?(ise|ising|isement)?)?(\.min)?\.js/$xmlhttprequest,script
 @@/^https?:\/\/(www\.)?.*\/ad[svbxo]?([_-a-zA-Z0-9.]{1,15})?\.js/$script,xmlhttprequest
 @@/^https?:\/\/(www\.)?.*\/ad[vs](er(ve)?t?(ise|ising|isement)?)?([_-a-zA-Z0-9.]{1,17})?\.js/$xmlhttprequest,script
-@@||ad.71i.de/somtag/loader/loader.js$script,domain=sportdeutschland.tv
 @@||adservice.google.com^$script,xmlhttprequest,domain=player.tubia.com|uploadship.com
 @@||cdn.jsdelivr.net^$third-party
 @@||cdnjs.cloudflare.com^$third-party
@@ -384,7 +375,6 @@
 @@||geoguessr.com/_ads/$script
 @@||googletagmanager.com/gtm.js$script,domain=eclipse.org|anisubindo.video
 @@||imasdk.googleapis.com^$script,domain=flashgirlgames.com|hqq.tv|hqq.watch|onlinesudoku.games|player.tubia.com|uptostream.com|waaw.tv|waaw1.tv|wilmaa.com|wuxiaworld.com|yandexcdn.com|polsatnews.pl|klix.ba|online-rossiya1.tv|usatoday.com|gazzetta.it|polsatsport.pl|1plus1.video|babygames.com|motorsport.tv
-@@||kxcdn.com/js/pop.js$script
 @@||lowcygier.pl/*.js?*=*&ad_$script
 @@||mellowads.com^$script,subdocument,domain=hop.bz|cryptomininggame.com
 @@||pagead2.googlesyndication.com^$script,domain=miroir1.trackr.fr|rte.ie|bowandtie.ru|meteologix.com|weather.us|unlockapk.com|webkod.pl|uploadship.com|namobilu.com|myjest.com|4lpha.one|myjest.com|messletters.com|fontyukle.net|camera.aeonax.com
