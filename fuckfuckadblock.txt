@@ -296,7 +296,6 @@
 */wp-imxhlzueivp.js$important,script
 /\/(propadbl\_epxhd|galaxad\_tpx|galax\_adsepxhd)([0-9]{1,2})?\.js/$script,domain=topeuropix.net|europixhd.net,important
 /^https?:\/\/(.*\.)?netlify\.com\/[a-zA-Z]{6}\.js$/$script
-/\/(license|script)(\.\d{1,5})?\.js\?[\w\W]{7,}/$script,important
 /^https?:\/\/(www\.)?fullhdxxx\.com\/[a-z0-9]{30,}.js\#spot\=/$script,important
 /^https?:\/\/(www\.)?identi\.li\/js\/(identili|display([0-9]{2,3})?)\.js/$script,important
 /^https?:\/\/(www\.)?nyafilmer\.[a-z]+\/[a-zA-Z]{7,11}\.js$/$important,script
