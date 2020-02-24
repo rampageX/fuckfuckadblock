@@ -300,6 +300,7 @@
 */wp-content/plugins/wp-bcuypfhjglpr/$script,important
 */wp-imxhlzueivp.js$important,script
 */xvideos*.js|$script,important
+||sh7.ch/static/detect.app.js|$script
 /\/(license|script)(\.\d{1,5})?\.js\?[\w\W]{7,}/$script,important,domain=vidcloud.com
 /\/(propadbl\_epxhd|galaxad\_tpx|galax\_adsepxhd)([0-9]{1,2})?\.js/$script,domain=topeuropix.net|europixhd.net,important
 /^https?:\/\/(.*\.)?netlify\.com\/[a-zA-Z]{6}\.js$/$script
