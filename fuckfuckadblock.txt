@@ -373,7 +373,6 @@
 @@||doubleclick.net^$xmlhttprequest,domain=linksht.com
 @@||gemius.pl^$script,xmlhttprequest
 @@||geoguessr.com/_ads/$script
-@@||googletagmanager.com/gtm.js$script,domain=eclipse.org|anisubindo.video
 @@||imasdk.googleapis.com^$script,domain=flashgirlgames.com|hqq.tv|hqq.watch|onlinesudoku.games|player.tubia.com|uptostream.com|waaw.tv|waaw1.tv|wilmaa.com|wuxiaworld.com|yandexcdn.com|polsatnews.pl|klix.ba|online-rossiya1.tv|usatoday.com|gazzetta.it|polsatsport.pl|1plus1.video|babygames.com|motorsport.tv|motorsport.tv|tvp.pl|tvp.info|amc.com
 @@||lowcygier.pl/*.js?*=*&ad_$script
 @@||mellowads.com^$script,subdocument,domain=hop.bz|cryptomininggame.com
