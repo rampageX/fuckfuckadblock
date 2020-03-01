@@ -701,8 +701,8 @@ nxload.com,ckk.*#%#//scriptlet("set-constant", "String.prototype.charCodeAt", "n
 eroclips.org,funkcje.net,ketubanjiwa.com,pornbimbo.com,qladanier.com,rjno1.com,savevideo.me##+js(setTimeout-defuser.js, (), 2000)
 eroclips.org,funkcje.net,ketubanjiwa.com,pornbimbo.com,qladanier.com,rjno1.com,savevideo.me#%#//scriptlet("prevent-setTimeout", "()", "2000")
 
-bingfeng.tw,kissanime.ru,rim-world.com,seedoff2.innal.top,spaste.com,voyageforum.com##+js(setTimeout-defuser.js, (), 5000)
-bingfeng.tw,kissanime.ru,rim-world.com,seedoff2.innal.top,spaste.com,voyageforum.com#%#//scriptlet("prevent-setTimeout", "()", "5000")
+bingfeng.tw,rim-world.com,seedoff2.innal.top,spaste.com,voyageforum.com##+js(setTimeout-defuser.js, (), 5000)
+bingfeng.tw,rim-world.com,seedoff2.innal.top,spaste.com,voyageforum.com#%#//scriptlet("prevent-setTimeout", "()", "5000")
 
 abucoins.com,devacurl.com,kissanime.ru##+js(abort-on-property-read.js, InitCloseButton)
 abucoins.com,devacurl.com,kissanime.ru#%#//scriptlet("abort-on-property-read", "InitCloseButton")
