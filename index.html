@@ -36,6 +36,9 @@
     <meta name=msvalidate.01 content=41920080EDF4EA06F745B3FBDC4903B1 />
     <script>
         document.addEventListener('contextmenu', event => event.preventDefault());
+        document.onkeydown = function(e) {
+            return false;
+        }
     </script>
     <style type=text/css>
         body {
@@ -57,6 +60,18 @@
             padding: 50px;
             background-color: #fff;
             border-radius: 1em
+        }
+        
+        h1 {
+            font-size: 160%
+        }
+        
+        h3 {
+            font-size: 100%;
+        }
+        
+        p {
+            font-size: 15px;
         }
         
         a:link,
