@@ -209,6 +209,7 @@
 */a/pop/js/$script,important
 */ad-m.js|$script,~third-party,important
 */adblock-modal.js$script
+*/cdn-cgi/apps/head/$script,domain=onehack.us
 */dfp.lazy.$script
 */adblockrampok.js$script,important
 */apu.hh?$important
