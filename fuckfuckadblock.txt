@@ -236,6 +236,7 @@
 */pu/?psid=$script,important
 */pup.php?$script,important
 */otmba.js|$script
+*/discourse-adplugin$script
 */s/su.php?t=$script,xmlhttprequest,important
 */smpop-stable.js|$script,important
 */smpop.js|$script,important
@@ -364,7 +365,7 @@
 @@||rte.ie/*/smarttag.js|$script,xmlhttprequest
 @@||lowcygier.pl/*.js?*=*&ad_$script
 @@||mellowads.com^$script,subdocument,domain=hop.bz|cryptomininggame.com
-@@||pagead2.googlesyndication.com^$script,domain=miroir1.trackr.fr|rte.ie|bowandtie.ru|meteologix.com|weather.us|unlockapk.com|webkod.pl|uploadship.com|namobilu.com|myjest.com|4lpha.one|myjest.com|messletters.com|fontyukle.net|camera.aeonax.com|sfirmware.com|a2zupload.com|onehack.us
+@@||pagead2.googlesyndication.com^$script,domain=miroir1.trackr.fr|rte.ie|bowandtie.ru|meteologix.com|weather.us|unlockapk.com|webkod.pl|uploadship.com|namobilu.com|myjest.com|4lpha.one|myjest.com|messletters.com|fontyukle.net|camera.aeonax.com|sfirmware.com|a2zupload.com
 @@||uptostream.com/assets/$stylesheet,script,~third-party
 @@||webshark.pl/adserver/*$script
 @@||d2ujtyf7wfmq6y.cloudfront.net/ads/ads.html|script
