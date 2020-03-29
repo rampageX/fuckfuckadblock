@@ -17,9 +17,3 @@ Or add it manually using this RAW link — `https://raw.githubusercontent.com/bo
 1. `https://raw.githack.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt`
 2. `https://cdn.statically.io/gh/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt`
 3. `https://cdn.jsdelivr.net/gh/bogachenko/fuckfuckadblock/fuckfuckadblock.txt`
-
-### Disclaimer
-
-#### Adblock Plus
-
-Since Adblock Plus has functional limitations, it cannot be supported.
