@@ -345,7 +345,7 @@
 @@*/googima.js|$script
 @@*/ima3.js|$script,xmlhttprequest
 @@*/noadblock.js$script,xmlhttprequest
-@@*/player_ads.html$subdocument
+@@*/player_ads.html$subdocument,script
 @@*/pop.js|$script,xmlhttprequest,domain=prostream.to|procdnvids.net|mystream.to|kxcdn.com|streamwire.net|gounlimited.to
 @@*/popads.js|$script,~third-party
 @@*/reklama.js|$script,xmlhttprequest
@@ -358,8 +358,6 @@
 @@/^https?:\/\/(www\.)?.*\/ad[svbxo]?([_-a-zA-Z0-9.]{1,15})?\.js/$script,xmlhttprequest,other
 @@/^https?:\/\/(www\.)?.*\/ad[vs](er(ve)?t?(ise|ising|isement)?)?([_-a-zA-Z0-9.]{1,17})?\.js/$xmlhttprequest,script,other
 @@||adservice.google.com^$script,xmlhttprequest,domain=player.tubia.com|uploadship.com
-@@||cdn.jsdelivr.net^$third-party
-@@||cdnjs.cloudflare.com^$third-party
 @@||doubleclick.net^$xmlhttprequest,domain=linksht.com|click2houston.com|clickondetroit.com|clickorlando.com|ksat.com|local10.com|news4jax.com|wsls.com
 @@||gemius.pl^$script,xmlhttprequest
 @@||geoguessr.com/_ads/$script
@@ -369,7 +367,8 @@
 @@||mellowads.com^$script,subdocument,domain=hop.bz|cryptomininggame.com
 @@||pagead2.googlesyndication.com^$script,domain=miroir1.trackr.fr|rte.ie|bowandtie.ru|meteologix.com|weather.us|unlockapk.com|webkod.pl|uploadship.com|namobilu.com|myjest.com|4lpha.one|myjest.com|messletters.com|fontyukle.net|camera.aeonax.com|sfirmware.com|a2zupload.com
 @@||webshark.pl/adserver/*$script
-@@||d2ujtyf7wfmq6y.cloudfront.net/ads/ads.html|script
+@@*/ads.html$subdocument,script
+@@||awaps.yandex.net^$script,domain=lentv24.ru|delovoe.tv|smexo.tv|piter.tv
 
 1fichier.com##.ct_warn
 123link.*##.ads-block-warning
