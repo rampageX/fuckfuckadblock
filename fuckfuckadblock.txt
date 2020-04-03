@@ -109,6 +109,7 @@
 *##.adblock
 *##.adblock-detect
 *##.adblock-info
+*##.adblocker
 *##.adblock-modal
 *##.adblock-modal-content
 *##.adblock-notification-wrapper
@@ -340,6 +341,7 @@
 ||fundingchoicesmessages.google.com^$important,xmlhttprequest,redirect=nooptext
 
 @@*/adblock.php$script,xmlhttprequest
+@@*/ads.html$subdocument,script
 @@*/dfp.js|$script,xmlhttprequest
 @@*/dfp/dfp-$xmlhttprequest
 @@*/googima.js|$script
@@ -358,76 +360,16 @@
 @@/^https?:\/\/(www\.)?.*\/ad[svbxo]?([_-a-zA-Z0-9.]{1,15})?\.js/$script,xmlhttprequest,other
 @@/^https?:\/\/(www\.)?.*\/ad[vs](er(ve)?t?(ise|ising|isement)?)?([_-a-zA-Z0-9.]{1,17})?\.js/$xmlhttprequest,script,other
 @@||adservice.google.com^$script,xmlhttprequest,domain=player.tubia.com|uploadship.com
+@@||awaps.yandex.net^$script,domain=lentv24.ru|delovoe.tv|smexo.tv|piter.tv
 @@||doubleclick.net^$xmlhttprequest,domain=linksht.com|click2houston.com|clickondetroit.com|clickorlando.com|ksat.com|local10.com|news4jax.com|wsls.com
 @@||gemius.pl^$script,xmlhttprequest
 @@||geoguessr.com/_ads/$script
 @@||imasdk.googleapis.com^$script,domain=flashgirlgames.com|hqq.tv|hqq.watch|onlinesudoku.games|player.tubia.com|uptostream.com|waaw.tv|waaw1.tv|wilmaa.com|wuxiaworld.com|yandexcdn.com|polsatnews.pl|klix.ba|online-rossiya1.tv|usatoday.com|gazzetta.it|polsatsport.pl|1plus1.video|babygames.com|motorsport.tv|motorsport.tv|tvp.pl|tvp.info|amc.com|mariogames.be|click2houston.com|clickondetroit.com|clickorlando.com|ksat.com|local10.com|news4jax.com|wsls.com|tubitv.com
-@@||rte.ie/*/smarttag.js|$script,xmlhttprequest
 @@||lowcygier.pl/*.js?*=*&ad_$script
 @@||mellowads.com^$script,subdocument,domain=hop.bz|cryptomininggame.com
 @@||pagead2.googlesyndication.com^$script,domain=miroir1.trackr.fr|rte.ie|bowandtie.ru|meteologix.com|weather.us|unlockapk.com|webkod.pl|uploadship.com|namobilu.com|myjest.com|4lpha.one|myjest.com|messletters.com|fontyukle.net|camera.aeonax.com|sfirmware.com|a2zupload.com
+@@||rte.ie/*/smarttag.js|$script,xmlhttprequest
 @@||webshark.pl/adserver/*$script
-@@*/ads.html$subdocument,script
-@@||awaps.yandex.net^$script,domain=lentv24.ru|delovoe.tv|smexo.tv|piter.tv
-
-1fichier.com##.ct_warn
-123link.*##.ads-block-warning
-123link.*##.dark.i-said-no-thing-can-stop-me-warning
-alghad.com###tie-popup-adblock, .tie-popup-container, .tie-popup.is-fixed-popup
-amgreatness.com###adtoniq-msgr-bar
-applesfera.com##.ad-cen
-arstechnica.com##.ars-appeal-container
-automobiledimension.com##.avisdiv
-avgle.com##center > div > a[target="_blank"]
-bdupload.*##[href*="/dloadbutton.php"]
-camsexvideo.net##.trailer-sidebar, .footer-content
-celebsroulette.com###kt_player > a[target="_blank"]
-d-navi004.com###snsbox
-fantasti.cc##a[href*=".php"]
-filmix.cc,filmix.gold,filmix.vip,filmix.fun,filmix.cool,filmix.nl,filmix.info,filmix.me,filmix.co##.social-counters
-firmwarefiledownload.xyz##.js-reveal-modal, .reveal-modal-bg
-forum.xda-developers.com##.bravetwig-top:has(a[href^="https://forum.xda-developers.com/getbrave"])
-full-stream.co,full-stream.nu##a[href^="//"][rel="nofollow norefferer noopener"][style*="position: fixed; z-index:"]
-gamesubject.com###headb
-gelbooru.com##a[href*="/track/"][target="_blank"]
-gelbooru.com##a[href^="https://gelbooru.com/redirect.php"]
-getrelax.club,javfree.club,getrelax.cc###main_content:style(display: block !important;)
-getrelax.club,javfree.club,getrelax.cc##.loaded-popup-wrapper
-getrelax.club,javfree.club,getrelax.cc#$##adisblock { display: none!important; }
-girlsofdesire.org##div[class][id]:has-text(You have Adblock enabled. Website features not working properly, please try disabling Adblock. Thank You.)
-gottanut.com##.reclam-overlayVid-desktop
-hdfilmcehennemi1.com###pageskin
-hotmovs.com##.fel-playclose
-imgmonkey.com##A[href$=".html"][rel="nofollow norefferer noopener"]
-inoreader.com###sinner_container
-ksta.de,express.de###wl-overlay-wrapper
-lifo.gr###slideout
-lovi.fm##.sponsor
-maxiporno.tv###fadeinbox
-newsfilter.org###dkm-floater
-boyfriendtv.com##.visible.custom.modal
-noizz.pl##div.contentInfo:has(a[href="abp:subscribe?location=http%3A%2F%2Flib.onet.pl%2Fs.csr%2Fwhitelist%2Fnoizz.pl.txt&title=noizz.pl"])
-ocen-piwo.pl###osiemnascielat
-pol-news24.pl###ppsPopupBgOverlay, .ppsPopupListsShell.ppsPopupShell
-pornalin.com##.js-banner-player.banner_player.banner
-pornbimbo.com###kt_player > .fp-player + a[href$="?play=true"][target="_blank"][style]
-pornbimbo.com##.fp-player > .fp-ui > a[href][target="_blank"][style^="position: absolute; left:"]
-respekt.cz##.adblocker
-rgmechanics.ru##.block-dark:has(div[id^="advertur_"])
-rusfishing.ru##.samBannerUnit
-sex3.com##.inplb
-softwaresblue.com##.hoOcbG0CqpjS-bg, .hoOcbG0CqpjS
-techmuzz.com##.overlay-open.overlay-data.overlay
-trendingviews.co,ashemaletv.com###playerOverlay
-tv-onlinehd.com###ventana-flotante
-venea.net##.ag_banner, .ag_content
-vev.red,vev.io,vidup.io,vidop.icu##.vjs-overlay-background.hidden-xs-down.vjs-overlay-center.vjs-overlay
-windowscentral.com##.swal-modal, .swal-overlay
-wired.com##.paywall-container-component
-wize.life###wl-container
-wstream.video,akvideo.stream,shon.xyz##[onclick^="window.open"]
-xhamster.com##.xplayer-banner
-youx.xxx###player-banner
 
 1777.ru,1variant.ru,24boxing.com.ua,24tv.ua,actual.today,afterdispatch.com,beztabu.net,bonnylady.com,bookre.org,boxnews.com.ua,bukvar.su,businessua.com,chtyvo.org.ua,cn.ru,cotlix.com,cxid.info,dengi.ua,economics-prorok.com,edinstvennaya.ua,etextlib.ru,football-ukraine.com,football24.ua,footballtransfer.com.ua,getwall.ru,glavcom.ua,glianec.com,hvylya.net,i.ua,iarex.ru,institute.com.ua,internetua.com,kinoafisha.ua,korrespondent.net,kp.ua,kriminal.tv,lessons.com.ua,liga.net,lux.fm,mabila.ua,maximum.fm,meta.ua,metodportal.net,mignews.com.ua,nashamama.com,newsone.ua,nnovosti.info,obozrevatel.com,oligarh.media,orakul.com,ostro.org,padabum.com,padabum.net,padaread.com,paparazzi.ru,peers.tv,pozitciya.com.ua,ppt.ru,pravda.com.ua,primecrime.ru,radnuk.info,referatbox.com,refsmarket.com.ua,repetitor.ua,schoollit.com.ua,sdnnet.ru,smak.ua,socportal.info,sportanalytic.com,superdom.ua,telegraf.in.ua,testsoch.com,testsoch.net,tochka.net,torrentom.com,tv.ua,tvgid.ua,tvori.com.ua,tvoymalysh.com.ua,ukrlib.com.ua,vchaspik.ua,vgorode.ua,viva.ua,vringe.com,vsetv.com,vsetv.ru,wow-helper.com,xittv.net,zaxid.net,zdorovia.com.ua,zn.ua,real-vin.com,bigmir.net,simpsonsua.com.ua,allboxing.ru##^script:has-text("zmctrack")
 1777.ru,1variant.ru,24boxing.com.ua,24tv.ua,actual.today,afterdispatch.com,beztabu.net,bonnylady.com,bookre.org,boxnews.com.ua,bukvar.su,businessua.com,chtyvo.org.ua,cn.ru,cotlix.com,cxid.info,dengi.ua,economics-prorok.com,edinstvennaya.ua,etextlib.ru,football-ukraine.com,football24.ua,footballtransfer.com.ua,getwall.ru,glavcom.ua,glianec.com,hvylya.net,i.ua,iarex.ru,institute.com.ua,internetua.com,kinoafisha.ua,korrespondent.net,kp.ua,kriminal.tv,lessons.com.ua,liga.net,lux.fm,mabila.ua,maximum.fm,meta.ua,metodportal.net,mignews.com.ua,nashamama.com,newsone.ua,nnovosti.info,obozrevatel.com,oligarh.media,orakul.com,ostro.org,padabum.com,padabum.net,padaread.com,paparazzi.ru,peers.tv,pozitciya.com.ua,ppt.ru,pravda.com.ua,primecrime.ru,radnuk.info,referatbox.com,refsmarket.com.ua,repetitor.ua,schoollit.com.ua,sdnnet.ru,smak.ua,socportal.info,sportanalytic.com,superdom.ua,telegraf.in.ua,testsoch.com,testsoch.net,tochka.net,torrentom.com,tv.ua,tvgid.ua,tvori.com.ua,tvoymalysh.com.ua,ukrlib.com.ua,vchaspik.ua,vgorode.ua,viva.ua,vringe.com,vsetv.com,vsetv.ru,wow-helper.com,xittv.net,zaxid.net,zdorovia.com.ua,zn.ua,real-vin.com,bigmir.net,simpsonsua.com.ua,allboxing.ru$$script[tag-content="zmctrack"][max-length="25000"]
