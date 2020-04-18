@@ -209,7 +209,7 @@ uploadship.com##.pageErrors:has-text(AdBlock)
 */blockadblock.$script,redirect=fuckadblock.js-3.2.0
 */blockadblock.$script,redirect=prevent-fab-3.2.0
 */blockdetect.$script
-*/cdn-cgi/apps/head/$script,~third-party
+*/cdn-cgi/apps/head/$script,~third-party,domain=onehack.us
 */fuckadblock-$script,redirect=fuckadblock.js-3.2.0
 */fuckadblock-$script,redirect=prevent-fab-3.2.0
 */fuckadblock.$script,redirect=fuckadblock.js-3.2.0
