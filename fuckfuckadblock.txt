@@ -445,8 +445,8 @@ cutlinks.*,knilife.com,nwtehranmusic.com,putlocker.*,rmdown.com,tenttom.com,user
 4x0.me,akanosora.com,anibatch.me,anime-i.com,blogspot.com,cheatsquad.gg,complete2unlock.com,dictionnaire-medical.net,direct-link.net,direkt-wissen.com,dreamfancy.org,ebookdz.com,firelinks.me,fxporn69.*,information-portal.net,mega-debrit.com,protect-link.biz,tricxbd.com,turkleech.com,up-load.io,xxxmomporn.top##+js(setTimeout-defuser.js, nextFunction, 2000)
 4x0.me,akanosora.com,anibatch.me,anime-i.com,blogspot.com,cheatsquad.gg,complete2unlock.com,dictionnaire-medical.net,direct-link.net,direkt-wissen.com,dreamfancy.org,ebookdz.com,firelinks.me,fxporn69.*,information-portal.net,mega-debrit.com,protect-link.biz,tricxbd.com,turkleech.com,up-load.io,xxxmomporn.top#%#//scriptlet("prevent-setTimeout", "nextFunction", "2000")
 
-anime-free.net,cuminme.org,investgram.ru,krasivoeporno.tv,nasheporno.tv,nefig.me,orgazmtv.com,pornodoma.tv,pornofeya.com,vstx.ru##+js(abort-on-property-write.js, tnAdditionalParams)
-anime-free.net,cuminme.org,investgram.ru,krasivoeporno.tv,nasheporno.tv,nefig.me,orgazmtv.com,pornodoma.tv,pornofeya.com,vstx.ru#%#//scriptlet("abort-on-property-write", "tnAdditionalParams")
+anime-free.net,cuminme.org,investgram.ru,krasivoeporno.tv,nasheporno.tv,nefig.me,orgazmtv.com,pornodoma.tv,pornofeya.com,vstx.ru,vstx.org##+js(abort-on-property-write.js, tnAdditionalParams)
+anime-free.net,cuminme.org,investgram.ru,krasivoeporno.tv,nasheporno.tv,nefig.me,orgazmtv.com,pornodoma.tv,pornofeya.com,vstx.ru,vstx.org#%#//scriptlet("abort-on-property-write", "tnAdditionalParams")
 
 cloudtime.to,nowvideo.sx,shrink-service.it,sickrage.ca,sleeptimer.org,tomadivx.org,tomadivx.tv,videoplayer2.xyz,vivo.sx,wholecloud.net##+js(abort-on-property-read.js, WebAssembly)
 cloudtime.to,nowvideo.sx,shrink-service.it,sickrage.ca,sleeptimer.org,tomadivx.org,tomadivx.tv,videoplayer2.xyz,vivo.sx,wholecloud.net#%#//scriptlet("abort-on-property-read", "WebAssembly")
