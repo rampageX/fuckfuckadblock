@@ -557,8 +557,8 @@ agdlab.pl,bestchooses.ru,birdz.sk,blogs-narod.ru,boyens-medien.de,buyon.it,crist
 empflix.com,tnaflix.com##+js(abort-on-property-read.js, ads.pop_url)
 empflix.com,tnaflix.com#%#//scriptlet("abort-on-property-read", "ads.pop_url")
 
-badcomics.it,badgames.it,badtaste.it,badtv.it,esportes.r7.com,gamepur.com,gestyy.com,satoshiquiz.com,thesimsresource.com,worder.cat##+js(abort-on-property-write.js, ga)
-badcomics.it,badgames.it,badtaste.it,badtv.it,esportes.r7.com,gamepur.com,gestyy.com,satoshiquiz.com,thesimsresource.com,worder.cat#%#//scriptlet("abort-on-property-write", "ga")
+badcomics.it,badgames.it,badtaste.it,badtv.it,esportes.r7.com,gamepur.com,gestyy.com,satoshiquiz.com,thesimsresource.com,worder.cat,streamz.*##+js(abort-on-property-write.js, ga)
+badcomics.it,badgames.it,badtaste.it,badtv.it,esportes.r7.com,gamepur.com,gestyy.com,satoshiquiz.com,thesimsresource.com,worder.cat,streamz.*#%#//scriptlet("abort-on-property-write", "ga")
 
 outerspace.com.br##+js(abort-current-inline-script.js,$, adBlock) 
 outerspace.com.br#%#//scriptlet("abort-current-inline-script", "$", "adBlock")
