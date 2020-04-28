@@ -224,6 +224,7 @@ uploadship.com##.pageErrors:has-text(AdBlock)
 */wp-adblock-$important,script,redirect=prevent-fab-3.2.0,important
 */wp-adblock-$script,redirect=fuckadblock.js-3.2.0,important
 */wp-adblock-$script,redirect=prevent-fab-3.2.0,important
+*/?pu=$script,important
 /\/apu\.(php|hh)\?/$important
 ||adservice.google.*$important,script,redirect=noopjs,domain=973espn.com|espn1420.com|maxedtech.com|viki.com
 ||adservice.google.*$important,xmlhttprequest,redirect=nooptext,domain=tubia.com
@@ -241,6 +242,7 @@ uploadship.com##.pageErrors:has-text(AdBlock)
 ||popads.net/pop.js$script,redirect=prevent-popads-net,important
 ||storage.googleapis.com/vkcdnservice.appspot.com/$script,important
 /^https?:\/\/(www\.)?deviants\.com\/[a-z0-9]{5}\/[a-z]{2}\.js$/$important,script,~third-party
+/^https?:\/\/[^\s]+\/js(\/\d+){1,4}\?r=\&[0-9]{4,}/$script,third-party,important
 
 @@*/adblock.php$script,xmlhttprequest
 @@*/ads.html$subdocument,script
