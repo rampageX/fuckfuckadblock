@@ -243,6 +243,7 @@ uploadship.com##.pageErrors:has-text(AdBlock)
 ||storage.googleapis.com/vkcdnservice.appspot.com/$script,important
 /^https?:\/\/(www\.)?deviants\.com\/[a-z0-9]{5}\/[a-z]{2}\.js$/$important,script,~third-party
 /^https?:\/\/[^\s]+\/js(\/\d+){1,4}\?r\=\&[0-9]{4,}/$script,third-party,important
+/\/xvideo\.js(\?[a-z]{1}\=\d+)?$/$important,script,~third-party
 
 @@*/adblock.php$script,xmlhttprequest
 @@*/ads.html$subdocument,script
@@ -511,6 +512,9 @@ proxyrarbg.*,rarbg.*,unblockall.org,unblocked.kim,rarbg2019.org,rarbg2020.org,ra
 
 1movies.*,4mama.ua,aii.sh,animeyt2.tv,enovosty.com,femefun.com,forumodua.com,frkmusic.cc,inforesist.org,internetua.com,kolobok.ua,marketrealist.com,mixloads.com,movie-blog.*,movie25com.com,movie2kfree.com,movie2khd.org,nitroflare.com,nnovosti.info,openloadmovies.bz,pervertslut.com,ringside24.com,ruspornvideos.com,rutorgames.info,streamingworld.*,tochka.net,toneto.net,tv.ua,ubr.ua,ulinx.org,vesti.ua,watchseries.*,xmovies8net.org,yesvids.com##+js(set-constant.js, String.prototype.charCodeAt, trueFunc)
 1movies.*,4mama.ua,aii.sh,animeyt2.tv,enovosty.com,femefun.com,forumodua.com,frkmusic.cc,inforesist.org,internetua.com,kolobok.ua,marketrealist.com,mixloads.com,movie-blog.*,movie25com.com,movie2kfree.com,movie2khd.org,nitroflare.com,nnovosti.info,openloadmovies.bz,pervertslut.com,ringside24.com,ruspornvideos.com,rutorgames.info,streamingworld.*,tochka.net,toneto.net,tv.ua,ubr.ua,ulinx.org,vesti.ua,watchseries.*,xmovies8net.org,yesvids.com#%#//scriptlet("set-constant", "String.prototype.charCodeAt", "trueFunc")
+
+ckk.*##+js(set-constant.js, String.prototype.charCodeAt, noopFunc)
+ckk.*#%#//scriptlet("set-constant", "String.prototype.charCodeAt", "noopFunc")
 
 obyava.ua,newsyou.info,socportal.info,smak.ua,eurointegration.com.ua,facenews.ua,tvgid.ua,bigmir.net,beauty.ua,strana.ua,epravda.com.ua,gagadget.com,censor.net.ua,okino.ua,etextlib.ru,glavcom.ua,real-vin.com,hvylya.net,kp.ua#%#//scriptlet("set-constant", "String.prototype.charCodeAt", "falseFunc")
 obyava.ua,newsyou.info,socportal.info,smak.ua,eurointegration.com.ua,facenews.ua,tvgid.ua,bigmir.net,beauty.ua,strana.ua,epravda.com.ua,gagadget.com,censor.net.ua,okino.ua,etextlib.ru,glavcom.ua,real-vin.com,hvylya.net,kp.ua##+js(set-constant.js, String.prototype.charCodeAt, falseFunc)
