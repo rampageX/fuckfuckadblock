@@ -767,8 +767,8 @@ alrincon.com,bioskop168.pro,indo168.club,iranproud2.net,seks.com,semi168.*,store
 krasmix.ru,msnbc.com,nbcnews.com,palkkadata.fi,startribune.com,suomienglantisanakirja.fi,today.com,up-4ever.*##+js(abort-on-property-read.js, adsDisabled)
 krasmix.ru,msnbc.com,nbcnews.com,palkkadata.fi,startribune.com,suomienglantisanakirja.fi,today.com,up-4ever.*#%#//scriptlet("abort-on-property-read", "adsDisabled")
 
-blogspot.com,boycracked.com,cararoot.id,lewat.club,liveshootv.com,nafaskuda.com,romfirmware.com,shrink.*,sportif.id,sekilastekno.com##+js(abort-on-property-write.js, ignielAdBlock)
-blogspot.com,boycracked.com,cararoot.id,lewat.club,liveshootv.com,nafaskuda.com,romfirmware.com,shrink.*,sportif.id,sekilastekno.com#%#//scriptlet("abort-on-property-write", "ignielAdBlock")
+blogspot.com,boycracked.com,cararoot.id,lewat.club,liveshootv.com,nafaskuda.com,romfirmware.com,shrink.*,sportif.id,sekilastekno.com,win10.vn##+js(abort-on-property-write.js, ignielAdBlock)
+blogspot.com,boycracked.com,cararoot.id,lewat.club,liveshootv.com,nafaskuda.com,romfirmware.com,shrink.*,sportif.id,sekilastekno.com,win10.vn#%#//scriptlet("abort-on-property-write", "ignielAdBlock")
 
 iporntv.net,notebookcheck-hu.com,notebookcheck-ru.com,notebookcheck-tr.com,notebookcheck.biz,notebookcheck.com,notebookcheck.info,notebookcheck.it,notebookcheck.net,notebookcheck.nl,notebookcheck.org,notebookcheck.se##+js(abort-current-inline-script.js, document.createElement, iframe)
 iporntv.net,notebookcheck-hu.com,notebookcheck-ru.com,notebookcheck-tr.com,notebookcheck.biz,notebookcheck.com,notebookcheck.info,notebookcheck.it,notebookcheck.net,notebookcheck.nl,notebookcheck.org,notebookcheck.se##+js(abort-current-inline-script.js, document.createElement, iframe)
