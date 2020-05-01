@@ -594,8 +594,8 @@ adultdvdparadise.com,adultvideoz.net,bananamovies.net,bk21.club,freeomovie.info,
 acefile.co,mixdrop.*,9xupload.*,9xmovies.*,ovagames.com,fullmaza.*#%#//scriptlet("abort-current-inline-script", "String.fromCharCode")
 acefile.co,mixdrop.*,9xupload.*,9xmovies.*,ovagames.com,fullmaza.*##+js(abort-current-inline-script.js, String.fromCharCode)
 
-dfilm33.com,edvok.com,flashx.*,megatfile.cc,zippyshare.com##+js(abort-current-inline-script.js, String.fromCharCode, decodeURIComponent)
-dfilm33.com,edvok.com,flashx.*,megatfile.cc,zippyshare.com#%#//scriptlet("abort-current-inline-script", "String.fromCharCode", "decodeURIComponent")
+dfilm33.com,edvok.com,flashx.*,megatfile.cc,zippyshare.com,guard.link##+js(abort-current-inline-script.js, String.fromCharCode, decodeURIComponent)
+dfilm33.com,edvok.com,flashx.*,megatfile.cc,zippyshare.com,guard.link#%#//scriptlet("abort-current-inline-script", "String.fromCharCode", "decodeURIComponent")
 
 adp-checker.ru,anime-indo.net,animeyt2.tv,behealth-id.xyz,busyfinance.site,gratisaftehalen.nl,infoua.biz,kissasian.*,mangahosted.com,megagames.com,picmix.com,pitbullofficial.com,shlyahten.ru,surfsees.com,uiz.*,kissasian.*,mangahost.site##+js(abort-current-inline-script.js, fuckAdBlock, undefined)
 adp-checker.ru,anime-indo.net,animeyt2.tv,behealth-id.xyz,busyfinance.site,gratisaftehalen.nl,infoua.biz,kissasian.*,mangahosted.com,megagames.com,picmix.com,pitbullofficial.com,shlyahten.ru,surfsees.com,uiz.*,kissasian.*,mangahost.site#%#//scriptlet("abort-current-inline-script", "fuckAdBlock", "undefined")
