@@ -819,3 +819,6 @@ laksa19.github.io,tinlit.com#%#//scriptlet("set-constant", "ASSetCookieAds", "nu
 
 w4files.ws,uploadfiles.pw,adbull.*,akvideo.stream,wstream.*##+js(remove-attr.js, onclick)
 w4files.ws,uploadfiles.pw,adbull.*,akvideo.stream,wstream.*#%#//scriptlet("remove-attr", "onclick")
+
+bitlinks.pw##+js(abort-current-inline-script.js, $, check)
+bitlinks.pw#%#//scriptlet("abort-current-inline-script", "$", "check")
