@@ -824,5 +824,5 @@ w4files.ws,uploadfiles.pw,adbull.*,akvideo.stream,wstream.*#%#//scriptlet("remov
 bitlinks.pw##+js(abort-current-inline-script.js, $, check)
 bitlinks.pw#%#//scriptlet("abort-current-inline-script", "$", "check")
 
-tw-calc.net##+js(abort-current-inline-script.js, ItemManager)
-tw-calc.net#%#//scriptlet("abort-current-inline-script", "ItemManager")
+tw-calc.net##+js(abort-on-property-read.js, WebSite.plsDisableAdBlock)
+tw-calc.net#%#//scriptlet("abort-on-property-read", "WebSite.plsDisableAdBlock")
