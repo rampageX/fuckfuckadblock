@@ -225,7 +225,8 @@ uploadship.com##.pageErrors:has-text(AdBlock)
 |http*:*/fuckadblock.$script,redirect=fuckadblock.js-3.2.0
 |http*:*/fuckadblock.$script,redirect=prevent-fab-3.2.0
 |http*:*/rcs_anti-adblocker/$script,third-party,important
-|http*:*/smpop.$script
+|http*:*/smpop.$script,important
+|http*:*/adblocker-whitelist_$third-party,domain=wetransfer.com
 |http*:*/wp-adblock-$important,script,redirect=fuckadblock.js-3.2.0,important
 |http*:*/wp-adblock-$important,script,redirect=prevent-fab-3.2.0,important
 |http*:*/wp-adblock-$script,redirect=fuckadblock.js-3.2.0,important
