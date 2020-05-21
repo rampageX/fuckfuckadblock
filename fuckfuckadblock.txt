@@ -823,3 +823,6 @@ bitlinks.pw#%#//scriptlet("abort-current-inline-script", "$", "check")
 
 tw-calc.net##+js(abort-on-property-read.js, WebSite.plsDisableAdBlock)
 tw-calc.net#%#//scriptlet("abort-on-property-read", "WebSite.plsDisableAdBlock")
+
+mac-torrent-download.net#%#//scriptlet("abort-on-property-read", "popBlockAlert")
+mac-torrent-download.net##+js(abort-on-property-read.js, popBlockAlert)
