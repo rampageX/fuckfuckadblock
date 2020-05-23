@@ -502,8 +502,8 @@ proxyrarbg.*,rarbg.*,unblockall.org,unblocked.kim,rarbg2019.org,rarbg2020.org,ra
 69games.xxx,altaisouvenirs.ru,audioboo.ru,erzsebet.org,gayforit.eu,hxload.co,iporntv.net,jetload.net,justupload.io,kapectv.com,kinogo.*,kope.cc,live-rutor.org,megatfile.cc,mylinks.xyz,mytorr.fun,new-rutor.org,porcore.com,porndoe.com,porno365.cc,pornosexrolik.info,rutor.*,safelinkblog.com,search.tfile.me,sebeadmin.ru,slomal-telefon.ru,sound-park.*,soundpark-club.*,soundpark.*,the-rutor.org,uptostream.com,xhamster.*,xhamster2.*##+js(abort-current-inline-script.js, document.createElement, script)
 69games.xxx,altaisouvenirs.ru,audioboo.ru,erzsebet.org,gayforit.eu,hxload.co,iporntv.net,jetload.net,justupload.io,kapectv.com,kinogo.*,kope.cc,live-rutor.org,megatfile.cc,mylinks.xyz,mytorr.fun,new-rutor.org,porcore.com,porndoe.com,porno365.cc,pornosexrolik.info,rutor.*,safelinkblog.com,search.tfile.me,sebeadmin.ru,slomal-telefon.ru,sound-park.*,soundpark-club.*,soundpark.*,the-rutor.org,uptostream.com,xhamster.*,xhamster2.*#%#//scriptlet("abort-current-inline-script", "document.createElement", "script")
 
-eroclips.org,funkcje.net,ketubanjiwa.com,pornbimbo.com,qladanier.com,rjno1.com,savevideo.me,ru-xvideos.*,pornomoll.net,everydayporn.co##+js(setTimeout-defuser.js, (), 2000)
-eroclips.org,funkcje.net,ketubanjiwa.com,pornbimbo.com,qladanier.com,rjno1.com,savevideo.me,ru-xvideos.*,pornomoll.net,everydayporn.co#%#//scriptlet("prevent-setTimeout", "()", "2000")
+eroclips.org,funkcje.net,ketubanjiwa.com,pornbimbo.com,qladanier.com,rjno1.com,savevideo.me,ru-xvideos.*,pornomoll.net,everydayporn.co,lenkino.org##+js(setTimeout-defuser.js, (), 2000)
+eroclips.org,funkcje.net,ketubanjiwa.com,pornbimbo.com,qladanier.com,rjno1.com,savevideo.me,ru-xvideos.*,pornomoll.net,everydayporn.co,lenkino.org#%#//scriptlet("prevent-setTimeout", "()", "2000")
 
 bingfeng.tw,rim-world.com,seedoff2.innal.top,spaste.com,voyageforum.com##+js(setTimeout-defuser.js, (), 5000)
 bingfeng.tw,rim-world.com,seedoff2.innal.top,spaste.com,voyageforum.com#%#//scriptlet("prevent-setTimeout", "()", "5000")
