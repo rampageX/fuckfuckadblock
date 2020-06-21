@@ -823,21 +823,6 @@ citgratis.com,felanovia.com,hotgameplus.com,majidzhacker.com,mobilecare107.com,m
 guideautoweb.com,inspirock.com,lasemainedansleboulonnais.fr,masteroverwatch.com,mykor.ru,nordeclair.fr,onet.pl,practicequiz.com,thedailybeast.com##+js(abort-on-property-read.js, detectAdBlock)
 guideautoweb.com,inspirock.com,lasemainedansleboulonnais.fr,masteroverwatch.com,mykor.ru,nordeclair.fr,onet.pl,practicequiz.com,thedailybeast.com#%#//scriptlet("abort-on-property-read", "detectAdBlock")
 
-mangahost.site,zmangas.com,rjno1.com##+js(set-constant.js, Goog_Osd_UnloadAdBlock, true)
-mangahost.site,zmangas.com,rjno1.com#%#//scriptlet("set-constant", "Goog_Osd_UnloadAdBlock", "true")
-
-mangahost.site,zmangas.com##+js(set-constant.js, google_osd_loaded, true)
-mangahost.site,zmangas.com#%#//scriptlet("set-constant", "google_osd_loaded", "true")
-
-mangahost.site,eyeballglue.com,diopta.rs,costaricacinefest.go.cr,mimna.com,impas-klima.com,zmangas.com,malvern-tickets.co.uk,advecs-tmn.ru,kentcricketshop.co.uk,britishschool.lk,nlcsjeju.co.kr,informa-tico.com,badmintonschool.co.uk,portregis.com,vsezaimyonline.ru,tenthacrefarm.com,sleepring.de,summonersw.xyz,trover.com,gutscheinrausch.de,dazn.com##+js(set-constant.js, google_tag_data, true)
-mangahost.site,eyeballglue.com,diopta.rs,costaricacinefest.go.cr,mimna.com,impas-klima.com,zmangas.com,malvern-tickets.co.uk,advecs-tmn.ru,kentcricketshop.co.uk,britishschool.lk,nlcsjeju.co.kr,informa-tico.com,badmintonschool.co.uk,portregis.com,vsezaimyonline.ru,tenthacrefarm.com,sleepring.de,summonersw.xyz,trover.com,gutscheinrausch.de,dazn.com#%#//scriptlet("set-constant", "google_tag_data", "true")
-
-mangahost.site,maxgames.com,zmangas.com,lamdep.store##+js(set-constant.js, google_unique_id, true)
-mangahost.site,maxgames.com,zmangas.com,lamdep.store#%#//scriptlet("set-constant", "google_unique_id", "true")
-
-laksa19.github.io,tinlit.com##+js(set-constant.js, ASSetCookieAds, null)
-laksa19.github.io,tinlit.com#%#//scriptlet("set-constant", "ASSetCookieAds", "null")
-
 w4files.ws,uploadfiles.pw,adbull.*,akvideo.stream,wstream.*,mega4up.com##+js(remove-attr.js, onclick)
 w4files.ws,uploadfiles.pw,adbull.*,akvideo.stream,wstream.*,mega4up.com#%#//scriptlet("remove-attr", "onclick")
 
