@@ -774,6 +774,9 @@ calciomercato.com,clik.*,filmandseries.com,javfinder.*,pasty.link,robloxscripts.
 dropgalaxy.com,xsanime.com##+js(no-setInterval-if.js, _0x)
 dropgalaxy.com,xsanime.com#%#//scriptlet("prevent-setInterval", "_0x")
 
+mundodonghua.com##+js(no-setTimeout-if.js, Blocker)
+mundodonghua.com#%#//scriptlet("prevent-setTimeout", "Blocker")
+
 diaridegirona.cat,diariodeibiza.es,emporda.info,farodevigo.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,regio7.cat,superdeporte.es##+js(abort-current-inline-script.js, compruebaAdblockPremium, setTimeout)
 diaridegirona.cat,diariodeibiza.es,emporda.info,farodevigo.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,regio7.cat,superdeporte.es#%#//scriptlet("abort-current-inline-script", "compruebaAdblockPremium", "setTimeout")
 
