@@ -796,8 +796,8 @@ activeation.com,activetect.net,adf.ly,atabencot.net,atomcurve.com,atominik.com,a
 affairhookups.com,amateurmatch.com,blackcholly.com,blacksexmix.com,casualmilfs.com,cheatingcougars.com,cheatinghookup.com,datingaffair.com,hookupcougars.com,liveflings.com,milfsconnection.com,milfshookup.com,nakedlocals.com,onlyhookup.com,seekingmilf.com##+js(abort-on-property-read.js, aweDoOpen)
 affairhookups.com,amateurmatch.com,blackcholly.com,blacksexmix.com,casualmilfs.com,cheatingcougars.com,cheatinghookup.com,datingaffair.com,hookupcougars.com,liveflings.com,milfsconnection.com,milfshookup.com,nakedlocals.com,onlyhookup.com,seekingmilf.com#%#//scriptlet("abort-on-property-read", "aweDoOpen")
 
-video1tube.com,hclips.com##+js(abort-current-inline-script.js, btoa)
-video1tube.com,hclips.com#%#//scriptlet("abort-current-inline-script", "btoa")
+video1tube.com,hclips.com,txxx.com##+js(abort-current-inline-script.js, btoa)
+video1tube.com,hclips.com,txxx.com#%#//scriptlet("abort-current-inline-script", "btoa")
 
 all18xxx.com,wildteenporn.com##+js(abort-on-property-read.js, btoa)
 all18xxx.com,wildteenporn.com#%#//scriptlet("abort-on-property-read", "btoa")
