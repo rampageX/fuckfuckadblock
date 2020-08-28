@@ -851,5 +851,5 @@ tw-calc.net#%#//scriptlet("abort-on-property-read", "WebSite.plsDisableAdBlock")
 mac-torrent-download.net#%#//scriptlet("abort-on-property-read", "popBlockAlert")
 mac-torrent-download.net##+js(abort-on-property-read.js, popBlockAlert)
 
-hxload.*##+js(set-constant, adsbygoogle.loaded, true)
-hxload.*#%#//scriptlet("set-constant", "adsbygoogle.loaded", "true")
+hxload.*,vidlii.com##+js(set-constant, adsbygoogle.loaded, true)
+hxload.*,vidlii.com#%#//scriptlet("set-constant", "adsbygoogle.loaded", "true")
