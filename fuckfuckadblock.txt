@@ -851,5 +851,5 @@ tw-calc.net#%#//scriptlet("abort-on-property-read", "WebSite.plsDisableAdBlock")
 mac-torrent-download.net#%#//scriptlet("abort-on-property-read", "popBlockAlert")
 mac-torrent-download.net##+js(abort-on-property-read.js, popBlockAlert)
 
-hxload.*,vidlii.com##+js(set-constant, adsbygoogle.loaded, true)
-hxload.*,vidlii.com#%#//scriptlet("set-constant", "adsbygoogle.loaded", "true")
+hxload.*,vidlii.com,ftuforums.com,freetutorialsus.com,freecoursessites.com,freecourseslab.com,prepostseo.com##+js(set-constant, adsbygoogle.loaded, true)
+hxload.*,vidlii.com,ftuforums.com,freetutorialsus.com,freecoursessites.com,freecourseslab.com,prepostseo.com#%#//scriptlet("set-constant", "adsbygoogle.loaded", "true")
