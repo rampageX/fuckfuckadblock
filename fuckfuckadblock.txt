@@ -738,8 +738,8 @@ alrincon.com,bioskop168.pro,indo168.club,iranproud2.net,seks.com,semi168.*,store
 krasmix.ru,msnbc.com,nbcnews.com,palkkadata.fi,startribune.com,suomienglantisanakirja.fi,today.com,up-4ever.*##+js(abort-on-property-read.js, adsDisabled)
 krasmix.ru,msnbc.com,nbcnews.com,palkkadata.fi,startribune.com,suomienglantisanakirja.fi,today.com,up-4ever.*#%#//scriptlet("abort-on-property-read", "adsDisabled")
 
-blogspot.*,boycracked.com,cararoot.id,lewat.club,liveshootv.com,nafaskuda.com,romfirmware.com,shrink.*,sportif.id,sekilastekno.com,win10.vn,labelotaku.com,rumahit.id,animekuro.net,indoblog.me##+js(abort-on-property-write.js, ignielAdBlock)
-blogspot.*,boycracked.com,cararoot.id,lewat.club,liveshootv.com,nafaskuda.com,romfirmware.com,shrink.*,sportif.id,sekilastekno.com,win10.vn,labelotaku.com,rumahit.id,animekuro.net,indoblog.me#%#//scriptlet("abort-on-property-write", "ignielAdBlock")
+blogspot.*,boycracked.com,cararoot.id,lewat.club,liveshootv.com,nafaskuda.com,romfirmware.com,shrink.*,sportif.id,sekilastekno.com,win10.vn,labelotaku.com,rumahit.id,animekuro.net,indoblog.me,kurofansubs.xyz##+js(abort-on-property-write.js, ignielAdBlock)
+blogspot.*,boycracked.com,cararoot.id,lewat.club,liveshootv.com,nafaskuda.com,romfirmware.com,shrink.*,sportif.id,sekilastekno.com,win10.vn,labelotaku.com,rumahit.id,animekuro.net,indoblog.me,kurofansubs.xyz#%#//scriptlet("abort-on-property-write", "ignielAdBlock")
 
 iporntv.net,notebookcheck-hu.com,notebookcheck-ru.com,notebookcheck-tr.com,notebookcheck.biz,notebookcheck.com,notebookcheck.info,notebookcheck.it,notebookcheck.net,notebookcheck.nl,notebookcheck.org,notebookcheck.se##+js(abort-current-inline-script.js, document.createElement, iframe)
 iporntv.net,notebookcheck-hu.com,notebookcheck-ru.com,notebookcheck-tr.com,notebookcheck.biz,notebookcheck.com,notebookcheck.info,notebookcheck.it,notebookcheck.net,notebookcheck.nl,notebookcheck.org,notebookcheck.se#%#//scriptlet("abort-current-inline-script", "document.createElement", "iframe")
