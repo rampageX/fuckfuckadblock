@@ -268,7 +268,7 @@ vidlink.org,streamz.*,nullpk.com,mitly.us,merdekaid.online,software-on.com##a[hr
 
 @@*/adblock.php$script,xmlhttprequest
 @@*/ads.html$subdocument,script
-@@/\/dfp\.js[$?]/$script,xmlhttprequest
+@@/\/dfp(\.min)?\.js[$?]/$script,xmlhttprequest
 @@*/dfp/dfp-$xmlhttprequest
 @@*/googima.js|$script
 @@*/ima3.js|$script,xmlhttprequest
