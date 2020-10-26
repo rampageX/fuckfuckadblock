@@ -293,6 +293,7 @@ wildteenporn.com###abra_all
 @@/^https?:\/\/(www\.)?.*\/ad[vs](er(ve)?t?(ise|ising|isement)?)?([_-a-zA-Z0-9.]{1,17})?\.js/$xmlhttprequest,script,other
 @@/^https?:\/\/nowvid\.online\/images\//$image,~third-party
 @@||ads.fastcdn.stream/popunder$script
+@@/[/.]ads\.png\.gif$/$image
 @@||adservice.google.com^$script,xmlhttprequest,domain=player.tubia.com|uploadship.com
 @@||akvideo.stream/popunder.js|$script
 @@||awaps.yandex.net^$script,domain=delovoe.tv|lentv24.ru|piter.tv|smexo.tv
