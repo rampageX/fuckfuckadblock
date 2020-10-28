@@ -764,8 +764,8 @@ bro.adca.st,convert-me.com,force-download.es,jpost.com,keezmovies.com,lotechnoca
 allure.com,bienpublic.com,epicurious.com,ledauphine.com,leprogres.fr,logirus.ru,newyorker.com,pitchfork.com,teenvogue.com,them.us,tripadvisor.*,wmagazine.com##+js(abort-on-property-write.js, AdBlockDetect)
 allure.com,bienpublic.com,epicurious.com,ledauphine.com,leprogres.fr,logirus.ru,newyorker.com,pitchfork.com,teenvogue.com,them.us,tripadvisor.*,wmagazine.com#%#//scriptlet("abort-on-property-write", "AdBlockDetect")
 
-calciomercato.com,clik.*,filmandseries.com,javfinder.*,pasty.link,robloxscripts.com,sosiali.com,kachelmannwetter.com,mac-torrent-download.net,dropgalaxy.*,playhydrax.com,xsanime.com,javhub.*,ap-siken.com,animekuro.net,extremereportbot.com,gogoanimetv.*##+js(no-setTimeout-if.js, _0x)
-calciomercato.com,clik.*,filmandseries.com,javfinder.*,pasty.link,robloxscripts.com,sosiali.com,kachelmannwetter.com,mac-torrent-download.net,dropgalaxy.*,playhydrax.com,xsanime.com,javhub.*,ap-siken.com,animekuro.net,extremereportbot.com,gogoanimetv.*#%#//scriptlet("prevent-setTimeout", "_0x")
+calciomercato.com,clik.*,filmandseries.com,javfinder.*,pasty.link,robloxscripts.com,sosiali.com,kachelmannwetter.com,mac-torrent-download.net,playhydrax.com,xsanime.com,javhub.*,ap-siken.com,animekuro.net,extremereportbot.com,gogoanimetv.*##+js(no-setTimeout-if.js, _0x)
+calciomercato.com,clik.*,filmandseries.com,javfinder.*,pasty.link,robloxscripts.com,sosiali.com,kachelmannwetter.com,mac-torrent-download.net,playhydrax.com,xsanime.com,javhub.*,ap-siken.com,animekuro.net,extremereportbot.com,gogoanimetv.*#%#//scriptlet("prevent-setTimeout", "_0x")
 
 dropgalaxy.*,xsanime.com,javhub.*,extremereportbot.com,upstream.to,dood.*##+js(no-setInterval-if.js, _0x)
 dropgalaxy.*,xsanime.com,javhub.*,extremereportbot.com,upstream.to,dood.*#%#//scriptlet("prevent-setInterval", "_0x")
