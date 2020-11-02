@@ -139,6 +139,7 @@
 ##.counterAdblocks
 ##.deadblocker-header-bar
 ##.deadblocker-header-bar-inner
+##.fuckadblock
 ##.disclaimer
 ##.dispositifAdblock
 ##.dispositifAdblockContent
@@ -156,6 +157,15 @@
 ##.n-banner--adblocked
 ##.noadblock
 ##.pane-emediate
+###adblock_screen
+###adblock_message
+##.adblockInfo
+##.adblock_floating_message
+##.adblock_msg
+##.ads-block-warning
+##.deadblocker-header-bar
+##.detected-block-modal
+##.no-ad-reminder
 ##.preroll-blocker
 ##.showMessageAdBlock
 ##.svg-adblock-full
