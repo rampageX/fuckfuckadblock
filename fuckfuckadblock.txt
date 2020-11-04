@@ -282,6 +282,7 @@ kickassanime.*###modalAblock, #modalAblockWrapper
 @@*/ads.txt|$script,xmlhttprequest
 @@*/dfp/dfp-$xmlhttprequest
 @@*/fuckadblock.$xmlhttprequest
+@@*/jspopunder.js$script
 @@*/googima.js|$script
 @@*/ima3.js|$script,xmlhttprequest
 @@*/noadblock.js$script,xmlhttprequest
