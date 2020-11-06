@@ -291,6 +291,7 @@ kickassanime.*###modalAblock, #modalAblockWrapper
 @@*/popads.js|$script,~third-party
 @@*/reklama.js|$script,xmlhttprequest
 @@*/videojs-contrib-ads.$script
+@@*/doubleclick.js|$script,~third-party
 @@*/wp-content/plugins/deblocker/$script
 @@*/wp-content/plugins/detect-adblock/$script
 @@*/wp-content/plugins/dh-anti-adblocker/$script
