@@ -750,5 +750,5 @@ kickassanime.*#%#//scriptlet("prevent-setTimeout", "gotoFAQ")
 direkizle.xyz,tamindir.mobi#%#//scriptlet("remove-attr", "data-ppcnt_ads|onclick", "#main[onclick*="mainClick"]")
 direkizle.xyz,tamindir.mobi##+js(remove-attr.js, data-ppcnt_ads|onclick, #main[onclick*="mainClick"])
 
-c2camera.com,camhun.com##+js(abort-current-inline-script.js, document.addEventListener, initBCPopunder)
-c2camera.com,camhun.com#%#//scriptlet("abort-current-inline-script", "document.addEventListener", "initBCPopunder")
+c2camera.com,camhun.com,voyeurexplorer.com,vipr.im##+js(abort-current-inline-script.js, document.addEventListener, initBCPopunder)
+c2camera.com,camhun.com,voyeurexplorer.com,vipr.im#%#//scriptlet("abort-current-inline-script", "document.addEventListener", "initBCPopunder")
