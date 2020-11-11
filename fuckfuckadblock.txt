@@ -263,7 +263,7 @@ kickassanime.*###modalAblock, #modalAblockWrapper
 |http*:*/wp-adblock-$script,redirect=prevent-fab-3.2.0,important
 |http*:*/wp-content/plugins/eazy-ad-unblocker/$script,important
 ||adservice.google.*$important,script,redirect=noopjs,domain=973espn.com|espn1420.com|maxedtech.com|viki.com
-||adservice.google.*$important,xmlhttprequest,redirect=nooptext,domain=tubia.com|uploadship.com|123link.pw|ccbluex.net
+||adservice.google.*$important,xmlhttprequest,redirect=nooptext,domain=tubia.com|uploadship.com|123link.pw|ccbluex.net|muyhistoria.es|marie-claire.es|miarevista.es|muynegociosyeconomia.es|serpadres.es|muyinteresante.es
 ||doubleclick.net^$important,script,redirect=noopjs,domain=freeiptv.life
 ||doubleclick.net^$important,xmlhttprequest,redirect=nooptext,domain=filmix.cc|rp-online.de|bitminer.biz|123l.pw|123link.vip|123link.pw|dalatmongm.site
 ||fundingchoicesmessages.google.com^$important,xmlhttprequest,redirect=nooptext
