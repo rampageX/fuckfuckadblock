@@ -256,6 +256,7 @@ kickassanime.*###modalAblock, #modalAblockWrapper
 |http*:*/pu.js|$script,~third-party,important
 |http*:*/api/spots/*&ev$script,important
 |http*:*/rcs_anti-adblocker/$script,third-party,important
+||futurecdn.net/*/media/shared/js/*-gb.js|$important,script,redirect=noopjs
 |http*:*/smpop.$script,important
 |http*:*/wp-adblock-$important,script,redirect=fuckadblock.js-3.2.0,important
 |http*:*/wp-adblock-$important,script,redirect=prevent-fab-3.2.0,important
