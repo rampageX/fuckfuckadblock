@@ -243,6 +243,7 @@ reqlinks.net##[href*=".com/4/"]
 |http*:*/ad-m.js|$important
 ||wpncdn.com^$important,redirect=noopjs,script
 ||rawcdn.githack.com/*/antiboomclick.js$script
+||rawgit.com/*/arlinablock.js$script
 |http*:*/adblocker-whitelist_$third-party,domain=wetransfer.com
 |http*:*/blockadblock-$script,redirect=fuckadblock.js-3.2.0
 |http*:*/blockadblock-$script,redirect=prevent-fab-3.2.0
