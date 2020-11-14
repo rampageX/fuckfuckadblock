@@ -633,8 +633,8 @@ kordramass.com,kshowsubindo.org,oujanime.com,senimovie.co#%#//scriptlet("abort-c
 kisstvshow.to,readcomiconline.to##+js(abort-on-property-write.js, adbWarn)
 kisstvshow.to,readcomiconline.to#%#//scriptlet("abort-on-property-write", "adbWarn")
 
-chrt.pw,egy.best,egybest.*,egybest2.com,egybest4.com,europixhd.*,hdeuropix.*,katmovie.*,short.pe,topeuropix.*,tv-onlinehd.com,upload4earn.org,uploadbuzz.*,uploadbyte.com,uploadever.com,ustreamix.*,ustreamyx.*,watchmovies.pk,megaup.net##+js(no-setTimeout-if.js, '0x)
-chrt.pw,egy.best,egybest.*,egybest2.com,egybest4.com,europixhd.*,hdeuropix.*,katmovie.*,short.pe,topeuropix.*,tv-onlinehd.com,upload4earn.org,uploadbuzz.*,uploadbyte.com,uploadever.com,ustreamix.*,ustreamyx.*,watchmovies.pk,megaup.net#%#//scriptlet("prevent-setTimeout", "'0x")
+chrt.pw,egy.best,egybest.*,egybest2.com,egybest4.com,katmovie.*,short.pe,tv-onlinehd.com,upload4earn.org,uploadbuzz.*,uploadbyte.com,uploadever.com,ustreamix.*,ustreamyx.*,watchmovies.pk,megaup.net##+js(no-setTimeout-if.js, '0x)
+chrt.pw,egy.best,egybest.*,egybest2.com,egybest4.com,katmovie.*,short.pe,tv-onlinehd.com,upload4earn.org,uploadbuzz.*,uploadbyte.com,uploadever.com,ustreamix.*,ustreamyx.*,watchmovies.pk,megaup.net#%#//scriptlet("prevent-setTimeout", "'0x")
 
 megaup.net,haloani.ru##+js(no-setTimeout-if.js, 0x)
 megaup.net,haloani.ru#%#//scriptlet("prevent-setTimeout", "0x")
