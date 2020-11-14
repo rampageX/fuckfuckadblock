@@ -5,12 +5,14 @@ about: For people who don't speak russian.
 
 ### Basic information
 
-**Check the link/s:** <!-- Next to this phrase, specify the link/s you want to check. Please specify all links in Inline code format (see here https://guides.github.com/features/mastering-markdown/) -->
-**Category:** <!-- There are three categories: Anti-adblock, Pop-ups and Breakage -->
+**Check the link:** <!-- Next to this phrase, include the link you want to test. -->
+**Category:** <!-- There are three categories: Anti-adblock, Pop-up and Breakage. -->
 **Reported from:** <!-- In which country is your IP address? -->
 
 ### User environment
+
 **Browser:**
 **Extension or program:** 
 
 ### Additional message
+

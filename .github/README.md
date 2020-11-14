@@ -1,18 +1,14 @@
-# Fuck Fuckadblock
-[![license](https://img.shields.io/badge/license-MIT-%233fb912.svg)](https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/LICENSE.md)
-<br>
-[![syntaxUBo](https://img.shields.io/badge/syntax-uBlock%20Origin-%23c61300.svg)](https://github.com/gorhill/uBlock/wiki/Static-filter-syntax)
-[![syntaxADG](https://img.shields.io/badge/syntax-AdGuard-%2305a800.svg)](https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters)
+# Fuck Fuckadblock<sup>[What?](https://github.com/bogachenko/fuckfuckadblock/wiki/About-Fuck-Fuckadblock)</sup>
 
 Filters for blocking pop-ups and anti-adblock bypass.
 
-### Use
+### Use<sup>[How?](https://github.com/bogachenko/fuckfuckadblock/wiki/Installation-instruction)</sup>
 
 You can add this list to yourself using this button — [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt&title=Fuck%20Fuckadblock)
 
 Or add it manually using this RAW link — `https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt`
 
-### CDN
+#### CDN<sup>[Why?](https://github.com/bogachenko/fuckfuckadblock/wiki/Mirror-lists)</sup>
 
 1. `https://raw.githack.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt`
 2. `https://cdn.statically.io/gh/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt`
