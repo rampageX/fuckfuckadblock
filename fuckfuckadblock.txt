@@ -242,7 +242,7 @@ userload.co##a[href][target="_blank"]
 |http*:*.php|$important,script,subdocument,domain=all18xxx.com|wildteenporn.com|adultasianporn.com
 |http*:*/?pu=$script,important
 |http*:*/ad-m.js|$important
-||aparat.cam/pu/$important,script
+/\/pu\/[.a-s]{1,5}\.js$/$important,~third-party,script
 ||wpncdn.com^$important,redirect=noopjs,script
 ||rawcdn.githack.com/*/antiboomclick.js$script
 ||rawgit.com/*/arlinablock.js$script
