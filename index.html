@@ -28,61 +28,59 @@
     <meta name=robots content="index, follow">
     <meta name=title content="Fuck Fuckadblock">
     <meta property=og:description content="Filters for blocking pop-ups and anti-adblock bypass">
-    <meta property=og:image content=""/>
+    <meta property=og:image content="" />
     <meta property=og:site_name content="Fuck Fuckadblock">
-    <meta property=og:title content="Don't touch my Adblocker!">
+    <meta property=og:title content="Don't fuck my Adblocker!">
     <meta property=og:type content=website>
-    <meta property=og:url content="https://bogachenko.github.io/fuckfuckadblock"/>
+    <meta property=og:url content="https://bogachenko.github.io/fuckfuckadblock" />
     <title>Fuck Fuckadblock</title>
-    <script>
-        document.onkeydown = function(event) {
-            if (event.ctrlKey && (event.keyCode == 85) || (event.ctrlKey && event.shiftKey && (event.keyCode == 73)) || event.keyCode == 123) {
-                return false
-            }
-        }
-    </script>
     <style type=text/css>
         body {
             background-color: #f0f0f2;
-            font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-            -webkit-touch-callout: none;
-            -webkit-user-select: none;
-            -khtml-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
+
+            font-family: Segoe UI, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            line-height: 1.5;
+            color: #24292e;
         }
-        
+
+        code {
+            padding: .2em .4em;
+            background-color: #f0f0f2;
+            border-radius: 5px;
+            font-family: Consolas, Liberation Mono, Menlo, monospace;
+            font-size: 15px;
+        }
+
+        a {
+            text-decoration: none
+        }
+
         div {
-            width: 700px;
+            width: 1000px;
             margin: 5em auto;
-            padding: 50px;
+            padding: 30px;
             background-color: #fff;
             border-radius: 1em;
         }
-        
+
         h1 {
-            font-size: 160%;
+            font-size: 150%;
         }
-        
+
         h3 {
             font-size: 100%;
         }
-        
+
         p {
             font-size: 15px;
         }
-        
-        a:link,
-        a:visited {
-            color: #000;
-            text-decoration: none
-        }
-        
+
         @media(max-width:700px) {
             body {
                 background-color: #f0f0f2;
             }
+
             div {
                 width: auto;
                 margin: 0 auto;
@@ -90,16 +88,10 @@
                 padding: 1em;
             }
         }
-        
+
         #main-block {
             border: 1px solid ThreeDShadow;
             border-radius: 3px;
-        }
-        
-        textarea {
-            width: 100%;
-            height: 50px;
-            resize: none;
         }
     </style>
 </head>
@@ -109,37 +101,20 @@
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TP6HCMS" height=0 width=0 style=display:none;visibility:hidden></iframe>
     </noscript>
     <div id=main-block>
-        <h1>Fuck Fuckadblock</h1>
-        <p>
-            <a href=https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/LICENSE.md rel=nofollow>
-                <img src=https://camo.githubusercontent.com/531df5338be586dc17d6f8ad2696409f97b7c4aa/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4d49542d2532333366623931322e737667 alt=license data-canonical-src=https://img.shields.io/badge/license-MIT-%233fb912.svg style=max-width:100%>
-            </a>
-            <br>
-            <a href=https://github.com/gorhill/uBlock/wiki/Static-filter-syntax>
-                <img src=https://camo.githubusercontent.com/cbf1a1f116533f13f0448ad6a0480557ec8c8066/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f73796e7461782d75426c6f636b2532304f726967696e2d2532336336313330302e737667 alt=syntaxUBo data-canonical-src=https://img.shields.io/badge/syntax-uBlock%20Origin-%23c61300.svg style=max-width:100%>
-            </a>
-            <a href=https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters rel=nofollow>
-                <img src=https://camo.githubusercontent.com/63c52cbe56b275bb1feb440bc5dc210920a5981f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f73796e7461782d416447756172642d2532333035613830302e737667 alt=syntaxADG data-canonical-src=https://img.shields.io/badge/syntax-AdGuard-%2305a800.svg style=max-width:100%>
-            </a>
-        </p>
+        <h1 id="fuck-fuckadblock">Fuck Fuckadblock<sup><a href="https://github.com/bogachenko/fuckfuckadblock/wiki/About-Fuck-Fuckadblock">What?</a></sup></h1>
         <p>Filters for blocking pop-ups and anti-adblock bypass.</p>
+        <h3 id="use-fuckfuckadblock">Use<sup><a href="https://github.com/bogachenko/fuckfuckadblock/wiki/Installation-instruction">How?</a></sup></h3>
+        <p>You can add this list to yourself using this button — <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt&amp;title=Fuck%20Fuckadblock">subscribe</a></p>
+        <p>Or add it manually using this RAW link — <code>https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt</code></p>
+        <h3 id="cdn-fuckfuckadblock">CDN<sup><a href="https://github.com/bogachenko/fuckfuckadblock/wiki/Mirror-lists">Why?</a></sup></h3>
+        <ol>
+            <li><code>https://raw.githack.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt</code></li>
+            <li><code>https://cdn.statically.io/gh/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt</code></li>
+            <li><code>https://cdn.jsdelivr.net/gh/bogachenko/fuckfuckadblock/fuckfuckadblock.txt</code></li>
+        </ol>
+        <h3 id="license-fuckfuckadblock">License<sup><a href="https://github.com/bogachenko/fuckfuckadblock/blob/master/LICENSE.md">So?</a></sup></h3>
+        <p>MIT License.</p>
 
-        <h3>GitHub</h3>
-        <textarea autofocus readonly>https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt</textarea>
-        <button onlick="return false;">
-            <a href="https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2Fbogachenko%2Ffuckfuckadblock%2Fmaster%2Ffuckfuckadblock.txt&amp;title=Fuck%20Fuckadblock">Subscribe</a>
-        </button>
-        <h3>CDN</h3>
-        <textarea autofocus readonly>https://raw.githack.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt https://cdn.statically.io/gh/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt https://cdn.jsdelivr.net/gh/bogachenko/fuckfuckadblock/fuckfuckadblock.txt</textarea>
-        <button onlick="return false;">
-            <a href="https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githack.com%2Fbogachenko%2Ffuckfuckadblock%2Fmaster%2Ffuckfuckadblock.txt&amp;title=Fuck%20Fuckadblock">GitHack</a>
-        </button>
-        <button onlick="return false;">
-            <a href="https://subscribe.adblockplus.org?location=https%3A%2F%2Fcdn.statically.io%2Fgh%2Fbogachenko%2Ffuckfuckadblock%2Fmaster%2Ffuckfuckadblock.txt&amp;title=Fuck%20Fuckadblock">Statically</a>
-        </button>
-        <button onlick="return false;">
-            <a href="https://subscribe.adblockplus.org?location=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fbogachenko%2Ffuckfuckadblock%2Ffuckfuckadblock.txt&amp;title=Fuck%20Fuckadblock">jsDelivr</a>
-        </button>
     </div>
 </body>
 
