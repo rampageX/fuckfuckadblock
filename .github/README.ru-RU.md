@@ -8,7 +8,7 @@
 
 Или добавьте его вручную, используя эту ссылку RAW — `https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt`
 
-#### CDN<sup>[Зачем?](https://github.com/bogachenko/fuckfuckadblock/wiki/Mirror-lists)</sup>
+### CDN<sup>[Зачем?](https://github.com/bogachenko/fuckfuckadblock/wiki/Mirror-lists)</sup>
 
 1. `https://raw.githack.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt`
 2. `https://cdn.statically.io/gh/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt`

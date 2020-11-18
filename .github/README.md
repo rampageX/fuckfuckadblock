@@ -8,7 +8,7 @@ You can add this list to yourself using this button — [subscribe](https://subs
 
 Or add it manually using this RAW link — `https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt`
 
-#### CDN<sup>[Why?](https://github.com/bogachenko/fuckfuckadblock/wiki/Mirror-lists)</sup>
+### CDN<sup>[Why?](https://github.com/bogachenko/fuckfuckadblock/wiki/Mirror-lists)</sup>
 
 1. `https://raw.githack.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt`
 2. `https://cdn.statically.io/gh/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt`
