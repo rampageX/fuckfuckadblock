@@ -280,7 +280,8 @@ voyeurhit.com##td
 ||doubleclick.net^$important,script,redirect=noopjs,domain=freeiptv.life
 ||doubleclick.net^$important,xmlhttprequest,redirect=nooptext,domain=filmix.cc|rp-online.de|bitminer.biz|123l.pw|123link.vip|123link.pw|dalatmongm.site
 ||fundingchoicesmessages.google.com^$important,xmlhttprequest,redirect=nooptext
-||imasdk.googleapis.com^$important,script,redirect=noopjs,domain=dplay.dk|ampproject.net|shahid.mbc.net
+||imasdk.googleapis.com^$important,script,redirect=noopjs,domain=dplay.dk|ampproject.net|shahid.mbc.net|debilizator.tv
+||get.optad360.io^$important,script,redirect=noopjs
 ||npttech.com/advertising.js|$important,script,redirect=fuckadblock.js-3.2.0
 ||npttech.com/advertising.js|$important,script,redirect=prevent-fab-3.2.0
 ||pagead2.googlesyndication.com^$important,script,redirect=googlesyndication-adsbygoogle,domain=coron.tech|earn4files.com|jemerik.com|webkod.pl|extremereportbot.com|tellynewsarticles.com|huljjang.com|youneed.win|moviessquad.com|clockks.com|animedigitalnetwork.fr|sitarchive.com|gatcha.org
