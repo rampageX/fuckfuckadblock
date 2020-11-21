@@ -294,6 +294,7 @@ arrowos.net##body:style(visibility:visible !important)
 ||tinypass.com^$third-party,important
 ||undefined^$important,script,redirect=noopjs
 ||wpncdn.com^$important,redirect=noopjs,script
+||submityourflicks.com/*/sfy.js$script,~third-party,important
 
 @@*/adblock.php$script,xmlhttprequest
 @@*/adblocker/pixel.gif|$image
