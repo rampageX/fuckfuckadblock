@@ -340,7 +340,7 @@ funporns.com##.happy-inside-player
 @@||doubleclick.net^$xmlhttprequest,domain=click2houston.com|clickondetroit.com|clickorlando.com|ksat.com|linksht.com|local10.com|news4jax.com|softonic.com|wsls.com
 @@||geoguessr.com/_ads/$script
 @@||imasdk.googleapis.com^$script,domain=1plus1.video|amc.com|animedigitalnetwork.fr|arkadiumarena.com|aupetitparieur.com|babygames.com|click2houston.com|clickondetroit.com|clickorlando.com|flashgirlgames.com|gamak.tv|gazzetta.it|hqq.tv|hqq.watch|klix.ba|ksat.com|local10.com|mariogames.be|motorsport.tv|mypodboxx.com|news4jax.com|online-rossiya1.tv|onlinesudoku.games|player.tubia.com|polsatnews.pl|polsatsport.pl|stack.com|tubitv.com|tvp.info|tvp.pl|uptostream.com|usatoday.com|viki.com|waaw.tv|waaw1.tv|wifire.tv|wilmaa.com|wsls.com|wuxiaworld.com|x-link.pl|yandexcdn.com
-@@||pagead2.googlesyndication.com^$script,domain=4lpha.one|a2zupload.com|bowandtie.ru|camera.aeonax.com|ff14angler.com|globaldjmix.com|messletters.com|meteologix.com|miroir1.trackr.fr|myjest.com|namobilu.com|rte.ie|sfirmware.com|unlockapk.com|uploadship.com|weather.us
+@@||pagead2.googlesyndication.com^$script,domain=4lpha.one|a2zupload.com|bowandtie.ru|camera.aeonax.com|ff14angler.com|globaldjmix.com|messletters.com|meteologix.com|miroir1.trackr.fr|myjest.com|namobilu.com|rte.ie|sfirmware.com|unlockapk.com|uploadship.com|weather.us|electric-house.ru
 @@||rte.ie/*/smarttag.js|$script,xmlhttprequest
 @@||serviceyock.me/api/advertise/$xmlhttprequest,domain=yock.games
 @@||townnews.com^*/ad$script
