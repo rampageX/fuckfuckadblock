@@ -289,7 +289,7 @@ funporns.com##.happy-inside-player
 ||popads.net/pop.js$script,redirect=popads.net.js,important
 ||popads.net/pop.js$script,redirect=prevent-popads-net,important
 ||rawcdn.githack.com/*/antiboomclick.js$script
-||rawgit.com/*/arlinablock.js$script
+|http*:*/arlinablock.js$script,third-party,important
 ||storage.googleapis.com/vkcdnservice.appspot.com/$script,important
 ||streamtape.com/adult2.js|$important
 ||tinypass.com^$third-party,important
