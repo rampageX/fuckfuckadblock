@@ -297,6 +297,7 @@ funporns.com##.happy-inside-player
 ||wpncdn.com^$important,redirect=noopjs,script
 ||submityourflicks.com/*/sfy.js$script,~third-party,important
 
+@@/[/.]adsbygoogle\.js$/$script,~third-party
 @@*/adblock.php$script,xmlhttprequest
 @@*/adblocker/pixel.gif|$image
 @@*/ads.html$subdocument,script
