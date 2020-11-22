@@ -278,7 +278,7 @@ funporns.com##.happy-inside-player
 ||fundingchoicesmessages.google.com^$important,xmlhttprequest,redirect=nooptext
 ||futurecdn.net/*/media/shared/js/*-gb.js|$important,script,redirect=noopjs
 ||get.optad360.io^$important,script,redirect=noopjs
-||imasdk.googleapis.com^$important,script,redirect=noopjs,domain=ampproject.net|debilizator.tv|dplay.dk|shahid.mbc.net
+||imasdk.googleapis.com^$important,script,redirect=noopjs,domain=ampproject.net|debilizator.tv|dplay.dk|shahid.mbc.net|polsatnews.pl
 ||npttech.com/advertising.js|$important,script,redirect=fuckadblock.js-3.2.0
 ||npttech.com/advertising.js|$important,script,redirect=prevent-fab-3.2.0
 ||opensubtitles.org/libs/js/prop-pu.js$script,important
