@@ -169,11 +169,21 @@
 ##.warning-adblock-box
 ##.wgAdBlockMessage
 
+#@##AdRectangle
+#@##Ads
+#@##PageLeaderAd
+#@##ad
 #@##ad-banner
+#@##ad-column
+#@##adSense
 #@##ad_test
-#@##adchecker
 #@##adsense
+#@##adchecker
+#@##advertising2
 #@##banner_ad
+#@##divAdBox
+#@##mochila-column-right-ad-300x250-1
+#@##searchAdSenseBox
 #@##sponsored-ad
 #@#.act-ad-container
 #@#.ad-banner
