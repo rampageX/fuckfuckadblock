@@ -141,7 +141,6 @@
 ##.deadblocker-header-bar
 ##.deadblocker-header-bar-inner
 ##.detected-block-modal
-##.disclaimer
 ##.dispositifAdblock
 ##.dispositifAdblockContent
 ##.dispositifAdblockMessageBox
