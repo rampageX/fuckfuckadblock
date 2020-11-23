@@ -570,14 +570,11 @@ empflix.com,tnaflix.com#%#//scriptlet("abort-on-property-read", "ads.pop_url")
 badcomics.it,badgames.it,badtaste.it,badtv.it,esportes.r7.com,gamepur.com,gestyy.com,satoshiquiz.com,streamz.*,thesimsresource.com,worder.cat##+js(abort-on-property-write.js, ga)
 badcomics.it,badgames.it,badtaste.it,badtv.it,esportes.r7.com,gamepur.com,gestyy.com,satoshiquiz.com,streamz.*,thesimsresource.com,worder.cat#%#//scriptlet("abort-on-property-write", "ga")
 
-outerspace.com.br##+js(abort-current-inline-script.js, $, adBlock)
-outerspace.com.br#%#//scriptlet("abort-current-inline-script", "$", "adBlock")
+outerspace.com.br,forum.outerspace.com.br,uiz.io,varagh.com##+js(abort-current-inline-script.js, $, adBlock)
+outerspace.com.br,forum.outerspace.com.br,uiz.io,varagh.com#%#//scriptlet("abort-current-inline-script", "$", "adBlock")
 
 escripts.club,heidisql.com,vz.lt##+js(abort-current-inline-script.js, $, adblock)
 escripts.club,heidisql.com,vz.lt#%#//scriptlet("abort-current-inline-script", "$", "adblock")
-
-uiz.io,varagh.com##+js(abort-current-inline-script.js, $, adBlock)
-uiz.io,varagh.com#%#//scriptlet("abort-current-inline-script", "$", "adBlock")
 
 carbonite.co.za,mac-torrent-download.net,nirjonmela.com,techtobo.com,turkmmo.com##+js(abort-current-inline-script.js, $, AdBlock)
 carbonite.co.za,mac-torrent-download.net,nirjonmela.com,techtobo.com,turkmmo.com#%#//scriptlet("abort-current-inline-script", "$", "AdBlock")
