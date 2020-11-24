@@ -801,3 +801,6 @@ direkizle.xyz,tamindir.mobi##+js(remove-attr.js, data-ppcnt_ads|onclick, #main[o
 
 c2camera.com,camhun.com,vipr.im,voyeurexplorer.com##+js(abort-current-inline-script.js, document.addEventListener, initBCPopunder)
 c2camera.com,camhun.com,vipr.im,voyeurexplorer.com#%#//scriptlet("abort-current-inline-script", "document.addEventListener", "initBCPopunder")
+
+ry2tree2.com##+js(abort-on-property-read.js, blogantiadblock)
+ry2tree2.com#%#//scriptlet("abort-on-property-read", "blogantiadblock")
