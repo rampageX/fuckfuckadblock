@@ -724,7 +724,7 @@ animekuro.net,ap-siken.com,calciomercato.com,clik.*,extremereportbot.com,filmand
 dood.*,dropgalaxy.*,extremereportbot.com,javhub.*,upstream.to,xsanime.com##+js(no-setInterval-if.js, _0x)
 dood.*,dropgalaxy.*,extremereportbot.com,javhub.*,upstream.to,xsanime.com#%#//scriptlet("prevent-setInterval", "_0x")
 
-megaup.net##+js(no-setInterval-if, 0x)
+megaup.net##+js(no-setInterval-if.js, 0x)
 megaup.net#%#//scriptlet("prevent-setInterval", "0x")
 
 diaridegirona.cat,diariodeibiza.es,emporda.info,farodevigo.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,regio7.cat,superdeporte.es##+js(abort-current-inline-script.js, compruebaAdblockPremium, setTimeout)
@@ -802,5 +802,5 @@ direkizle.xyz,tamindir.mobi##+js(remove-attr.js, data-ppcnt_ads|onclick, #main[o
 c2camera.com,camhun.com,vipr.im,voyeurexplorer.com##+js(abort-current-inline-script.js, document.addEventListener, initBCPopunder)
 c2camera.com,camhun.com,vipr.im,voyeurexplorer.com#%#//scriptlet("abort-current-inline-script", "document.addEventListener", "initBCPopunder")
 
-ry2tree2.com,keralatelecom.info,akhbbar2020.blogspot.com,iptvshow.blogspot.com,androidmtk.co.uk,bnatwhatsapp.blogspot.com##+js(abort-on-property-read.js, blogantiadblock)
-ry2tree2.com,keralatelecom.info,akhbbar2020.blogspot.com,iptvshow.blogspot.com,androidmtk.co.uk,bnatwhatsapp.blogspot.com#%#//scriptlet("abort-on-property-read", "blogantiadblock")
+ry2tree2.com,keralatelecom.info,akhbbar2020.blogspot.com,iptvshow.blogspot.com,androidmtk.co.uk,bnatwhatsapp.blogspot.com,iccchampionstrophys.blogspot.com##+js(abort-on-property-read.js, blogantiadblock)
+ry2tree2.com,keralatelecom.info,akhbbar2020.blogspot.com,iptvshow.blogspot.com,androidmtk.co.uk,bnatwhatsapp.blogspot.com,iccchampionstrophys.blogspot.com#%#//scriptlet("abort-on-property-read", "blogantiadblock")
