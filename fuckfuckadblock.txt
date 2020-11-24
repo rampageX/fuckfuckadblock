@@ -580,8 +580,8 @@ carbonite.co.za,mac-torrent-download.net,nirjonmela.com,techtobo.com,turkmmo.com
 bercara.com,countrygames.net,cut-w.in,in11.site,semawur.com,sukakesehattan.com##+js(no-setTimeout-if.js, checkAdblockUser)
 bercara.com,countrygames.net,cut-w.in,in11.site,semawur.com,sukakesehattan.com#%#//scriptlet("prevent-setTimeout", "checkAdblockUser")
 
-bestblowjobvids.com,euro-fh.de,sexvid.xxx,redhdtube.xxx,zbporn.tv,pornid.xxx##+js(abort-on-property-read.js, pu)
-bestblowjobvids.com,euro-fh.de,sexvid.xxx,redhdtube.xxx,zbporn.tv,pornid.xxx#%#//scriptlet("abort-on-property-read", "pu")
+bestblowjobvids.com,euro-fh.de,sexvid.xxx,redhdtube.xxx,zbporn.tv,pornid.xxx,rat.xxx##+js(abort-on-property-read.js, pu)
+bestblowjobvids.com,euro-fh.de,sexvid.xxx,redhdtube.xxx,zbporn.tv,pornid.xxx,rat.xxx#%#//scriptlet("abort-on-property-read", "pu")
 
 akvideo.stream,ilmeteo.it,linkspaid.com,mycartoonvideo.net,proxydocker.com,shorte-st.online,wblogy.com##+js(no-setTimeout-if.js, (), 1000)
 akvideo.stream,ilmeteo.it,linkspaid.com,mycartoonvideo.net,proxydocker.com,shorte-st.online,wblogy.com#%#//scriptlet("prevent-setTimeout", "()", "1000")
