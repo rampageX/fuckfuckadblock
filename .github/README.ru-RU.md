@@ -1,14 +1,5 @@
 # Fuck Fuckadblock<sup>[Что?](https://github.com/bogachenko/fuckfuckadblock/wiki/About-Fuck-Fuckadblock)</sup>
 
-<p align="center">
-  <em>
-    <a href="https://github.com/bogachenko/fuckfuckadblock/blob/master/.github/README.md" title="For people who don't speak russian.">ENG
-    </a> 
-    <a href="https://github.com/bogachenko/fuckfuckadblock/blob/master/.github/README.ru-RU.md" title="Для людей, которые не говорят по-английски.">RUS
-    </a>
-  </em>
-</p>
-
 Фильтры блокировки всплывающих окон и обход анти-адблока.
 
 ### Использовать<sup>[Как?](https://github.com/bogachenko/fuckfuckadblock/wiki/Installation-instruction)</sup>
