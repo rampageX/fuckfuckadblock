@@ -318,6 +318,7 @@ hotstream.club##.rek
 ||submityourflicks.com/*/sfy.js$script,~third-party,important
 ||popcash.net/pop.js$script,important
 ||stat24.com/ad.xml$xmlhttprequest,redirect=nooptext,important
+||streamtape.com/mainstream3.js$script,~third-party,important
 
 @@/[/.]adsbygoogle\.js$/$script,~third-party
 @@*/adblock.php$script,xmlhttprequest
