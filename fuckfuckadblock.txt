@@ -322,6 +322,7 @@ hotstream.club##.rek
 ||streamtape.*/mainstream3.js$script,~third-party,important
 ||iamcdn.net/players/player*.*mins.js$script
 ||a-ads.com^$important,empty
+||deliver.vkcdnservice.com/vast-im.js$script,redirect=noopjs,important
 
 @@/[/.]adsbygoogle\.js$/$script,~third-party
 @@*/adblock.php$script,xmlhttprequest
