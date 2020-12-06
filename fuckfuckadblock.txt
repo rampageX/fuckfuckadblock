@@ -295,7 +295,7 @@ camhoes.tv##a[href][target="_blank"]
 ||adservice.google.*$important,xmlhttprequest,redirect=nooptext,domain=123link.pw|ccbluex.net|marie-claire.es|miarevista.es|muyhistoria.es|muyinteresante.es|muynegociosyeconomia.es|serpadres.es|tubia.com|uploadship.com
 ||cdn.jsdelivr.net/gh/virn90/seotechmancom/lazeyuz.js|$important,script
 ||doubleclick.net^$important,script,redirect=noopjs,domain=freeiptv.life|indy100.com
-||doubleclick.net^$important,xmlhttprequest,redirect=nooptext,domain=photopea.com|123l.pw|123link.pw|123link.vip|bitminer.biz|dalatmongm.site|filmix.cc|rp-online.de
+||doubleclick.net^$important,xmlhttprequest,redirect=nooptext,domain=photopea.com|123l.pw|123link.pw|123link.vip|bitminer.biz|dalatmongm.site|filmix.cc|rp-online.de|freemagazines.top
 ||dropgalaxy.*/js/countd.js?$important,script
 ||freeporn.info/pop*.js|$important,script
 ||fundingchoicesmessages.google.com^$important,xmlhttprequest,redirect=nooptext
