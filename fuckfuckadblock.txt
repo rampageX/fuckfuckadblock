@@ -326,6 +326,7 @@ camhoes.tv##a[href][target="_blank"]
 ||iamcdn.net/players/player*.*mins.js$script
 ||a-ads.com^$important,empty
 ||vkcdnservice.com^$script,redirect=noopjs,important
+||folha.uol.com.br/paywall/js/*$script,domain=uol.com.br,important
 
 @@/[/.]adsbygoogle\.js$/$script,~third-party
 @@*/adblock.php$script,xmlhttprequest
