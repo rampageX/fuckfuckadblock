@@ -392,6 +392,7 @@ homepornvideo.net###in_player_block
 @@||imasdk.googleapis.com^$xmlhttprequest,domain=venn.tv
 @@||pagead2.googlesyndication.com^$script,domain=4lpha.one|a2zupload.com|bowandtie.ru|camera.aeonax.com|ff14angler.com|globaldjmix.com|messletters.com|meteologix.com|miroir1.trackr.fr|myjest.com|namobilu.com|rte.ie|sfirmware.com|unlockapk.com|uploadship.com|weather.us|electric-house.ru|huljjang.com|kitchennovel.com|release-apk.com|baddiehub.com|3dzip.org|ladbible.com|4horlover.com|gatcha.org|haoweichi.com
 @@||rte.ie/*/smarttag.js|$script,xmlhttprequest
+@@||ads.stickyadstv.com^$xmlhttprequest
 @@||serviceyock.me/api/advertise/$xmlhttprequest,domain=yock.games
 @@||townnews.com^*/ad$script
 @@||webshark.pl/adserver/*$script
