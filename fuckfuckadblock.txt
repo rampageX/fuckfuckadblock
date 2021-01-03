@@ -281,7 +281,7 @@ homepornvideo.net###in_player_block
 /^https?:\/\/[^\s]+\/js(\/\d+){1,4}\?r\=\&[0-9]{4,}/$script,third-party,important
 |http*:*$script,~third-party,important,domain=all18xxx.com|imgweng.xyz|wildteenporn.com|imgxx.xyz|imageking.xyz
 |http*:*$script,redirect-rule=noopjs,domain=linternaute.com|hackintoshshop.com
-|http*:*.php|$important,script,subdocument,domain=adultasianporn.com|all18xxx.com|wildteenporn.com|dizimag2.org
+|http*:*.php|$important,script,subdocument,domain=adultasianporn.com|all18xxx.com|wildteenporn.com|dizimag2.org|dizilla.net
 |http*:*/?pu=$script,important
 |http*:*/ad-m.js|$important
 |http*:*/jquery.notify.js|$script,important
