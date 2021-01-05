@@ -580,8 +580,8 @@ dadhero.pl,gazetawroclawska.pl,kresy.pl,kulinarnapolska.org,mambiznes.pl,natemat
 eroclips.org,everydayporn.co,funkcje.net,ketubanjiwa.com,lenkino.org,molll.mobi,pornbimbo.com,pornomoll.*,qladanier.com,rjno1.com,ru-xvideos.*,savevideo.me,1bit.space,1bitspace.com,kutt.io##+js(no-setTimeout-if.js, (), 2000)
 eroclips.org,everydayporn.co,funkcje.net,ketubanjiwa.com,lenkino.org,molll.mobi,pornbimbo.com,pornomoll.*,qladanier.com,rjno1.com,ru-xvideos.*,savevideo.me,1bit.space,1bitspace.com,kutt.io#%#//scriptlet("prevent-setTimeout", "()", "2000")
 
-bingfeng.tw,rim-world.com,seedoff2.innal.top,spaste.com,txxx.*,voyageforum.com##+js(no-setTimeout-if.js, (), 5000)
-bingfeng.tw,rim-world.com,seedoff2.innal.top,spaste.com,txxx.*,voyageforum.com#%#//scriptlet("prevent-setTimeout", "()", "5000")
+bingfeng.tw,rim-world.com,seedoff2.innal.top,spaste.com,txxx.*,voyageforum.com,yesmangas1.com##+js(no-setTimeout-if.js, (), 5000)
+bingfeng.tw,rim-world.com,seedoff2.innal.top,spaste.com,txxx.*,voyageforum.com,yesmangas1.com#%#//scriptlet("prevent-setTimeout", "()", "5000")
 
 kissasian.*##+js(no-setTimeout-if.js, (), 45000)
 kissasian.*#%#//scriptlet("prevent-setTimeout", "()", "45000")
