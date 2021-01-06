@@ -257,7 +257,7 @@ funporns.com##.happy-inside-player
 mzupdate.com###result
 yavtube.com##.player-mask
 hotstream.club##.rek
-cambay.tv,xgirls.webcam,camhoes.tv###kt_player > a[target="_blank"]
+cambay.tv,xgirls.webcam,camhoes.tv,watchmygf.me###kt_player > a[target="_blank"]
 homepornvideo.net###in_player_block
 dizigang.com##[href*="/redirect.aspx"]
 sayrodigital.com,kusonime.com##[id][id*="-blanket"][style="background-color: rgb(0, 0, 0);"]
