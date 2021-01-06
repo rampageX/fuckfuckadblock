@@ -348,6 +348,8 @@ playhydrax.com,hydracdn.*,hydrax.net,redirect-ads.com##div#over
 ||xnxx-cdn.com/*/default.pp.static.js$domain=xnxx.com,important
 ||xnxx-cdn.com/*/ppsuma65.js$domain=xnxx.com,important
 ||iamcdn.net/players/playhydraxs.min.js$important,script
+||express.de/wrapperMessagingWithoutDetection.js$script,important
+||express.de/assets/*/dmn-head-start.js$script,important
 
 @@/[/.]adsbygoogle\.js$/$script,~third-party
 @@*/adblock.php$script,xmlhttprequest
