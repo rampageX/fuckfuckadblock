@@ -257,7 +257,7 @@ mzupdate.com###result
 yavtube.com##.player-mask
 hotstream.club##.rek
 camhoes.tv##a[href][target="_blank"]
-cambay.tv###kt_player > [href]
+cambay.tv,xgirls.webcam###kt_player > [href]
 homepornvideo.net###in_player_block
 dizigang.com##[href*="/redirect.aspx"]
 sayrodigital.com,kusonime.com##[id][id*="-blanket"][style="background-color: rgb(0, 0, 0);"]
