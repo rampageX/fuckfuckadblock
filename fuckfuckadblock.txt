@@ -394,7 +394,7 @@ playhydrax.com,hydracdn.*,hydrax.net,redirect-ads.com##div#over
 @@/[/.]ads\.png\.gif$/$image
 @@/\/ad[svbxo]?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)$/$image
 @@/\/ad[vs](er(ve)?t?(ise|ising|isement)?)?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)$/$image
-@@/\/dfp(\.min)?\.js[$?]/$script,xmlhttprequest
+@@/\/dfp(\.min)?\.js/$script,xmlhttprequest
 @@/^https?:\/\/(.*\.)?adocean\.pl\/(.*\/)?ad\.(js|xml)\?/$script,image,xmlhttprequest
 @@/^https?:\/\/(www\.)?.*\/([_-a-zA-Z0-9.]{1,15})?ad[svbxo]?(\.min)?\.js/$script,xmlhttprequest,other
 @@/^https?:\/\/(www\.)?.*\/([_-a-zA-Z0-9.]{1,17})?ad[vs](er(ve)?t?(ise|ising|isement)?)?(\.min)?\.js/$xmlhttprequest,script,other
