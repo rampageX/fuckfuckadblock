@@ -267,8 +267,8 @@ hotstream.club##.rek
 cambay.tv,xgirls.webcam,camhoes.tv,watchmygf.me,porndr.com,fpo.xxx,submityourflicks.com,tubsexer.com,tubsexer.com,sexwebvideo.*,pornsexer.*,cwtvembeds.com,smutr.com,bobs-tube.com,xtits.com,camclips.tv,camthots.tv,xmegadrive.com###kt_player > a[target="_blank"]
 homepornvideo.net###in_player_block
 dizigang.com##[href*="/redirect.aspx"]
-sayrodigital.com,kusonime.com##[id][id*="-blanket"][style="background-color: rgb(0, 0, 0);"]
-sayrodigital.com,kusonime.com##html:style(overflow-y: scroll !important;)
+sayrodigital.com,kusonime.com,avoiderrors.com##[id][id*="-blanket"][style="background-color: rgb(0, 0, 0);"]
+sayrodigital.com,kusonime.com,avoiderrors.com##html:style(overflow-y: scroll !important;)
 ctrlv.link##div:contains(AdBlock)
 playhydrax.com,hydracdn.*,hydrax.net,redirect-ads.com##div#over
 
