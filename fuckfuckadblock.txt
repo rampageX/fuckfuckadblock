@@ -880,3 +880,6 @@ imgur.com#%#//scriptlet("set-constant", "ADBLOCKED", "false")
 
 calculate.plus,generate.plus##+js(no-setTimeout-if.js, checkStopBlock)
 calculate.plus,generate.plus#%#//scriptlet("prevent-setTimeout", "checkStopBlock")
+
+redtube.*##+js(abort-current-inline-script.js, Object.defineProperty, trafficjunky)
+redtube.*#%#//scriptlet("abort-current-inline-script", "Object.defineProperty", "trafficjunky")
