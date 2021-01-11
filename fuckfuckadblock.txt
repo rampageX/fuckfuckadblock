@@ -881,5 +881,5 @@ imgur.com#%#//scriptlet("set-constant", "ADBLOCKED", "false")
 calculate.plus,generate.plus##+js(no-setTimeout-if.js, checkStopBlock)
 calculate.plus,generate.plus#%#//scriptlet("prevent-setTimeout", "checkStopBlock")
 
-redtube.*##+js(abort-current-inline-script.js, Object.defineProperty, trafficjunky)
-redtube.*#%#//scriptlet("abort-current-inline-script", "Object.defineProperty", "trafficjunky")
+redtube.*,tube8.*,pornhub.*,pornhubthbh7ap3u.onion,youporn.com,spankwire.com,extremetube.com,keezmovies.com,youporngay.com,youpornru.com##+js(abort-current-inline-script.js, Object.defineProperty, trafficjunky)
+redtube.*,tube8.*,pornhub.*,pornhubthbh7ap3u.onion,youporn.com,spankwire.com,extremetube.com,keezmovies.com,youporngay.com,youpornru.com#%#//scriptlet("abort-current-inline-script", "Object.defineProperty", "trafficjunky")
