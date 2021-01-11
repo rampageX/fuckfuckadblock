@@ -878,5 +878,5 @@ serieslatinoamerica.tv#%#//scriptlet("remove-attr", "href", "#clickfakeplayer")
 imgur.com##+js(set-constant.js, ADBLOCKED, false)
 imgur.com#%#//scriptlet("set-constant", "ADBLOCKED", "false")
 
-calculate.plus##+js(no-setTimeout-if.js, checkStopBlock)
-calculate.plus#%#//scriptlet("prevent-setTimeout", "checkStopBlock")
+calculate.plus,generate.plus##+js(no-setTimeout-if.js, checkStopBlock)
+calculate.plus,generate.plus#%#//scriptlet("prevent-setTimeout", "checkStopBlock")
