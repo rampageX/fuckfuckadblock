@@ -886,3 +886,6 @@ calculate.plus,generate.plus#%#//scriptlet("prevent-setTimeout", "checkStopBlock
 
 redtube.*,tube8.*,pornhub.*,pornhubthbh7ap3u.onion,youporn.com,spankwire.com,extremetube.com,keezmovies.com,youporngay.com,youpornru.com##+js(abort-current-inline-script.js, Object.defineProperty, trafficjunky)
 redtube.*,tube8.*,pornhub.*,pornhubthbh7ap3u.onion,youporn.com,spankwire.com,extremetube.com,keezmovies.com,youporngay.com,youpornru.com#%#//scriptlet("abort-current-inline-script", "Object.defineProperty", "trafficjunky")
+
+soft98.ir##+js(no-setTimeout-if.js, (), 3000)
+soft98.ir#%#//scriptlet("prevent-setTimeout", "()", "3000")
