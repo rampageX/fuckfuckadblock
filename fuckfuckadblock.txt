@@ -304,6 +304,9 @@ isaiminiweb.online$$meta[http-equiv="refresh"]
 |http*:*/?pu=$script,important
 |http*:*/ad-m.js|$important
 |http*:*/safu/safu.js$important,script
+|http*:*/local_ssu.js|$important,script
+|http*:*/local_p.js|$important,script
+|http*:*/ai/s/s/js/m/pr-before.js?b=$important,script
 |http*:*/jquery.notify.js|$script,important
 |http*:*/adblocker-whitelist_$third-party,domain=wetransfer.com
 |http*:*/api/spots/*&ev$script,important
