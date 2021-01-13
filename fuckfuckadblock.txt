@@ -270,6 +270,7 @@ sayrodigital.com,kusonime.com,avoiderrors.com##[id][id*="-blanket"][style="backg
 sayrodigital.com,kusonime.com,avoiderrors.com##html:style(overflow-y: scroll !important;)
 ctrlv.link##div:contains(AdBlock)
 playhydrax.com,hydracdn.*,hydrax.net,redirect-ads.com##div#over
+totv.org##div#ad
 
 isaiminiweb.online##^meta[http-equiv="refresh"]
 isaiminiweb.online$$meta[http-equiv="refresh"]
