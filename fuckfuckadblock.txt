@@ -293,6 +293,7 @@ isaiminiweb.online,seulink.net$$meta[http-equiv="refresh"]
 
 ||vidlox.*^$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.jsdelivr.net *.google.com local.adguard.org injections.adguard.org;
 /^https?:\/\/po[wv][wv][li1]deo\.(net|c(om|c))/$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' local.adguard.org injections.adguard.org *.google.com *.gstatic.com *.googleapis.com; worker-src 'none';
+/^https?:\/\/((hqq|waaw|waaw1)\.(t[ov]|watch)|yandexcdn\.com)\//$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' unpkg.com *.gstatic.com *.google.com *.recaptcha.net *.cloudflare.com *.vkcdnservice.com local.adguard.org injections.adguard.org hcaptcha.com; worker-src 'none';
 
 /\.[\w]+\/\?pu\=/$script,third-party,important
 /\/apu\.(php|hh)\?/$important
