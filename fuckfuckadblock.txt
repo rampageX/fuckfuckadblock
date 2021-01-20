@@ -295,6 +295,7 @@ isaiminiweb.online,seulink.net$$meta[http-equiv="refresh"]
 /^https?:\/\/po[wv][wv][li1]deo\.(net|c(om|c))/$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' local.adguard.org injections.adguard.org *.google.com *.gstatic.com *.googleapis.com; worker-src 'none';
 /^https?:\/\/((hqq|waaw|waaw1)\.(t[ov]|watch)|yandexcdn\.com)\//$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' unpkg.com *.gstatic.com *.google.com *.recaptcha.net *.cloudflare.com *.vkcdnservice.com local.adguard.org injections.adguard.org hcaptcha.com; worker-src 'none';
 /^https?:\/\/str?ea[nm]p[l1]ay\.[a-z]{2,3}\//$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com local.adguard.org injections.adguard.org;
+/^https?:\/\/(streamtape|streamta)\.[\w]+\//$important,csp=script-src 'self' 'unsafe-inline' *.google.com *.gstatic.com local.adguard.org injections.adguard.org;
 
 /\.[\w]+\/\?pu\=/$script,third-party,important
 /\/apu\.(php|hh)\?/$important
