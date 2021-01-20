@@ -291,6 +291,8 @@ isaiminiweb.online,seulink.net$$meta[http-equiv="refresh"]
 ||o333o.com^$third-party,important
 ||wpnsrv.com^$third-party,important
 
+||vidlox.*^$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.jsdelivr.net *.google.com local.adguard.org injections.adguard.org;
+
 /\.[\w]+\/\?pu\=/$script,third-party,important
 /\/apu\.(php|hh)\?/$important
 /\/js[a-z0-9]+\/[a-z]{5,6}\.js$/$script,~third-party,important,domain=uploaded.net
