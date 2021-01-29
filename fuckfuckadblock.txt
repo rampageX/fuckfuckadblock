@@ -368,7 +368,6 @@ isaiminiweb.online,seulink.net$$meta[http-equiv="refresh"]
 ||undefined^$important,script,redirect=noopjs
 ||wpncdn.com^$important,redirect=noopjs,script
 ||submityourflicks.com/*/sfy.js$script,~third-party,important
-||stat24.com/ad.xml$xmlhttprequest,redirect=nooptext,important
 ||a-ads.com^$important,empty
 ||vkcdnservice.com^$script,redirect=noopjs,important
 ||folha.uol.com.br/paywall/online/config.json$xmlhttprequest,important
@@ -428,6 +427,7 @@ isaiminiweb.online,seulink.net$$meta[http-equiv="refresh"]
 @@||awaps.yandex.net^$script,domain=delovoe.tv|lentv24.ru|piter.tv|smexo.tv
 @@||cdn.tsyndicate.com^$script,domain=popjav.tv|hpjav.tv
 @@||cdnjs.cloudflare.com/*/fuckadblock.$script,third-party
+@@||stat24.com/ad.xml$xmlhttprequest
 @@||cdn.jsdelivr.net/*/fuckadblock.$script,third-party
 @@||doubleclick.net^$subdocument,domain=extremereportbot.com
 @@||doubleclick.net^$script,domain=malaysiastock.biz
