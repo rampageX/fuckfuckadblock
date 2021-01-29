@@ -362,8 +362,9 @@ isaiminiweb.online,seulink.net$$meta[http-equiv="refresh"]
 ||rawcdn.githack.com/*/antiboomclick.js$script,important
 ||raw.githack.com/Raqmedia/adblock/$script,important
 |http*:*/arlinablock.js$script,third-party,important
-||rawgit.com/fahimraza/FK/master/ad-unblocker.js^$script
-||cdn.jsdelivr.net/gh/Akshat-h/propeller/btagantiadb.js^$script
+||jsdelivr.net/*/jnck-adblock/$script,third-party
+||rawgit.com/fahimraza/FK/master/ad-unblocker.js$script,third-party
+||cdn.jsdelivr.net/gh/Akshat-h/propeller/btagantiadb.js$script,third-party
 ||storage.googleapis.com/vkcdnservice.appspot.com/$script,important
 ||undefined^$important,script,redirect=noopjs
 ||wpncdn.com^$important,redirect=noopjs,script
