@@ -333,6 +333,7 @@ isaiminiweb.online,seulink.net$$meta[http-equiv="refresh"]
 |http*:*/fuckadblock.$script,redirect=prevent-fab-3.2.0
 |http*:*/js/ssu.$important,script,~third-party
 |http*:*/pu.js|$script,~third-party,important
+|http*:*/pu-script.js|$script,important
 |http*:*/rcs_anti-adblocker/$script,third-party,important
 |http*:*/smpop.$script,important
 |http*:*/wp-adblock-$important,script,redirect=fuckadblock.js-3.2.0
