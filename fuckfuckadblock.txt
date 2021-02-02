@@ -349,7 +349,7 @@ isaiminiweb.online,seulink.net$$meta[http-equiv="refresh"]
 ||freeporn.info/pop*.js|$important,script
 ||fundingchoicesmessages.google.com^$important,xmlhttprequest,redirect=nooptext
 ||futurecdn.net/*/media/shared/js/*-gb.js|$important,script,redirect=noopjs
-||get.optad360.io^$important,script,redirect=noopjs
+||get.optad360.io^$important,script,redirect=noopjs,domain=~polsatnews.pl
 ||imasdk.googleapis.com^$important,script,redirect=noopjs,domain=ampproject.net|debilizator.tv|dplay.dk|shahid.mbc.net
 ||npttech.com/advertising.js|$important,script,redirect=fuckadblock.js-3.2.0
 ||npttech.com/advertising.js|$important,script,redirect=prevent-fab-3.2.0
@@ -379,6 +379,7 @@ isaiminiweb.online,seulink.net$$meta[http-equiv="refresh"]
 ||express.de/wrapperMessagingWithoutDetection.js$script,important
 ||express.de/assets/*/dmn-head-start.js$script,important
 ||anime-jl.net/animeflv/js/detector.js$script,important
+||stat24.com/ad.xml$xmlhttprequest,redirect=nooptext,important
 
 @@*/adsense.txt?$xmlhttprequest
 @@*/GoogleDfpSlot.$xmlhttprequest
@@ -428,7 +429,6 @@ isaiminiweb.online,seulink.net$$meta[http-equiv="refresh"]
 @@||awaps.yandex.net^$script,domain=delovoe.tv|lentv24.ru|piter.tv|smexo.tv
 @@||cdn.tsyndicate.com^$script,domain=popjav.tv|hpjav.tv
 @@||cdnjs.cloudflare.com/*/fuckadblock.$script,third-party
-@@||stat24.com/ad.xml$xmlhttprequest
 @@||cdn.jsdelivr.net/*/fuckadblock.$script,third-party
 @@||doubleclick.net^$subdocument,domain=extremereportbot.com
 @@||doubleclick.net^$script,domain=malaysiastock.biz
