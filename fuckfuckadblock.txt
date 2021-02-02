@@ -381,6 +381,8 @@ isaiminiweb.online,seulink.net$$meta[http-equiv="refresh"]
 ||express.de/assets/*/dmn-head-start.js$script,important
 ||anime-jl.net/animeflv/js/detector.js$script,important
 ||stat24.com/ad.xml$xmlhttprequest,redirect=nooptext,important
+||videowood.tv/assets/js/popup*.js$script,important
+||videowood.tv/pop2|$script,important
 
 @@*/adsense.txt?$xmlhttprequest
 @@*/GoogleDfpSlot.$xmlhttprequest
@@ -921,3 +923,6 @@ soft98.ir#%#//scriptlet("prevent-setTimeout", "()", "3000")
 
 lecourrier-du-soir.com##+js(abort-current-inline-script.js, addEventListener, google_ad_modifications)
 lecourrier-du-soir.com#%#//scriptlet("abort-current-inline-script", "addEventListener", "google_ad_modifications")
+
+thepiratebay.*,camwhores.*,camwhorestv.*,cambabe.*,camgirlbay.net,candid.tube,filesamba.*,homewhores.net,hotbabes.tv,purelyceleb.com,ukrainenude.eu,webcamsluts.net,recorded-webcams.com,videowood.tv##+js(abort-on-property-read.js, _wm)
+thepiratebay.*,camwhores.*,camwhorestv.*,cambabe.*,camgirlbay.net,candid.tube,filesamba.*,homewhores.net,hotbabes.tv,purelyceleb.com,ukrainenude.eu,webcamsluts.net,recorded-webcams.com,videowood.tv#%#//scriptlet("abort-on-property-read", "_wm")
