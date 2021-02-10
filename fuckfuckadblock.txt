@@ -376,7 +376,9 @@ isaiminiweb.online,seulink.net$$meta[http-equiv="refresh"]
 ||manga1001.com/atba.js$script
 ||xnxx-cdn.com/*/default.pp.static.js$domain=xnxx.com,important
 ||xnxx-cdn.com/*/ppsuma65.js$domain=xnxx.com,important
-||iamcdn.net/players/playhydraxs.min.js$important,script
+||iamcdn.net/players/playera.dmins.js$script,domain=playhydrax.com,important
+||iamcdn.net/players/player*.*mins.js$script,domain=hydracdn.*|redirect-ads.com,important
+||iamcdn.net/players/playhydraxs.min.js$script,domain=redirect-ads.com,important
 ||express.de/wrapperMessagingWithoutDetection.js$script,important
 ||express.de/assets/*/dmn-head-start.js$script,important
 ||anime-jl.net/animeflv/js/detector.js$script,important
