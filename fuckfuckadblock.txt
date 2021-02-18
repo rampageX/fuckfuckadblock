@@ -424,6 +424,7 @@ isaiminiweb.online,seulink.net$$meta[http-equiv="refresh"]
 @@/\/dfp(\.min)?\.js/$script,xmlhttprequest
 @@/\/adblockDetector(\.min)?\.js/$script,xmlhttprequest
 @@/^https?:\/\/(.*\.)?adocean\.pl\/(.*\/)?ad\.(js|xml)\?/$script,image,xmlhttprequest
+@@/\/redataredir\?url\=[^\s]+%2Fad\.(js|xml)%3F/$xmlhttprequest,third-party
 @@/^https?:\/\/(www\.)?.*\/([_-a-zA-Z0-9.]{1,15})?ad[svbxo]?(\.min)?\.js/$script,xmlhttprequest,other
 @@/^https?:\/\/(www\.)?.*\/([_-a-zA-Z0-9.]{1,17})?ad[vs](er(ve)?t?(ise|ising|isement)?)?(\.min)?\.js/$xmlhttprequest,script,other
 @@/^https?:\/\/(www\.)?.*\/ad[svbxo]?([_-a-zA-Z0-9.]{1,15})?\.js/$script,xmlhttprequest,other
