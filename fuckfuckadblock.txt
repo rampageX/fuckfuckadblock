@@ -675,8 +675,8 @@ outerspace.com.br,forum.outerspace.com.br,uiz.io,varagh.com#%#//scriptlet("abort
 heidisql.com,vz.lt##+js(abort-current-inline-script.js, $, adblock)
 heidisql.com,vz.lt#%#//scriptlet("abort-current-inline-script", "$", "adblock")
 
-carbonite.co.za,mac-torrent-download.net,nirjonmela.com,techtobo.com,turkmmo.com##+js(abort-current-inline-script.js, $, AdBlock)
-carbonite.co.za,mac-torrent-download.net,nirjonmela.com,techtobo.com,turkmmo.com#%#//scriptlet("abort-current-inline-script", "$", "AdBlock")
+carbonite.co.za,mac-torrent-download.net,nirjonmela.com,techtobo.com,turkmmo.com,lcpdfr.com##+js(abort-current-inline-script.js, $, AdBlock)
+carbonite.co.za,mac-torrent-download.net,nirjonmela.com,techtobo.com,turkmmo.com,lcpdfr.com#%#//scriptlet("abort-current-inline-script", "$", "AdBlock")
 
 bercara.com,countrygames.net,cut-w.in,in11.site,semawur.com,sukakesehattan.com##+js(no-setTimeout-if.js, checkAdblockUser)
 bercara.com,countrygames.net,cut-w.in,in11.site,semawur.com,sukakesehattan.com#%#//scriptlet("prevent-setTimeout", "checkAdblockUser")
