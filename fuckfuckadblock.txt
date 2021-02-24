@@ -341,6 +341,7 @@ isaiminiweb.online,seulink.net$$meta[http-equiv="refresh"]
 |http*:*/wp-adblock-$script,redirect=fuckadblock.js-3.2.0,important
 |http*:*/wp-adblock-$script,redirect=prevent-fab-3.2.0,important
 |http*:*/wp-content/uploads/fuzcoeg.js$script,important
+|http*:*/wp-content/plugins/uji-popup/$script,important
 ||adservice.google.*$important,script,redirect=noopjs,domain=973espn.com|espn1420.com|maxedtech.com|viki.com
 ||adservice.google.*$important,xmlhttprequest,redirect=nooptext,domain=123link.pw|ccbluex.net|marie-claire.es|miarevista.es|muyhistoria.es|muyinteresante.es|muynegociosyeconomia.es|serpadres.es|tubia.com|uploadship.com|ctrlv.link
 ||jsdelivr.net/gh/virn90/seotechmancom/lazeyuz.js$important,script
