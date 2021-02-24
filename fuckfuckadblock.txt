@@ -270,8 +270,8 @@ hotstream.club##.rek
 cambay.tv,xgirls.webcam,camhoes.tv,watchmygf.me,porndr.com,fpo.xxx,submityourflicks.com,tubsexer.com,tubsexer.com,sexwebvideo.*,pornsexer.*,cwtvembeds.com,smutr.com,bobs-tube.com,xtits.com,camclips.tv,camthots.tv,xmegadrive.com###kt_player > a[target="_blank"]
 homepornvideo.net###in_player_block
 dizigang.com##[href*="/redirect.aspx"]
-sayrodigital.com,kusonime.com,avoiderrors.com,kitguru.net,windowsmatters.com,musike.net,systemnews24.com,graphicux.com,w3layouts.com,empregoestagios.com,pinoyalbums.com,elquintobeatle.com,pinayrare.net,sitarchive.com##[id][id*="-blanket"][style*="background"]
-sayrodigital.com,kusonime.com,avoiderrors.com,kitguru.net,windowsmatters.com,hacoos.com,musike.net,graphicux.com,w3layouts.com,pinoyalbums.com,elquintobeatle.com,sitarchive.com##html:style(overflow-y: scroll !important;)
+sayrodigital.com,kusonime.com,avoiderrors.com,kitguru.net,windowsmatters.com,musike.net,systemnews24.com,graphicux.com,w3layouts.com,empregoestagios.com,pinoyalbums.com,elquintobeatle.com,pinayrare.net,sitarchive.com,woiden.com##[id][id*="-blanket"][style*="background"]
+sayrodigital.com,kusonime.com,avoiderrors.com,kitguru.net,windowsmatters.com,hacoos.com,musike.net,graphicux.com,w3layouts.com,pinoyalbums.com,elquintobeatle.com,sitarchive.com,woiden.com##html:style(overflow-y: scroll !important;)
 ctrlv.link##div:contains(AdBlock)
 playhydrax.com,hydracdn.*,hydrax.net##div#over
 totv.org##div#ad
@@ -446,7 +446,7 @@ isaiminiweb.online,seulink.net$$meta[http-equiv="refresh"]
 @@||googletagmanager.com^$script,domain=linternaute.com
 @@||imasdk.googleapis.com^$script,domain=1plus1.video|amc.com|animedigitalnetwork.fr|arkadiumarena.com|aupetitparieur.com|babygames.com|click2houston.com|clickondetroit.com|clickorlando.com|flashgirlgames.com|gamak.tv|gazzetta.it|hqq.tv|hqq.watch|klix.ba|ksat.com|local10.com|mariogames.be|motorsport.tv|mypodboxx.com|news4jax.com|online-rossiya1.tv|onlinesudoku.games|player.tubia.com|polsatnews.pl|polsatsport.pl|stack.com|tubitv.com|tvp.info|tvp.pl|uptostream.com|usatoday.com|viki.com|waaw.tv|waaw1.tv|wifire.tv|wilmaa.com|wsls.com|wuxiaworld.com|x-link.pl|yandexcdn.com|twojapogoda.pl|geekweek.pl|echirurgia.pl|rtl.it|ladbible.com|ottwow.com|national-geographic.pl|nydailynews.com|observatornews.ro|bbcamerica.com
 @@||imasdk.googleapis.com^$xmlhttprequest,domain=venn.tv
-@@||pagead2.googlesyndication.com^$script,domain=4lpha.one|a2zupload.com|bowandtie.ru|camera.aeonax.com|ff14angler.com|globaldjmix.com|messletters.com|meteologix.com|miroir1.trackr.fr|myjest.com|namobilu.com|rte.ie|sfirmware.com|unlockapk.com|uploadship.com|weather.us|electric-house.ru|huljjang.com|kitchennovel.com|release-apk.com|baddiehub.com|3dzip.org|ladbible.com|4horlover.com|gatcha.org|haoweichi.com|freemen.jp|avoiderrors.com|calculate.plus|extremereportbot.com|forum.release-apk.com|kitguru.net|windowsmatters.com|musike.net|systemnews24.com|graphicux.com|w3layouts.com|empregoestagios.com|pinoyalbums.com|elquintobeatle.com|pinayrare.net
+@@||pagead2.googlesyndication.com^$script,domain=4lpha.one|a2zupload.com|bowandtie.ru|camera.aeonax.com|ff14angler.com|globaldjmix.com|messletters.com|meteologix.com|miroir1.trackr.fr|myjest.com|namobilu.com|rte.ie|sfirmware.com|unlockapk.com|uploadship.com|weather.us|electric-house.ru|huljjang.com|kitchennovel.com|release-apk.com|baddiehub.com|3dzip.org|ladbible.com|4horlover.com|gatcha.org|haoweichi.com|freemen.jp|avoiderrors.com|calculate.plus|extremereportbot.com|forum.release-apk.com|kitguru.net|windowsmatters.com|musike.net|systemnews24.com|graphicux.com|w3layouts.com|empregoestagios.com|pinoyalbums.com|elquintobeatle.com|pinayrare.net|woiden.com
 @@||pagead2.googlesyndication.com^$xmlhttprequest,domain=extremereportbot.com
 @@||rte.ie/*/smarttag.js|$script,xmlhttprequest
 @@||ads.stickyadstv.com^$xmlhttprequest
