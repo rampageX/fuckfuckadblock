@@ -309,7 +309,7 @@ isaiminiweb.online,seulink.net$$meta[http-equiv="refresh"]
 /^https?:\/\/(www\.)?deviants\.com\/[a-z0-9]{5}\/[a-z]{2}\.js$/$important,script,~third-party
 /^https?:\/\/[^\s]+\/js(\/\d+){1,4}\?r\=\&[0-9]{4,}/$script,third-party,important
 /\/[0-9a-z]\.js$/$script,~third-party,important,domain=kat.*|kat2.*|kick4ss.*|kickass.*|kickass2.*|kickasstorrents.*|kickassgo.com|kickasstorrents2.net|kickassz.com|thekickass.org|kickasst.*|kickass-kat.*|kkat.*|kkickass.*|thekat.*|kat.*
-|http*:*$script,~third-party,important,domain=imgkoi.xyz|all18xxx.com|imgweng.xyz|wildteenporn.com|imgxx.xyz|imageking.xyz|imgkes.xyz|imgair.net|imglin.xyz
+|http*:*$script,~third-party,important,domain=imgkoi.xyz|all18xxx.com|imgweng.xyz|wildteenporn.com|imgxx.xyz|imageking.xyz|imgkes.xyz|imgair.net|imglin.xyz|imgtigr.xyz
 |http*:*$script,redirect-rule=noopjs,domain=linternaute.com|hackintoshshop.com|extremereportbot.com|ebookdz.com
 |http*:*$xmlhttprequest,redirect-rule=nooptext,domain=muyhistoria.es|marie-claire.es|miarevista.es|muynegociosyeconomia.es|serpadres.es|muyinteresante.es
 |http*:*$subdocument,redirect-rule=noopframe,domain=forum.release-apk.com
