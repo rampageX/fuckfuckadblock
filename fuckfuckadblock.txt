@@ -940,5 +940,5 @@ cryptofuns.ru#%#//scriptlet("remove-attr", "href", "[target]")
 megadede.*,movidy.*,vidcorn.to,pelisplus2.*##+js(abort-current-inline-script.js, document.getElementsByTagName, onclick)
 megadede.*,movidy.*,vidcorn.to,pelisplus2.*#%#//scriptlet("abort-current-inline-script", "document.getElementsByTagName", "onclick")
 
-srek.net##+js(set-constant.js, disableItToContinue, noopFunc)
-srek.net#%#//scriptlet("set-constant", "disableItToContinue", "noopFunc")
+srek.net,exe.*##+js(set-constant.js, disableItToContinue, noopFunc)
+srek.net,exe.*#%#//scriptlet("set-constant", "disableItToContinue", "noopFunc")
