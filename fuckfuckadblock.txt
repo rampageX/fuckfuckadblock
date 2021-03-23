@@ -381,10 +381,14 @@ isaiminiweb.online,seulink.net$$meta[http-equiv="refresh"]
 ||express.de/wrapperMessagingWithoutDetection.js$script,important
 ||express.de/assets/*/dmn-head-start.js$script,important
 ||anime-jl.net/animeflv/js/detector.js$script,important
-||stat24.com/ad.xml$xmlhttprequest,redirect=nooptext,important
+||stat24.com/ad.xml$xmlhttprequest,redirect=nooptext
+||stat24.com/*/ad.xml$xmlhttprequest,redirect=nooptext
 ||videowood.tv/assets/js/popup*.js$script,important
 ||videowood.tv/pop2|$script,important
 
+@@||stat24.com/ad.xml$xmlhttprequest
+@@||stat24.com/*/ad.xml$xmlhttprequest
+@@/\?pub\_300x250\&pub\_300x250m\&pub\_728x90\&/$script,third-party
 @@*/adsense.txt?$xmlhttprequest
 @@*/GoogleDfpSlot.$xmlhttprequest
 @@/[/.]adsbygoogle\.js$/$script,~third-party
