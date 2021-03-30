@@ -955,3 +955,6 @@ megadede.*,movidy.*,vidcorn.to,pelisplus2.*#%#//scriptlet("abort-current-inline-
 
 srek.net,exe.*,cookuve.com##+js(set-constant.js, disableItToContinue, noopFunc)
 srek.net,exe.*,cookuve.com#%#//scriptlet("set-constant", "disableItToContinue", "noopFunc")
+
+yoshare.net##+js(abort-on-property-write, gothamBatAdblock)
+yoshare.net#%#//scriptlet("abort-on-property-write", "gothamBatAdblock")
