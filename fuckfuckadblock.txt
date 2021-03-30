@@ -956,5 +956,5 @@ megadede.*,movidy.*,vidcorn.to,pelisplus2.*#%#//scriptlet("abort-current-inline-
 srek.net,exe.*,cookuve.com##+js(set-constant.js, disableItToContinue, noopFunc)
 srek.net,exe.*,cookuve.com#%#//scriptlet("set-constant", "disableItToContinue", "noopFunc")
 
-yoshare.net,freefq.com,dadovedgt.it,chat-gay.eu,apnacoupon.com,imperobizantino.it,teens4us.com##+js(abort-on-property-write, gothamBatAdblock)
-yoshare.net,freefq.com,dadovedgt.it,chat-gay.eu,apnacoupon.com,imperobizantino.it,teens4us.com#%#//scriptlet("abort-on-property-write", "gothamBatAdblock")
+yoshare.net,freefq.com,dadovedgt.it,chat-gay.eu,apnacoupon.com,imperobizantino.it,teens4us.com,dongknows.com##+js(abort-on-property-write, gothamBatAdblock)
+yoshare.net,freefq.com,dadovedgt.it,chat-gay.eu,apnacoupon.com,imperobizantino.it,teens4us.com,dongknows.com#%#//scriptlet("abort-on-property-write", "gothamBatAdblock")
