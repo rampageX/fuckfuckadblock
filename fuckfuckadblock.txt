@@ -238,6 +238,7 @@
 #@#.ad-200x200
 #@#.adsmessage
 #@#.dfp-ad-unit
+#@#.adsbyvli
 
 ##a[href*=".exoclick.com/"]
 ##a[href*="/afu.php"]
@@ -274,6 +275,7 @@ ctrlv.link##div:contains(AdBlock)
 playhydrax.com,hydracdn.*,hydrax.net##div#over
 totv.org##div#ad
 hacoos.com###keep-ads
+pastebin.com##body > div[id]:not([class])[style="display: block;"]
 
 isaiminiweb.online,seulink.net##^meta[http-equiv="refresh"]
 isaiminiweb.online,seulink.net$$meta[http-equiv="refresh"]
