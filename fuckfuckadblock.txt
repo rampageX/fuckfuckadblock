@@ -292,7 +292,7 @@ isaiminiweb.online,seulink.net$$meta[http-equiv="refresh"]
 ||realsrv.com^$third-party,important
 ||wpnsrv.com^$third-party,important
 
-/^https?:\/\/((hqq|waaw|waaw1)\.(t[ov]|watch)|yandexcdn\.com)\//$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' unpkg.com *.gstatic.com *.google.com *.recaptcha.net *.cloudflare.com *.vkcdnservice.com local.adguard.org injections.adguard.org *.hcaptcha.com hcaptcha.com;
+/^https?:\/\/hqq\.(t[ov]|watch)\//$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' unpkg.com *.gstatic.com *.google.com *.recaptcha.net *.cloudflare.com *.vkcdnservice.com local.adguard.org injections.adguard.org *.hcaptcha.com hcaptcha.com;
 /^https?:\/\/str(eam)?ta(pe)?\.[\w]+\//$important,csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com local.adguard.org injections.adguard.org;
 /^https?:\/\/po[wvu][wv][li1]deo\.(net|c(om|c))\//$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' local.adguard.org injections.adguard.org *.google.com *.gstatic.com *.googleapis.com;
 /^https?:\/\/str?ea[nm]p[l1]ay\.[a-z]{2,3}\//$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com local.adguard.org injections.adguard.org;
