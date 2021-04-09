@@ -306,6 +306,7 @@ isaiminiweb.online,seulink.net$$meta[http-equiv="refresh"]
 ||vedshar.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' local.adguard.org injections.adguard.org;
 
 /\.[\w]+\/\?pu\=/$script,third-party,important
+||romgoc.net/css-gsm1x/adblock_fuck.js$script,important
 /\/apu\.(php|hh)\?/$important
 /\/js[a-z0-9]+\/[a-z]{5,6}\.js$/$script,~third-party,important,domain=uploaded.net
 /\/pu\/[.a-s]{1,5}\.js$/$important,~third-party,script
