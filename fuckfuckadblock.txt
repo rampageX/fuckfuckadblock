@@ -947,6 +947,9 @@ extremetube.com,keezmovies.com,pornhub.*,pornhubthbh7ap3u.onion,redtube.*,spankw
 soft98.ir##+js(no-setTimeout-if.js, (), 3000)
 soft98.ir#%#//scriptlet("prevent-setTimeout", "()", "3000")
 
+muztext.com##+js(no-setTimeout-if.js, (), 100)
+muztext.com#%#//scriptlet("prevent-setTimeout", "()", "100")
+
 lecourrier-du-soir.com##+js(abort-current-inline-script.js, addEventListener, google_ad_modifications)
 lecourrier-du-soir.com#%#//scriptlet("abort-current-inline-script", "addEventListener", "google_ad_modifications")
 
