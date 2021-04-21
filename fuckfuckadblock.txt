@@ -880,8 +880,8 @@ cbssports.com,cnet.com,everydayhealth.com,gamespot.com,goal.com,metacritic.com,p
 citgratis.com,felanovia.com,hotgameplus.com,majidzhacker.com,mobilecare107.com,mordefter.com,ominfoupdate.com,safelinku.icu,samapkstore.com,sccponline.com,sedot.link,smartpeople.id,softwarecrackguru.com,techmuzz.com,turkcehentai.club,ver-hentai.com##+js(abort-on-property-write.js, downloadJSAtOnload)
 citgratis.com,felanovia.com,hotgameplus.com,majidzhacker.com,mobilecare107.com,mordefter.com,ominfoupdate.com,safelinku.icu,samapkstore.com,sccponline.com,sedot.link,smartpeople.id,softwarecrackguru.com,techmuzz.com,turkcehentai.club,ver-hentai.com#%#//scriptlet("abort-on-property-write", "downloadJSAtOnload")
 
-guideautoweb.com,inspirock.com,lasemainedansleboulonnais.fr,masteroverwatch.com,mykor.ru,nordeclair.fr,onet.pl,practicequiz.com,thedailybeast.com##+js(abort-on-property-read.js, detectAdBlock)
-guideautoweb.com,inspirock.com,lasemainedansleboulonnais.fr,masteroverwatch.com,mykor.ru,nordeclair.fr,onet.pl,practicequiz.com,thedailybeast.com#%#//scriptlet("abort-on-property-read", "detectAdBlock")
+guideautoweb.com,inspirock.com,lasemainedansleboulonnais.fr,masteroverwatch.com,mykor.ru,nordeclair.fr,onet.pl,practicequiz.com,thedailybeast.com,pornohans.com##+js(abort-on-property-read.js, detectAdBlock)
+guideautoweb.com,inspirock.com,lasemainedansleboulonnais.fr,masteroverwatch.com,mykor.ru,nordeclair.fr,onet.pl,practicequiz.com,thedailybeast.com,pornohans.com#%#//scriptlet("abort-on-property-read", "detectAdBlock")
 
 adbull.*,akvideo.stream,mega4up.com,uploadfiles.pw,w4files.ws,wstream.*##+js(remove-attr.js, onclick)
 adbull.*,akvideo.stream,mega4up.com,uploadfiles.pw,w4files.ws,wstream.*#%#//scriptlet("remove-attr", "onclick")
