@@ -249,7 +249,7 @@
 
 all18xxx.com##.on-player-pl
 all18xxx.com,wildteenporn.com##[href*="/out.php?"]
-cambay.tv,xgirls.webcam,camhoes.tv,watchmygf.*,porndr.com,fpo.xxx,submityourflicks.com,tubsexer.com,tubsexer.com,sexwebvideo.*,pornsexer.*,cwtvembeds.com,smutr.com,bobs-tube.com,xtits.com,camclips.tv,camthots.tv,xmegadrive.com,ebalovsk.com,modelsgonebad.com,xxxsextube.tv###kt_player > a[target="_blank"]
+cambay.tv,xgirls.webcam,camhoes.tv,watchmygf.*,porndr.com,fpo.xxx,submityourflicks.com,tubsexer.com,tubsexer.com,sexwebvideo.*,pornsexer.*,cwtvembeds.com,smutr.com,bobs-tube.com,xtits.com,camclips.tv,camthots.tv,xmegadrive.com,ebalovsk.com,modelsgonebad.com,xxxsextube.tv,thebestshemalevideos.com###kt_player > a[target="_blank"]
 crocotube.com##.bnnrs-player
 ctrlv.link##div:contains(AdBlock)
 dizigang.com##[href*="/redirect.aspx"]
