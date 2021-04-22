@@ -814,8 +814,8 @@ chip.cz,femax20.com,g.cz,idnes.cz,javlove.*,javstream.top,labuznik.cz,moviemania
 channelmyanmar.org##+js(abort-on-property-read.js, adBDetect)
 channelmyanmar.org#%#//scriptlet("abort-on-property-read", "adBDetect")
 
-cartoon-sex.tv,cartoonporno.xxx,fakeporn.tv,morehardporn.com,watchmyexgf.net,watchmygf.cc,watch-my-gf.com##+js(abort-on-property-read.js, prPuShown)
-cartoon-sex.tv,cartoonporno.xxx,fakeporn.tv,morehardporn.com,watchmyexgf.net,watchmygf.cc,watch-my-gf.com#%#//scriptlet("abort-on-property-read", "prPuShown")
+cartoon-sex.tv,cartoonporno.xxx,fakeporn.tv,morehardporn.com,watchmyexgf.net,watchmygf.*,watch-my-gf.com##+js(abort-on-property-read.js, prPuShown)
+cartoon-sex.tv,cartoonporno.xxx,fakeporn.tv,morehardporn.com,watchmyexgf.net,watchmygf.*,watch-my-gf.com#%#//scriptlet("abort-on-property-read", "prPuShown")
 
 alrincon.com,bioskop168.pro,indo168.club,iranproud2.net,seks.com,semi168.*,storengy.com,take.az,turkbet.tv,turkbettv.com,turkbettv2.com,turkbettv3.com,turkbettv4.com,turkbettv5.com,xxxshare.net##+js(abort-on-property-read.js, makePopunder, /^(?:pop2under|mypopunder|PopHelper|doPopunder)$/)
 alrincon.com,bioskop168.pro,indo168.club,iranproud2.net,seks.com,semi168.*,storengy.com,take.az,turkbet.tv,turkbettv.com,turkbettv2.com,turkbettv3.com,turkbettv4.com,turkbettv5.com,xxxshare.net#%#//scriptlet("abort-on-property-read", "makePopunder", "/^(?:pop2under|mypopunder|PopHelper|doPopunder)$/")
