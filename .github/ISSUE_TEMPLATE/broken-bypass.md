@@ -1,5 +1,5 @@
 ---
-name: Bypass Broken
+name: Broken Bypass
 about: Something is broken
 title: 'ENTER DOMAIN HERE'
 labels: 'breakage'
