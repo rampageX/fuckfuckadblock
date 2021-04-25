@@ -1,10 +1,11 @@
 ---
 name: Broken Bypass
-about: Something is broken 
+about: Something is broken
 title: 'ENTER DOMAIN HERE'
 labels: 'breakage'
 ---
 
+<!-- Please read this https://github.com/bogachenko/fuckfuckadblock/wiki/Support-policy#report before posting your report. -->
 ### Basic information
 
 **Check the link:** <!-- Next to this phrase, include the link you want to test. -->
@@ -13,9 +14,9 @@ labels: 'breakage'
 
 ### User environment
 
-**Browser:**
-**Extension or program:** 
+**Browser:** <!-- Write here the name of the browser and its version. -->
+**Extension or program:** <!-- Only uBlock Origin or Adguard. -->
 
 ### Additional message
 
-<!-- Write only useful information here, for example - "how to reproduce the problem, what lists are you using, do you have other extensions in your browser", something like that. -->
+<!-- Write only useful information here, if it is not there, delete this field. -->
