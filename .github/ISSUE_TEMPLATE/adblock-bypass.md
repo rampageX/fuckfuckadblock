@@ -1,5 +1,5 @@
 ---
-name: Adblock Bypass
+name: Ad block Bypass
 about: A message asking you to disable your ad blocker
 title: 'ENTER DOMAIN HERE'
 labels: 'antiadblock'
