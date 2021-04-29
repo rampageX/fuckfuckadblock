@@ -794,8 +794,8 @@ kordramass.com,kshowsubindo.org,oujanime.com,senimovie.co#%#//scriptlet("abort-c
 chrt.pw,katmovie.*,megaup.net,short.pe,tv-onlinehd.com,upload4earn.org,uploadbuzz.*,uploadbyte.com,uploadever.com,ustreamix.*,ustreamyx.*,watchmovies.pk##+js(no-setTimeout-if.js, '0x)
 chrt.pw,katmovie.*,megaup.net,short.pe,tv-onlinehd.com,upload4earn.org,uploadbuzz.*,uploadbyte.com,uploadever.com,ustreamix.*,ustreamyx.*,watchmovies.pk#%#//scriptlet("prevent-setTimeout", "'0x")
 
-gats.io,goalup.live,haloani.ru,megaup.net,jaanmusic.in##+js(no-setTimeout-if.js, 0x)
-gats.io,goalup.live,haloani.ru,megaup.net,jaanmusic.in#%#//scriptlet("prevent-setTimeout", "0x")
+gats.io,goalup.live,haloani.ru,megaup.net##+js(no-setTimeout-if.js, 0x)
+gats.io,goalup.live,haloani.ru,megaup.net#%#//scriptlet("prevent-setTimeout", "0x")
 
 bs.to,burningseries.co,clik.*,dizilla.com,doxysexy.com,dwa21.org,efukt.com,nonstopfuck.com,rustorka.*,sucknature.com,voe.sx,zooqle.*##+js(addEventListener-defuser.js, /^(?:click|mousedown)$/, preventDefault)
 bs.to,burningseries.co,clik.*,dizilla.com,doxysexy.com,dwa21.org,efukt.com,nonstopfuck.com,rustorka.*,sucknature.com,voe.sx,zooqle.*#%#//scriptlet("prevent-addEventListener", "/^(?:click|mousedown)$/", "preventDefault")
@@ -977,3 +977,5 @@ apnacoupon.com,chat-gay.eu,conservativeus.com,dadovedgt.it,dongknows.com,freefq.
 grabitbd.xyz,game3rb.com##+js(abort-current-inline-script.js, document.addEventListener, innerHTML)
 grabitbd.xyz,game3rb.com#%#//scriptlet("abort-current-inline-script", "document.addEventListener", "innerHTML")
 
+badassdownloader.com,gearingcommander.com,premid.app,badasshardcore.com,badassoftcore.com##+js(no-setTimeout-if.js, innerHTML)
+badassdownloader.com,gearingcommander.com,premid.app,badasshardcore.com,badassoftcore.com#%#//scriptlet("prevent-setTimeout", "innerHTML")
