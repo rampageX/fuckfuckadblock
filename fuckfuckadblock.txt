@@ -356,7 +356,7 @@ isaiminiweb.online,seulink.net,sextgem.com$$meta[http-equiv="refresh"]
 ||adservice.google.*$important,xmlhttprequest,redirect=nooptext,domain=123link.pw|ccbluex.net|ctrlv.link|marie-claire.es|miarevista.es|muyhistoria.es|muyinteresante.es|muynegociosyeconomia.es|serpadres.es|tubia.com|uploadship.com
 ||anime-jl.net/animeflv/js/detector.js$script,important
 ||doubleclick.net^$important,script,redirect=noopjs,domain=freeiptv.life|indy100.com
-||doubleclick.net^$important,xmlhttprequest,redirect=nooptext,domain=tutorialsplanet.net|filecr.com|123l.pw|123link.pw|123link.vip|aagmaal.com|bitminer.biz|dalatmongm.site|danshort.com|filmix.cc|freemagazines.top|made-by.org|maxedtech.com|photopea.com|rp-online.de|scat.gold
+||doubleclick.net^$important,xmlhttprequest,redirect=nooptext,domain=tutorialsplanet.net|filecr.com|123l.pw|123link.pw|123link.vip|aagmaal.com|bitminer.biz|dalatmongm.site|danshort.com|filmix.cc|freemagazines.top|made-by.org|maxedtech.com|photopea.com|rp-online.de|scat.gold|behindzscene.net
 ||dyncdn.me/static/*/js/expla*.js|$script,important
 ||express.de/assets/*/dmn-head-start.js$script,important
 ||express.de/wrapperMessagingWithoutDetection.js$script,important
@@ -971,6 +971,6 @@ cookuve.com,eririo.club,exe.*,srek.net,exey.io,bevru.club#%#//scriptlet("set-con
 apnacoupon.com,chat-gay.eu,conservativeus.com,dadovedgt.it,dongknows.com,freefq.com,imperobizantino.it,teens4us.com,yoshare.net##+js(abort-on-property-write.js, gothamBatAdblock)
 apnacoupon.com,chat-gay.eu,conservativeus.com,dadovedgt.it,dongknows.com,freefq.com,imperobizantino.it,teens4us.com,yoshare.net#%#//scriptlet("abort-on-property-write", "gothamBatAdblock")
 
-grabitbd.xyz,game3rb.com##+js(abort-current-inline-script, document.addEventListener, innerHTML)
-grabitbd.xyz,game3rb.com##+js(abort-current-inline-script, document.addEventListener, innerHTML)
+grabitbd.xyz,game3rb.com##+js(abort-current-inline-script.js, document.addEventListener, innerHTML)
+grabitbd.xyz,game3rb.com#%#//scriptlet("abort-current-inline-script", "document.addEventListener", "innerHTML")
 
