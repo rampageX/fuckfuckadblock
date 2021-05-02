@@ -796,11 +796,11 @@ kimcartoon.*,newlineporn.com,vivo.sx#%#//scriptlet("prevent-addEventListener", "
 kordramass.com,kshowsubindo.org,oujanime.com,senimovie.co##+js(abort-current-inline-script.js, document.onclick, popunder)
 kordramass.com,kshowsubindo.org,oujanime.com,senimovie.co#%#//scriptlet("abort-current-inline-script", "document.onclick", "popunder")
 
-chrt.pw,katmovie.*,megaup.net,short.pe,tv-onlinehd.com,upload4earn.org,uploadbuzz.*,uploadbyte.com,uploadever.com,ustreamix.*,ustreamyx.*,watchmovies.pk##+js(no-setTimeout-if.js, '0x)
-chrt.pw,katmovie.*,megaup.net,short.pe,tv-onlinehd.com,upload4earn.org,uploadbuzz.*,uploadbyte.com,uploadever.com,ustreamix.*,ustreamyx.*,watchmovies.pk#%#//scriptlet("prevent-setTimeout", "'0x")
+chrt.pw,katmovie.*,short.pe,tv-onlinehd.com,upload4earn.org,uploadbuzz.*,uploadbyte.com,uploadever.com,ustreamix.*,ustreamyx.*,watchmovies.pk##+js(no-setTimeout-if.js, '0x)
+chrt.pw,katmovie.*,short.pe,tv-onlinehd.com,upload4earn.org,uploadbuzz.*,uploadbyte.com,uploadever.com,ustreamix.*,ustreamyx.*,watchmovies.pk#%#//scriptlet("prevent-setTimeout", "'0x")
 
-gats.io,goalup.live,haloani.ru,megaup.net##+js(no-setTimeout-if.js, 0x)
-gats.io,goalup.live,haloani.ru,megaup.net#%#//scriptlet("prevent-setTimeout", "0x")
+gats.io,goalup.live,haloani.ru##+js(no-setTimeout-if.js, 0x)
+gats.io,goalup.live,haloani.ru#%#//scriptlet("prevent-setTimeout", "0x")
 
 bs.to,burningseries.co,clik.*,dizilla.com,doxysexy.com,dwa21.org,efukt.com,nonstopfuck.com,rustorka.*,sucknature.com,voe.sx,zooqle.*##+js(addEventListener-defuser.js, /^(?:click|mousedown)$/, preventDefault)
 bs.to,burningseries.co,clik.*,dizilla.com,doxysexy.com,dwa21.org,efukt.com,nonstopfuck.com,rustorka.*,sucknature.com,voe.sx,zooqle.*#%#//scriptlet("prevent-addEventListener", "/^(?:click|mousedown)$/", "preventDefault")
@@ -852,9 +852,6 @@ animekuro.net,ap-siken.com,calciomercato.com,clik.*,extremereportbot.com,filmand
 
 dood.*,dropgalaxy.*,techssting.com,extremereportbot.com,javhub.*,upstream.to,xsanime.com##+js(no-setInterval-if.js, _0x)
 dood.*,dropgalaxy.*,techssting.com,extremereportbot.com,javhub.*,upstream.to,xsanime.com#%#//scriptlet("prevent-setInterval", "_0x")
-
-megaup.net##+js(no-setInterval-if.js, 0x)
-megaup.net#%#//scriptlet("prevent-setInterval", "0x")
 
 diaridegirona.cat,diariodeibiza.es,emporda.info,farodevigo.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,regio7.cat,superdeporte.es##+js(abort-current-inline-script.js, compruebaAdblockPremium, setTimeout)
 diaridegirona.cat,diariodeibiza.es,emporda.info,farodevigo.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,regio7.cat,superdeporte.es#%#//scriptlet("abort-current-inline-script", "compruebaAdblockPremium", "setTimeout")
