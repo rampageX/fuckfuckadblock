@@ -721,8 +721,8 @@ bercara.com,countrygames.net,cut-w.in,in11.site,semawur.com,sukakesehattan.com#%
 bestblowjobvids.com,euro-fh.de,hqtube.xxx,pornid.xxx,rat.xxx,redhdtube.xxx,sexvid.xxx,zbporn.tv##+js(abort-on-property-read.js, pu)
 bestblowjobvids.com,euro-fh.de,hqtube.xxx,pornid.xxx,rat.xxx,redhdtube.xxx,sexvid.xxx,zbporn.tv#%#//scriptlet("abort-on-property-read", "pu")
 
-akvideo.stream,cryptofuns.ru,ilmeteo.it,linkspaid.com,mycartoonvideo.net,proxydocker.com,shorte-st.online,wblogy.com,lightnovelpub.com##+js(no-setTimeout-if.js, (), 1000)
-akvideo.stream,cryptofuns.ru,ilmeteo.it,linkspaid.com,mycartoonvideo.net,proxydocker.com,shorte-st.online,wblogy.com,lightnovelpub.com#%#//scriptlet("prevent-setTimeout", "()", "1000")
+akvideo.stream,cryptofuns.ru,ilmeteo.it,linkspaid.com,mycartoonvideo.net,proxydocker.com,shorte-st.online,wblogy.com,lightnovelpub.com,seriesdonghua.com##+js(no-setTimeout-if.js, (), 1000)
+akvideo.stream,cryptofuns.ru,ilmeteo.it,linkspaid.com,mycartoonvideo.net,proxydocker.com,shorte-st.online,wblogy.com,lightnovelpub.com,seriesdonghua.com#%#//scriptlet("prevent-setTimeout", "()", "1000")
 
 cryptofuns.ru##+js(no-setTimeout-if.js, (), 1500)
 cryptofuns.ru#%#//scriptlet("prevent-setTimeout", "()", "1500")
