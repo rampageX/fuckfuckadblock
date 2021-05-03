@@ -16,6 +16,7 @@ labels: 'popup'
 
 **Browser:** <!-- Write here the name of the browser and its version. -->
 **Extension or program:** <!-- Only uBlock Origin or Adguard. -->
+**DNS:** <!-- Are you using a third-party ad-filtering DNS-server? -->
 
 ### Additional message
 
