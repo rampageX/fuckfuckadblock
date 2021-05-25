@@ -406,6 +406,7 @@ isaiminiweb.online,seulink.net,sextgem.com$$meta[http-equiv="refresh"]
 ||xnxx-cdn.com/*/ppsuma65.js$domain=xnxx.com,important
 |http*:*/tghr.js$script,important
 ||googletagmanager.com/gtag/js$xmlhttprequest,domain=pewgame.com,redirect=nooptext,important
+||googletagmanager.com^$script,redirect=noopjs,important,domain=sms24.me
 
 @@*/ads.txt?$xmlhttprequest,~third-party
 @@*$script,~third-party,domain=escripts.club|geoguessr.com
