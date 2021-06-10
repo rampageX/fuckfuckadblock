@@ -1,6 +1,6 @@
 ---
 name: Popup Bypass
-about:  Pop-up window or message with advertising
+about: Pop-up window or message with advertising
 title: 'ENTER DOMAIN HERE'
 labels: 'popup'
 ---
