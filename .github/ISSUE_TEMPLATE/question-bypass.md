@@ -7,4 +7,4 @@ labels: 'question'
 
 ### Additional message
 
-<!-- Write only useful information here, if it is not there, delete this field. -->
+<!-- Write here only useful information, describing your question in detail. -->
