@@ -1,6 +1,6 @@
 ---
 name: Question Bypass
-about: Question or discussion about the bypass
+about: Question or discussion
 title: 'ENTER QUESTION HERE'
 labels: 'question'
 ---
