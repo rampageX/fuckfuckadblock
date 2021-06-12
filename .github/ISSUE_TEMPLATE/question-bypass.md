@@ -5,6 +5,6 @@ title: 'ENTER QUESTION HERE'
 labels: 'question'
 ---
 
-### Additional message
+### Message
 
 <!-- Write here only useful information, describing your question in detail. -->
