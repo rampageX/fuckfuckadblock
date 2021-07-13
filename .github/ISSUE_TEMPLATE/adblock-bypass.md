@@ -17,6 +17,7 @@ labels: 'antiadblock'
 **Browser:** <!-- Write here the name of the browser and its version. -->
 **Extension or program:** <!-- Only uBlock Origin or Adguard. -->
 **DNS:** <!-- Are you using a third-party ad-filtering DNS-server? -->
+**Extensions:** <!-- What add-ons do you use in your browser? -->
 
 ### Additional message
 
