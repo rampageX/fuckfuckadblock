@@ -708,7 +708,7 @@ kordramass.com,kshowsubindo.org,oujanime.com,senimovie.co##+js(abort-current-inl
 
 chrt.pw,katmovie.*,short.pe,tv-onlinehd.com,upload4earn.org,uploadbuzz.*,uploadbyte.com,uploadever.com,ustreamix.*,ustreamyx.*,watchmovies.pk##+js(no-setTimeout-if.js, '0x)
 
-gats.io,goalup.live,haloani.ru##+js(no-setTimeout-if.js, 0x)
+gats.io,goalup.live,haloani.ru,r18hub.com##+js(no-setTimeout-if.js, 0x)
 
 bs.to,burningseries.co,clik.*,dizilla.com,doxysexy.com,dwa21.org,efukt.com,nonstopfuck.com,rustorka.*,sucknature.com,voe.sx,zooqle.*,kpopsea.com##+js(addEventListener-defuser.js, /^(?:click|mousedown)$/, preventDefault)
 
