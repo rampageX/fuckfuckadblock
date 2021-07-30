@@ -648,7 +648,7 @@ badcomics.it,badgames.it,badtaste.it,badtv.it,esportes.r7.com,gamepur.com,satosh
 
 forum.outerspace.com.br,outerspace.com.br,uiz.io,varagh.com##+js(abort-current-inline-script.js, $, adBlock)
 
-asiatv.online,heidisql.com,vz.lt##+js(abort-current-inline-script.js, $, adblock)
+asiatv.online,heidisql.com,vz.lt,allmusic.com##+js(abort-current-inline-script.js, $, adblock)
 
 carbonite.co.za,lcpdfr.com,mac-torrent-download.net,nirjonmela.com,techtobo.com,turkmmo.com##+js(abort-current-inline-script.js, $, AdBlock)
 
