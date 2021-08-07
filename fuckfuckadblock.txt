@@ -215,6 +215,10 @@
 #@#.adsense
 #@#.adslot
 #@#.adsmessage
+#@#.ad-text
+#@#.adContent
+#@#.adSense
+#@#.ad_unit
 #@#.adspot
 #@#.adType2
 #@#.adWrapper
