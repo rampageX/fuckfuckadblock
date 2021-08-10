@@ -827,4 +827,4 @@ badassdownloader.com,gearingcommander.com,premid.app,badasshardcore.com,badassof
 
 redirect-ads.com##+js(remove-attr.js, style, #over)
 
-crazytechgo.com,zetrotranslation.com,streameast.live##+js(addEventListener-defuser.js, DOMContentLoaded, showModal)
+edunil.com,crazytechgo.com,zetrotranslation.com,streameast.live##+js(addEventListener-defuser.js, DOMContentLoaded, showModal)
