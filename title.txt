@@ -1,0 +1,11 @@
+! Title: My Fuck Fuckadblock
+! Description: Filters for blocking pop-ups and anti-adblock bypass
+! Author: rampageX
+! Expires: 24 hours
+! Homepage: https://github.com/rampageX/fuckfuckadblock
+! Licence: https://raw.githubusercontent.com/rampageX/fuckfuckadblock/master/LICENSE.md
+! RAW: https://raw.githubusercontent.com/rampageX/fuckfuckadblock/master/my_antiadblock_selection.txt
+! CDN:
+!	1. https://raw.githack.com/rampageX/fuckfuckadblock/master/my_antiadblock_selection.txt
+!	2. https://cdn.statically.io/gh/rampageX/fuckfuckadblock/master/my_antiadblock_selection.txt
+!	3. https://cdn.jsdelivr.net/gh/rampageX/fuckfuckadblock/my_antiadblock_selection.txt
