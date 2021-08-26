@@ -1,4 +1,4 @@
-# Fuck Fuckadblock<sup>[What?](https://github.com/bogachenko/fuckfuckadblock/wiki/About-Fuck-Fuckadblock)</sup>
+# My Fuck Fuckadblock<sup>[What?](https://github.com/bogachenko/fuckfuckadblock/wiki/About-Fuck-Fuckadblock)</sup>
 
 Filters for blocking pop-ups and anti-adblock bypass.
 
