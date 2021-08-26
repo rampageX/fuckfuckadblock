@@ -4,7 +4,9 @@ Filters for blocking pop-ups and anti-adblock bypass.
 
 ### Use<sup>[How?](https://github.com/bogachenko/fuckfuckadblock/wiki/Installation-instruction)</sup>
 
-You can add this list to yourself using this button — [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/rampageX/fuckfuckadblock/master/my_antiadblock_selection.txt&title=My%20Fuck%20Fuckadblock)<br>Or add it manually using this RAW link — https://raw.githubusercontent.com/rampageX/fuckfuckadblock/master/my_antiadblock_selection.txt
+You can add this list to yourself using this button — [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/rampageX/fuckfuckadblock/master/my_antiadblock_selection.txt&title=My%20Fuck%20Fuckadblock)<br>Or add it manually using this RAW link：
+
+  https://raw.githubusercontent.com/rampageX/fuckfuckadblock/master/my_antiadblock_selection.txt
 
 ### CDN<sup>[Why?](https://github.com/bogachenko/fuckfuckadblock/wiki/Mirror-lists)</sup>
 
