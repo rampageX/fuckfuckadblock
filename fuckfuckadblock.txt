@@ -416,6 +416,7 @@ isaiminiweb.online,seulink.net,sextgem.com,comicxxx.eu$$meta[http-equiv="refresh
 
 @@*$script,~third-party,domain=escripts.club|geoguessr.com
 @@*/ad/banner/_adsense_/_adserver/_adview_.ad.json$xmlhttprequest
+@@||adblockanalytics.com^$third-party,xmlhttprequest
 @@*/adblock.js$script
 @@*/adblock.php$script,xmlhttprequest
 @@*/adblocker/pixel.gif|$image
@@ -823,7 +824,7 @@ apnacoupon.com,chat-gay.eu,conservativeus.com,dadovedgt.it,dongknows.com,freefq.
 
 grabitbd.xyz,game3rb.com##+js(abort-current-inline-script.js, document.addEventListener, innerHTML)
 
-badassdownloader.com,badasshardcore.com,badassoftcore.com,darmowa-tv.ws,gearingcommander.com,nulljungle.com,nullphpscript.com,premid.app,texture-packs.com,themes-dl.com##+js(no-setTimeout-if.js, innerHTML)
+badassdownloader.com,badasshardcore.com,badassoftcore.com,darmowa-tv.ws,gearingcommander.com,nulljungle.com,nullphpscript.com,premid.app,texture-packs.com,themes-dl.com,nin10news.com,softcobra.com##+js(no-setTimeout-if.js, innerHTML)
 
 redirect-ads.com##+js(remove-attr.js, style, #over)
 
