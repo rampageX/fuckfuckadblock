@@ -413,6 +413,7 @@ isaiminiweb.online,seulink.net,sextgem.com,comicxxx.eu$$meta[http-equiv="refresh
 ||xnxx-cdn.com/*/default.pp.static.js$domain=xnxx.com,important
 ||xnxx-cdn.com/*/ppsuma65.js$domain=xnxx.com,important
 ||serverf4.org/asset/*.min.js?*=*&$important,script
+||doubleclick.net/pagead/ads?client=$redirect-rule=noopframe,subdocument
 
 @@*$script,~third-party,domain=escripts.club|geoguessr.com
 @@*/ad/banner/_adsense_/_adserver/_adview_.ad.json$xmlhttprequest
