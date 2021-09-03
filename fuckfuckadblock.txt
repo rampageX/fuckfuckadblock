@@ -300,8 +300,8 @@ isaiminiweb.online,seulink.net,sextgem.com,comicxxx.eu$$meta[http-equiv="refresh
 ||realsrv.com^$third-party,important
 ||wpnsrv.com^$third-party,important
 
-/^https?:\/\/[_a-z-]{6,16}\.[a-z]+\/(4(00)?|5)\/[0-9]{7}/$third-party,important,popup
-/^https?:\/\/[_a-z-]{6,16}\.[a-z]+\/[a-w]{3,4}\.php\?[a-z]{1,6}\=[0-9]{7}$/$third-party,popup,important
+/^https?:\/\/[_a-z0-9-.]{6,16}\.[a-z]+\/(4(00)?|5)\/[0-9]{7}/$third-party,important,popup
+/^https?:\/\/[_a-z0-9-.]{6,16}\.[a-z]+\/[a-w]{3,4}\.php\?[a-z]{1,6}\=[0-9]{7}$/$third-party,popup,important
 
 /^https?:\/\/po[wvu][wv][li1]deo\.(net|c(om|c))\//$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' local.adguard.org injections.adguard.org *.google.com *.gstatic.com *.googleapis.com;
 /^https?:\/\/str((eam)?ta(pe)?(adblock)?|cloud)\.[\w]+\//$important,csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com local.adguard.org injections.adguard.org;
