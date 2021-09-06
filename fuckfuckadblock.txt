@@ -831,4 +831,4 @@ badassdownloader.com,badasshardcore.com,badassoftcore.com,darmowa-tv.ws,gearingc
 
 redirect-ads.com##+js(remove-attr.js, style, #over)
 
-crazytechgo.com,edunil.com,freewebcart.com,gigacourse.com,hataphim.com,omerbozdi.com.tr,streameast.live,zetrotranslation.com##+js(addEventListener-defuser.js, DOMContentLoaded, showModal)
+crazytechgo.com,edunil.com,freewebcart.com,gigacourse.com,hataphim.com,omerbozdi.com.tr,streameast.live,zetrotranslation.com,bestwego.xyz##+js(addEventListener-defuser.js, DOMContentLoaded, showModal)
