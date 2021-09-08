@@ -832,4 +832,4 @@ badassdownloader.com,badasshardcore.com,badassoftcore.com,darmowa-tv.ws,gearingc
 
 redirect-ads.com##+js(remove-attr.js, style, #over)
 
-crazytechgo.com,edunil.com,freewebcart.com,gigacourse.com,hataphim.com,omerbozdi.com.tr,streameast.live,zetrotranslation.com,bestwego.xyz,pbarecap.ph,vectogravic.com,tinyppt.com,simulatormods.com,pinsystem.co.uk,phpscripttr.com,scrapywar.com,oyuncusoruyor.com,sourds.net,zivinice-carsija.com,teknobalta.com,tvinternetowa.info,moddedguru.com##+js(addEventListener-defuser.js, DOMContentLoaded, showModal)
+crazytechgo.com,edunil.com,freewebcart.com,gigacourse.com,hataphim.com,omerbozdi.com.tr,streameast.live,zetrotranslation.com,bestwego.xyz,pbarecap.ph,vectogravic.com,tinyppt.com,simulatormods.com,pinsystem.co.uk,phpscripttr.com,scrapywar.com,oyuncusoruyor.com,sourds.net,zivinice-carsija.com,teknobalta.com,tvinternetowa.info,moddedguru.com,pcwarehub.com##+js(addEventListener-defuser.js, DOMContentLoaded, showModal)
