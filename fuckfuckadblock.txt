@@ -367,7 +367,7 @@ isaiminiweb.online,seulink.net,sextgem.com,comicxxx.eu$$meta[http-equiv="refresh
 ||adservice.google.*$important,xmlhttprequest,redirect=nooptext,domain=123link.pw|ccbluex.net|ctrlv.link|marie-claire.es|miarevista.es|muyhistoria.es|muyinteresante.es|muynegociosyeconomia.es|serpadres.es|tubia.com|uploadship.com
 ||anime-jl.net/animeflv/js/detector.js$script,important
 ||doubleclick.net^$important,script,redirect=noopjs,domain=freeiptv.life|indy100.com
-||doubleclick.net^$important,xmlhttprequest,redirect=nooptext,domain=tutorialsplanet.net|filecr.com|123l.pw|123link.pw|123link.vip|aagmaal.com|bitminer.biz|dalatmongm.site|danshort.com|filmix.cc|freemagazines.top|made-by.org|maxedtech.com|photopea.com|rp-online.de|scat.gold|behindzscene.net|automotur.club|rota.cc
+||doubleclick.net^$important,xmlhttprequest,redirect=nooptext,domain=tutorialsplanet.net|filecr.com|123l.pw|123link.pw|123link.vip|aagmaal.com|bitminer.biz|dalatmongm.site|danshort.com|filmix.cc|freemagazines.top|made-by.org|maxedtech.com|photopea.com|rp-online.de|scat.gold|behindzscene.net|automotur.club|rota.cc|sms24.info
 ||dyncdn.me/static/*/js/expla*.js|$script,important
 ||express.de/assets/*/dmn-head-start.js$script,important
 ||express.de/wrapperMessagingWithoutDetection.js$script,important
