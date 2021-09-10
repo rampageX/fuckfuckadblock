@@ -455,6 +455,7 @@ isaiminiweb.online,seulink.net,sextgem.com,comicxxx.eu$$meta[http-equiv="refresh
 @@/[/-_]dfp(\.min)?\.js/$script,xmlhttprequest
 @@/[/.]adsbygoogle\.js$/$script,~third-party
 @@/[/.]ads\.png\.gif$/$image
+@@||google.com/*/adsense/domains/$domain=officeseven.org,script
 @@/\&text\-ad\&textAd\&text\_ad\&text\_ads\&text\-ads\&text\-ad\-links\&ads\&advert/$script,third-party
 @@/\/adblockDetector(\.min)?\.js/$script,xmlhttprequest
 @@/\/adblock\_detector[0-9]?\.js\?/$script,~third-party
