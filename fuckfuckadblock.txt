@@ -418,7 +418,7 @@ isaiminiweb.online,seulink.net,sextgem.com,comicxxx.eu$$meta[http-equiv="refresh
 ||doubleclick.net/pagead/ads?client=$redirect-rule=noopframe,subdocument
 ||juicyads.com^$important,xmlhttprequest,redirect=nooptext,domain=lewdninja.com
 |http*:*/script/suv4.js$important,script
-/^https?:\/\/(chd4|crazyhd)\.com\/blocks\//$script,important
+/^https?:\/\/(www\.)?(chd4|crazyhd)\.com\/blocks\//$script,important
 
 @@*$script,~third-party,domain=escripts.club|geoguessr.com
 @@*/ad/banner/_adsense_/_adserver/_adview_.ad.json$xmlhttprequest
