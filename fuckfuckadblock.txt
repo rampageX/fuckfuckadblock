@@ -629,7 +629,7 @@ allnorilsk.ru,automobiledimension.com,beelink.in,call2friends.com,cambro.tv,camw
 
 roweroweporady.pl,tulodz.pl##+js(abort-on-property-write.js, adquestoConfig)
 
-motohigh.pl##+js(abort-current-inline-script.js, parseInt, /adBlock/)
+motohigh.pl,smartage.pl##+js(abort-current-inline-script.js, parseInt, adblock)
 
 123enjoy.net,123europix.*,123moviesfree.*,2gomovies.to,7hitmovies.*,7r6.com,animesaturn.com,area51deportiva.com,bolly2tolly.net,bostoncommons.net,canyoublockit.com,cloudvideo.tv,comandotorrents20.com,dl-android.com,down-paradise.com,elixx.me,espn-live.stream,etcscrs.to,files.im,fmoviez.org,freestreams-live1.com,gateaflam.com,gomovies-online.*,grantorrent.*,grantorrent1.*,hdmp4mania1.net,hentaisd.*,hhdstreams.club,iobit.com,jaewinter.co,kioven.com,kropic.com,kurina.vip,linkshorten.xyz,livegore.com,loan2host.com,manhwa18.*,movies4k.me,movieston.com,mp4.sh,mypornsnap.top,nudesday.com,nxload.com,nyaa.iss.one,opisanie-kartin.com,ouofly.com,painting-planet.com,pirlotv.*,porn-tube-club.com,proxyrarbg.*,putload.tv,rarbg.*,rarbg2019.org,rarbg2020.org,rarbgaccess.org,rarbgcore.org,rarbgdata.org,rarbgenter.org,rarbgget.org,rarbggo.org,rarbgmirror.*,rarbgp2p.org,rarbgproxied.*,rarbgproxy.*,rarbgprx.org,rarbgto.org,rarbgtor.org,rarbgtorrents.org,rarbgunblock.*,rarbgunblocked.org,rarbgweb.org,reddflix.com,savelinks.*,stream4free.live,streampourvous.com,subbedhd.site,tei.ai,telerium.tv,tii.ai,unblockall.org,unblocked.kim,unblockedrarbg.org,veopartidos.net,videowood.tv,wenger.stream##+js(abort-on-property-read.js, LieDetector)
 
