@@ -431,6 +431,7 @@ isaiminiweb.online,sextgem.com,comicxxx.eu,enrt.eu,seulink.*$$meta[http-equiv="r
 @@/\/ad[vs](er(ve)?t?(ise|ising|isement)?)?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)$/$image
 @@/\/js\/fuckadblock(\.min)\.js$/$script,~third-party
 @@/\/popunder\.js\?[0-9]$/$script,~third-party
+@@*/popunder.js$domain=streameast.live,script
 @@/\/redataredir\?url\=[^\s]+%2Fad\.(js|xml)%3F/$xmlhttprequest,third-party
 @@/\?pub\_300x250\&pub\_300x250m\&pub\_728x90\&/$script,third-party
 @@/^https?:\/\/(.*\.)?adocean\.pl\/(.*\/)?ad\.(js|xml)\?/$script,image,xmlhttprequest
