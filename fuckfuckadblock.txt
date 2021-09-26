@@ -468,7 +468,7 @@ isaiminiweb.online,sextgem.com,comicxxx.eu,enrt.eu,seulink.*$$meta[http-equiv="r
 @@||imasdk.googleapis.com^$xmlhttprequest,domain=venn.tv
 @@||jsc.adskeeper.co.uk/*/megaup.net$script,domain=megaup.net
 @@||outbrain.com/*?advertiser=$image
-@@||pagead2.googlesyndication.com^$script,domain=10play.com.au|3dzip.org|4horlover.com|4lpha.one|a2zupload.com|baddiehub.com|bowandtie.ru|calculate.plus|camera.aeonax.com|electric-house.ru|extremereportbot.com|ff14angler.com|forum.release-apk.com|freemen.jp|gatcha.org|globaldjmix.com|haoweichi.com|huljjang.com|kitchennovel.com|ladbible.com|messletters.com|meteologix.com|miroir1.trackr.fr|myjest.com|namobilu.com|release-apk.com|rte.ie|sfirmware.com|skmedix.pl|unlockapk.com|uploadship.com|weather.us|a2zapk.com|jaanmusic.in|rtxkeeda.com|techssting.com|techyneed.com|dropgalaxy.com|dropgalaxy.in|financemonk.net
+@@||pagead2.googlesyndication.com^$script,domain=10play.com.au|3dzip.org|4horlover.com|4lpha.one|a2zupload.com|baddiehub.com|bowandtie.ru|calculate.plus|camera.aeonax.com|electric-house.ru|extremereportbot.com|ff14angler.com|forum.release-apk.com|freemen.jp|gatcha.org|globaldjmix.com|haoweichi.com|huljjang.com|kitchennovel.com|ladbible.com|messletters.com|meteologix.com|miroir1.trackr.fr|myjest.com|namobilu.com|release-apk.com|rte.ie|sfirmware.com|skmedix.pl|unlockapk.com|uploadship.com|weather.us|a2zapk.com|jaanmusic.in|rtxkeeda.com|techssting.com|techyneed.com|dropgalaxy.com|dropgalaxy.in|financemonk.net|linkneverdie.net
 @@||pagead2.googlesyndication.com^$xmlhttprequest,domain=extremereportbot.com|10play.com.au
 @@||raw.githubusercontent.com/wmcmurray/just-detect-adblock/master/baits/pagead2.googlesyndication.com$xmlhttprequest
 @@||rte.ie/*/smarttag.js|$script,xmlhttprequest
