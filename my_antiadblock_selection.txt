@@ -4677,7 +4677,7 @@ jkpan.cc#%#//scriptlet("abort-current-inline-script", "document.writeln", "\u")
 @@||wwads.cn/code/banners?blocks=$domain=233tw.com
 !#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/91123
-/bbs.pcbeta.com\/data\/cache\/[A-Za-z]*[A-Z]{1,5}.*.js\?/$domain=bbs.pcbeta.com
+/bbs.pcbeta.com\/data\/cache\/[A-Za-z]*[A-Z]{1,5}.*.js\?/$domain=bbs.pcbeta.com,match-case
 ! https://github.com/AdguardTeam/AdguardFilters/issues/90168
 ruanyifeng.com#%#//scriptlet('prevent-setTimeout', 'checker')
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
@@ -6775,6 +6775,7 @@ ephoto360.com#@#.adsbygoogle
 techadvisor.com,transfermarkt.*,macworld.co.uk#@#.AD-POST
 @@||techadvisor.com/cmsdata/features^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/73264
+falixnodes.net#%#//scriptlet("set-constant", "_0x6e4523", "undefined")
 falixnodes.net#%#AG_onLoad(function() { var el=document.querySelector('.adsbygoogle'); var ce=document.createElement('div'); if(el) { el.appendChild(ce); ce.setAttribute("id", "aswift_0"); } });
 falixnodes.net#%#//scriptlet("abort-current-inline-script", "Promise", "adblock")
 falixnodes.net#%#//scriptlet("abort-current-inline-script", "document.createElement", "/adblock|_0x/")
