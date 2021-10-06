@@ -388,6 +388,7 @@ isaiminiweb.*,sextgem.com,comicxxx.eu,enrt.eu,seulink.*,novsport.com$$meta[http-
 ||stat24.com/ad.xml$xmlhttprequest,redirect=nooptext
 ||storage.googleapis.com/vkcdnservice.appspot.com/$script,important
 ||undefined^$important,script,redirect=noopjs
+||undefined^$important,xmlhttprequest,redirect=nooptext
 ||vkcdnservice.com^$script,redirect=noopjs,important
 ||wpncdn.com^$important,redirect=noopjs,script
 ||xnxx-cdn.com/*/default.pp.static.js$script
@@ -417,7 +418,6 @@ isaiminiweb.*,sextgem.com,comicxxx.eu,enrt.eu,seulink.*,novsport.com$$meta[http-
 @@*/noadblock.js$script,xmlhttprequest
 @@*/player_ads.html$subdocument,script
 @@*/popads.js|$script,~third-party
-@@*/popunder.js|$script,~third-party
 @@*/reklama.js|$script,xmlhttprequest
 @@*/videojs-contrib-ads.$script
 @@*/wp-content/plugins/deblocker/$script
@@ -435,8 +435,8 @@ isaiminiweb.*,sextgem.com,comicxxx.eu,enrt.eu,seulink.*,novsport.com$$meta[http-
 @@/\/ad[svbxo]?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)$/$image
 @@/\/ad[vs](er(ve)?t?(ise|ising|isement)?)?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)$/$image
 @@/\/js\/fuckadblock(\.min)\.js$/$script,~third-party
-@@/\/popunder\.js\?[0-9]$/$script,~third-party
-@@*/popunder.js$domain=streameast.live,script
+@@*/popunder.js|$script,~third-party
+@@/\/popunder\.php/$script,domain=streameast.live
 @@/\/redataredir\?url\=[^\s]+%2Fad\.(js|xml)%3F/$xmlhttprequest,third-party
 @@/\?pub\_300x250\&pub\_300x250m\&pub\_728x90\&/$script,third-party
 @@/^https?:\/\/(.*\.)?adocean\.pl\/(.*\/)?ad\.(js|xml)\?/$script,image,xmlhttprequest
