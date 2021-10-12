@@ -580,6 +580,7 @@ hgtv.com#@#.showads
 !
 !
 !
+motherjones.com##.mj-adblock-widget
 testserver.pro#%#//scriptlet('prevent-setTimeout', 'adsbygoogle')
 webcamtaxi.com###bd_cortina
 webcamtaxi.com###blockerdetector
@@ -5714,6 +5715,8 @@ uaclips.com,kzclip.com,ru-clip.com,ruclip.com###morev
 ! END: Ads replacement
 !
 ! smallseotools.com ad re-insertaion
+smallseotools.com#$#.adsbygoogle { max-height: 1px !important; }
+smallseotools.com#@#.adsbygoogle
 ||smallseotools.com/ads.png$image,redirect=1x1-transparent.gif,important
 @@||smallseotools.com/ads.png
 @@||smallseotools.com/imgs/ads/love_you_son.jpg
@@ -5721,6 +5724,8 @@ uaclips.com,kzclip.com,ru-clip.com,ruclip.com###morev
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/96900
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=plex.tv
 ! https://github.com/AdguardTeam/AdguardFilters/issues/96411
 @@||mynewsmedia.co^$generichide
 ! audiotools.pro anti-adb
@@ -5915,7 +5920,7 @@ nin10news.com,softcobra.com#@#.adsbygoogle
 nin10news.com,softcobra.com##.adsbygoogle:not(#ad-detector)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/92611
 @@||streameast.live^$generichide
-@@||streameast.live/*.js?
+@@||streameast.live/*.$~third-party,script,other,subdocument
 @@/^https:\/\/((?!cloudflareinsights\.com|scorecardresearch\.com|ashcdn\.com|acdcdn\.com|clksite\.com|googletagmanager\.com|googlevideo\.com|youradexchange\.com).)+$/$third-party,script,other,subdocument,domain=streameast.live
 streameast.live#?#body > div:has([id] > [style*="color:"][style*="font-size:"])
 streameast.live#?#body > div:has(*:matches-css(display: block) > *:matches-css(position: /absolute|fixed/) > img[src][style])
@@ -6952,8 +6957,8 @@ foxgreat.com#$#body .google-ad { display: block !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72370
 ladbible.com#@#div[class*="margin-Advert"]
 ladbible.com#$#body > div[id].margin-Advert { display: block !important; }
-! https://github.com/AdguardTeam/AdguardFilters/issues/72561
-hobby-machinist.com#%#//scriptlet('prevent-setInterval', '===options.')
+! https://github.com/AdguardTeam/AdguardFilters/issues/95765
+hobby-machinist.com#%#//scriptlet('prevent-setInterval', 'options')
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||hobby-machinist.com^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72569
@@ -7273,8 +7278,6 @@ hpjav.tv#%#//scriptlet("set-constant", "checkdom", "0")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67846
 ||lacuevadeguns.com/forum/banner.gif?$image,redirect=1x1-transparent.gif
 beelink.in#%#//scriptlet("abort-current-inline-script", "onload", ".offsetHeight<=0")
-! https://github.com/AdguardTeam/AdguardFilters/issues/67830
-javlove.club#%#//scriptlet("abort-on-property-read", "Object.prototype.getAdBlock")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67654
 @@||api.adinplay.com/libs/aiptag/assets/adsbygoogle.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67601
