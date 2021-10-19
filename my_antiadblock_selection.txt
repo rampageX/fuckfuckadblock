@@ -155,6 +155,7 @@ www.rambler.ru#?#.commercial-branding div[class]:has(> div[class][style^="height
 www.rambler.ru#?#main header ~ div div[class]:has(> div[class] > div[id] > script:contains(/^if\s?\(!window\..*{"status":/))
 www.rambler.ru#?#main header ~ div div[class]:has(> div[class] > div[id]:empty)
 ! rambler.ru - leftovers (new interface)
+www.rambler.ru#?##main > div[class]:has(> div > div > div[class] > div[id] > script:contains(if (!window.))
 www.rambler.ru#$?#main div[class][style^="height:"]:has(> div > div[style^="display:"]) { height: 0 !important; }
 news.rambler.ru,kino.rambler.ru,sport.rambler.ru,auto.rambler.ru,finance.rambler.ru,woman.rambler.ru,weekend.rambler.ru,travel.rambler.ru,doctor.rambler.ru#?##root > div[class^="rui"] + div[style]:has(> div div[class] > div[id^="adfox-"])
 news.rambler.ru,kino.rambler.ru,sport.rambler.ru,auto.rambler.ru,finance.rambler.ru,woman.rambler.ru,weekend.rambler.ru,travel.rambler.ru,doctor.rambler.ru#$?##root div[data-blocks] > div[class] div[data-rnet]:upward(2) { min-height: 0 !important; }
@@ -4529,14 +4530,14 @@ sdamgia.ru$$script[tag-content="adb=1"]
 ! START: Yandex
 !
 ! old cookies: Bismuth|computer|discussion|^specific\$|^engineer|instruction|telecommunications|pronunciation|involved|^adequate
-$cookie=/blcrm|bltsr|HgGedof|computer/,domain=yandex.by|yandex.com|yandex.com.tr|yandex.fr|yandex.kz|yandex.ru|yandex.ua
+$cookie=/blcrm|bltsr|ancQTZw|computer/,domain=yandex.by|yandex.com|yandex.com.tr|yandex.fr|yandex.kz|yandex.ru|yandex.ua
 !
-auto.ru,avito.ru,baby.ru,businessman.ru,dni.ru,e1.ru,echo.msk.ru,fb.ru,forexpf.ru,gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru,gorodrabot.ru,infoniac.ru,it-tehnik.ru,kakprosto.ru,kinopoisk.ru,liveinternet.ru,mathb-ege.sdamgia.ru,mk.ru,nkj.ru,ohotniki.ru,oko-planet.su,otzovik.com,razlozhi.ru,sdamgia.ru,syl.ru,vz.ru#%#//scriptlet('remove-cookie', '/blcrm|bltsr|HgGedof|computer/')
+auto.ru,avito.ru,baby.ru,businessman.ru,dni.ru,e1.ru,echo.msk.ru,fb.ru,forexpf.ru,gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru,gorodrabot.ru,infoniac.ru,it-tehnik.ru,kakprosto.ru,kinopoisk.ru,liveinternet.ru,mathb-ege.sdamgia.ru,mk.ru,nkj.ru,ohotniki.ru,oko-planet.su,otzovik.com,razlozhi.ru,sdamgia.ru,syl.ru,vz.ru#%#//scriptlet('remove-cookie', '/blcrm|bltsr|ancQTZw|computer/')
 ! TODO: add domains auto.ru and kinopoisk.ru to the rule below after the next release of AG for macos (current 2.3.2)
-$cookie=/blcrm|bltsr|HgGedof|computer/,domain=baby.ru|businessman.ru|dni.ru|e1.ru|echo.msk.ru|fb.ru|forexpf.ru|gismeteo.by|gismeteo.kz|gismeteo.md|gismeteo.ru|gorodrabot.ru|infoniac.ru|it-tehnik.ru|kakprosto.ru|liveinternet.ru|mk.ru|nkj.ru|ohotniki.ru|oko-planet.su|otzovik.com|rambler.ru|razlozhi.ru|sdamgia.ru|syl.ru|vz.ru
+$cookie=/blcrm|bltsr|ancQTZw|computer/,domain=baby.ru|businessman.ru|dni.ru|e1.ru|echo.msk.ru|fb.ru|forexpf.ru|gismeteo.by|gismeteo.kz|gismeteo.md|gismeteo.ru|gorodrabot.ru|infoniac.ru|it-tehnik.ru|kakprosto.ru|liveinternet.ru|mk.ru|nkj.ru|ohotniki.ru|oko-planet.su|otzovik.com|rambler.ru|razlozhi.ru|sdamgia.ru|syl.ru|vz.ru
 $cookie=/^los\$/,domain=auto.ru
 ! zen.yandex.ru - broken resources
-~passport.yandex.ru,~zen.yandex.ru,yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua#%#//scriptlet('remove-cookie', '/blcrm|bltsr|HgGedof|computer/')
+~passport.yandex.ru,~zen.yandex.ru,yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua#%#//scriptlet('remove-cookie', '/blcrm|bltsr|ancQTZw|computer/')
 !
 ! makes kinopoisk.ru redirect to sso.kinopoisk.ru and back endlessly
 ! ||kinopoisk.ru^$cookie=/consultant|introductory|knowledge|transfer|technology|workplace/
@@ -13310,17 +13311,17 @@ playretrogames.com#@##prerollAd
 @@||lolskinlistgenerator.com/Kodlar/JS/ads.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/15726
 ! https://github.com/AdguardTeam/AdguardFilters/issues/6661
-!+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb)
+!+ PLATFORM(ext_ff, ext_opera, ext_safari, ios, ext_android_cb)
 @@||adservice.google.com/adsid/integrator.js?domain=www.cbs.com$domain=cbs.com
-!+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb)
+!+ PLATFORM(ext_ff, ext_opera, ext_safari, ios, ext_android_cb)
 @@||cbs.com^$generichide
-!+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb)
+!+ PLATFORM(ext_ff, ext_opera, ext_safari, ios, ext_android_cb)
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=cbs.com
-!+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb)
+!+ PLATFORM(ext_ff, ext_opera, ext_safari, ios, ext_android_cb)
 @@||0914.global.ssl.fastly.net/ads/*/x.$domain=cbs.com
-!+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb)
+!+ PLATFORM(ext_ff, ext_opera, ext_safari, ios, ext_android_cb)
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=cbs.com
-!+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb)
+!+ PLATFORM(ext_ff, ext_opera, ext_safari, ios, ext_android_cb)
 @@||pubads.g.doubleclick.net/gampad/ads?cmsid=*host%3Dwww.cbs.com%26$domain=imasdk.googleapis.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/6667
 @@||link-cash.com/js/ads.js
@@ -14734,9 +14735,6 @@ cultofmac.com##.adblock-notification-wrapper
 ! http://forum.adguard.com/showthread.php?7533
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=cleodesktop.com
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=cleodesktop.com
-! https://github.com/AdguardTeam/ExperimentalFilter/issues/978
-@@||b.ifmnwi.club/adblockr.javascript$domain=cbs.com
-@@||b.ifmnwi.club/ads.bmp$domain=cbs.com
 ! https://github.com/AdguardTeam/ExperimentalFilter/issues/1129
 @@||dozenofelites.com^$elemhide
 ! http://forum.adguard.com/showthread.php?8092
@@ -14748,9 +14746,6 @@ unixmen.com#@#.afs_ads
 ! http://forum.adguard.com/showthread.php?7839
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=zippygo.org|zippymp3.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chartdj.org
-! http://forum.adguard.com/showthread.php?7859
-@@||b.ifmnwi.club/ads.bmp$domain=cbsnews.com
-@@||b.ifmnwi.club/adblockr.javascript$domain=cbsnews.com
 ! http://forum.adguard.com/showthread.php?7639
 @@||kissanime.to/ads/madads.aspx
 ! https://github.com/AdguardTeam/ExperimentalFilter/issues/918
@@ -14877,8 +14872,6 @@ dirtstyle.tv##.lightbox
 ! http://www.wilderssecurity.com/threads/adguard-for-chrome-open-beta-test.362760/page-13#post-2472504
 inoreader.com#%#AG_onLoad(function() { window.adb_detected = function() {}; });
 inoreader.com#%#var adb_detected = function() {};
-! http://forum.adguard.com/showthread.php?4884
-@@||d.pzkysq.pink/adblockr.javascript$domain=cbs.com
 ! http://forum.adguard.com/showthread.php?4750
 oploverz.net#@##adlabel
 oploverz.net#@##advertbox3
