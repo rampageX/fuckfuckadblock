@@ -583,6 +583,7 @@ hgtv.com#@#.showads
 !
 !
 !
+opensubtitles.org##div[id] > div[id][style*="z-index:"][style*="position:"][style*="background-color:"]:not([onclick])
 mimikama.at##.test-adblock-overlay
 ||nitropay.com/1.gif?$image,third-party,redirect=1x1-transparent.gif,important
 @@||nitropay.com/1.gif?$image,third-party
@@ -10064,7 +10065,7 @@ javaguides.net#@#.vertical-ads
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||professionaltutorial.com^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/32185
-vipleague.lc,vipbox.lc,strikeout.co,vipleague.pw,vipleague.cc,vipbox.im,vipleague.bz#$#.embed-responsive > .position-absolute { position: absolute!important; left: -3000px!important; }
+vipleague.*,vipbox.*,strikeout.*#$#.position-absolute { position: absolute!important; left: -3000px!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/32016
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||alexgoldcheidt.com^$generichide
