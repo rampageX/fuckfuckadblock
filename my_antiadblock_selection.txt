@@ -486,7 +486,7 @@ mynet.com#%#//scriptlet('prevent-setTimeout', '/offsetHeight[\s\S]*?.\.parentNod
 ! element hiding rule
 gigazine.net,androidpolice.com,17track.net,telegram.hr,apkmirror.com##body > div[class][style*="bottom: 0px; left: 0px;"][style*="z-index:"][style*="background-color:"][style*="display: flex; justify-content: center;"]
 !
-thehimalayantimes.com,aleph.org.mx,realmtracker.com,iteramos.com,tellychakkar.com,eenadu.net,newindianexpress.com,animesonglyrics.com,lyrics.az,deckshop.pro,estadao.com.br,enmimaquinafunciona.com,sonichits.com,thepostmillennial.com,muropaketti.com,visajourney.com,dennikn.sk,ixbt.com,encuentra24.com,cuerpomente.com,clara.es,punchng.com,zacks.com,kadinlarkulubu.com,pinknews.co.uk,newsru.com,livejournal.com,tecmundo.com.br,rap.ru,abcnyheter.no##body div.fc-ab-root
+tv100.com,thehimalayantimes.com,aleph.org.mx,realmtracker.com,iteramos.com,tellychakkar.com,eenadu.net,newindianexpress.com,animesonglyrics.com,lyrics.az,deckshop.pro,estadao.com.br,enmimaquinafunciona.com,sonichits.com,thepostmillennial.com,muropaketti.com,visajourney.com,dennikn.sk,ixbt.com,encuentra24.com,cuerpomente.com,clara.es,punchng.com,zacks.com,kadinlarkulubu.com,pinknews.co.uk,newsru.com,livejournal.com,tecmundo.com.br,rap.ru,abcnyheter.no##body div.fc-ab-root
 !#if (adguard_app_ios || adguard_ext_android_cb)
 !#safari_cb_affinity(general)
 @@||ik4.es^$generichide
@@ -589,6 +589,7 @@ hgtv.com#@#.showads
 !
 !
 !
+@@||brainly.lat/app/scripts/wp-banners.js
 androidacy.com#%#//scriptlet('prevent-addEventListener', 'load', 'function(e)')
 ||androidacy.com/mift5b*/$script,domain=androidacy.com
 opensubtitles.org##div[id] > div[id][style*="z-index:"][style*="position:"][style*="background-color:"]:not([onclick])
@@ -5765,6 +5766,8 @@ smallseotools.com#@#.adsbygoogle
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/98328
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=australianfrequentflyer.com.au
 ! https://github.com/AdguardTeam/AdguardFilters/issues/97647
 @@||mgnet.xyz/default/public/assets/*.js
 mgnet.xyz#%#//scriptlet("prevent-setTimeout", "bnsErrorsCount")
