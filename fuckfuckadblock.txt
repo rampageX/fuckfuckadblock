@@ -308,7 +308,6 @@ isaiminiweb.*,sextgem.com,comicxxx.eu,enrt.eu,seulink.*,novsport.com$$meta[http-
 ||vedbom.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' local.adguard.org injections.adguard.org;
 ||vedshar.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' local.adguard.org injections.adguard.org;
 ||vidlox.*^$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.jsdelivr.net *.google.com local.adguard.org injections.adguard.org;
-||voe.sx^$important,csp=sandbox allow-forms allow-same-origin allow-scripts allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-top-navigation;
 ||youdbox.net^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' local.adguard.org injections.adguard.org;
 
 |http*:*/Raqmedia/adblock/$script,third-party
