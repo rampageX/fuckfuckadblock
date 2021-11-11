@@ -2554,7 +2554,6 @@ filmix.ac,filmix.tech,filmix.zone##.social-counters
 aternos.org#$?#.ad-label { remove: true; }
 aternos.org##.ad.responsive-skyscraper
 @@||aternos.org^$generichide
-aternos.org#@##adUnit
 @@||onetag-sys.com/prebid-request$domain=aternos.org
 @@||adengine.snigelweb.com/aternos.org/*/adngin.js$domain=aternos.org
 @@||snigelweb.com/bp/$domain=aternos.org
@@ -2584,15 +2583,6 @@ aternos.org#@##adUnit
 @@||google-analytics.com/analytics.js$domain=aternos.org
 @@||quantcast.mgr.consensu.org/choice/*$domain=aternos.org
 @@||hb.vntsm.com/*/live/*$domain=aternos.org
-!#if (adguard_app_windows || adguard_app_mac || adguard_app_android)
-||c.amazon-adsystem.com/bao-csm/aps-comm/aps_csm.js$script,redirect=noopjs,important,domain=aternos.org
-||snigel-d.openx.net/*/arj|$redirect=nooptext,important,domain=aternos.org
-||tlx.3lift.com/header/auction|$redirect=nooptext,important,domain=aternos.org
-||as-sec.casalemedia.com/cygnus|$redirect=nooptext,important,domain=aternos.org
-||fastlane.rubiconproject.com/a/api/fastlane.json|$redirect=nooptext,important,domain=aternos.org
-||flashtalking.com/lgc|$redirect=nooptext,important,domain=aternos.org
-!#endif
-!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android)
 @@||hbopenbid.pubmatic.com/translator$domain=aternos.org
 @@||prg.smartadserver.com/prebid/v1$domain=aternos.org
 @@||c.amazon-adsystem.com/bao-csm/aps-comm/aps_csm.js$domain=aternos.org
@@ -2603,7 +2593,14 @@ aternos.org#@##adUnit
 @@||flashtalking.com/lgc|$domain=aternos.org
 @@||ib.adnxs.com/ut/v3/prebid|$domain=aternos.org
 @@||snigel-d.openx.net/w/1.0/arj?cc=1$domain=aternos.org
-!#endif
+! Redirect rules
+||c.amazon-adsystem.com/bao-csm/aps-comm/aps_csm.js$script,redirect=noopjs,important,domain=aternos.org
+||snigel-d.openx.net/*/arj|$redirect=nooptext,important,domain=aternos.org
+||tlx.3lift.com/header/auction|$redirect=nooptext,important,domain=aternos.org
+||as-sec.casalemedia.com/cygnus|$redirect=nooptext,important,domain=aternos.org
+||fastlane.rubiconproject.com/a/api/fastlane.json|$redirect=nooptext,important,domain=aternos.org
+||flashtalking.com/lgc|$redirect=nooptext,important,domain=aternos.org
+||adengine.snigelweb.com/*/adngin.js$script,important,redirect=noopjs,domain=aternos.org
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/74570
 goodfon.ru#$#.ad-text.adBanner.adbanner.adBlock.adContent.adSense.Adsense.AdSense.pub_300x250m.pub_728x90.text-ad.text-ad-links.text-ads.text_ad.text_ads.TextAd.textAd.textad.textad { display: block !important; }
@@ -5481,7 +5478,7 @@ webfail.com$$script[tag-content="omi-service"][min-length="20000"][max-length="1
 ! $$script[wildcard="*try*Object.getOwnPropertyDescriptor*currentScript*"][min-length="30000"][max-length="50000"]
 canadafreepress.com,kresy.pl,thelibertydaily.com,writerscafe.org,populist.press,welovetrump.com,grammarist.com,protrumpnews.com,concomber.com,videogamesblogger.com,gamersheroes.com,letocard.fr,100percentfedup.com,thepalmierireport.com,beforeitsnews.com$$script[wildcard="*try*Object.getOwnPropertyDescriptor*currentScript*"][min-length="30000"][max-length="50000"]
 ! #%#//scriptlet("json-prune", "*", "ad_to_link")
-canadafreepress.com,kresy.pl,thelibertydaily.com,writerscafe.org,populist.press,welovetrump.com,grammarist.com,protrumpnews.com,concomber.com,videogamesblogger.com,gamersheroes.com,letocard.fr,100percentfedup.com,thepalmierireport.com,beforeitsnews.com#%#//scriptlet("json-prune", "*", "ad_to_link")
+newser.com,canadafreepress.com,kresy.pl,thelibertydaily.com,writerscafe.org,populist.press,welovetrump.com,grammarist.com,protrumpnews.com,concomber.com,videogamesblogger.com,gamersheroes.com,letocard.fr,100percentfedup.com,thepalmierireport.com,beforeitsnews.com#%#//scriptlet("json-prune", "*", "ad_to_link")
 ! another variant
 beforeitsnews.com#%#//scriptlet("abort-on-property-write", "__reg_events")
 ! For content blockers
@@ -5789,6 +5786,11 @@ smallseotools.com#@#.adsbygoogle
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/98874
+@@||my-bucket-s3-ap-east-amazonaws.lokicdn.com/ib/custom/ads/wp-banners.js$domain=ibomma.bar
+! https://github.com/AdguardTeam/AdguardFilters/issues/97373
+newser.com###divAB
+newser.com##.whiteBack > div#lightbox
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98736
 @@||techacode.com/wp-banners.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98206
