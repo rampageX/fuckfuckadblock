@@ -337,7 +337,7 @@ isaiminiweb.*,sextgem.com,comicxxx.eu,enrt.eu,seulink.*,novsport.com$$meta[http-
 /^https?:\/\/[^\s]+\.com\/([a-z0-9]{2}\/){3}[0-9a-f]{32}\.js$/$important,script,third-party
 /^https?:\/\/[_a-z0-9-.]{6,16}\.[a-z]+\/[a-w]{2,4}\.php\?[a-z]{1,6}\=[0-9]{7}$/$third-party,script,important
 |http*:*$script,redirect-rule=noopjs,domain=ebookdz.com|extremereportbot.com|hackintoshshop.com|linternaute.com|protvplus.ro|speedtesting.herokuapp.com|excelviewer.herokuapp.com|exifviewer.herokuapp.com|pdfrecover.herokuapp.com|rbxscripts.xyz|rtxkeeda.com|techssting.com|techyneed.com|dropgalaxy.com|dropgalaxy.in|financemonk.net
-|http*:*$image,redirect-rule=1x1.gif,domain=dropgalaxy.com|dropgalaxy.in|financemonk.net|techssting.com
+|http*:*$image,redirect-rule=1x1.gif,domain=dropgalaxy.com|dropgalaxy.in|financemonk.net|techssting.com|techyneed.com
 |http*:*$script,~third-party,important,domain=all18xxx.com|wildteenporn.com
 |http*:*$xmlhttprequest,redirect-rule=nooptext,domain=marie-claire.es|miarevista.es|muyhistoria.es|muyinteresante.es|muynegociosyeconomia.es|serpadres.es
 |http*:*/?pu=$script,important
@@ -477,7 +477,7 @@ isaiminiweb.*,sextgem.com,comicxxx.eu,enrt.eu,seulink.*,novsport.com$$meta[http-
 @@||tm-offers.gamingadult.com^$subdocument,domain=megaup.ne
 @@||outbrain.com/*?advertiser=$image
 @@||pagead2.googlesyndication.com^$script,domain=10play.com.au|3dzip.org|4horlover.com|4lpha.one|a2zupload.com|baddiehub.com|bowandtie.ru|calculate.plus|camera.aeonax.com|electric-house.ru|extremereportbot.com|ff14angler.com|forum.release-apk.com|freemen.jp|gatcha.org|globaldjmix.com|haoweichi.com|huljjang.com|kitchennovel.com|ladbible.com|messletters.com|meteologix.com|miroir1.trackr.fr|myjest.com|namobilu.com|release-apk.com|rte.ie|sfirmware.com|skmedix.pl|unlockapk.com|uploadship.com|weather.us|a2zapk.com|jaanmusic.in|rtxkeeda.com|techssting.com|techyneed.com|dropgalaxy.com|dropgalaxy.in|financemonk.net|linkneverdie.net
-@@||pagead2.googlesyndication.com^$xmlhttprequest,domain=extremereportbot.com|10play.com.au|dropgalaxy.com|dropgalaxy.in|financemonk.net|techssting.com
+@@||pagead2.googlesyndication.com^$xmlhttprequest,domain=extremereportbot.com|10play.com.au|dropgalaxy.com|dropgalaxy.in|financemonk.net|techssting.com|techyneed.com
 @@||raw.githubusercontent.com/wmcmurray/just-detect-adblock/master/baits/pagead2.googlesyndication.com$xmlhttprequest
 @@||rte.ie/*/smarttag.js|$script,xmlhttprequest
 @@||serviceyock.me/api/advertise/$xmlhttprequest,domain=yock.games
