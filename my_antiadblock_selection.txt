@@ -614,6 +614,7 @@ hgtv.com#@#.showads
 !
 !
 !
+simkl.com#%#//scriptlet('prevent-fetch', 'ads-twitter.com')
 gol.ru##.material-content-adblock
 sm.ms##.wwads_abp
 otomobilgunluklerim.com#$#body.ad_block_detected { overflow: auto !important; }
@@ -621,7 +622,7 @@ otomobilgunluklerim.com#$#.adblockalert { display: none !important; }
 brighteon.com#%#//scriptlet("set-constant", "brighteonSpecial", "true")
 gofile.io###adsPlaywire
 opopular.com.br###notification-ajude-ab
-trib.com,sonyliv.com#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links { display: block !important; }
+wvgazettemail.com,trib.com,sonyliv.com#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links { display: block !important; }
 tdn.com,missoulian.com,journalstar.com,poststar.com,pantagraph.com,omaha.com###lee-subscription-wall
 tdn.com,missoulian.com,journalstar.com,poststar.com,pantagraph.com,omaha.com###lee-subscription-wall ~ div.modal-backdrop
 ||izle7.haber7.net/app/izle7/fundingchoices.js
@@ -2354,10 +2355,10 @@ fr.de,innsalzach24.de,bgland24.de#@#div[id^="traffective-ad-"]
 !+ PLATFORM(ios, ext_android_cb)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kukuo.tw
 @@||s.nitropay.com/1.gif?*&adslot=$domain=tiermaker.com
-ceogelisim.com#@#.adSense
-ceogelisim.com#@#.adContent
-ceogelisim.com#@#.adBlock
-ceogelisim.com#@#.ad-text
+wvgazettemail.com,ceogelisim.com#@#.adSense
+wvgazettemail.com,ceogelisim.com#@#.adContent
+wvgazettemail.com,ceogelisim.com#@#.adBlock
+wvgazettemail.com,ceogelisim.com#@#.ad-text
 !+ PLATFORM(ios, ext_android_cb)
 @@||timvision.it^$generichide
 @@||notebookcheck*/ads.js
@@ -2950,6 +2951,7 @@ cc-fan.tv,cn-fan.tv,fox-fan.tv,nf-fan.tv#@#.text_ads
 ! Common safari_cb_affinity(general,privacy)
 !#safari_cb_affinity(general,privacy)
 !#if (adguard_app_ios || adguard_ext_android_cb)
+@@||static.ads-twitter.com/uwt.js$domain=simkl.com
 otomobilgunluklerim.com#@##adcontent
 @@||kurs.com.ua^$generichide
 @@||brainly.com/app/scripts/wp-banners.js
@@ -5694,9 +5696,10 @@ almanilan.com,magesypro.com,magesy.blog,tinhocdongthap.com,thecustomrom.com,itbu
 ! #%#//scriptlet("abort-on-property-write", "ai_front")
 blackwot.ru,javnow.net,pasend.*,mettablog.com,threezly.com,safemodapk.com,truyenbanquyen.com,veganinja.hu,atakanyavuz.com,konosubamanga.com,studydhaba.com,c4ddownload.com,blisseyhusband.in,goblinsguide.com,gerardopandolfi.com,asklaftananlamazinhindi.com,solotrend.net,widgetup.com,nsw2u.com,alphagames4u.com,courses4u.info,shortzzy.in,nawalakarsa.id,elektrikmen.com,doctorrouter.ru,sagliktais.com,1ahaber.com,politics-dz.com,4allprograms.me,unityassets4free.com,hdhub4u.cc,apkmaza.net,janusnotes.com,tekfame.com,hunter-xhunter.com,wristreview.com,freewebcart.com,ftuapps.dev,hinjakuhonyaku.com,toppremiumpro.com,mashtips.com,dramahd.me#%#//scriptlet("abort-on-property-write", "ai_front")
 ! ##[style*="cursor:"][style*="user-select: none;"][style*="z-index:"]
-almanilan.com,exbulletin.com,sonixgvn.net,magesypro.com,magesy.blog,tinhocdongthap.com,thecustomrom.com,keralatelecom.info,techkaran.co.in,courseunity.com,webdeyazilim.com,freeiphone.fr,sysnettechsolutions.com,dafontfree.io,ebookmela.co.in,freevstplugins.net,fifaultimateteam.it,tgsup.group,scubidu.eu,gamingsym.in,gkpb.com.br,ilifehacks.com,frkn64modding.com,parzibyte.me,googledrivelinks.com,world4.eu,freemagazines.top,ubuntudde.com,mettablog.com,secondlifetranslations.com,charbelnemnom.com,lowkeytech.com,gcertificationcourse.com,game-owl.com,javnow.net,pasend.*,therootdroid.com,fantasyfootballgeek.co.uk,threezly.com,safemodapk.com,truyenbanquyen.com,veganinja.hu,atakanyavuz.com,konosubamanga.com,cybermania.ws,studydhaba.com,nurgsm.com,c4ddownload.com,blisseyhusband.in,goblinsguide.com,gerardopandolfi.com,asklaftananlamazinhindi.com,solotrend.net,widgetup.com,nsw2u.com,alphagames4u.com,courses4u.info,fcportables.com,shortzzy.in,nawalakarsa.id##[style*="cursor:"][style*="user-select: none;"][style*="z-index:"]
+pawastreams.live,almanilan.com,exbulletin.com,sonixgvn.net,magesypro.com,magesy.blog,tinhocdongthap.com,thecustomrom.com,keralatelecom.info,techkaran.co.in,courseunity.com,webdeyazilim.com,freeiphone.fr,sysnettechsolutions.com,dafontfree.io,ebookmela.co.in,freevstplugins.net,fifaultimateteam.it,tgsup.group,scubidu.eu,gamingsym.in,gkpb.com.br,ilifehacks.com,frkn64modding.com,parzibyte.me,googledrivelinks.com,world4.eu,freemagazines.top,ubuntudde.com,mettablog.com,secondlifetranslations.com,charbelnemnom.com,lowkeytech.com,gcertificationcourse.com,game-owl.com,javnow.net,pasend.*,therootdroid.com,fantasyfootballgeek.co.uk,threezly.com,safemodapk.com,truyenbanquyen.com,veganinja.hu,atakanyavuz.com,konosubamanga.com,cybermania.ws,studydhaba.com,nurgsm.com,c4ddownload.com,blisseyhusband.in,goblinsguide.com,gerardopandolfi.com,asklaftananlamazinhindi.com,solotrend.net,widgetup.com,nsw2u.com,alphagames4u.com,courses4u.info,fcportables.com,shortzzy.in,nawalakarsa.id##[style*="cursor:"][style*="user-select: none;"][style*="z-index:"]
 ! For Safari
-almanilan.com,exbulletin.com,sonixgvn.net,magesypro.com,magesy.blog,tinhocdongthap.com,thecustomrom.com,keralatelecom.info,techkaran.co.in,courseunity.com,webdeyazilim.com,freeiphone.fr,dafontfree.io,ebookmela.co.in,freevstplugins.net,fifaultimateteam.it,tgsup.group,scubidu.eu,gkpb.com.br,ilifehacks.com,frkn64modding.com,parzibyte.me,googledrivelinks.com,world4.eu,sysnettechsolutions.com##[style*="cursor:"][style*="z-index:"][style*="transform"]
+pawastreams.live,almanilan.com,exbulletin.com,sonixgvn.net,magesypro.com,magesy.blog,tinhocdongthap.com,thecustomrom.com,keralatelecom.info,techkaran.co.in,courseunity.com,webdeyazilim.com,freeiphone.fr,dafontfree.io,ebookmela.co.in,freevstplugins.net,fifaultimateteam.it,tgsup.group,scubidu.eu,gkpb.com.br,ilifehacks.com,frkn64modding.com,parzibyte.me,googledrivelinks.com,world4.eu,sysnettechsolutions.com##[style*="cursor:"][style*="z-index:"][style*="transform"]
+pawastreams.live,almanilan.com,exbulletin.com,sonixgvn.net,magesypro.com,magesy.blog,tinhocdongthap.com,thecustomrom.com,keralatelecom.info,techkaran.co.in,courseunity.com,webdeyazilim.com,freeiphone.fr,dafontfree.io,ebookmela.co.in,freevstplugins.net,fifaultimateteam.it,tgsup.group,scubidu.eu,gkpb.com.br,ilifehacks.com,frkn64modding.com,parzibyte.me,googledrivelinks.com,world4.eu,sysnettechsolutions.com##[style*="cursor:"][style*="z-index:"][style*="position: fixed;"]
 !
 freeiphone.fr#%#//scriptlet("abort-current-inline-script", "define", "ai_check")
 fifaultimateteam.it#%#//scriptlet("prevent-setTimeout", "/fetch[\s\S]*?\.append[\s\S]*?jQuery|ai_|ad_banner/")
@@ -5798,8 +5801,9 @@ pngtosvg.com,compartilhandobr.com,loksado.com,ecoursefree.com,daemon-hentai.com,
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=pngtosvg.com|compartilhandobr.com|loksado.com|ecoursefree.com|daemon-hentai.com|yigeplus.xyz|cgchotbox.com|launcherfull.com|cheatbyte.com|techycoder.com|arasindakifark.net|kitguru.net|gsmxt.com|mangaxp.com|technicalatg.com|technicalatg.xyz|freetutorialsdownload.online|tutsgalaxys.com|toolss.net|vipmods.net|freetutorialsudemy.com|adonisfansub.com|getfreecourses.org|themovieslab.in|bitcoinegypt.news|talkjarvis.com|satcesc.com|dongknows.com|getfreecourses.net|citychilli.com|livenewsof.com|pinayvids.com|hardcoregames.ca|pasend.cam|unityassetcollection.com|crypto-fun-faucet.de|fileoops.com|samuraiscan.com|3dmodelshare.org|cgtips.org|dailyvideoreports.net|codesnail.com|ma-x.org|sitarchive.com|onlyfanesse.com|codingshiksha.com|graphicux.com|w3layouts.com|musike.net|windowsmatters.com|sonixgvn.net|avoiderrors.com|gatcha.org|sayrodigital.com|justandroid.net|4horlover.com|topnewsshow.com|3dzip.org|ovagames.com|lewdsenpai.com|mitsmits.com|openculture.com|udemycoursesfree.me|yuinime.net|asyadrama.com|apfelpatient.de
 !
 ! chp_ads_blocker
-katmoviefix.top,dragontea.ink,twinkybf.com,softfully.com,windowsbulletin.com,udemycoupons.me,mylivewallpapers.com,365tips.be,animeactua.com,galaxytranslations97.com,myviptuto.com,tienichmaytinh.net,coursevania.com,freemagazines.top,youfriend.it,7misr4day.com,technicalatg.xyz,gourmetscans.net,mangakik.com,michaelemad.com,javgayplus.com,gaypornhdfree.com,fcportables.com,gaypornhdfree.to,netfuck.net,romadd.com,mkvhouse.com,toptechtalk.xyz##div[id^="chp_ads_blocker"]
-katmoviefix.top,dragontea.ink,twinkybf.com,softfully.com,windowsbulletin.com,udemycoupons.me,mylivewallpapers.com,365tips.be,animeactua.com,galaxytranslations97.com,myviptuto.com,tienichmaytinh.net,coursevania.com,freemagazines.top,youfriend.it,7misr4day.com,technicalatg.xyz,gourmetscans.net,mangakik.com,michaelemad.com,javgayplus.com,gaypornhdfree.com,fcportables.com,gaypornhdfree.to,netfuck.net,romadd.com,mkvhouse.com,toptechtalk.xyz#%#//scriptlet("abort-on-property-read", "adsBlocked")
+katmoviefix.*###chp_branding
+themehits.com,katmoviefix.*,dragontea.ink,twinkybf.com,softfully.com,windowsbulletin.com,udemycoupons.me,mylivewallpapers.com,365tips.be,animeactua.com,galaxytranslations97.com,myviptuto.com,tienichmaytinh.net,coursevania.com,freemagazines.top,youfriend.it,7misr4day.com,technicalatg.xyz,gourmetscans.net,mangakik.com,michaelemad.com,javgayplus.com,gaypornhdfree.com,fcportables.com,gaypornhdfree.to,netfuck.net,romadd.com,mkvhouse.com,toptechtalk.xyz##div[id^="chp_ads_blocker"]
+themehits.com,katmoviefix.*,dragontea.ink,twinkybf.com,softfully.com,windowsbulletin.com,udemycoupons.me,mylivewallpapers.com,365tips.be,animeactua.com,galaxytranslations97.com,myviptuto.com,tienichmaytinh.net,coursevania.com,freemagazines.top,youfriend.it,7misr4day.com,technicalatg.xyz,gourmetscans.net,mangakik.com,michaelemad.com,javgayplus.com,gaypornhdfree.com,fcportables.com,gaypornhdfree.to,netfuck.net,romadd.com,mkvhouse.com,toptechtalk.xyz#%#//scriptlet("abort-on-property-read", "adsBlocked")
 !
 ! adde_modal_detector
 pornmilo.me,freshscat.com##.adde_modal-overlay
@@ -5883,6 +5887,14 @@ smallseotools.com#@#.adsbygoogle
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/104317
+examsnet.com#%#//scriptlet("abort-on-property-read", "adsblocked")
+!+ PLATFORM(ios, ext_android_cb)
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=examsnet.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/104336
+askpaccosi.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
+!+ PLATFORM(ios, ext_android_cb)
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=askpaccosi.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/102683
 ||f362.nola.com/script.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/102612
