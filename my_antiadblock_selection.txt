@@ -614,6 +614,7 @@ hgtv.com#@#.showads
 !
 !
 !
+forums.bluemoon-mcfc.co.uk#%#//scriptlet('prevent-setInterval', '.parentNode.removeChild')
 simkl.com#%#//scriptlet('prevent-fetch', 'ads-twitter.com')
 gol.ru##.material-content-adblock
 sm.ms##.wwads_abp
@@ -5887,6 +5888,17 @@ smallseotools.com#@#.adsbygoogle
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/104500
+filessrc.com,srcimdb.com#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links { display: block !important; }
+!#if (adguard_app_ios || adguard_ext_android_cb)
+filessrc.com,srcimdb.com#@#.adSense
+filessrc.com,srcimdb.com#@#.adContent
+filessrc.com,srcimdb.com#@#.adBlock
+filessrc.com,srcimdb.com#@#.ad-text
+!#endif
+! https://github.com/AdguardTeam/AdguardFilters/issues/104360
+zepperplexo.com#@#.adsbygoogle
+zepperplexo.com#%#//scriptlet("prevent-setTimeout", "test.offsetHeight")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/104317
 examsnet.com#%#//scriptlet("abort-on-property-read", "adsblocked")
 !+ PLATFORM(ios, ext_android_cb)
@@ -5969,8 +5981,9 @@ pdfaid.com#@#.googleads
 ! https://github.com/bogachenko/fuckfuckadblock/issues/249
 @@||player.oyasumi.me^$generichide
 @@||player.oyasumi.me/assets/js/prebid-ads.js
+! https://github.com/AdguardTeam/AdguardFilters/issues/104340
 ! https://github.com/AdguardTeam/AdguardFilters/issues/101723
-||v1sts.me/?pge=embed&*&ref=$image,redirect=1x1-transparent.gif
+||v1sts.me/?pge=$image,redirect=1x1-transparent.gif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/100820
 securenetsystems.net###adblockWrapper
 @@||securenetsystems.net/*/scripts/ads/prebid.js
