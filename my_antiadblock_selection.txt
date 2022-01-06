@@ -334,6 +334,7 @@ digitaltrends.com#@#.text_ads_2
 ! editorial.rottentomatoes.com#@#.text-ad
 ! @@||ad.doubleclick.net/ddm/adj^$domain=editorial.rottentomatoes.com
 !
+||sordidsmile.com^$third-party
 ||auspiciousyard.com^$third-party
 ||superficialeyes.com^$third-party
 ||hollowafterthought.com^$third-party
@@ -5902,6 +5903,8 @@ smallseotools.com#@#.adsbygoogle
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/74691
+clickscoin.com#%#//scriptlet('abort-current-inline-script', '$', '$(''body'')')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/105148
 arcadehole.com##.wgAdBlockMessage
 ! https://github.com/AdguardTeam/AdguardFilters/issues/104678
