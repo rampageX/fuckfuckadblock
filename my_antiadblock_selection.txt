@@ -618,6 +618,7 @@ hgtv.com#@#.showads
 !
 !
 !
+||redditpagematrics.com/dads/$script
 stakingrewards.com##.adBlocker-placeholder
 stakingrewards.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 bingotingo.com#?##page > .g1-hb-sticky-off.g1-hb-shadow-off:has(> div > div > div > div > nav > ul > li > a:contains(Disable Or Remove The Adblock Extension))
@@ -3276,7 +3277,11 @@ gmodleaks.com##body > div[class*=" "][style*="background:"][style*="display: blo
 wot-lom.com#@#.adBanner
 wot-lom.com#$##wrapfabtest { height: 1px!important; }
 ! htmlweb.ru - antiadblock
-htmlweb.ru#%#//scriptlet("prevent-setTimeout", "/ads|rek/", "2000")
+htmlweb.ru#%#//scriptlet("prevent-setTimeout", "/ads|rek/", "200")
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xmlhttprequest,redirect=googlesyndication-adsbygoogle,domain=htmlweb.ru,important
+@@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_fy2019.js$domain=htmlweb.ru
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=htmlweb.ru
+htmlweb.ru#@#.adsbygoogle
 ! https://github.com/AdguardTeam/AdguardFilters/issues/63158
 @@||get.u-stream.in/start/$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/63464
@@ -3576,8 +3581,6 @@ camsclips.com#%#//scriptlet("set-constant", "flashvars.protect_block", "")
 camsclips.com#@#.ads-iframe
 ! https://github.com/AdguardTeam/AdguardFilters/issues/32068
 @@||cdnjs.cloudflare.com/ajax/libs/fuckadblock/3.2.1/fuckadblock.min.js$domain=bankomap.com.ua
-! https://github.com/AdguardTeam/AdguardFilters/issues/31873
-htmlweb.ru#@#.adsbygoogle
 ! https://github.com/AdguardTeam/AdguardFilters/issues/27696
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=salik.biz
 salik.biz#@#.adsbygoogle
@@ -3775,8 +3778,6 @@ fishki.net$$script[wildcard="*document.getElementsByTagName*ins();*adblock*"][ma
 @@||flymer.ru^$generichide
 flymer.ru#$#.ad { position: absolute!important; left: -3000px!important; }
 flymer.ru#$#.ad-home { position: absolute!important; left: -3000px!important; }
-! https://github.com/AdguardTeam/AdguardFilters/issues/14462
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=htmlweb.ru
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/14351
 @@||portablik.ru^$generichide
@@ -14456,6 +14457,8 @@ picjumbo.com#@#.adsbygoogle
 @@||traffic.adxprts.com/ads/ads.js
 !
 ! rlslog.net - anti-adblock clickunder
+rlslog.net#%#//scriptlet('prevent-addEventListener', 'load', 'PopLoaded')
+||cdn.engine.spotscenered.info/Scripts/infinity.js.aspx?guid=$script,redirect=noopjs,domain=rlslog.net,important
 @@||cdn.engine.spotscenered.info/Scripts/infinity.js.aspx?guid=$domain=rlslog.net
 ! https://forum.adguard.com/index.php?threads/http-www-anizm-tv.19210/
 ||player.tune.pk/v2/js/annoy.min.js^
