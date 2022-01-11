@@ -4696,14 +4696,14 @@ sdamgia.ru$$script[tag-content="adb=1"]
 ! START: Yandex
 !
 ! old cookies: Bismuth|computer|discussion|^specific\$|^engineer|instruction|telecommunications|pronunciation|involved|^adequate
-$cookie=/blcrm|bltsr|adequate|computer/,domain=yandex.by|yandex.com|yandex.com.tr|yandex.fr|yandex.kz|yandex.ru|yandex.ua
+$cookie=/blcrm|bltsr|Silver|computer/,domain=yandex.by|yandex.com|yandex.com.tr|yandex.fr|yandex.kz|yandex.ru|yandex.ua
 !
-auto.ru,avito.ru,baby.ru,businessman.ru,dni.ru,e1.ru,echo.msk.ru,fb.ru,forexpf.ru,gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru,gorodrabot.ru,infoniac.ru,it-tehnik.ru,kakprosto.ru,kinopoisk.ru,liveinternet.ru,mathb-ege.sdamgia.ru,mk.ru,nkj.ru,ohotniki.ru,oko-planet.su,otzovik.com,razlozhi.ru,sdamgia.ru,syl.ru,vz.ru#%#//scriptlet('remove-cookie', '/blcrm|bltsr|adequate|computer/')
+auto.ru,avito.ru,baby.ru,businessman.ru,dni.ru,e1.ru,echo.msk.ru,fb.ru,forexpf.ru,gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru,gorodrabot.ru,infoniac.ru,it-tehnik.ru,kakprosto.ru,kinopoisk.ru,liveinternet.ru,mathb-ege.sdamgia.ru,mk.ru,nkj.ru,ohotniki.ru,oko-planet.su,otzovik.com,razlozhi.ru,sdamgia.ru,syl.ru,vz.ru#%#//scriptlet('remove-cookie', '/blcrm|bltsr|Silver|computer/')
 ! TODO: add domains auto.ru and kinopoisk.ru to the rule below after the next release of AG for macos (current 2.3.2)
-$cookie=/blcrm|bltsr|adequate|computer/,domain=baby.ru|businessman.ru|dni.ru|e1.ru|echo.msk.ru|fb.ru|forexpf.ru|gismeteo.by|gismeteo.kz|gismeteo.md|gismeteo.ru|gorodrabot.ru|infoniac.ru|it-tehnik.ru|kakprosto.ru|liveinternet.ru|mk.ru|nkj.ru|ohotniki.ru|oko-planet.su|otzovik.com|rambler.ru|razlozhi.ru|sdamgia.ru|syl.ru|vz.ru
+$cookie=/blcrm|bltsr|Silver|computer/,domain=baby.ru|businessman.ru|dni.ru|e1.ru|echo.msk.ru|fb.ru|forexpf.ru|gismeteo.by|gismeteo.kz|gismeteo.md|gismeteo.ru|gorodrabot.ru|infoniac.ru|it-tehnik.ru|kakprosto.ru|liveinternet.ru|mk.ru|nkj.ru|ohotniki.ru|oko-planet.su|otzovik.com|rambler.ru|razlozhi.ru|sdamgia.ru|syl.ru|vz.ru
 $cookie=/^los\$/,domain=auto.ru
 ! zen.yandex.ru - broken resources
-~passport.yandex.ru,~zen.yandex.ru,yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua#%#//scriptlet('remove-cookie', '/blcrm|bltsr|adequate|computer/')
+~passport.yandex.ru,~zen.yandex.ru,yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua#%#//scriptlet('remove-cookie', '/blcrm|bltsr|Silver|computer/')
 !
 ! makes kinopoisk.ru redirect to sso.kinopoisk.ru and back endlessly
 ! ||kinopoisk.ru^$cookie=/consultant|introductory|knowledge|transfer|technology|workplace/
@@ -5769,8 +5769,8 @@ competentedigitale.ro#@#img[width="728"][height="90"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/56415
 ! 'contributor.google.com'
 ! Better CSS. Scripltet does not work on some sites(it useful for uBO, if 'fundingchoicesmessages.google.com' is blocked).
-repubblica.it,acidcow.com,paradacreativa.es,myrtlebeachonline.com,elpais.com.uy,heraldsun.com,newsphere.jp,courrier.jp,sololibri.net,all3dp.com,keizai.biz,shibukei.com,elmueble.com,comingsoon.it,abc.es,elpais.com,idahostatesman.com,definitions.net,ensonhaber.com,elnacional.com,lapatilla.com,sozcu.com.tr,heraldo.es,20minutos.es,tucson.com,gendai.ismedia.jp,hamakei.com,telva.com,gazettetimes.com,missoulian.com,kenoshanews.com,cumberlink.com,stltoday.com,auburnpub.com,trib.com,dailyprogress.com,journalstar.com,siouxcityjournal.com,pantagraph.com#$#body { overflow: visible !important; }
-repubblica.it,acidcow.com,paradacreativa.es,myrtlebeachonline.com,elpais.com.uy,heraldsun.com,newsphere.jp,courrier.jp,sololibri.net,all3dp.com,keizai.biz,shibukei.com,elmueble.com,comingsoon.it,abc.es,elpais.com,idahostatesman.com,definitions.net,ensonhaber.com,elnacional.com,lapatilla.com,sozcu.com.tr,heraldo.es,20minutos.es,tucson.com,gendai.ismedia.jp,hamakei.com,telva.com,gazettetimes.com,missoulian.com,kenoshanews.com,cumberlink.com,stltoday.com,auburnpub.com,trib.com,dailyprogress.com,journalstar.com,siouxcityjournal.com,pantagraph.com#$#body div.fc-ab-root { display: none !important; }
+natalie.mu,repubblica.it,acidcow.com,paradacreativa.es,myrtlebeachonline.com,elpais.com.uy,heraldsun.com,newsphere.jp,courrier.jp,sololibri.net,all3dp.com,keizai.biz,shibukei.com,elmueble.com,comingsoon.it,abc.es,elpais.com,idahostatesman.com,definitions.net,ensonhaber.com,elnacional.com,lapatilla.com,sozcu.com.tr,heraldo.es,20minutos.es,tucson.com,gendai.ismedia.jp,hamakei.com,telva.com,gazettetimes.com,missoulian.com,kenoshanews.com,cumberlink.com,stltoday.com,auburnpub.com,trib.com,dailyprogress.com,journalstar.com,siouxcityjournal.com,pantagraph.com#$#body { overflow: visible !important; }
+natalie.mu,repubblica.it,acidcow.com,paradacreativa.es,myrtlebeachonline.com,elpais.com.uy,heraldsun.com,newsphere.jp,courrier.jp,sololibri.net,all3dp.com,keizai.biz,shibukei.com,elmueble.com,comingsoon.it,abc.es,elpais.com,idahostatesman.com,definitions.net,ensonhaber.com,elnacional.com,lapatilla.com,sozcu.com.tr,heraldo.es,20minutos.es,tucson.com,gendai.ismedia.jp,hamakei.com,telva.com,gazettetimes.com,missoulian.com,kenoshanews.com,cumberlink.com,stltoday.com,auburnpub.com,trib.com,dailyprogress.com,journalstar.com,siouxcityjournal.com,pantagraph.com#$#body div.fc-ab-root { display: none !important; }
 ! #%#//scriptlet("abort-current-inline-script", "atob", "googlefc")
 sololibri.net,all3dp.com,keizai.biz,shibukei.com,abc.es,elpais.com,definitions.net,ensonhaber.com,lapatilla.com,sozcu.com.tr#%#//scriptlet("abort-current-inline-script", "atob", "googlefc")
 ! #%#//scriptlet("abort-on-property-read", "__tnt.adBlockEnabled")
