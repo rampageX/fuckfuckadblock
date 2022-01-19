@@ -402,7 +402,7 @@ isaiminiweb.*,sextgem.com,comicxxx.eu,enrt.eu,seulink.*,novsport.com,legendas.de
 |http*:*/script/su.js$script,third-party
 /^https?:\/\/[a-z]+\.com\/[a-z]{1,2}\/[a-zA-Z0-9=]{65,}\.js$/$third-party,important,script
 
-@@/^https?:\/\/ads\-twitter\.com\/[a-z]{3}\.js$/$xmlhttprequest
+@@/^https?:\/\/static\.ads\-twitter\.com\/[a-z]{3}\.js$/$xmlhttprequest
 @@*$script,~third-party,domain=escripts.club|geoguessr.com
 @@*/ad/banner/_adsense_/_adserver/_adview_.ad.json$xmlhttprequest
 @@||adblockanalytics.com^$third-party,xmlhttprequest
