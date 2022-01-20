@@ -180,6 +180,7 @@
 ##.warning-adblock
 ##.warning-adblock-box
 ##.wgAdBlockMessage
+##.bigClickTeasersBlock
 
 #@##AdRectangle
 #@##Ads
@@ -331,7 +332,7 @@ isaiminiweb.*,sextgem.com,comicxxx.eu,enrt.eu,seulink.*,novsport.com,legendas.de
 /^https?:\/\/(www\.)?(chd4|crazyhd)\.com\/blocks\//$script,important
 /^https?:\/\/www\.[a-z]{6,16}\.com\/[a-z]{1,4}\.js$/$third-party,important,script
 /^https?:\/\/[a-z]+\.com\/[a-z]{1,2}\/[a-zA-Z0-9=]{65,}\.js$/$third-party,important,script
-/^https?:\/\/[^\s]+\/js(\/\d+){1,4}\?r\=\&[0-9]{4,}/$script,third-party,important
+/^https?:\/\/[^\s]+\/js(\/\d+){1,4}\?r\=([^\s]+)?\&[0-9]{4,}/$script,third-party,important
 /^https?:\/\/[_a-z0-9-.]{6,16}\.[a-z]+\/1clkn\/[0-9]{4,5}$/$third-party,important,script
 /^https?:\/\/[_a-z0-9-.]{6,16}\.[a-z]+\/(4(00)?|5)\/[0-9]{7}/$third-party,important,script
 /^https?:\/\/[_a-z0-9-.]{6,16}\.[a-z]+\/[a-zA-Z0-9]{10,23}\/[0-9]{4,5}$/$third-party,important,script
@@ -402,7 +403,7 @@ isaiminiweb.*,sextgem.com,comicxxx.eu,enrt.eu,seulink.*,novsport.com,legendas.de
 |http*:*/script/su.js$script,third-party
 /^https?:\/\/[a-z]+\.com\/[a-z]{1,2}\/[a-zA-Z0-9=]{65,}\.js$/$third-party,important,script
 
-@@/^https?:\/\/static\.ads\-twitter\.com\/[a-z]{3}\.js$/$xmlhttprequest
+@@/^https?:\/\/static\.ads\-twitter\.com\/[a-z]{3}\.js$/$xmlhttprequest,third-party
 @@*$script,~third-party,domain=escripts.club|geoguessr.com
 @@*/ad/banner/_adsense_/_adserver/_adview_.ad.json$xmlhttprequest
 @@||adblockanalytics.com^$third-party,xmlhttprequest
