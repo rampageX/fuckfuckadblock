@@ -1902,7 +1902,7 @@ mathportal.org###noSenseCalculatorTop
 @@||rufootballtv.org/wp-content/themes/rufootballtv/js/advertising.js
 @@||wot.express/custom/wotexpress/js/adsbygoogle.js
 itavisen.no#%#Object.defineProperty(window, 'admrlPreviewEngage', { get: function(){ throw null; }, set: function(){ throw null; }});
-youporn.com##.warning_block
+youporn.*##.warning_block
 @@||blackdesertbase.ru/js/fuckadblock.js
 @@||oyungezer.com.tr/templates/oyungezer/js/adv.js
 tv2.no##.aabl-container
@@ -10724,7 +10724,7 @@ kissanime.si#%#//scriptlet("set-constant", "check_adblock", "true")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/31232
 ! https://github.com/AdguardTeam/AdguardFilters/issues/11379
 @@||media.trafficjunky.net/__js/test.js
-@@||media.trafficjunky.net/js/holiday-promo.js$domain=redtube.com|redtube.net|tube8.com|youporn.com
+@@||media.trafficjunky.net/js/holiday-promo.js$domain=redtube.com|redtube.net|tube8.com|youporn.com|youporn.fyi
 ! https://github.com/AdguardTeam/AdguardFilters/issues/30592
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||yesmoviesapp.info^$generichide
