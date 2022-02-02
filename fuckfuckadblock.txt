@@ -375,7 +375,7 @@ isaiminiweb.*,sextgem.com,comicxxx.eu,enrt.eu,seulink.*,novsport.com,legendas.de
 ||google-analytics.com^$important,script,redirect=noopjs,domain=renault-club.cz
 ||googleads.g.doubleclick.net/pagead/id^$xmlhttprequest,redirect-rule=nooptext
 ||googleads.g.doubleclick.net/pagead/id^$xmlhttprequest,redirect=nooptext
-||googletagmanager.com/gtag/js$xmlhttprequest,redirect=nooptext,important,domain=pewgame.com
+||googletagmanager.com/gtag/js$xmlhttprequest,redirect=nooptext,important,domain=pewgame.com|sanctuary.moe
 ||iamcdn.net/players/player*.*mins.js$script,domain=hydracdn.*|redirect-ads.com|nazarickol.com|freeplayervideo.com,important
 ||iamcdn.net/players/playera.dmins.js$script,domain=hydracdn.*|redirect-ads.com|nazarickol.com|freeplayervideo.com,important
 ||iamcdn.net/players/playhydraxs.min.js$script,domain=hydracdn.*|redirect-ads.com|nazarickol.com|freeplayervideo.com,important
@@ -407,6 +407,7 @@ isaiminiweb.*,sextgem.com,comicxxx.eu,enrt.eu,seulink.*,novsport.com,legendas.de
 @@*/ad/banner/_adsense_/_adserver/_adview_.ad.json$xmlhttprequest
 @@||adblockanalytics.com^$third-party,xmlhttprequest
 @@*/adblock.js$script
+@@*/ads-prebid.js$~third-party,script
 @@*/adblockpopup.$script,third-party
 @@*/adblock.php$script,xmlhttprequest
 @@*/adblocker/pixel.gif|$image
