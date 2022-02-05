@@ -440,7 +440,7 @@ isaiminiweb.*,sextgem.com,comicxxx.eu,enrt.eu,seulink.*,novsport.com,legendas.de
 @@/[/.]ads\.png\.gif$/$image
 @@||google.com/*/adsense/domains/$script,domain=officeseven.org|720pfilmizle.tv|movie2watch.tv|torrentz2.is
 @@/\&text\-ad\&textAd\&text\_ad\&text\_ads\&text\-ads\&text\-ad\-links\&ads\&advert/$script,third-party
-@@/\/adblockDetector(\.min)?\.js/$script,xmlhttprequest
+@@/\/adblockDetect(or)?(\.min)?\.js/$script,xmlhttprequest
 @@/\/adblock\_detector[0-9]?\.js\?/$script,~third-party
 @@/\/ad[svbxo]?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)$/$image
 @@/\/ad[vs](er(ve)?t?(ise|ising|isement)?)?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)$/$image
