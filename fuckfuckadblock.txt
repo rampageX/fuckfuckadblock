@@ -450,11 +450,10 @@ sextgem.com,comicxxx.eu,enrt.eu,seulink.*,novsport.com,legendas.dev,getcopy.link
 @@/\/redataredir\?url\=[^\s]+%2Fad\.(js|xml)%3F/$xmlhttprequest,third-party
 @@/\?pub\_300x250\&pub\_300x250m\&pub\_728x90\&/$script,third-party
 @@/^https?:\/\/(.*\.)?adocean\.pl\/(.*\/)?ad\.(js|xml)\?/$script,image,xmlhttprequest
-@@/^https?:\/\/(www\.)?.*\/([_-a-zA-Z0-9.]{1,15})?ad[svbxo]?(\.min)?\.js/$script,xmlhttprequest,other
-@@/^https?:\/\/(www\.)?.*\/([_-a-zA-Z0-9.]{1,17})?ad[vs](er(ve)?t?(ise|ising|isement)?)?(\.min)?\.js/$xmlhttprequest,script,other
-@@/^https?:\/\/(www\.)?.*\/ad[svbxo]?([_-a-zA-Z0-9.]{1,15})?\.js/$script,xmlhttprequest,other
-@@/^https?:\/\/(www\.)?.*\/ad[vs](er(ve)?t?(ise|ising|isement)?)?([_-a-zA-Z0-9.]{1,17})?\.js/$xmlhttprequest,script,other
-@@/^https?:\/\/(www\.)?.*\/[a-z]{1,5}[-_]ad[svbxo]?([0-9]{1,3})?\.js\?[_a-z0-9=]{10,}$/$script,xmlhttprequest,other
+@@/^https?:\/\/(www\.)?[^\s]+\/([\w\W]{1,15})?ad[svbxo]?(\.min)?\.js/$script,xmlhttprequest,other
+@@/^https?:\/\/(www\.)?[^\s]+\/([\w\W]{1,17})?ad[vs](er(ve)?t?(ise|ising|isement)?)?(\.min)?\.js/$xmlhttprequest,script,other
+@@/^https?:\/\/(www\.)?[^\s]+\/ad[svbxo]?([\w\W]{1,15})?\.js/$script,xmlhttprequest,other
+@@/^https?:\/\/(www\.)?[^\s]+\/ad[vs](er(ve)?t?(ise|ising|isement)?)?([\w\W]{1,17})?\.js/$xmlhttprequest,script,other
 @@/^https?:\/\/nowvid\.online\/images\//$image,~third-party
 @@||adocean-pl.hit.gemius.pl^$script
 @@||ads.fastcdn.stream/popunder$script
