@@ -823,7 +823,7 @@ citgratis.com,felanovia.com,hotgameplus.com,majidzhacker.com,mobilecare107.com,m
 
 deinesexfilme.com,einfachtitten.com,guideautoweb.com,gutesexfilme.com,halloporno.com,hd-pornos.net,hdpornos.net,herzporno.com,inspirock.com,lasemainedansleboulonnais.fr,lesbenhd.com,masteroverwatch.com,milffabrik.com,mykor.ru,nordeclair.fr,nursexfilme.com,onet.pl,porn-monkey.com,porndrake.com,pornhubdeutsch.net,pornoaffe.com,pornodavid.com,pornoente.tv,pornofelix.com,pornofisch.com,pornohammer.com,pornohans.com,pornohelm.com,pornohirsch.net,pornoklinge.com,pornoschlange.com,pornotom.com,pornotommy.com,pornovideos-hd.com,pornozebra.com,practicequiz.com,thedailybeast.com,xhamster-sexvideos.com,xhamsterdeutsch.xyz,xnxx-sexfilme.com##+js(abort-on-property-read.js, detectAdBlock)
 
-worldappsstore.xyz##+js(no-fetch-if, googlesyndication)
+worldappsstore.xyz##+js(no-fetch-if.js, googlesyndication)
 
 adbull.*,akvideo.stream,mega4up.*,uploadfiles.pw,w4files.ws,wstream.*##+js(remove-attr.js, onclick)
 
