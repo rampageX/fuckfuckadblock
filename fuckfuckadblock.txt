@@ -359,8 +359,9 @@ sextgem.com,comicxxx.eu,enrt.eu,seulink.*,novsport.com,legendas.dev,getcopy.link
 ||realsrv.com^$third-party,important
 ||wpnsrv.com^$third-party,important
 
-/^https?:\/\/[^\s]+\/[45](00)?\/[0-9]{7}/$third-party,important,popup
+/^https?:\/\/[^\s]+\/[45](00)?\/[0-9]{7}/$important,popup
 |http*:*/links/popad|$popup,important
+/^https?:\/\/[a-z]{7,20}\.com\/[a-z0-9]{10}\?key=[a-z0-9]{32}$/$important,popup
 
 /^https?:\/\/po[wvu][wv][li1]deo\.(net|c(om|c))\//$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' local.adguard.org injections.adguard.org *.google.com *.gstatic.com *.googleapis.com;
 /^https?:\/\/str?ea[nm]p[l1]ay\.[a-z]{2,3}\//$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com local.adguard.org injections.adguard.org;
