@@ -664,7 +664,7 @@ sextgem.com,comicxxx.eu,enrt.eu,seulink.*,novsport.com,legendas.dev,getcopy.link
 @@||cdn.tinypass.com/api/tinypass.min.js$script
 @@||cdn.tsyndicate.com^$script,domain=popjav.tv|hpjav.tv|redwap3.com|redwap2.com|redwap.me
 @@||cdnjs.cloudflare.com/*/fuckadblock.$script,third-party
-@@||doubleclick.net^$xmlhttprequest,domain=click2houston.com|clickondetroit.com|clickorlando.com|digi24.ro|ksat.com|lectulandia.me|linksht.com|local10.com|news4jax.com|softonic.com|timesnowhindi.com|timesnowmarathi.com|timesnownews.com|venn.tv|wsls.com
+@@||doubleclick.net^$xmlhttprequest,domain=click2houston.com|clickondetroit.com|clickorlando.com|digi24.ro|ksat.com|lectulandia.me|linksht.com|local10.com|news4jax.com|softonic.com|timesnowhindi.com|timesnowmarathi.com|timesnownews.com|wsls.com
 @@||experience.tinypass.com^$xmlhttprequest
 @@||gemius.pl/gplayer.js|$script,third-party
 @@||gemius.pl/gstream.js|$script,third-party
@@ -673,9 +673,9 @@ sextgem.com,comicxxx.eu,enrt.eu,seulink.*,novsport.com,legendas.dev,getcopy.link
 @@||gstatic.com/*?ads=$image
 @@||systemed.fr/*.iads.js$script
 @@||imasdk.googleapis.com^$script,domain=koreanpornmovie.xyz|10play.com.au|1plus1.video|amc.com|animedigitalnetwork.fr|arkadiumarena.com|aupetitparieur.com|babygames.com|bbcamerica.com|bloomberg.com|click2houston.com|clickondetroit.com|clickorlando.com|digi24.ro|discoveryplus.in|echirurgia.pl|elevensports.pl|flashgirlgames.com|gamak.tv|gazzetta.it|geekweek.pl|hqq.tv|hqq.watch|ipla.tv|klix.ba|ksat.com|ladbible.com|local10.com|mariogames.be|motorsport.tv|mypodboxx.com|national-geographic.pl|news4jax.com|nydailynews.com|observatornews.ro|online-rossiya1.tv|onlinesudoku.games|ottwow.com|player.tubia.com|polsatnews.pl|polsatsport.pl|rtl.it|stack.com|tubitv.com|tvp.info|tvp.pl|twojapogoda.pl|uptostream.com|usatoday.com|viki.com|waaw.tv|waaw1.tv|wifire.tv|wilmaa.com|wsls.com|wuxiaworld.com|x-link.pl|yandexcdn.com|pluscdn.pl|videotarget.pl|polsatgo.pl|vivo.sx|vivo.st|olympics.com|newgames.com|europixhd.net|europixhd.io|unlimitedfiles.xyz|chillicams.net|waaws.tk|hindipix.in|openload.*|player.moovies.in|nova.cz|poki-gdn.com|olimpicos.marcaclaro.com|vidplaystream.top
-@@||imasdk.googleapis.com^$xmlhttprequest,domain=venn.tv
+@@||imasdk.googleapis.com/js/core/bridge*.html$subdocument
 @@||outbrain.com/*?advertiser=$image
-@@||pagead2.googlesyndication.com^$script,domain=10play.com.au|3dzip.org|4horlover.com|4lpha.one|a2zupload.com|baddiehub.com|bowandtie.ru|calculate.plus|camera.aeonax.com|electric-house.ru|extremereportbot.com|ff14angler.com|forum.release-apk.com|freemen.jp|gatcha.org|globaldjmix.com|haoweichi.com|huljjang.com|kitchennovel.com|ladbible.com|messletters.com|meteologix.com|miroir1.trackr.fr|myjest.com|namobilu.com|release-apk.com|rte.ie|sfirmware.com|skmedix.pl|unlockapk.com|weather.us|a2zapk.com|jaanmusic.in|rtxkeeda.com|techssting.com|techyneed.com|dropgalaxy.com|dropgalaxy.in|financemonk.net|linkneverdie.net
+@@||pagead2.googlesyndication.com^$script,domain=10play.com.au|3dzip.org|4horlover.com|4lpha.one|a2zupload.com|baddiehub.com|bowandtie.ru|calculate.plus|camera.aeonax.com|electric-house.ru|extremereportbot.com|ff14angler.com|forum.release-apk.com|freemen.jp|gatcha.org|globaldjmix.com|haoweichi.com|huljjang.com|kitchennovel.com|ladbible.com|messletters.com|meteologix.com|miroir1.trackr.fr|myjest.com|namobilu.com|release-apk.com|rte.ie|sfirmware.com|skmedix.pl|unlockapk.com|weather.us|a2zapk.com|jaanmusic.in|rtxkeeda.com|techssting.com|techyneed.com|dropgalaxy.com|dropgalaxy.in|financemonk.net|linkneverdie.net|player.glomex.com
 @@||pagead2.googlesyndication.com^$xmlhttprequest,domain=extremereportbot.com|10play.com.au|dropgalaxy.com|dropgalaxy.in|financemonk.net|techssting.com|techyneed.com
 @@||raw.githubusercontent.com/wmcmurray/just-detect-adblock/master/baits/pagead2.googlesyndication.com$xmlhttprequest
 @@||rte.ie/*/smarttag.js|$script,xmlhttprequest
