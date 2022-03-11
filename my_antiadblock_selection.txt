@@ -206,7 +206,6 @@ neowin.net#$#body > div[class^="sp_"] { display: none!important; }
 @@||med1.de^$generichide
 @@||neowin.net^$generichide
 @@||tomsguide.com^$generichide
-@@||space.com^$generichide
 !#safari_cb_affinity
 !#endif
 !
@@ -1142,7 +1141,6 @@ babiato.co,rangerboard.com,multics.eu,smokingmeatforums.com#%#//scriptlet("abort
 yourhowto.net#$#.advert { height: 301px !important; position: absolute !important; top: -99999px !important; }
 @@||utopia.de/advertisement.js
 ||chesterstandard-gb.chesterstandard.co.uk^
-krunker.io###aHolder
 ||g2insights-cdn.azureedge.net/*/mng/g2insights.min.js
 @@||bloximages.*.vip.townnews.com/*/libraries/flex/components/ads/resources/scripts/tnt.ads.advert
 @@||a.omappapi.com/app/js/ads.js
@@ -4968,12 +4966,11 @@ linovelib.com#$#body[style] { overflow: auto !important; }
 !+ PLATFORM(ios, ext_android_cb)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=linovelib.com
 ! https://github.com/uBlockOrigin/uAssets/issues/11152
-rjno1.com#%#//scriptlet("abort-current-inline-script", "onload", "document.getElementById")
-rjno1.com#%#//scriptlet("abort-current-inline-script", "setTimeout", "google")
+rjno1.com#%#//scriptlet("set-constant", "google_global_correlator", "1")
+rjno1.com#%#//scriptlet("set-constant", "google_image_requests", "emptyArr")
 rjno1.com#%#//scriptlet("abort-current-inline-script", "EventTarget.prototype.addEventListener", "event.target.tagName")
 !+ PLATFORM(ext_ublock)
 rjno1.com#%#//scriptlet('abort-on-stack-trace', 'document.getElementById', '/google|inlineScript/')
-rjno1.com#$?#style:contains(@keyframes) { remove: true; }
 !+ NOT_PLATFORM(ios, ext_android_cb)
 ||jspassport.ssl.qhimg.com^$script,redirect=noopjs,domain=rjno1.com
 @@||googletagmanager.com/gtag/js$script,domain=rjno1.com
