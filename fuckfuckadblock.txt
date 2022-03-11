@@ -148,6 +148,7 @@
 ##.ads-checker-msg
 ##.adspop
 ##.b-blockadblock
+##.bigClickTeasersBlock
 ##.block-adblock_notice
 ##.counterAdblocks
 ##.deadblocker-header-bar
@@ -180,7 +181,6 @@
 ##.warning-adblock
 ##.warning-adblock-box
 ##.wgAdBlockMessage
-##.bigClickTeasersBlock
 
 #@##Ad300x145
 #@##Ad300x250
@@ -247,7 +247,6 @@
 #@##banner468
 #@##banner728x90
 #@##banner_ad
-#@#.banner_ad
 #@##bannerad
 #@##divAdBox
 #@##glinkswrapper
@@ -293,6 +292,7 @@
 #@#.afs_ads
 #@#.an-advert-banner
 #@#.an-sponsored
+#@#.banner_ad
 #@#.dfp-ad
 #@#.dfp-ad-unit
 #@#.fs_ads
