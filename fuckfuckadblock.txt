@@ -600,6 +600,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 |http*:*/spcjs_min.js|$script,important
 |http*:*/nofa7.$script,~third-party
 |http*:*/rass7.$script,~third-party
+|http*:*/redirect/?spot_id=$script,third-party
 |http*:*/player/html.php?aid=post_roll_html^$redirect=noopframe,subdocument,~third-party
 ||a-ads.com^$third-party,empty
 ||adf.ly/js/display.js$script,important
@@ -984,7 +985,7 @@ c2camera.com,camhun.com,imagetwist.com,vipr.im,voyeurexplorer.com##+js(abort-cur
 
 akhbbar2020.blogspot.com,androidmtk.co.uk,bnatwhatsapp.blogspot.com,iccchampionstrophys.blogspot.com,iptvshow.blogspot.com,keralatelecom.info,ry2tree2.com##+js(abort-on-property-read.js, blogantiadblock)
 
-drtuber.*,hd21.com,iceporn.com,nuvid.com,tubeon.com,vivatube.com,winporn.com,yeptube.com##+js(abort-current-inline-script.js, TRAFF_TARGETS)
+drtuber.*,hd21.net,iceporn.com,nuvid.tv,tubeon.net,vivatube.net,winporn.net,yeptube.net##+js(abort-current-inline-script.js, TRAFF_TARGETS)
 
 agrigentonotizie.it,anconatoday.it,arezzonotizie.it,avellinotoday.it,bresciatoday.it,brindisireport.it,casertanews.it,cataniatoday.it,cesenatoday.it,chietitoday.it,forlitoday.it,frosinonetoday.it,genovatoday.it,ilpescara.it,ilpiacenza.it,latinatoday.it,lecceprima.it,leccotoday.it,livornotoday.it,messinatoday.it,milanotoday.it,modenatoday.it,monzatoday.it,novaratoday.it,padovaoggi.it,parmatoday.it,perugiatoday.it,pisatoday.it,quicomo.it,ravennatoday.it,reggiotoday.it,riminitoday.it,romatoday.it,salernotoday.it,sondriotoday.it,sportpiacenza.it,ternitoday.it,today.it,torinotoday.it,trevisotoday.it,triesteprima.it,udinetoday.it,veneziatoday.it,vicenzatoday.it##+js(no-setTimeout-if.js, bADBlock)
 
