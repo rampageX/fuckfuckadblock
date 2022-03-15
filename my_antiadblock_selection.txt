@@ -4963,7 +4963,6 @@ linovelib.com#$#body[style] { overflow: auto !important; }
 !+ PLATFORM(ios, ext_android_cb)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=linovelib.com
 ! https://github.com/uBlockOrigin/uAssets/issues/11152
-rjno1.com#?#div[id]:matches-css(overflow: hidden):has(p:contains(禁))
 rjno1.com#%#//scriptlet("set-constant", "google_global_correlator", "1")
 rjno1.com#%#//scriptlet("set-constant", "google_image_requests", "emptyArr")
 rjno1.com#%#//scriptlet("abort-current-inline-script", "EventTarget.prototype.addEventListener", "event.target.tagName")
@@ -6043,6 +6042,23 @@ smallseotools.com#@#.adsbygoogle
 !
 !
 !
+! https://poki.jp/g/repuls-io / https://repuls.io/ FREE CRADITS
+@@||a.poki.com/prebid/$script,domain=poki-gdn.com|repuls.io
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=repuls.io
+@@||g.doubleclick.net/gampad/ads?*&url=https%3A%2F%2Fgames.poki.com$xmlhttprequest,domain=imasdk.googleapis.com
+@@||g.doubleclick.net/gampad/ads?*&url=https%3A%2F%2Frepuls.io$xmlhttprequest,domain=imasdk.googleapis.com
+@@||redirector.gvt1.com/videoplayback/id/*/source/gfp_video_ads/$media,domain=poki-gdn.com|repuls.io
+||redirector.gvt1.com/videoplayback/id/*/source/gfp_video_ads/$media,redirect=noopmp4-1s,domain=poki-gdn.com|repuls.io,important
+! https://github.com/AdguardTeam/AdguardFilters/issues/112825
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$xmlhttprequest,domain=testadmit.com
+testadmit.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
+! https://github.com/AdguardTeam/AdguardFilters/issues/112931
+@@||leechpremium.link/peel.js
+leechpremium.link#%#//scriptlet("abort-current-inline-script", "document.getElementById", "').style.display='none';")
+! https://github.com/AdguardTeam/AdguardFilters/issues/112883
+beermoneyforum.com#%#//scriptlet("abort-current-inline-script", "$", "initDetection")
+!+ PLATFORM(ios, ext_android_cb)
+@@||beermoneyforum.com^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/112769
 gamingfactor.xyz#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 gamingfactor.xyz#%#//scriptlet('abort-current-inline-script', 'Array.prototype.shift', '_0x')
