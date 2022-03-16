@@ -572,7 +572,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 |http*:*/pn07uscr/f/tr/zavbn/$third-party,important,script
 |http*:*$image,redirect-rule=1x1.gif,domain=dropgalaxy.com|dropgalaxy.in|financemonk.net|kijk.nl|megaup.net|ruokareseptit.online|techssting.com|techthematter.xyz
 |http*:*$image,redirect-rule=32x32.png,domain=streameast.*
-|http*:*$script,redirect-rule=noopjs,domain=dropgalaxy.com|dropgalaxy.in|ebookdz.com|excelviewer.herokuapp.com|exifviewer.herokuapp.com|extremereportbot.com|financemonk.net|hackintoshshop.com|linternaute.com|pdfrecover.herokuapp.com|protvplus.ro|rbxscripts.xyz|rtxkeeda.com|ruokareseptit.online|speedtesting.herokuapp.com|techssting.com|techthematter.xyz
+|http*:*$script,redirect-rule=noopjs,domain=dropgalaxy.com|dropgalaxy.in|ebookdz.com|excelviewer.herokuapp.com|exifviewer.herokuapp.com|extremereportbot.com|financemonk.net|hackintoshshop.com|linternaute.com|pdfrecover.herokuapp.com|protvplus.ro|rbxscripts.xyz|rtxkeeda.com|ruokareseptit.online|speedtesting.herokuapp.com|techssting.com|techthematter.xyz|adshnk.com
 |http*:*$xmlhttprequest,redirect-rule=nooptext,domain=dropgalaxy.com|dropgalaxy.in|financemonk.net|marie-claire.es|miarevista.es|muyhistoria.es|muyinteresante.es|muynegociosyeconomia.es|ruokareseptit.online|serpadres.es|techssting.com|techthematter.xyz|thingiverse.com
 |http*:*$subdocument,redirect-rule=noopframe,domain=dropgalaxy.com|dropgalaxy.in|financemonk.net|ruokareseptit.online|techssting.com|techthematter.xyz
 |http*:*/ad-m.js|$important,script
