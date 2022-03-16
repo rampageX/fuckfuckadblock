@@ -527,6 +527,7 @@ hydracdn.*,hydrax.net,kmo.to,playhydrax.com,cloneplayer.xyz##div#over, #sotrym-m
 mcloud.to,vizcloud.*,vizcloud2.*##.xad-wrapper
 adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,stape.fun,strcloud.*,streamta.*,streamtape.*,strtape.*,strtapeadblock.*,strtpe.*##.plyr-overlay
 kinoger.*###theotherads
+oploverz.*##[class*="sgpb-popup"]
 
 comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com##+js(refresh-defuser.js)
 comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com$$meta[http-equiv="refresh"]
