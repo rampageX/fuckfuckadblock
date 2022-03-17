@@ -6496,7 +6496,7 @@ jesusninoc.com#%#//scriptlet("abort-on-property-read", "gothamBatAdblock")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/102919
 ! https://github.com/AdguardTeam/AdguardFilters/issues/102451
 forex-articles.com,try2link.com,world-trips.net,forex-gold.net,newforex.online,mobi2c.com#%#//scriptlet('set-constant', 'usingBlocker', 'emptyObj')
-!+ PLATFORM(ios, ext_android_cb)
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=forex-articles.com|try2link.com|world-trips.net|forex-gold.net|newforex.online|mobi2c.com
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/102334
@@ -6526,7 +6526,9 @@ pdfaid.com#@#.googleads
 @@||player.oyasumi.me/assets/js/prebid-ads.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/104340
 ! https://github.com/AdguardTeam/AdguardFilters/issues/101723
+||vip.rtsts.me/?pge=$image,redirect=1x1-transparent.gif
 ||v1sts.me/?pge=$image,redirect=1x1-transparent.gif
+strikeout.cc#%#//scriptlet("prevent-addEventListener", "error", "blockMsg")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/100820
 securenetsystems.net###adblockWrapper
 @@||securenetsystems.net/*/scripts/ads/prebid.js
