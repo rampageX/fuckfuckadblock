@@ -514,6 +514,7 @@
 ##div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01;height:421px;width:748px"]
 ##div[style^="position:fixed;inset:0px;z-index:100000;height:100%;width:100%"]
 ##iframe[src*="//syndication.exosrv.com/"]
+##[href*="?key="]
 
 all18xxx.com,wildteenporn.com##[href="/out.php"]
 dropgalaxy.*,financemonk.net,rtxkeeda.com,ruokareseptit.online,techssting.com,techthematter.xyz###modalpop
@@ -636,6 +637,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 /\/vki\/[0-9]{7}\/[a-z0-9]{8}\.js$/$important,script,third-party,match-case
 /[0-9]{7}\?zoneid=[0-9]{7}/$important,script,third-party
 /\/esnk\/[0-9]{7}\/code\.js$/$important,script,third-party,match-case
+/\/[a-z0-9]{8,10}\?key=[0-9a-f]{32}$/$important,subdocument,third-party
 
 @@/[-_\/]dfp(\.min)?\.js/$script,xmlhttprequest
 @@/[.\/]adsbygoogle(\.min)?\.js$/$script,~third-party
