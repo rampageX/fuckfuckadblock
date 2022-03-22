@@ -635,7 +635,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 ||jsdelivr.net/*/levelmaxblock.js$script,third-party
 /\/vki\/[0-9]{7}\/[a-z0-9]{8}\.js$/$important,script,third-party,match-case
 /[0-9]{7}\?zoneid=[0-9]{7}/$important,script,third-party
-/\/esnk\/[0-9]{7}\/code\.js$/$script,third-party
+/\/esnk\/[0-9]{7}\/code\.js$/$important,script,third-party,match-case
 
 @@/[-_\/]dfp(\.min)?\.js/$script,xmlhttprequest
 @@/[.\/]adsbygoogle(\.min)?\.js$/$script,~third-party
