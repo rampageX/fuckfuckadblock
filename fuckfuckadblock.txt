@@ -640,8 +640,8 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 /\/esnk\/[0-9]{7}\/code\.js$/$important,script,third-party,match-case
 /\/[a-z0-9]{8,10}\?key=[0-9a-f]{32}$/$important,document,subdocument,match-case
 ||cdn.eeco.xyz/app.js|$important,script,third-party
-/\.html?\?f=[a-z]{3,10}&e=\d{13}$/$subdocument,third-party
-/\/t\.js\?i=[a-z0-9]{21}&cb=\d{19}$/$script,third-party
+/\.html?\?\w=[a-z]{3,10}&\w=\d{13}$/$important,subdocument,third-party
+/\/t\.js\?\w=[a-z0-9]{21}&\w{2}=\d{19}$/$important,script,third-party
 
 @@/[-_\/]dfp(\.min)?\.js/$script,xmlhttprequest
 @@/[.\/]adsbygoogle(\.min)?\.js$/$script,~third-party
