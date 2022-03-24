@@ -643,7 +643,6 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 ||cdn.eeco.xyz/app.js|$important,script,third-party
 /\.html?\?\w=[a-z]{3,10}&\w=\d{13}$/$important,subdocument,third-party
 /\/t\.js\?\w=[a-z0-9]{21}&\w{2}=\d{19}$/$important,script,third-party
-|http*:*/links/go|$xmlhttprequest,~third-party,important
 /\.com\/[a-z]{8,12}\/[a-z]{8,12}\.js$/$script,~third-party,domain=txxx.com
 /\.(com|net)\/[a-z0-9]{8,12}\/[a-z0-9]{5,12}\.html$/$subdocument,domain=all18xxx.com|wildteenporn.com
 |http*:*/nofa7.*.js|$script,~third-party,important
