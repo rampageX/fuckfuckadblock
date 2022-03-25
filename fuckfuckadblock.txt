@@ -646,7 +646,6 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 ||media.net^$object,redirect-rule=noopjs
 ||google-analytics.com^$object,redirect-rule=noopjs
 ||doubleclick.net^$object,redirect-rule=noopjs
-
 @@/[-_\/]dfp(\.min)?\.js/$script,xmlhttprequest
 @@/[.\/]adsbygoogle(\.min)?\.js$/$script,~third-party
 @@/\&text\-ad\&textAd\&text\_ad\&text\_ads\&text\-ads\&text\-ad\-links\&ads\&advert/$script,third-party
