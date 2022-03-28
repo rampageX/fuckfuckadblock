@@ -575,7 +575,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 |http*:*/blockadblock-$script,redirect=prevent-fab-3.2.0
 |http*:*/blockadblock.$script,redirect=fuckadblock.js-3.2.0
 |http*:*/blockadblock.$script,redirect=prevent-fab-3.2.0
-|http*:*/fahimraza/fk/*/ad-unblocker.js$script,third-party
+|http*:*/fahimraza/fk/*/ad-unblocker.js$script,third-party,important
 |http*:*/fuckadblock-$script,redirect=fuckadblock.js-3.2.0
 |http*:*/fuckadblock-$script,redirect=prevent-fab-3.2.0
 |http*:*/fuckadblock.$script,redirect=fuckadblock.js-3.2.0
