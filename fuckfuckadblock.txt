@@ -994,7 +994,7 @@ akhbbar2020.blogspot.com,androidmtk.co.uk,bnatwhatsapp.blogspot.com,iccchampions
 
 kimcartoon.*,kissorg.net,kisscenter.net##+js(no-setTimeout-if.js, adbWarnContainer)
 
-123moviesgo.*,allcalidad.*,anxcinema.*,dulu.to,dvdgayonline.com,dvdgayporn.com,gomovies.lv,hdmovie20.com,hdmovie5.*,hds-stream.tv,hdss.*,jetanimes.*,movs4u.*,openload-streamango.com,openloading.com,pinoymovies.*,pinoymovieshub.*,serieslatinoamerica.tv,streamkiste.cx,streampourvous.com,the123movies.*,thewatchseries.live,vumoo.*,gum-gum-stream.com,193.178.172.113##+js(remove-attr.js, href, #clickfakeplayer)
+123moviesgo.*,allcalidad.*,anxcinema.*,dulu.to,dvdgayonline.com,dvdgayporn.com,gomovies.lv,hdmovie20.com,hdmovie5.*,hds-stream.tv,hdss.*,jetanimes.*,movs4u.*,openload-streamango.com,openloading.com,pinoymovies.*,pinoymovieshub.*,serieslatinoamerica.tv,streamkiste.cx,streampourvous.com,the123movies.*,thewatchseries.live,vumoo.*,gum-gum-stream.com,193.178.172.113,123moviess.*##+js(remove-attr.js, href, #clickfakeplayer)
 
 imgur.com##+js(set-constant.js, ADBLOCKED, false)
 
