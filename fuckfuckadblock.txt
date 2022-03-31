@@ -86,6 +86,7 @@
 ###plus-upsell-adblock
 ###popapIsBlockedAd
 ###sidearm-adblock-modal
+##[class*="chp_ads_blocker_detector-show"]
 ##.AdblockMessage
 ##.AdblockMessage_msg
 ##.ab-notice
