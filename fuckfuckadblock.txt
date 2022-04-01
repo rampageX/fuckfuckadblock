@@ -518,7 +518,7 @@
 
 all18xxx.com,wildteenporn.com##[href="/out.php"],.on-player-pl
 upornia.*,txxx.com,porntop.com,txxxporn.tube##.jwplayer > [class][style="display:flex !important"]
-hdzog.com##.jwplayer > .afs_ads + span[class]
+hdzog.com,hclips.com##.jwplayer > .afs_ads + span[class]
 dropgalaxy.*,financemonk.net,rtxkeeda.com,ruokareseptit.online,techthematter.xyz###modalpop
 hydracdn.*,hydrax.net,kmo.to,playhydrax.com,cloneplayer.xyz##div#over, #sotrym-message-box, #sotrym-overlay-message
 mcloud.to,vizcloud.*,vizcloud2.*##.xad-wrapper
