@@ -873,7 +873,7 @@ carbonite.co.za,lcpdfr.com,mac-torrent-download.net,nirjonmela.com,techtobo.com,
 
 bercara.com,cut-w.in,in11.site,semawur.com,sukakesehattan.com,gifans.com##+js(no-setTimeout-if.js, checkAdblockUser)
 
-bestblowjobvids.com,euro-fh.de,hqtube.xxx,pornid.xxx,rat.xxx,redhdtube.xxx,sexvid.xxx,zbporn.tv##+js(abort-on-property-read.js, pu)
+bestblowjobvids.com,euro-fh.de,hqtube.xxx,pornid.xxx,rat.xxx,redhdtube.xxx,sexvid.xxx,zbporn.tv,hdtube.porn##+js(abort-on-property-read.js, pu)
 
 cryptofuns.ru,ilmeteo.it,lightnovelpub.com,linkspaid.com,mycartoonvideo.net,proxydocker.com,seriesdonghua.com,shorte-st.online,wblogy.com##+js(no-setTimeout-if.js, (), 1000)
 
