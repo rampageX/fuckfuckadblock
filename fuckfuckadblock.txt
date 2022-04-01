@@ -517,7 +517,7 @@
 ##iframe[src*="//syndication.exosrv.com/"]
 
 all18xxx.com,wildteenporn.com##[href="/out.php"],.on-player-pl
-upornia.*,txxx.com,porntop.com##.jwplayer > [class][style="display:flex !important"]
+upornia.*,txxx.com,porntop.com,txxxporn.tube##.jwplayer > [class][style="display:flex !important"]
 dropgalaxy.*,financemonk.net,rtxkeeda.com,ruokareseptit.online,techthematter.xyz###modalpop
 hydracdn.*,hydrax.net,kmo.to,playhydrax.com,cloneplayer.xyz##div#over, #sotrym-message-box, #sotrym-overlay-message
 mcloud.to,vizcloud.*,vizcloud2.*##.xad-wrapper
@@ -645,7 +645,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 ||cdn.eeco.xyz/app.js|$important,script,third-party
 /\.html?\?\w=[a-z]{3,10}&\w=\d{13}$/$important,subdocument,third-party
 /\/t\.js\?\w=[a-z0-9]{21}&\w{2}=\d{19}$/$important,script,third-party
-/\.(com|porn|xxx|tube)\/[a-z]{8,12}\/[a-z]{8,12}\.js$/$important,script,~third-party,domain=555.porn|desiporn.tube|hclips.com|hdzog.com|hotmovs.com|imzog.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.com|upornia.*|voyeurhit.com|vxxx.com
+/\.(com|porn|xxx|tube)\/[a-z]{8,12}\/[a-z]{8,12}\.js$/$important,script,~third-party,domain=555.porn|desiporn.tube|hclips.com|hdzog.com|hotmovs.com|imzog.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.com|upornia.*|voyeurhit.com|vxxx.com|txxxporn.tube
 /\.(com|net)\/[a-z0-9]{8,12}\/[a-z0-9]{5,12}\.html$/$important,subdocument,domain=all18xxx.com|wildteenporn.com
 /\/[a-z]{4,}\/(?!holly7)[a-z]{3,6}\d\.\d\.\d{1,2}\.[0-9a-f]{32}\.js$/$script,~third-party,important
 ||media.net^$object,redirect-rule=noopjs
