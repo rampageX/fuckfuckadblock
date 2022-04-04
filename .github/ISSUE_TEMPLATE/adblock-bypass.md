@@ -14,10 +14,10 @@ labels: 'antiadblock'
 
 ### User environment
 
-**Browser:** <!-- Write here the name of the browser and its version. -->
-**Extension or program:** <!-- Only uBlock Origin or Adguard. -->
-**DNS:** <!-- Are you using any third-party DNS server? -->
-**Extensions:** <!-- What add-ons do you use in your browser? -->
+**Browser:** <!-- The name of the browser and its version. -->
+**Adblocker:** <!-- The name of the ad blocker, only uBlock Origin or AdGuard and its version. -->
+**Extensions:** <!-- The names of all other extensions installed in the browser, except for the adblocker. -->
+**DNS:** <!-- The name of the third-party DNS, if it is used. -->
 
 ### Additional message
 
