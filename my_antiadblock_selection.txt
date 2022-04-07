@@ -5140,16 +5140,12 @@ alotof.software#$#.adsbygoogle { position: absolute!important; left: -3000px!imp
 @@||av4u.info/source/plugin/unadblock^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/13976
 @@||yesiget.i234.me^$generichide
-! https://github.com/AdguardTeam/AdguardFilters/issues/14444
-@@||av01.tv/wp-content/themes/wp-script-theme/vendor/*/trigger_video_hls.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/16028
 !+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_ublock)
 @@||ak77now.pixnet.net^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/17249
 ||xianzhenyuan.cn/data/attachment^$image
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
-! https://github.com/AdguardTeam/AdguardFilters/issues/23160
-@@||av01.tv/av01/videojs/imads.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/28211
 91wii.com#%#window.ad = window.ads = window.dzad = window.dzads = true;
 @@||91wii.com/source/plugin/unadblock/adjs_pic_cpc_cpm_cpa_guanggao_gg_ads_250x250.js
@@ -5280,7 +5276,8 @@ xiebruce.top#%#//scriptlet("prevent-addEventListener", "", "showRemoveAdBlocker"
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=xiebruce.top
 ! https://github.com/AdguardTeam/AdguardFilters/issues/90881
 ddrk.me#@#a[href*="/kst6632.com/"]
-ddrk.me#$#a[href*="/kst6632.com/"] > img { width: 0 !important; }
+ddrk.me#$#a[href*="/kst6632.com/"] { pointer-events: none !important; }
+ddrk.me#$#a[href*="/kst6632.com/"] > img { width: 1px !important; }
 !#safari_cb_affinity(privacy)
 @@||cnzz.com/z_stat.php$domain=ddrk.me
 ||cnzz.com/z_stat.php$xmlhttprequest,script,redirect=noopjs,domain=ddrk.me,important
@@ -5949,10 +5946,10 @@ ourcoindigibyte.xyz,ourcoindash.xyz,ourcoineth.xyz,ourcoinfaucet.xyz,ourcoin.xyz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dbsysupgrade.com|asyadizileri.net|techhelpbd.com|therootdroid.com|sevenjournals.com|7apple.net|jorgemoncada.com|hollywoodsmagazine.com|anicosplay.net|ewybory.eu|nanoroms.com|egymanga.net|flipreview.com|hiphopa.net|pngtosvg.com|compartilhandobr.com|loksado.com|ecoursefree.com|daemon-hentai.com|yigeplus.xyz|cgchotbox.com|launcherfull.com|cheatbyte.com|techycoder.com|arasindakifark.net|kitguru.net|gsmxt.com|mangaxp.com|technicalatg.com|technicalatg.xyz|freetutorialsdownload.online|tutsgalaxys.com|toolss.net|vipmods.net|freetutorialsudemy.com|adonisfansub.com|getfreecourses.org|themovieslab.in|bitcoinegypt.news|talkjarvis.com|satcesc.com|dongknows.com|getfreecourses.net|citychilli.com|livenewsof.com|pinayvids.com|hardcoregames.ca|pasend.cam|unityassetcollection.com|crypto-fun-faucet.de|fileoops.com|samuraiscan.com|3dmodelshare.org|cgtips.org|dailyvideoreports.net|codesnail.com|ma-x.org|sitarchive.com|onlyfanesse.com|codingshiksha.com|graphicux.com|w3layouts.com|musike.net|windowsmatters.com|sonixgvn.net|avoiderrors.com|gatcha.org|sayrodigital.com|justandroid.net|4horlover.com|topnewsshow.com|3dzip.org|ovagames.com|lewdsenpai.com|mitsmits.com|openculture.com|udemycoursesfree.me|yuinime.net|asyadrama.com|apfelpatient.de|agorablog.it|r3ndy.com|mylivewallpapers.com|e-sanatatea.ro|ourcoindigibyte.xyz|ourcoindash.xyz|ourcoineth.xyz|ourcoinfaucet.xyz|ourcoin.xyz
 !
 ! chp_ads_blocker
-angolopsicologia.com##div[id^="chp_ads_block_modal_"]
+pathshalanepal.com,angolopsicologia.com##div[id^="chp_ads_block_modal_"]
 mikrometoxos.gr,geezwild.com,manga-fenix.com,codehelppro.com,9movierulz.*,icongnghe.com,turbolangs.com,skincaredupes.com,codeastro.com,saniaowner.space,chineseanime.co.in,katmoviefix.*###chp_branding
 mikrometoxos.gr,geezwild.com,manga-fenix.com,codehelppro.com,9movierulz.*,rbs.ta36.com,icongnghe.com,pulpitandpen.org,turbolangs.com,skincaredupes.com,codeastro.com,saniaowner.space,chineseanime.co.in,hentai-mega-mix.com,ragnarokscan.com,codecap.org,themehits.com,katmoviefix.*,dragontea.ink,twinkybf.com,softfully.com,windowsbulletin.com,udemycoupons.me,365tips.be,animeactua.com,galaxytranslations97.com,myviptuto.com,tienichmaytinh.net,coursevania.com,freemagazines.top,youfriend.it,7misr4day.com,technicalatg.xyz,gourmetscans.net,mangakik.com,michaelemad.com,javgayplus.com,gaypornhdfree.com,fcportables.com,gaypornhdfree.to,netfuck.net,romadd.com,mkvhouse.com,toptechtalk.xyz##div[id^="chp_ads_blocker"]
-angolopsicologia.com,mikrometoxos.gr,geezwild.com,manga-fenix.com,codehelppro.com,9movierulz.*,rbs.ta36.com,icongnghe.com,pulpitandpen.org,turbolangs.com,skincaredupes.com,codeastro.com,saniaowner.space,chineseanime.co.in,hentai-mega-mix.com,ragnarokscan.com,codecap.org,themehits.com,katmoviefix.*,dragontea.ink,twinkybf.com,softfully.com,windowsbulletin.com,udemycoupons.me,365tips.be,animeactua.com,galaxytranslations97.com,myviptuto.com,tienichmaytinh.net,coursevania.com,freemagazines.top,youfriend.it,7misr4day.com,technicalatg.xyz,gourmetscans.net,mangakik.com,michaelemad.com,javgayplus.com,gaypornhdfree.com,fcportables.com,gaypornhdfree.to,netfuck.net,romadd.com,mkvhouse.com,toptechtalk.xyz#%#//scriptlet("abort-on-property-read", "adsBlocked")
+pathshalanepal.com,angolopsicologia.com,mikrometoxos.gr,geezwild.com,manga-fenix.com,codehelppro.com,9movierulz.*,rbs.ta36.com,icongnghe.com,pulpitandpen.org,turbolangs.com,skincaredupes.com,codeastro.com,saniaowner.space,chineseanime.co.in,hentai-mega-mix.com,ragnarokscan.com,codecap.org,themehits.com,katmoviefix.*,dragontea.ink,twinkybf.com,softfully.com,windowsbulletin.com,udemycoupons.me,365tips.be,animeactua.com,galaxytranslations97.com,myviptuto.com,tienichmaytinh.net,coursevania.com,freemagazines.top,youfriend.it,7misr4day.com,technicalatg.xyz,gourmetscans.net,mangakik.com,michaelemad.com,javgayplus.com,gaypornhdfree.com,fcportables.com,gaypornhdfree.to,netfuck.net,romadd.com,mkvhouse.com,toptechtalk.xyz#%#//scriptlet("abort-on-property-read", "adsBlocked")
 dongknows.com#$#div[id^="chp_ads_block_modal_"] { display: none !important; }
 dongknows.com#$#html > body[class*="chp_ads_blocker"] { overflow: auto !important; }
 dongknows.com#%#//scriptlet("abort-current-inline-script", "document.getElementById", "pagead2.googlesyndication.com")
@@ -6256,7 +6253,7 @@ exey.io#%#(function(){document.location.hostname.includes("exey.io")&&AG_onLoad(
 b2bhint.com#%#//scriptlet('prevent-setTimeout', 'verifyBlocker')
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=b2bhint.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/111672
-exey.io#@#.adsbygoogle
+exey.io#%#//scriptlet('prevent-xhr', 'pagead2.googlesyndication.com')
 exey.io#$#.adsbygoogle { position: absolute !important; left: -4000px !important; }
 exey.io#%#//scriptlet("set-constant", "randomVar", "true")
 @@||exe.io/js/prebid-ads.js$domain=exey.io
@@ -11562,9 +11559,6 @@ ally.shortens.co#@#.adsbygoogle
 ! https://github.com/AdguardTeam/AdguardFilters/issues/28240
 !+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_safari, ext_ublock)
 @@||courseclub.net^$generichide
-! https://github.com/AdguardTeam/AdguardFilters/issues/28191
-||googletagmanager.com/gtag/js$script,redirect=google-analytics,domain=av01.tv,important
-@@||googletagmanager.com/gtag/js$domain=av01.tv
 ! https://github.com/AdguardTeam/AdguardFilters/issues/28174
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||buyitonline.store^$generichide
