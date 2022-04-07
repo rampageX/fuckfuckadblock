@@ -655,6 +655,9 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 ||google-analytics.com^$object,redirect-rule=noopjs
 ||doubleclick.net^$object,redirect-rule=noopjs
 ||rureka.com/zee.js$script
+||doubleclick.net/favicon.ico$image,third-party,redirect-rule=32x32.png
+||ads.twitter.com/favicon.ico$image,third-party,redirect-rule=32x32.png
+||advertising.yahoo.com/favicon.ico$image,third-party,redirect-rule=32x32.png
 
 @@/[-_\/]dfp(\.min)?\.js/$script,xmlhttprequest
 @@||anidub.*/vast.php|$xmlhttprequest
