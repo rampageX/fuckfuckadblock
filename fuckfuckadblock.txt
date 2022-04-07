@@ -657,6 +657,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 ||rureka.com/zee.js$script
 
 @@/[-_\/]dfp(\.min)?\.js/$script,xmlhttprequest
+@@||anidub.*/vast.php|$xmlhttprequest
 @@/[.\/]adsbygoogle(\.min)?\.js$/$script,~third-party
 @@/\&text\-ad\&textAd\&text\_ad\&text\_ads\&text\-ads\&text\-ad\-links\&ads\&advert/$script,third-party
 @@/\/adblockdetect(or)?(\.min)?\.js/$script,xmlhttprequest
