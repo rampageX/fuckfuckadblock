@@ -662,6 +662,8 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 ||amazon.*/favicon.ico$image,third-party,redirect-rule=32x32.png
 
 @@/[-_\/]dfp(\.min)?\.js/$script,xmlhttprequest
+@@||coveryourtracks.eff.org/static/zig.js|$script
+@@|http*:*/kcarting-tally?&ad_url=$subdocument
 @@||anidub.*/vast.php|$xmlhttprequest
 @@/[.\/]adsbygoogle(\.min)?\.js$/$script,~third-party
 @@/\&text\-ad\&textAd\&text\_ad\&text\_ads\&text\-ads\&text\-ad\-links\&ads\&advert/$script,third-party
