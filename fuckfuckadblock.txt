@@ -575,6 +575,8 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 |http*:*$subdocument,redirect-rule=noopframe,domain=dropgalaxy.com|dropgalaxy.in|financemonk.net|ruokareseptit.online|techthematter.xyz
 |http*:*/ad-m.js|$important,script
 |http*:*/antiboomclick.js$script,third-party
+|http*:*/wp-adblock-$script,redirect-rule=fuckadblock.js-3.2.0
+|http*:*/wp-adblock-$script,redirect-rule=prevent-fab-3.2.0
 |http*:*/blockadblock-$script,redirect=fuckadblock.js-3.2.0
 |http*:*/blockadblock-$script,redirect=prevent-fab-3.2.0
 |http*:*/blockadblock.$script,redirect=fuckadblock.js-3.2.0
