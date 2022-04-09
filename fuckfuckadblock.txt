@@ -854,7 +854,7 @@ allnorilsk.ru,artunnel57.com,automobiledimension.com,call2friends.com,cambro.tv,
 
 24-info.info,24porno.vip,adultmult.net,animedia.online,animevost.club,anitube.*,bluemediafiles.com,breaking-bad-online.ru,comixzilla.com,datoporn.co,ddl.to,doodhwali.xxx,doramashd.com,dropapk.*,fapdig.com,filmlinks4u.*,filmshd1080.net,freepornhdonlinegay.com,gamesmega.net,ghasrchat.org,gidfilm.ru,goldenbbw.com,gplinks.*,hdlava.com,idtbox.com,imageshtorm.com,internetmoney.me,iporntv.net,izvrata.net,kaztorka.org,kinogo.*,kinozal-me.appspot.com,kinozal-tv.appspot.com,latesthdmovies.*,mangovideo.*,maxiporno.tv,metagmae.org,newsyou.info,porn12345.com,pornalin.com,porno-eblja.com,pornq.com,poststar.com,rulu.co,rutor.*,samlab.*,search.tfile.me,sms24.me,soft-portal.club,thesports4u.net,thrones-online.ru,turboimagehost.com,ur-files.com,waiset.su,wstream.*,xn--80aayfwofft0a1d.xn--p1ai,xozilla.com##+js(abort-current-inline-script.js, document.createElement, 'script')
 
-roweroweporady.pl,tulodz.pl##+js(abort-on-property-write.js, adquestoConfig)
+roweroweporady.pl,tulodz.pl,sadeczanin.info##+js(abort-on-property-write.js, adquestoConfig)
 
 motohigh.pl,smartage.pl##+js(abort-current-inline-script.js, parseInt, adblock)
 
