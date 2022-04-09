@@ -503,6 +503,8 @@
 #@#.textAd
 #@#.text_ad
 #@#.text_ads
+pl#@#.ads
+pl#@#.ad
 
 ###kt_player>a[target="_blank"]
 ##a[href*="/afu.php"]
