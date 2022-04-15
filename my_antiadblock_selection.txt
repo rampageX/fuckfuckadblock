@@ -3180,6 +3180,8 @@ sinoptik.ua#@##left-slot1
 sinoptik.ua#@#div[id^="bn_"]
 !#endif
 !
+! https://forum.adguard.com/index.php?threads/47790/
+@@||tolkorus.net/player/player_ads.html?advertising_id=
 ! https://github.com/AdguardTeam/AdguardFilters/issues/111700
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=vinteratv.com
 @@||googleads.github.io/videojs-ima/dist/videojs.ima.js$domain=vinteratv.com
@@ -6023,6 +6025,8 @@ igg-games.com##slot + div[class]
 ||m.resoliltiu.email^$third-party
 serieslatinoamerica.tv,tr-cam.com,trshow.info,ukposts.info,ruplayers.com##pp
 ukposts.info,ruplayers.com$$script[tag-content="insertAdjacentHTML"]
+! https://github.com/AdguardTeam/AdguardFilters/issues/115641
+||claimfey.com/cryptonews/wp-content/uploads/bqanwcfp.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85992
 serieslatinoamerica.tv$$script[wildcard="*track*atob*ShadowRoot*"][min-length="5000"][max-length="10000"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66726
