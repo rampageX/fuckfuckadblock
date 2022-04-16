@@ -756,7 +756,9 @@ allywebsite.com,amirantivirus.com,animecracks.com,bleachmx.fr,bollyholic.*,bolly
 
 3dmili.com,bestopbook.info,cardiagn.com,cuitandokter.com,dcleakers.com,esgeeks.com,fikiri.net,hitsebeats.eu,homni-tech.com,luccisan.com,maccanismi.it,mangaturf.com,myhackingworld.com,novel18.biz,pugliain.net,siamblockchain.com,tapchipi.com,tech-blogs.com,tehnobzor.ru,tinyppt.com,tunovelaligera.com,uplod.net,usnovels.*,vpnbrothers.com##+js(no-setTimeout-if.js, mdp)
 
-bc.vc,bcvc.live,ebalka.info,file4.net,hotvideo.fr,informaxonline.com,kinostate.net,nefig.me,pornk.name,pornmult.art,porno-hd.xxx,pornosexrolik.com,pornosexrolik.info,pussyspace.*,xn--80aa3agbm7d.com,xn--80aqfgb.org,xn--e1afprfv.org,xn--e1afprfv.tv,azm.to##+js(abort-current-inline-script.js, encodeURIComponent)
+bc.vc,bcvc.live,ebalka.info,file4.net,hotvideo.fr,informaxonline.com,kinostate.net,nefig.me,pornk.name,pornmult.art,porno-hd.xxx,pornosexrolik.com,pornosexrolik.info,pussyspace.*,xn--80aa3agbm7d.com,xn--80aqfgb.org,xn--e1afprfv.org,xn--e1afprfv.tv##+js(abort-current-inline-script.js, encodeURIComponent)
+
+azm.to,watchseries9.*##+js(abort-on-property-read.js, mm)
 
 adslinkfly.online,gaminplay.com##+js(abort-current-inline-script.js, mMcreateCookie)
 
