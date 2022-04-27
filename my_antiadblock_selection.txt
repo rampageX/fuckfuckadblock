@@ -6219,7 +6219,7 @@ ezcoin.it#$#.step2 > .alert-info[style*="none"] { display: block !important; }
 ezcoin.it#$#.step2 > .ablinksgroup[style*="none"] { display: block !important; }
 ezcoin.it#%#//scriptlet("abort-current-inline-script", "document.getElementById", "(!document[_")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/114408
-@@||app.trangchu.news/peel.js
+@@||app.trangchu.news/*.js
 trangchu.news#%#//scriptlet("abort-current-inline-script", "document.getElementById", "').style.display='none';")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/114452
 larvelfaucet.com#%#//scriptlet("abort-current-inline-script", "document.createElement", "ad.a-ads")
@@ -7696,19 +7696,14 @@ rodude.com#%#//scriptlet("set-constant", "adblock_detection", "undefined")
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl_with_ama_fy$domain=rodude.com
 !#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/88698
-freemcserver.net#%#//scriptlet('prevent-fetch', '/pagead2\.googlesyndication\.com|gscontxt\.net/')
-||freemcserver.net/js/*.js$replace=/(try\{if\()\!navigator\[[\s\S]*?\)\)/\$1true===false)/
-||freemcserver.net/assets/js-compress/*.js$replace=/(try\{if\()\!navigator\[[\s\S]*?\)\)/\$1true===false)/
-freemcserver.net#%#//scriptlet("prevent-setTimeout", "/window\.location\.replace|testURL|0x/")
+!||freemcserver.net/js/*.js$replace=/(try\{if\()\!navigator\[[\s\S]*?\)\)/\$1true===false)/
+!||freemcserver.net/assets/js-compress/*.js$replace=/(try\{if\()\!navigator\[[\s\S]*?\)\)/\$1true===false)/
 ||pagead2.googlesyndication.com/pagead$xmlhttprequest,script,redirect=noopjs,domain=freemcserver.net
-||cdn.insurads.com/bootstrap/*.js$xmlhttprequest,script,redirect=noopjs,domain=freemcserver.net
-!#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb)
+! !#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb)
 @@||sapo-ams.gscontxt.net/main/channels-json.cgi?url=$xmlhttprequest,domain=freemcserver.net
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=freemcserver.net
 @@||pagead2.googlesyndication.com/pagead$xmlhttprequest,script,domain=freemcserver.net
-@@||ad-dev.globalnoticias.pt/revive/www/delivery/asyncjs.php$domain=freemcserver.net
-@@||cdn.insurads.com/bootstrap/*.js$domain=freemcserver.net
-!#endif
+! !#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/81867
 charbelnemnom.com#%#//scriptlet("set-constant", "advanced_ads_check_adblocker", "noopFunc")
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
@@ -13034,15 +13029,15 @@ intercelestial.com##.swal2-container
 ! https://github.com/AdguardTeam/AdguardFilters/issues/92570#issuecomment-989634249
 ! https://github.com/AdguardTeam/AdguardFilters/issues/28391
 ! https://github.com/AdguardTeam/AdguardFilters/issues/18113
+! https://github.com/AdguardTeam/AdguardFilters/issues/115683#issuecomment-1109265607
+[$domain=facebook.com,path=/gaming]#$#body > .AdBox.Ad.advert ~ div[class] { display: block !important; }
+[$domain=facebook.com,path=/gaming]#$#body > .AdBox.Ad.advert { display: block !important; }
 !#if (adguard_ext_android_cb || adguard_app_ios)
 @@||facebook.com/adsmanager/$generichide
 !#endif
-!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android)
 [$domain=facebook.com,path=/adsmanager]#$#body { display: block !important; }
+[$domain=facebook.com,path=/adsmanager]#$#body > .AdBox.Ad.advert { display: block !important; }
 [$domain=facebook.com,path=/adsmanager]#$#body > .AdBox.Ad.advert ~ div[class] { display: block !important; }
-!#endif
-!+ NOT_PLATFORM(ext_ff)
-||facebook.com/rsrc.php/*/3a2mtnxi5mC.js$replace=/g\.show=a//
 ! https://github.com/AdguardTeam/AdguardFilters/issues/17252
 @@||maps4heroes.com^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/17316
