@@ -4785,14 +4785,14 @@ sdamgia.ru$$script[tag-content="adb=1"]
 ! START: Yandex
 !
 ! old cookies: Bismuth|computer|discussion|^specific\$|^engineer|instruction|telecommunications|pronunciation|involved|^adequate
-$cookie=/blcrm|bltsr|MGphYZof|computer/,domain=yandex.by|yandex.com|yandex.com.tr|yandex.fr|yandex.kz|yandex.ru|yandex.ua
+$cookie=/blcrm|bltsr|NBgfDVFir|computer/,domain=yandex.by|yandex.com|yandex.com.tr|yandex.fr|yandex.kz|yandex.ru|yandex.ua
 !
-auto.ru,avito.ru,baby.ru,businessman.ru,dni.ru,e1.ru,echo.msk.ru,fb.ru,forexpf.ru,gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru,gorodrabot.ru,infoniac.ru,it-tehnik.ru,kakprosto.ru,kinopoisk.ru,liveinternet.ru,mathb-ege.sdamgia.ru,mk.ru,nkj.ru,ohotniki.ru,oko-planet.su,otzovik.com,razlozhi.ru,sdamgia.ru,syl.ru,vz.ru#%#//scriptlet('remove-cookie', '/blcrm|bltsr|MGphYZof|computer/')
+auto.ru,avito.ru,baby.ru,businessman.ru,dni.ru,e1.ru,echo.msk.ru,fb.ru,forexpf.ru,gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru,gorodrabot.ru,infoniac.ru,it-tehnik.ru,kakprosto.ru,kinopoisk.ru,liveinternet.ru,mathb-ege.sdamgia.ru,mk.ru,nkj.ru,ohotniki.ru,oko-planet.su,otzovik.com,razlozhi.ru,sdamgia.ru,syl.ru,vz.ru#%#//scriptlet('remove-cookie', '/blcrm|bltsr|NBgfDVFir|computer/')
 ! TODO: add domains auto.ru and kinopoisk.ru to the rule below after the next release of AG for macos (current 2.3.2)
-$cookie=/blcrm|bltsr|MGphYZof|computer/,domain=baby.ru|businessman.ru|dni.ru|e1.ru|echo.msk.ru|fb.ru|forexpf.ru|gismeteo.by|gismeteo.kz|gismeteo.md|gismeteo.ru|gorodrabot.ru|infoniac.ru|it-tehnik.ru|kakprosto.ru|liveinternet.ru|mk.ru|nkj.ru|ohotniki.ru|oko-planet.su|otzovik.com|rambler.ru|razlozhi.ru|sdamgia.ru|syl.ru|vz.ru
+$cookie=/blcrm|bltsr|NBgfDVFir|computer/,domain=baby.ru|businessman.ru|dni.ru|e1.ru|echo.msk.ru|fb.ru|forexpf.ru|gismeteo.by|gismeteo.kz|gismeteo.md|gismeteo.ru|gorodrabot.ru|infoniac.ru|it-tehnik.ru|kakprosto.ru|liveinternet.ru|mk.ru|nkj.ru|ohotniki.ru|oko-planet.su|otzovik.com|rambler.ru|razlozhi.ru|sdamgia.ru|syl.ru|vz.ru
 $cookie=/^los\$/,domain=auto.ru
 ! zen.yandex.ru - broken resources
-~passport.yandex.ru,~zen.yandex.ru,yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua#%#//scriptlet('remove-cookie', '/blcrm|bltsr|MGphYZof|computer/')
+~passport.yandex.ru,~zen.yandex.ru,yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua#%#//scriptlet('remove-cookie', '/blcrm|bltsr|NBgfDVFir|computer/')
 !
 ! makes kinopoisk.ru redirect to sso.kinopoisk.ru and back endlessly
 ! ||kinopoisk.ru^$cookie=/consultant|introductory|knowledge|transfer|technology|workplace/
@@ -6287,12 +6287,12 @@ moddingzone.in#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=moddingzone.in
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116620
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113230
-igg-games.com##body > div[id][style^="position: fixed; z-index:"][style*="overflow: auto; background-color:"]
-igg-games.com#@#.widget-advads-ad-widget
-igg-games.com#$#.widget-advads-ad-widget { position: absolute !important; left: -3000px !important; }
-igg-games.com#$##dkwids98s { height: 1px !important; }
-igg-games.com#%#//scriptlet("prevent-setTimeout", "/divAds|_0x[\s\S]*?getElementsByTagName/")
-igg-games.com#%#//scriptlet("abort-current-inline-script", "$", "advads")
+igg-games.co,igg-games.com##body > div[id][style^="position: fixed; z-index:"][style*="overflow: auto; background-color:"]
+igg-games.co,igg-games.com#@#.widget-advads-ad-widget
+igg-games.co,igg-games.com#$#.widget-advads-ad-widget { position: absolute !important; left: -3000px !important; }
+igg-games.co,igg-games.com#$##dkwids98s { height: 1px !important; }
+igg-games.co,igg-games.com#%#//scriptlet("prevent-setTimeout", "/divAds|_0x[\s\S]*?getElementsByTagName/")
+igg-games.co,igg-games.com#%#//scriptlet("abort-current-inline-script", "$", "advads")
 ! https://github.com/bogachenko/fuckfuckadblock/commit/a4d302bbb5f75bcd7d3762afb4b8ae3c6fe4d801#commitcomment-69137942
 @@||bitefaucet.com/ads/wp-content/plugins/wp-safelink/assets/$image,~third-party
 bitefaucet.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
@@ -9922,8 +9922,8 @@ freevocabulary.com#$##adWrap { display: block!important; height: 1px!important; 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/47063
 @@||uiz.io/_sw.js
 @@||ditds.xyz/sw*.js$domain=uiz.io
-! https://github.com/AdguardTeam/AdguardFilters/issues/109793
-! https://github.com/AdguardTeam/AdguardFilters/issues/45718
+! https://github.com/AdguardTeam/AdguardFilters/issues/116756
+@@||pandora.com/static/ads/
 @@||pandora.com/web-client-assets/ads.*.js
 @@||pandora.com/web-version/*/*.json
 ! https://github.com/AdguardTeam/AdguardFilters/issues/45688
@@ -10356,6 +10356,7 @@ viralusablog.us#@#.ad-banner:not([style="height: 5px; width: 5px; position: abso
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70252
 ! https://github.com/AdguardTeam/AdguardFilters/issues/39316
 ! https://github.com/AdguardTeam/AdguardFilters/issues/39322
+hqq.tv#%#//scriptlet('set-constant', 'WebSocket', 'undefined')
 chillicams.net,openload.casa,meucdn.vip,yandexcdn.com,hqq.to,hindipix.in,waaws.tk,hindipix.in,ventax.net,waaw1.tv,fullbeeg.com,waaw.tv,czxxx.org,newhost.me,videoxseries.xyz,scenelife.org,piratulhd.com,hqq.tv#%#//scriptlet("set-constant", "adblockcheck", "false")
 chillicams.net,waaw.to,openload.casa,meucdn.vip,yandexcdn.com,hqq.to,hindipix.in,waaws.tk,hindipix.in,ventax.net,waaw1.tv,fullbeeg.com,waaw.tv,czxxx.org,newhost.me,videoxseries.xyz,scenelife.org,piratulhd.com,hqq.tv#%#//scriptlet("set-constant", "adBlockDetected", "noopFunc")
 @@/js/ads.js/*$~third-party,script,domain=chillicams.net|waaw.to|openload.casa|meucdn.vip|yandexcdn.com|hqq.to|hindipix.in|waaws.tk|hindipix.in|ventax.net|waaw1.tv|fullbeeg.com|waaw.tv|czxxx.org|newhost.me|videoxseries.xyz|scenelife.org|piratulhd.com|hqq.tv
