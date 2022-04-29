@@ -4787,14 +4787,14 @@ sdamgia.ru$$script[tag-content="adb=1"]
 ! START: Yandex
 !
 ! old cookies: Bismuth|computer|discussion|^specific\$|^engineer|instruction|telecommunications|pronunciation|involved|^adequate
-$cookie=/blcrm|bltsr|NBgfDVFir|computer/,domain=yandex.by|yandex.com|yandex.com.tr|yandex.fr|yandex.kz|yandex.ru|yandex.ua
+$cookie=/blcrm|bltsr|qgZTpupNMGJBM|computer/,domain=yandex.by|yandex.com|yandex.com.tr|yandex.fr|yandex.kz|yandex.ru|yandex.ua
 !
-auto.ru,avito.ru,baby.ru,businessman.ru,dni.ru,e1.ru,echo.msk.ru,fb.ru,forexpf.ru,gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru,gorodrabot.ru,infoniac.ru,it-tehnik.ru,kakprosto.ru,kinopoisk.ru,liveinternet.ru,mathb-ege.sdamgia.ru,mk.ru,nkj.ru,ohotniki.ru,oko-planet.su,otzovik.com,razlozhi.ru,sdamgia.ru,syl.ru,vz.ru#%#//scriptlet('remove-cookie', '/blcrm|bltsr|NBgfDVFir|computer/')
+auto.ru,avito.ru,baby.ru,businessman.ru,dni.ru,e1.ru,echo.msk.ru,fb.ru,forexpf.ru,gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru,gorodrabot.ru,infoniac.ru,it-tehnik.ru,kakprosto.ru,kinopoisk.ru,liveinternet.ru,mathb-ege.sdamgia.ru,mk.ru,nkj.ru,ohotniki.ru,oko-planet.su,otzovik.com,razlozhi.ru,sdamgia.ru,syl.ru,vz.ru#%#//scriptlet('remove-cookie', '/blcrm|bltsr|qgZTpupNMGJBM|computer/')
 ! TODO: add domains auto.ru and kinopoisk.ru to the rule below after the next release of AG for macos (current 2.3.2)
-$cookie=/blcrm|bltsr|NBgfDVFir|computer/,domain=baby.ru|businessman.ru|dni.ru|e1.ru|echo.msk.ru|fb.ru|forexpf.ru|gismeteo.by|gismeteo.kz|gismeteo.md|gismeteo.ru|gorodrabot.ru|infoniac.ru|it-tehnik.ru|kakprosto.ru|liveinternet.ru|mk.ru|nkj.ru|ohotniki.ru|oko-planet.su|otzovik.com|rambler.ru|razlozhi.ru|sdamgia.ru|syl.ru|vz.ru
+$cookie=/blcrm|bltsr|qgZTpupNMGJBM|computer/,domain=baby.ru|businessman.ru|dni.ru|e1.ru|echo.msk.ru|fb.ru|forexpf.ru|gismeteo.by|gismeteo.kz|gismeteo.md|gismeteo.ru|gorodrabot.ru|infoniac.ru|it-tehnik.ru|kakprosto.ru|liveinternet.ru|mk.ru|nkj.ru|ohotniki.ru|oko-planet.su|otzovik.com|rambler.ru|razlozhi.ru|sdamgia.ru|syl.ru|vz.ru
 $cookie=/^los\$/,domain=auto.ru
 ! zen.yandex.ru - broken resources
-~passport.yandex.ru,~zen.yandex.ru,yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua#%#//scriptlet('remove-cookie', '/blcrm|bltsr|NBgfDVFir|computer/')
+~passport.yandex.ru,~zen.yandex.ru,yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua#%#//scriptlet('remove-cookie', '/blcrm|bltsr|qgZTpupNMGJBM|computer/')
 !
 ! makes kinopoisk.ru redirect to sso.kinopoisk.ru and back endlessly
 ! ||kinopoisk.ru^$cookie=/consultant|introductory|knowledge|transfer|technology|workplace/
@@ -4956,6 +4956,14 @@ livejournal.com#%#//scriptlet("set-constant", "begun_new_callbacks", "undefined"
 ! Bad: ||ad.doubleclick.net^ (should be in adservers.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/116867
+itdog.cn#%#//scriptlet('prevent-setTimeout', '_0x')
+itdog.cn#$#.left_link { height: 1px !important; }
+itdog.cn#$#.right-pic { height: 1px !important; }
+!#if (adguard_app_ios || adguard_ext_android_cb)
+itdog.cn#@#.top_contents
+itdog.cn#@#.div-top > div:last-child
+!#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/114239
 18comic.*#@#img[style*="300px"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/112369
@@ -6028,7 +6036,7 @@ slate.com#@#.ad01
 $cookie=__adblocker,domain=slate.com
 !
 ! @@/libs/advertisement.js popular antiadblock on crypto faucet websites
-@@/libs/advertisement.js$domain=catchcoin.pw|fautsy.com|xfaucet.net|getfreebit.xyz|amber-dash.cf|getfree.co.in|starbits.io|shahinshort.tk|bagi.co.in|grandfaucet.net|harena.space|myethereumfaucet.com|konstantinova.net|gajiancoin.online|starfaucet.net|bitearns.com|cryptofreebies.info|faucex.tk|trivisna.com|nosl.juezcoin.xyz|earn-cryptolive.000webhostapp.com|earncryptosaj786.com|momofree.website|dogeatm.com|aztecafaucet.space|multifaucet.org|seg-ashort1a-ma.tk|pcmur.es|dogestar.website|tron-faucet.xyz|claimbits.io|i-bits.io|diamondfaucet.space|gobits.io|russiacoin.xyz|starsfaucet.com|lionltcfaucet.xyz|projecto2.xyz|faucet.shorterall.com|yellowfaucet.ovh|faucet.cryptourl.net|wildfaucets.ml|simplyfaucet.xyz|faucet-doge.u7u.pl
+@@/libs/advertisement.js$domain=catchcoin.pw|xfaucet.net|getfreebit.xyz|amber-dash.cf|getfree.co.in|starbits.io|shahinshort.tk|bagi.co.in|grandfaucet.net|harena.space|myethereumfaucet.com|konstantinova.net|gajiancoin.online|starfaucet.net|bitearns.com|cryptofreebies.info|faucex.tk|trivisna.com|nosl.juezcoin.xyz|earn-cryptolive.000webhostapp.com|earncryptosaj786.com|momofree.website|dogeatm.com|aztecafaucet.space|multifaucet.org|seg-ashort1a-ma.tk|pcmur.es|dogestar.website|tron-faucet.xyz|claimbits.io|i-bits.io|diamondfaucet.space|gobits.io|russiacoin.xyz|starsfaucet.com|lionltcfaucet.xyz|projecto2.xyz|faucet.shorterall.com|yellowfaucet.ovh|faucet.cryptourl.net|wildfaucets.ml|simplyfaucet.xyz|faucet-doge.u7u.pl
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/76212
 vijesti.me#%#//scriptlet("abort-on-property-read", "setNptTechAdblockerCookie")
@@ -6080,6 +6088,8 @@ smallseotools.com#@#.adsbygoogle
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/116868
+insideedition.com#@#.adBanner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116826
 wcostream.com#@#.adBanner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116557
@@ -9996,11 +10006,15 @@ bit-url.com#@#.adsBox
 ! bing.com##.sb_adTA
 ! bing.com###b_content > main > #b_results > li:not(.b_algo):not(.b_ans):not(.b_mop):not(.b_pag)
 ! bing.com#$?#.b_ad { remove: true; }
+bing.com#@#.pa_sb
+bing.com#@#.pa_carousel_mlo
 bing.com#@#li.b_adBottom
 bing.com#@#a[h$=",Ads"]
 bing.com#@#a[href^="https://www.bing.com/aclick?"]
 bing.com#@##b_results > li:not(.b_algo):not(.b_ans):not(.b_pag):not(.aca_algo):not(.aca_algo_count):not(.b_msg)
 @@||bing.com^$generichide
+bing.com#$#body .pa_sb { display: block !important; position: absolute !important; top: -9999px !important; }
+bing.com#$#body .pa_carousel_mlo { display: block !important; position: absolute !important; top: -9999px !important; }
 bing.com#$#body .b_adLastChild { display: block !important; position: absolute !important; top: -9999px !important; }
 bing.com#$#.b_ad { display: block !important; position: absolute !important; top: -9999px !important; }
 ||bing.com^$cookie=ABDEF
@@ -13987,8 +14001,6 @@ bitcoin143.com#@##sponsorText
 ! https://github.com/AdguardTeam/AdguardFilters/issues/8408
 !+ PLATFORM(ios, ext_android_cb)
 @@||bituniverse.net^$generichide
-! https://github.com/AdguardTeam/AdguardFilters/issues/8405
-||fautsy.com/js/site.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/8493
 @@||hollaforums.com/js/adcash.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/8436
