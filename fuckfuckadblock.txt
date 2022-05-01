@@ -805,7 +805,7 @@ crabcut.net,festinhasbrasil.com,ibit.to,jobnet.co.il,khoai.tv,letmewatchthis.one
 
 komikcast.com,filmy.*,exey.*##+js(abort-current-script.js, JSON.parse, Promise)
 
-fanproj.net,jetanimes.*,ilgeniodellostreaming.*,world4ufree.*,moviewr.com,wifimovies.net,streamingcommunity.*,jockantv.com,shadowrangers.*,series9.*,watchmovie.*,rawkuma.com,123movies-official.*,gentlewasher.com,jpscan-vf.com,mangahere.today,manganatos.com,mcubd.host,stickerdeals.net,tcpermaculture.com,totallyfuzzy.net,vanime.*,vbox7-mp3.info,vudeo.*,pirate4all.com,fmovies2.*,animespank.com##+js(abort-current-script.js, parseInt, break)
+fanproj.net,jetanimes.*,ilgeniodellostreaming.*,world4ufree.*,moviewr.com,wifimovies.net,streamingcommunity.*,jockantv.com,shadowrangers.*,series9.*,watchmovie.*,rawkuma.com,123movies-official.*,gentlewasher.com,jpscan-vf.com,mangahere.today,manganatos.com,mcubd.host,stickerdeals.net,tcpermaculture.com,totallyfuzzy.net,vanime.*,vbox7-mp3.info,vudeo.*,pirate4all.com,fmovies2.*,animespank.com,moviesjoy.*##+js(abort-current-script.js, parseInt, break)
 
 1primewire.com,apkmaza.net,birdurls.com,files.im,icttipsandtricks.nl,manyakan.com,owllink.net,streamingworld.*,watchfullmovies.*##+js(abort-current-inline-script.js, atob, decodeURIComponent)
 
