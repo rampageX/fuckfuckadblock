@@ -765,7 +765,7 @@ allywebsite.com,amirantivirus.com,animecracks.com,bleachmx.fr,bollyholic.*,bolly
 
 bc.vc,bcvc.live,ebalka.info,file4.net,hotvideo.fr,informaxonline.com,kinostate.net,nefig.me,pornk.name,pornmult.art,porno-hd.xxx,pornosexrolik.com,pornosexrolik.info,pussyspace.*,xn--80aa3agbm7d.com,xn--80aqfgb.org,xn--e1afprfv.org,xn--e1afprfv.tv##+js(abort-current-inline-script.js, encodeURIComponent)
 
-azm.to,watchseries9.*,coverapi.store,tenies-online.*,masahub.net,hdhub4u.*##+js(abort-on-property-read.js, mm)
+azm.to,watchseries9.*,coverapi.store,tenies-online.*,masahub.net,hdhub4u.*,moviesjoy.*,viewsb.com##+js(abort-on-property-read.js, mm)
 
 adslinkfly.online,gaminplay.com##+js(abort-current-inline-script.js, mMcreateCookie)
 
