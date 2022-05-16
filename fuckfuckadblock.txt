@@ -949,7 +949,7 @@ celebjihad.com,celebmasta.com,dirtyship.com,fullxh.com,gate.cc,hamsterix.*,newsf
 
 allbuzzin.com,atakanyavuz.com,audiotools.*,buydekhke.com,coursesghar.com,cyberbunkers.com,dramahd.me,exbulletin.com,extramovies.*,freebulksmsonline.com,freemagazines.top,frkn64modding.com,gadgetguideonline.com,gamingsym.in,gaypornmasters.com,iptvbin.com,javhoho.com,jootc.com,katmoviehd.*,lilymanga.com,linkbuk.in,magesypro.com,mettablog.com,scubidu.eu,secondlifetranslations.com,shibunnokuni.com,sinopsisdrama.id,sysnettechsolutions.com,systopedia.com,therootdroid.com,thesukan.net,tutcourse.com,ubuntudde.com,vinespace.in,world4.eu##+js(abort-current-inline-script.js, String.prototype.charCodeAt, ai_)
 
-ccthesims.com,magesy.*,rep-am.com,thecustomrom.com,flinsetyadi.com,semuanyabola.com,vibehubs.com,nusagates.com,adinserter.pro##+js(abort-current-inline-script.js, decodeURIComponent, ai_)
+ccthesims.com,magesy.*,rep-am.com,thecustomrom.com,flinsetyadi.com,semuanyabola.com,vibehubs.com,nusagates.com,adinserter.pro,trytutorial.com##+js(abort-current-inline-script.js, decodeURIComponent, ai_)
 
 fcportables.com,freevstplugins.net,papunika.com,pawastreams.live,prajwaldesai.com,techus.website##+js(no-setTimeout-if.js, ai_adb)
 
