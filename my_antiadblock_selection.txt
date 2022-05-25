@@ -638,6 +638,7 @@ hgtv.com#@#.showads
 !
 !
 !
+animexin.xyz##.announ
 ||patreon.com/becomePatronButton.bundle.js$domain=androidacy.com
 postimees.ee#%#//scriptlet("prevent-setTimeout", "adblockNotif")
 e-words.jp###forvisitors
