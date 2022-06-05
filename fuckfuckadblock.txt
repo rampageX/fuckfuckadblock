@@ -706,7 +706,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 @@||cdn.tinypass.com/api/tinypass.min.js$script
 @@||cdn.tsyndicate.com^$script,domain=popjav.tv|hpjav.tv|redwap3.com|redwap2.com|redwap.me
 @@||cdnjs.cloudflare.com/*/fuckadblock.$script,third-party
-@@||doubleclick.net^$xmlhttprequest,domain=cclickondetroit.com|clickorlando.com|digi24.ro|ksat.com|lectulandia.me|lick2houston.com|linksht.com|local10.com|news4jax.com|softonic.com|timesnowhindi.com|timesnowmarathi.com|timesnownews.com|wsls.com|dropgalaxy.com|dropgalaxy.in|financemonk.net|ruokareseptit.online|techthematter.xyz
+@@||doubleclick.net^$xmlhttprequest,domain=cclickondetroit.com|clickorlando.com|digi24.ro|ksat.com|lectulandia.me|lick2houston.com|linksht.com|local10.com|news4jax.com|softonic.com|timesnowhindi.com|timesnowmarathi.com|timesnownews.com|wsls.com|dropgalaxy.com|dropgalaxy.in|financemonk.net|ruokareseptit.online|techthematter.xyz|13tv.co.il
 @@||experience.tinypass.com^$xmlhttprequest
 @@||gemius.pl/gplayer.js|$script,third-party
 @@||gemius.pl/gstream.js|$script,third-party
