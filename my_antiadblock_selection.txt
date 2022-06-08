@@ -316,6 +316,9 @@ grandprix247.com,familyminded.com,xcalibrscans.com,cbsnews.com,finviz.com,ign.co
 esportstales.com,tiger-algebra.com,blackenterprise.com,crooksandliars.com,cmacapps.com,cwtv.com,feral-heart.com,gamerevolution.com,gktoday.in,informazionefiscale.it,inquirer.net,interestingengineering.com,legacy.com,leitesculinaria.com,nofilmschool.com,obsev.com,pleated-jeans.com,post-gazette.com,practicalclinicalskills.com,ranker.com,sanfoundry.com,simpleflying.com,thegatewaypundit.com,timelessleaf.com,viraliq.com,winhelponline.com#%#//scriptlet("abort-current-inline-script", "document.createElement", "admiral")
 gry.pl#%#Object.defineProperty(Object.prototype, 'hasAdmiralList', { get: function() { throw null; }, set: function() { throw null; } });
 !
+||succeedscene.com/ads_*/ads.load.js$script,redirect=noopjs
+digitalmusicnews.com##body > div#cb-outer-container ~ div:not([class]):not([id])
+!
 digitaltrends.com#@#.pub_300x250
 digitaltrends.com#@#.pub_300x250m
 digitaltrends.com#@#.pub_728x90
@@ -9446,6 +9449,8 @@ captureflag.io###dAB
 ! https://github.com/AdguardTeam/AdguardFilters/issues/59360
 @@||wcoforever.net/inc/embed/ads.js
 @@||wcoforever.com/inc/embed/ads.js
+wcoforever.net,wcoforever.com#@#.adBanner
+wcoforever.net,wcoforever.com#$##wrapfabtest { height: 1px !important; }
 wcoforever.net,wcoforever.com#%#//scriptlet("set-constant", "isAdBlockActive", "false")
 wcoforever.net,wcoforever.com#%#//scriptlet("prevent-setTimeout", "AdBlock")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/59204
@@ -10679,7 +10684,7 @@ viralusablog.us#@#.ad-banner:not([style="height: 5px; width: 5px; position: abso
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70252
 ! https://github.com/AdguardTeam/AdguardFilters/issues/39316
 ! https://github.com/AdguardTeam/AdguardFilters/issues/39322
-ddl-francais.com,cuevana4.cc,watch-series.site,multiup.us,hqq.to,hqq.tv#%#//scriptlet('set-constant', 'WebSocket', 'undefined')
+vaav.top,ddl-francais.com,cuevana4.cc,watch-series.site,multiup.us,hqq.to,hqq.tv#%#//scriptlet('set-constant', 'WebSocket', 'undefined')
 chillicams.net,openload.casa,meucdn.vip,yandexcdn.com,hqq.to,hindipix.in,waaws.tk,hindipix.in,ventax.net,waaw1.tv,fullbeeg.com,waaw.tv,czxxx.org,newhost.me,videoxseries.xyz,scenelife.org,piratulhd.com,hqq.tv#%#//scriptlet("set-constant", "adblockcheck", "false")
 chillicams.net,waaw.to,openload.casa,meucdn.vip,yandexcdn.com,hqq.to,hindipix.in,waaws.tk,hindipix.in,ventax.net,waaw1.tv,fullbeeg.com,waaw.tv,czxxx.org,newhost.me,videoxseries.xyz,scenelife.org,piratulhd.com,hqq.tv#%#//scriptlet("set-constant", "adBlockDetected", "noopFunc")
 @@/js/ads.js/*$~third-party,script,domain=chillicams.net|waaw.to|openload.casa|meucdn.vip|yandexcdn.com|hqq.to|hindipix.in|waaws.tk|hindipix.in|ventax.net|waaw1.tv|fullbeeg.com|waaw.tv|czxxx.org|newhost.me|videoxseries.xyz|scenelife.org|piratulhd.com|hqq.tv
