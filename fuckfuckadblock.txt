@@ -670,6 +670,8 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 ||amazon.*/favicon.ico$image,third-party,redirect-rule=32x32.png
 |http*:*/ads.png|$image,redirect-rule=2x2.png
 |http*:*/ads.gif|$image,redirect-rule=1x1.gif
+||google-analytics.com^$image,redirect=1x1.gif
+||pubads.g.doubleclick.net/gampad/ads$xmlhttprequest,redirect-rule=nooptext,domain=imasdk.googleapis.com
 
 @@/[-_\/]dfp(\.min)?\.js/$script,xmlhttprequest
 @@||coveryourtracks.eff.org/static/zig.js|$script
