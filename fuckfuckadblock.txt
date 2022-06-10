@@ -504,6 +504,8 @@
 #@#.text_ad
 #@#.adSense
 #@#.text_ads
+#@##ads_iframe
+#@#.ads-iframe
 pl#@#.ads
 pl#@#.ad
 
@@ -1054,7 +1056,7 @@ badassdownloader.com,badasshardcore.com,badassoftcore.com,darmowa-tv.ws,gearingc
 
 kmo.to,freeplayervideo.com,playhydrax.com,hydracdn.*,hydrax.*,player-cdn.com##+js(remove-attr.js, style, #over)
 
-38.242.198.170,38.242.199.52,audiotools.*,bestwego.xyz,brizzynovel.com,bullfrag.com,cinemakottaga.*,closetopic.site,coursesghar.com,crazytechgo.com,dotadostube.com,dragontea.ink,dvdgayonline.com,dvdgayporn.com,edunil.com,freejav.guru,freewebcart.com,gamesrepacks.com,gigacourse.com,hotxfans.com,iimanga.com,infinityblogger.in,khatrimaza.*,moddedguru.com,myshopify.com,novinhastop.com,nullpk.com,omerbozdi.com.tr,oyuncusoruyor.com,pbarecap.ph,pcwarehub.com,phpscripttr.com,pinsystem.co.uk,sakarnewz.com,scrapywar.com,simulatormods.com,smgplaza.com,sourds.net,sportnews.to,sportsdark.com,sqlserveregitimleri.com,streameast.*,taradinhos.com,teknobalta.com,tinyppt.com,trgamestudio.com,trickznhax.in,tutcourse.com,tvinternetowa.info,vectogravic.com,warddogs.com,zetrotranslation.com,zivinice-carsija.com,privatemoviez.*,iptvrun.com##+js(addEventListener-defuser.js, DOMContentLoaded, showModal)
+38.242.198.170,38.242.199.52,audiotools.*,bestwego.xyz,brizzynovel.com,bullfrag.com,cinemakottaga.*,closetopic.site,coursesghar.com,crazytechgo.com,dotadostube.com,dragontea.ink,dvdgayonline.com,dvdgayporn.com,edunil.com,freejav.guru,freewebcart.com,gamesrepacks.com,gigacourse.com,hotxfans.com,iimanga.com,infinityblogger.in,khatrimaza.*,moddedguru.com,myshopify.com,novinhastop.com,nullpk.com,omerbozdi.com.tr,oyuncusoruyor.com,pbarecap.ph,pcwarehub.com,phpscripttr.com,pinsystem.co.uk,sakarnewz.com,scrapywar.com,simulatormods.com,smgplaza.com,sourds.net,sportnews.to,sportsdark.com,sqlserveregitimleri.com,streameast.*,taradinhos.com,teknobalta.com,tinyppt.com,trgamestudio.com,trickznhax.in,tutcourse.com,tvinternetowa.info,vectogravic.com,warddogs.com,zetrotranslation.com,zivinice-carsija.com,privatemoviez.*,iptvrun.com##+js(noeval-if.js, DOMContentLoaded, showModal)
 
 infinityblogger.in,freeallcourse.com,needrombd.com,allstreaming.online,sampledrive.in,bithub.win,freeshib.biz,urbharat.xyz,proviralhost.com,akumanimes.com##+js(abort-current-inline-script.js, eval, replace)
 
