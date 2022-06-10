@@ -333,6 +333,7 @@ digitaltrends.com#@#.text_ads_2
 ! editorial.rottentomatoes.com#@#.text-ad
 ! @@||ad.doubleclick.net/ddm/adj^$domain=editorial.rottentomatoes.com
 !
+||floweryflavor.com^$third-party
 ||fearlessfaucet.com^$third-party
 ||terrifictooth.com^$third-party
 ||parchedsofa.com^$third-party
@@ -645,6 +646,7 @@ hgtv.com#@#.showads
 !
 !
 !
+nesoacademy.org#?#div[class^="jss"]:has(> ins.adsbygoogle)
 tweakers.net##.whitelistMessage
 uwaterloo.ca##div[aria-label="Ad Blocker Detected"]
 mainpost.de#%#//scriptlet('prevent-setTimeout', '"none"===window.getComputedStyle')
@@ -3065,6 +3067,7 @@ cc-fan.tv,cn-fan.tv,fox-fan.tv,nf-fan.tv#@#.text_ads
 ! Common safari_cb_affinity(general,privacy)
 !#safari_cb_affinity(general,privacy)
 !#if (adguard_app_ios || adguard_ext_android_cb)
+@@||www3.doubleclick.net^|$xmlhttprequest,domain=nesoacademy.org
 @@||givee.club/adsense.js$domain=givee.club
 dhd24.com#@#.adunit
 @@||cdn.intergient.com/pageos/pageos.js$domain=masterduelmeta.com
@@ -7809,10 +7812,6 @@ mmacore.tv#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ad
 @@||mmacore.tv^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/87895
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=coursesghar.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/87491
-!#safari_cb_affinity(social)
-@@||punosy.best/cdn/ippv6.min.js$domain=bcvc.live
-!#safari_cb_affinity
 ! https://github.com/AdguardTeam/AdguardFilters/issues/86918
 @@||pubads.g.doubleclick.net/ondemand/hls/content/*/vid/*/streams$domain=sbs.com.au
 ! https://github.com/AdguardTeam/AdguardFilters/issues/87332
@@ -8561,19 +8560,22 @@ transfermarkt.*#@#.AD-POST
 @@||client.falixnodes.net^$xmlhttprequest
 @@||panel.falixnodes.net/auth/$xmlhttprequest,other
 falixnodes.net#%#//scriptlet("set-constant", "google_reactive_ads_global_state", "emptyObj")
-falixnodes.net#%#//scriptlet("set-constant", "_0x6e4523", "undefined")
-falixnodes.net#%#AG_onLoad(function() { var el=document.querySelector('.adsbygoogle'); var ce=document.createElement('div'); if(el) { el.appendChild(ce); ce.setAttribute("id", "aswift_0"); } });
-falixnodes.net#%#//scriptlet("abort-current-inline-script", "Array.prototype.shift", "/adblock|_0x/")
-falixnodes.net#%#//scriptlet("abort-current-inline-script", "Promise", "adblock")
-falixnodes.net#%#//scriptlet("abort-current-inline-script", "document.createElement", "/adblock|_0x/")
-falixnodes.net#%#//scriptlet("abort-current-inline-script", "setTimeout", "/adblock|0x/")
+!falixnodes.net#%#//scriptlet("set-constant", "_0x6e4523", "undefined")
+!falixnodes.net#%#AG_onLoad(function() { var el=document.querySelector('.adsbygoogle'); var ce=document.createElement('div'); if(el) { el.appendChild(ce); ce.setAttribute("id", "aswift_0"); } });
+!falixnodes.net#%#//scriptlet("abort-current-inline-script", "Array.prototype.shift", "/adblock|_0x/")
+!falixnodes.net#%#//scriptlet("abort-current-inline-script", "Promise", "adblock")
+!falixnodes.net#%#//scriptlet("abort-current-inline-script", "document.createElement", "/adblock|_0x/")
+!falixnodes.net#%#//scriptlet("abort-current-inline-script", "setTimeout", "/adblock|0x/")
 ||cdn.snigelweb.com/adengine/falixnodes.net/loader.js$script,redirect=noopjs
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,script,redirect=noopjs,domain=falixnodes.net
-!#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
+!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android)
 falixnodes.net#@#.adsbygoogle
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=falixnodes.net
 @@||pagead2.googlesyndication.com/pagead/js/r*/show_ads_impl_*.js$domain=falixnodes.net
 @@||cdn.snigelweb.com/adengine/falixnodes.net/loader.js$domain=panel.falixnodes.net
+@@||googletagservices.com/tag/js/gpt.js$domain=client.falixnodes.net,important
+@@||cdn.fuseplatform.net/publift/tags/*/fuse.js$domain=client.falixnodes.net
+@@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=client.falixnodes.net
 !#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/73214
 psychpoint.com##.adblockmodal
@@ -9974,15 +9976,6 @@ pornsexer.com#%#//scriptlet("set-constant", "flashvars.protect_block", "")
 uiz.app#%#//scriptlet("set-constant", "app_vars.disable_adblock", "undefined")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/50871
 @@||digitallearn.online/wp-content/plugins/*/assets/fuckadblock.js
-! https://github.com/AdguardTeam/AdguardFilters/issues/55260
-! https://github.com/AdguardTeam/AdguardFilters/issues/51628
-! https://github.com/AdguardTeam/AdguardFilters/issues/50582
-@@||punosy.top/cdn/*.js$domain=bcvc.live
-bcvc.live#%#//scriptlet("abort-on-property-read", "punosyIppSettings")
-bcvc.live###bvcontainerx
-||bcvc.live/aze.js
-bcvc.live#%#//scriptlet("prevent-addEventListener", "load", "(document.getElementById('")
-bcvc.live#%#//scriptlet("prevent-setTimeout", "/Blocking Ads|if\(document\.getElementById\(/")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/50757
 @@||thefastlaneforum.com/community/js/*/adblocker-leader.js
 thefastlaneforum.com#%#//scriptlet("abort-current-inline-script", "$", "!document.getElementById(btoa")
