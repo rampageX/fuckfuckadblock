@@ -578,7 +578,9 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 /\/[0-9a-zA-Z]{7}\.js$/$script,important,domain=allcryptoz.net|teenporno.xxx|topcryptoz.net|ultraten.net|uniqueten.net
 /^http:\/\/img[a-z]+\.(?:buzz|xyz)\/(?!shrinker).*/$script,~third-party,domain=buzz|xyz
 /^https?:\/\/www\.[a-z]{6,16}\.com\/[a-z]{1,4}\.js$/$third-party,important,script
-/^https?:\/\/[^\s]+\.[a-z]{3}(\/(?:\d{1,5}|0NaN|articles?|browse|wiki|pages?|index|news|web|static|view|movie)){1,4}(\/|\.html)$/$subdocument,third-party,match-case
+/^https?:\/\/[a-z]{6,15}\.(com|net|top|xyz)(\/(?:\d{1,5}|0NaN|articles?|browse|wiki|pages?|index|news|web|static|view|movie)){1,4}(\/|\.html)$/$subdocument,third-party,match-case
+/^https?:\/\/[a-z]{6,15}\.(com|net|top|xyz)\/[-a-z]{4,}\.(css|png)\?aHR0c[\/0-9a-zA-Z]{33,}=?=?$/$stylesheet,image,third-party,match-case
+/^https?:\/\/[a-z]{6,15}\.(com|net|top|xyz)\/[a-z]{4,30}\.json$/$third-party,xmlhttprequest,match-case
 /^https?:\/\/[^\s]+\.com\/([a-z0-9]{2}\/){3}[0-9a-f]{32}\.js(on)?$/$important,script,xmlhttprequest,third-party
 /^https:\/\/[0-9a-f]{10}\.[0-9a-f]{10}\.com\/[0-9a-f]{32}\.js$/$important,script,third-party
 /^https?:\/\/[^\s]+\.com\/magic\/[0-9a-f]{32}\.js$/$important,script,~third-party
@@ -844,7 +846,7 @@ crabcut.net,festinhasbrasil.com,ibit.to,jobnet.co.il,khoai.tv,letmewatchthis.one
 
 komikcast.com,filmy.*,exey.*##+js(abort-current-script.js, JSON.parse, Promise)
 
-fanproj.net,jetanimes.*,ilgeniodellostreaming.*,world4ufree.*,moviewr.com,wifimovies.net,streamingcommunity.*,jockantv.com,shadowrangers.*,series9.*,watchmovie.*,rawkuma.com,123movies-official.*,gentlewasher.com,jpscan-vf.com,mangahere.today,manganatos.com,mcubd.host,stickerdeals.net,tcpermaculture.com,totallyfuzzy.net,vanime.*,vbox7-mp3.info,vudeo.*,pirate4all.com,fmovies2.*,animespank.com,moviesjoy.*,cmovies.*,membed.net,2embed.ru,polstream.*,vido.*,metrogossipcity.online,gdriveplayer.*,castfree.me,9tsu.*,pelispoptv.com,witanime.com,hazmo.stream,bdnewszh.com,hazmolive.stream##+js(abort-current-script.js, parseInt, break)
+fanproj.net,jetanimes.*,ilgeniodellostreaming.*,world4ufree.*,moviewr.com,wifimovies.net,streamingcommunity.*,jockantv.com,shadowrangers.*,series9.*,watchmovie.*,rawkuma.com,123movies-official.*,gentlewasher.com,jpscan-vf.com,mangahere.today,manganatos.com,mcubd.host,stickerdeals.net,tcpermaculture.com,totallyfuzzy.net,vanime.*,vbox7-mp3.info,vudeo.*,pirate4all.com,fmovies2.*,animespank.com,moviesjoy.*,cmovies.*,membed.net,2embed.ru,polstream.*,vido.*,metrogossipcity.online,gdriveplayer.*,castfree.me,9tsu.*,pelispoptv.com,witanime.com,hazmo.stream,bdnewszh.com,hazmolive.stream,miraculous.to##+js(abort-current-script.js, parseInt, break)
 
 la-123movies.*,go123movies.*,123movies-website.org,123moviesnow.*##+js(abort-on-property-write.js, JSON.parse)
 
