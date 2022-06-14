@@ -706,7 +706,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 @@/\/adblockdetect(or)?(\.min)?\.js/$script,xmlhttprequest
 @@/\/adblock\.(js|php)/$script,xmlhttprequest
 @@/\/ads(ense)?\.txt\?/$xmlhttprequest
-@@/\/pop(ads?|under)?\.js$/$script,~third-party
+@@/\/pop(ads?|unders?)?\.js$/$script,~third-party
 @@/\?pub\_300x250\&pub\_300x250m\&pub\_728x90\&/$script,third-party
 @@/\/reklama[1-5]?\.js/$script,~third-party
 @@/^https?:\/\/(.*\.)?adocean\.pl\/(.*\/)?ad\.(js|xml)\?/$script,image,xmlhttprequest
