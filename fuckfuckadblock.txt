@@ -542,7 +542,7 @@ vizcloud.*,mcloud.to,vizcloud2.*##.jwplayer ~ div[style]
 mzzcloud.life##.jwplayer > [id]
 adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,stape.fun,strcloud.*,streamta.*,streamtape.*,strtape.*,strtapeadblock.*,strtpe.*,streamtapeadblock.*,shavetape.*,tubeload.co##.play-overlay, .plyr-overlay
 kinoger.*###theotherads
-oploverz.*,194.163.152.200,65.108.132.145##[class*="sgpb-popup"],.swal-overlay
+oploverz.*,194.163.152.200,65.108.132.145##[class*="sgpb-popup"],.swal-overlay, #overlay
 slmaxed.com,streamlare.com##body > div[style^="position: fixed; display: block"][style*="inset: 0px;"]
 madshiba.fun##div[id^="link"][id$="-snp"]:style(display: block !important;)
 
