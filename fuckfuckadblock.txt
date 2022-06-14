@@ -506,6 +506,19 @@
 #@#.text_ads
 #@##ads_iframe
 #@#.ads-iframe
+#@#.inner468ad
+#@#.sponsored-links-red
+#@#.advert-mpu
+#@#.righttop-advt
+#@#.teaserAdHeadline
+#@#.right_picAd
+#@#.sp_ad
+#@#.vw-header-ads-leader-board
+#@#.home_top_right_ad
+#@#.ws_contentAd660
+#@#.adHeadlineSummary
+#@#.left_col_ad
+#@#.c-ad--text-only
 pl#@#.ads
 pl#@#.ad
 
