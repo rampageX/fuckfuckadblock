@@ -566,7 +566,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 
 /\/browser\/show\?i=[a-z0-9]{16}$/$important,popup
 /^https?:\/\/[a-z]{7,15}\.top\/[a-zA-Z0-9]{12}$/$important,popup
-/^https?:\/\/[a-z]{7,20}\.com\/([^\s]{350,400}|[a-z0-9]{8,10})[?&]key=[a-f0-9]{32}/$important,popup
+/^https?:\/\/[a-z]{7,20}\.com\/([^\s]{350,400}|[a-z0-9]{8,10}|[a-z?]{13,}=[^\s]+)[?&]key=[a-f0-9]{32}/$important,popup
 /^https?:\/\/[^\s]+\/[45](0[01])?\/\d{7}/$important,popup
 |http*:*/links/popad|$important,popup
 /^https?:\/\/syndication\.[a-z]{4,8}srv\.com\/splash\.php\?/$important,popup
