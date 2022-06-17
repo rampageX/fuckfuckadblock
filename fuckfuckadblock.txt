@@ -704,6 +704,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 ||hazmolive.stream/hazmoLive.js$script
 ||hazmo.stream/hazmo.js$script
 /\.[a-z]{3}\/js\/adultpc\.js/$script,~third-party,important
+||kryptografie.de/js/wb_dead.js$script
 
 @@/[-_\/]dfp(\.min)?\.js/$script,xmlhttprequest
 @@||coveryourtracks.eff.org/static/zig.js|$script
