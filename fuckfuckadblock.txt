@@ -709,6 +709,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 ||hazmo.stream/hazmo.js$script
 /\.[a-z]{3}\/js\/adultpc\.js/$script,~third-party,important
 ||kryptografie.de/js/wb_dead.js$script
+||coinzillatag.com^$script,third-party,redirect-rule=noopjs
 
 @@/[-_\/]dfp(\.min)?\.js/$script,xmlhttprequest
 @@||coveryourtracks.eff.org/static/zig.js|$script
