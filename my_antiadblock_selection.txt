@@ -3631,9 +3631,10 @@ mta-resource.ru#@#.adsbygoogle
 hitline.org.ua##.bantop
 ! Online VT cdnpotok.com
 @@||cdnpotok.com/spor/jquerymin18.js
-@@/googleads.g.doubleclick.net\/\w{5,8}/$xmlhttprequest,domain=cdnpotok.com|only-tv.org|oneliketv.com
-cdnpotok.com,only-tv.org,oneliketv.com#%#//scriptlet("set-constant", "canRunAds", "true")
-cdnpotok.com##img[src$="adblock.png"]
+@@||cdntvpotok.com/spor/jquerymin18.js
+@@/googleads.g.doubleclick.net\/\w{5,8}/$xmlhttprequest,domain=cdntvpotok.com|cdnpotok.com|only-tv.org|oneliketv.com
+cdntvpotok.com,cdnpotok.com,only-tv.org,oneliketv.com#%#//scriptlet("set-constant", "canRunAds", "true")
+cdntvpotok.com,cdnpotok.com##img[src$="adblock.png"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/51177
 @@||eu-vast.vertamedia.com/vmap?aid=$domain=inter.ua
 ! https://github.com/AdguardTeam/AdguardFilters/issues/51401
@@ -6205,6 +6206,9 @@ smallseotools.com#@#.adsbygoogle
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/122844
+@@/wp-content/themes/*/ads/*/sailthru.js$domain=healthy4pepole.com|forexit.io
+forexit.io,healthy4pepole.com#%#//scriptlet("abort-current-inline-script", "EventTarget.prototype.addEventListener", "Adblock")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/122913
 tweakcentral.net#%#//scriptlet("set-constant", "checkBlock", "noopFunc")
 @@||static.doubleclick.net/instream/ad_status.js$domain=tweakcentral.net
@@ -8063,7 +8067,7 @@ thephoblographer.com###adblock-warning
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=fox.com
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,important,domain=fox.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/87104
-imgkorle.buzz,imgkoc.buzz,imgwer.buzz,imgqte.buzz,imgbbd.buzz,imgxvd.buzz,imglkju.buzz,imgyvdw.buzz,imglqw.buzz,imgyng.buzz,imgpekele.buzz,imgwex.buzz,imgkuiw.xyz,imgveni.xyz,imglina.xyz,imgtrw.buzz,imgjut.buzz,imgweika.buzz,imguiwe.buzz,imgkane.buzz,imgkoka.buzz,imgkia.buzz,imgalor.xyz,imgklx.xyz,imgirx.xyz,imgkaka.xyz,imgyear.icu,federleqa.icu,nemenlake.icu,opalekr.icu,pixsera.net,rtkenale.icu,pikupalate.com,kekolangti.com,cloudgallery.net,imgair.net,imgfrost.net,imgair.net#%#//scriptlet('prevent-setTimeout', '_0x')
+imgwia.buzz,imgkorle.buzz,imgkoc.buzz,imgwer.buzz,imgqte.buzz,imgbbd.buzz,imgxvd.buzz,imglkju.buzz,imgyvdw.buzz,imglqw.buzz,imgyng.buzz,imgpekele.buzz,imgwex.buzz,imgkuiw.xyz,imgveni.xyz,imglina.xyz,imgtrw.buzz,imgjut.buzz,imgweika.buzz,imguiwe.buzz,imgkane.buzz,imgkoka.buzz,imgkia.buzz,imgalor.xyz,imgklx.xyz,imgkaka.xyz,imgyear.icu,federleqa.icu,nemenlake.icu,opalekr.icu,pixsera.net,rtkenale.icu,cloudgallery.net,imgair.net,imgfrost.net,imgair.net#%#//scriptlet('prevent-setTimeout', '_0x')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83756
 @@||timebucks.com/publishers/js/prebid-ads.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83483
