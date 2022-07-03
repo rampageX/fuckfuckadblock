@@ -676,7 +676,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 /\/vki\/[0-9]{7}\/[a-z0-9]{8}\.js$/$important,script,third-party,match-case
 /[0-9]{7}\?zoneid=[0-9]{7}/$important,script,third-party
 /\/esnk\/[0-9]{7}\/code\.js$/$important,script,third-party,match-case
-/\/[a-z0-9]{8,10}\?key=[0-9a-f]{32}$/$important,document,subdocument,match-case
+/\/[a-z0-9]{8,10}\?(?:adb=y&)?key=[0-9a-f]{32}$/$important,document,subdocument,match-case
 ||cdn.eeco.xyz/app.js|$important,script,third-party
 /\.html?\?\w=[a-z]{3,10}&\w=\d{13}$/$important,subdocument,third-party
 /\/t\.js\?\w=[a-z0-9]{21}&\w{2}=\d{19}$/$important,script,third-party
