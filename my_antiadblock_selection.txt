@@ -1633,14 +1633,14 @@ sdamgia.ru$$script[tag-content="adb=1"]
 ! START: Yandex
 !
 ! old cookies: Bismuth|computer|discussion|^specific\$|^engineer|instruction|telecommunications|pronunciation|involved|^adequate
-$cookie=/blcrm|bltsr|sMLIIeQQeFnYt|computer/,domain=yandex.by|yandex.com|yandex.com.tr|yandex.fr|yandex.kz|yandex.ru
+$cookie=/blcrm|bltsr|pClnKCSBXcHUp|computer/,domain=yandex.by|yandex.com|yandex.com.tr|yandex.fr|yandex.kz|yandex.ru
 !
-auto.ru,avito.ru,baby.ru,businessman.ru,dni.ru,e1.ru,echo.msk.ru,fb.ru,forexpf.ru,gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru,gorodrabot.ru,infoniac.ru,it-tehnik.ru,kakprosto.ru,kinopoisk.ru,liveinternet.ru,mathb-ege.sdamgia.ru,mk.ru,nkj.ru,ohotniki.ru,oko-planet.su,otzovik.com,razlozhi.ru,sdamgia.ru,syl.ru,vz.ru#%#//scriptlet('remove-cookie', '/blcrm|bltsr|sMLIIeQQeFnYt|computer/')
+auto.ru,avito.ru,baby.ru,businessman.ru,dni.ru,e1.ru,echo.msk.ru,fb.ru,forexpf.ru,gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru,gorodrabot.ru,infoniac.ru,it-tehnik.ru,kakprosto.ru,kinopoisk.ru,liveinternet.ru,mathb-ege.sdamgia.ru,mk.ru,nkj.ru,ohotniki.ru,oko-planet.su,otzovik.com,razlozhi.ru,sdamgia.ru,syl.ru,vz.ru#%#//scriptlet('remove-cookie', '/blcrm|bltsr|pClnKCSBXcHUp|computer/')
 ! TODO: add domains auto.ru and kinopoisk.ru to the rule below after the next release of AG for macos (current 2.3.2)
-$cookie=/blcrm|bltsr|sMLIIeQQeFnYt|computer/,domain=baby.ru|businessman.ru|dni.ru|e1.ru|echo.msk.ru|fb.ru|forexpf.ru|gismeteo.by|gismeteo.kz|gismeteo.md|gismeteo.ru|gorodrabot.ru|infoniac.ru|it-tehnik.ru|kakprosto.ru|liveinternet.ru|mk.ru|nkj.ru|ohotniki.ru|oko-planet.su|otzovik.com|rambler.ru|razlozhi.ru|sdamgia.ru|syl.ru|vz.ru
+$cookie=/blcrm|bltsr|pClnKCSBXcHUp|computer/,domain=baby.ru|businessman.ru|dni.ru|e1.ru|echo.msk.ru|fb.ru|forexpf.ru|gismeteo.by|gismeteo.kz|gismeteo.md|gismeteo.ru|gorodrabot.ru|infoniac.ru|it-tehnik.ru|kakprosto.ru|liveinternet.ru|mk.ru|nkj.ru|ohotniki.ru|oko-planet.su|otzovik.com|rambler.ru|razlozhi.ru|sdamgia.ru|syl.ru|vz.ru
 $cookie=/^los\$/,domain=auto.ru
 ! zen.yandex.ru - broken resources
-~passport.yandex.ru,~zen.yandex.ru,yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru#%#//scriptlet('remove-cookie', '/blcrm|bltsr|sMLIIeQQeFnYt|computer/')
+~passport.yandex.ru,~zen.yandex.ru,yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru#%#//scriptlet('remove-cookie', '/blcrm|bltsr|pClnKCSBXcHUp|computer/')
 !
 ! makes kinopoisk.ru redirect to sso.kinopoisk.ru and back endlessly
 ! ||kinopoisk.ru^$cookie=/consultant|introductory|knowledge|transfer|technology|workplace/
@@ -3184,7 +3184,8 @@ getridbug.com#@#.adsbygoogle
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=getridbug.com
 !#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/126867
-slwatch.co#@#.adBanner
+! streamlare.com
+sltube.org,slwatch.co#@#.adBanner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/126722
 @@||tech.madshiba.fun/assets/ads-*.js
 tech.madshiba.fun#%#//scriptlet("abort-current-inline-script", "document.getElementById", "AdBlock")
@@ -4807,10 +4808,9 @@ eviltranslator.xyz#%#//scriptlet("abort-current-inline-script", "document.create
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=eviltranslator.xyz
 ! https://github.com/AdguardTeam/AdguardFilters/issues/94684
 @@||wcofun.com/inc/embed/ads.js
-wcofun.com#@#.adBanner
-wcofun.com#$##wrapfabtest { height: 1px !important; }
-wcofun.com#%#//scriptlet("set-constant", "isAdBlockActive", "false")
-wcofun.com#%#//scriptlet("prevent-setTimeout", "AdBlock")
+wcofun.net,wcofun.com#@#.adBanner
+wcofun.net,wcofun.com#%#//scriptlet("set-constant", "isAdBlockActive", "false")
+wcofun.net,wcofun.com#%#//scriptlet("prevent-setTimeout", "AdBlock")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/92823
 ||chd4.com/blocks/$script
 ! https://github.com/AdguardTeam/AdguardFilters/issues/93893
@@ -5263,7 +5263,7 @@ thephoblographer.com###adblock-warning
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=fox.com
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,important,domain=fox.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/87104
-utinwpqqui.buzz,imgxxxx.buzz,imgwia.buzz,imgkorle.buzz,imgkoc.buzz,imgwer.buzz,imgqte.buzz,imgbbd.buzz,imgxvd.buzz,imglkju.buzz,imgyvdw.buzz,imglqw.buzz,imgyng.buzz,imgpekele.buzz,imgwex.buzz,imgkuiw.xyz,imgveni.xyz,imglina.xyz,imgtrw.buzz,imgjut.buzz,imgweika.buzz,imguiwe.buzz,imgkane.buzz,imgkoka.buzz,imgkia.buzz,imgalor.xyz,imgklx.xyz,imgkaka.xyz,imgyear.icu,federleqa.icu,nemenlake.icu,opalekr.icu,pixsera.net,rtkenale.icu,cloudgallery.net,imgair.net,imgfrost.net,imgair.net#%#//scriptlet('prevent-setTimeout', '_0x')
+pyotinle.buzz,utinwpqqui.buzz,imgxxxx.buzz,imgwia.buzz,imgkorle.buzz,imgkoc.buzz,imgwer.buzz,imgqte.buzz,imgbbd.buzz,imgxvd.buzz,imglkju.buzz,imgyvdw.buzz,imglqw.buzz,imgyng.buzz,imgpekele.buzz,imgwex.buzz,imgkuiw.xyz,imgveni.xyz,imglina.xyz,imgtrw.buzz,imgjut.buzz,imgweika.buzz,imguiwe.buzz,imgkane.buzz,imgkoka.buzz,imgkia.buzz,imgalor.xyz,imgklx.xyz,imgkaka.xyz,imgyear.icu,federleqa.icu,nemenlake.icu,opalekr.icu,pixsera.net,rtkenale.icu,cloudgallery.net,imgair.net,imgfrost.net,imgair.net#%#//scriptlet('prevent-setTimeout', '_0x')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83756
 @@||timebucks.com/publishers/js/prebid-ads.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83483
@@ -8391,9 +8391,6 @@ fstore.biz#@##bannerad
 ! https://github.com/AdguardTeam/AdguardFilters/issues/34664
 !+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_safari, ext_ublock)
 @@||indianhacking.in^$generichide
-! https://github.com/AdguardTeam/AdguardFilters/issues/34653
-!+ NOT_PLATFORM(windows, mac, android)
-@@||msguides.com^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/34663
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||jntufastupdates.com^$generichide
