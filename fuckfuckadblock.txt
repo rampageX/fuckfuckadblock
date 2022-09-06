@@ -807,6 +807,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 @@|http*:*/advt.png|$image
 @@|http*:*/adblock.popunder.js$script,~third-party
 @@|http*:*/sailthru.js$script
+@@|http*:*/peel1.js$script
 @@|http*:*/adview_pic_cpc_cpm_cpa_guanggao_gg_ads_300x250.js|$script
 @@||lib.wtg-ads.com/publisher/*/lib.min.js|$xmlhttprequest
 @@||cdn.fuseplatform.net/publift/*/fuse.js|$xmlhttprequest
