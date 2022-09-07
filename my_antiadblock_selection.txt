@@ -9,7 +9,6 @@
 !	1. https://raw.githack.com/rampageX/fuckfuckadblock/master/my_antiadblock_selection.txt
 !	2. https://cdn.statically.io/gh/rampageX/fuckfuckadblock/master/my_antiadblock_selection.txt
 !	3. https://cdn.jsdelivr.net/gh/rampageX/fuckfuckadblock/my_antiadblock_selection.txt
-404: Not Found
 !
 ! First of all, this section has common rules that prevent most known ad block detections. In that case domain should be added to the common rules.
 ! The section contains the list of the rules are against all kinds of ads reinjection or ad-blocking circumvention scripts. If such a script does not cripple the website, we add rules to the Annoyances filter.
@@ -49,6 +48,13 @@ sinoptik.ua#@#div[id^="bn_"]
 !#endif
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/129116
+gorodrabot.by#%#//scriptlet("abort-on-property-read", "adfoxAsyncParams")
+||an.yandex.ru/partner-code-bundles/*.js$domain=gorodrabot.by,redirect=noopjs,important
+||an.yandex.ru/system/context.js$xmlhttprequest,domain=gorodrabot.by,redirect=noopjs,important
+@@||gorodrabot.by^$generichide
+@@||an.yandex.ru/partner-code-bundles/*.js$domain=gorodrabot.by
+@@||an.yandex.ru/system/context.js$xmlhttprequest,domain=gorodrabot.by
 ! https://github.com/AdguardTeam/AdguardFilters/issues/127540
 @@||cdnneedtv.ru/spor/jquerymin18.js$domain=cdnneedtv.ru
 sweet-tv.net,cdnneedtv.ru#%#//scriptlet('set-constant', 'canRunAds', 'true')
@@ -1786,6 +1792,19 @@ livejournal.com#%#//scriptlet("set-constant", "begun_new_callbacks", "undefined"
 ! Bad: ||ad.doubleclick.net^ (should be in adservers.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/128817
+!#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb)
+winwk.com#@#.adBanner
+winwk.com#@#.pub_300x250
+winwk.com#@#.pub_300x250m
+winwk.com#@#.pub_728x90
+winwk.com#@#.text-ad
+winwk.com#@#.textAd
+winwk.com#@#.text_ad
+winwk.com#@#.text_ads
+winwk.com#@#.text-ads
+winwk.com#@#.text-ad-links
+!#endif
 ! https://github.com/uBlockOrigin/uAssets/issues/14652
 ||manwa.fun/static/upload/ads/$image,redirect=1x1-transparent.gif,important
 @@||manwa.fun/static/upload/ads/*.gif?$image,~third-party
@@ -2898,7 +2917,7 @@ ottverse.com,gourmetscans.net,agorablog.it,apfelpatient.de,openculture.com,satce
 ottverse.com,gourmetscans.net,agorablog.it,apfelpatient.de,openculture.com,satcesc.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'aadb_get_data')
 pngtosvg.com,vladan.fr,unityassets4free.com,clockks.com#%#//scriptlet("abort-on-property-read", "daau_app")
 cgtips.org#%#//scriptlet('prevent-addEventListener', '', 'aadb_get_data')
-baddiehub.com#%#//scriptlet("prevent-setTimeout", "css_class.show")
+netfuck.net,baddiehub.com#%#//scriptlet("prevent-setTimeout", "css_class.show")
 magesypro.pro,magesypro.com,magesy.blog,majesy.org,magesy.eu,magesy.fr,magesy.pw,magesy.eu,guiadaengenharia.com,javsex.to,aurotechs.net,gaypornhdfree.com,poapan.xyz,luutrukienthuc.com,31mag.nl,doibihar.org,ffworld.xyz,tecnicalboy.com,rpclip.com,pastlinkvn.com,moviesrushhd.in,cyberstockofficial.in,joyplot.com,javboys.com,asuralightnovel.com,tecmundo.net,gaminplay.com,mangacrab.com,news.claimfey.com,wallpaperwaifu.com,sakpot.com,latestjav.com,ourcoindigibyte.xyz,ourcoindash.xyz,ourcoineth.xyz,ourcoinfaucet.xyz,ourcoin.xyz,asyadizileri.net,techhelpbd.com,e-sanatatea.ro,therootdroid.com,sevenjournals.com,7apple.net,jorgemoncada.com,hollywoodsmagazine.com,r3ndy.com,anicosplay.net,ewybory.eu,nanoroms.com,egymanga.net,flipreview.com,hiphopa.net,pngtosvg.com,compartilhandobr.com,loksado.com,ecoursefree.com,daemon-hentai.com,yigeplus.xyz,cgchotbox.com,launcherfull.com,cheatbyte.com,techycoder.com,arasindakifark.net,kitguru.net,gsmxt.com,mangaxp.com,technicalatg.com,technicalatg.xyz,freetutorialsdownload.online,asyadrama.com,tutsgalaxys.com,toolss.net,vipmods.net,freetutorialsudemy.com,adonisfansub.com,getfreecourses.org,yuinime.net,themovieslab.in,udemycoursesfree.me,bitcoinegypt.news,talkjarvis.com,satcesc.com,dongknows.com,getfreecourses.net,citychilli.com,livenewsof.com,pinayvids.com,hardcoregames.ca,pasend.*,unityassetcollection.com,crypto-fun-faucet.de,fileoops.com,samuraiscan.com,3dmodelshare.org,dailyvideoreports.net,codesnail.com,ma-x.org,sitarchive.com,onlyfanesse.com,codingshiksha.com,graphicux.com,w3layouts.com,musike.net,windowsmatters.com,sonixgvn.net,avoiderrors.com,gatcha.org,sayrodigital.com,justandroid.net,4horlover.com,topnewsshow.com,3dzip.org,ovagames.com,lewdsenpai.com,mylivewallpapers.com#%#//scriptlet('prevent-addEventListener', 'load', 'aadb_get_data')
 31mag.nl,doibihar.org,ffworld.xyz,tecnicalboy.com,rpclip.com,pastlinkvn.com,moviesrushhd.in,cyberstockofficial.in,joyplot.com,javboys.com,asuralightnovel.com,latestjav.com,ourcoindigibyte.xyz,ourcoindash.xyz,ourcoineth.xyz,ourcoinfaucet.xyz,ourcoin.xyz,asyadizileri.net,techhelpbd.com,e-sanatatea.ro,therootdroid.com,sevenjournals.com,7apple.net,jorgemoncada.com,hollywoodsmagazine.com,r3ndy.com,anicosplay.net,ewybory.eu,nanoroms.com,egymanga.net,flipreview.com,hiphopa.net,pngtosvg.com,compartilhandobr.com,loksado.com,ecoursefree.com,daemon-hentai.com,yigeplus.xyz,cgchotbox.com,launcherfull.com,cheatbyte.com,techycoder.com,arasindakifark.net,kitguru.net,gsmxt.com,mangaxp.com,technicalatg.com,technicalatg.xyz,freetutorialsdownload.online,asyadrama.com,tutsgalaxys.com,toolss.net,vipmods.net,freetutorialsudemy.com,adonisfansub.com,getfreecourses.org,themovieslab.in,udemycoursesfree.me,bitcoinegypt.news,talkjarvis.com,satcesc.com,dongknows.com,getfreecourses.net,citychilli.com,livenewsof.com,pinayvids.com,hardcoregames.ca,pasend.*,unityassetcollection.com,crypto-fun-faucet.de,fileoops.com,samuraiscan.com,3dmodelshare.org,dailyvideoreports.net,codesnail.com,ma-x.org,sitarchive.com,onlyfanesse.com,codingshiksha.com,graphicux.com,w3layouts.com,musike.net,windowsmatters.com,sonixgvn.net,avoiderrors.com,gatcha.org,sayrodigital.com,justandroid.net,4horlover.com,topnewsshow.com,3dzip.org,ovagames.com,lewdsenpai.com#%#//scriptlet("set-constant", "adsbygoogle.length", "undefined")
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xmlhttprequest,redirect=googlesyndication-adsbygoogle,domain=tecmundo.net|gaminplay.com|dbsysupgrade.com|asyadizileri.net|techhelpbd.com|therootdroid.com|sevenjournals.com|7apple.net|jorgemoncada.com|hollywoodsmagazine.com|anicosplay.net|ewybory.eu|nanoroms.com|egymanga.net|flipreview.com|hiphopa.net|pngtosvg.com|compartilhandobr.com|loksado.com|ecoursefree.com|daemon-hentai.com|yigeplus.xyz|cgchotbox.com|launcherfull.com|cheatbyte.com|techycoder.com|arasindakifark.net|kitguru.net|gsmxt.com|mangaxp.com|technicalatg.com|technicalatg.xyz|freetutorialsdownload.online|tutsgalaxys.com|vipmods.net|freetutorialsudemy.com|adonisfansub.com|getfreecourses.org|themovieslab.in|bitcoinegypt.news|talkjarvis.com|satcesc.com|dongknows.com|getfreecourses.net|citychilli.com|livenewsof.com|pinayvids.com|hardcoregames.ca|pasend.*|unityassetcollection.com|crypto-fun-faucet.de|fileoops.com|samuraiscan.com|3dmodelshare.org|cgtips.org|dailyvideoreports.net|codesnail.com|ma-x.org|sitarchive.com|onlyfanesse.com|codingshiksha.com|graphicux.com|w3layouts.com|musike.net|windowsmatters.com|sonixgvn.net|avoiderrors.com|gatcha.org|sayrodigital.com|justandroid.net|4horlover.com|topnewsshow.com|3dzip.org|ovagames.com|lewdsenpai.com|mitsmits.com|asyadrama.com|r3ndy.com|mylivewallpapers.com|e-sanatatea.ro|ourcoindigibyte.xyz|ourcoindash.xyz|ourcoineth.xyz|ourcoinfaucet.xyz|ourcoin.xyz|latestjav.com|sakpot.com|wallpaperwaifu.com|news.claimfey.com|mangacrab.com|asuralightnovel.com|javboys.com|joyplot.com|cyberstockofficial.in|moviesrushhd.in|pastlinkvn.com|rpclip.com|doibihar.org|ffworld.xyz|tecnicalboy.com|31mag.nl|gourmetscans.net|aurotechs.net|guiadaengenharia.com|ottverse.com|magesypro.pro|magesypro.com|magesy.blog|majesy.org|magesy.eu|magesy.fr|magesy.pw|magesy.eu
@@ -2918,6 +2937,7 @@ openculture.com##div[id$="-blanket"]
 ##body > div.demo-wrapper[style="display:none;"] + div[id][class]
 ##div.fadeInDown[id$="____equal"][class$="____equal"]
 !
+javboys.com##body > #site-wrapper > div.demo-wrapper[style="display:none;"] + div[id][class]
 dragontea.ink#$#body > div[id][class][style="display: block;"] { display: none !important; }
 dragontea.ink#$#html[style="overflow: hidden;"] { overflow: auto !important; }
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
@@ -2928,7 +2948,7 @@ watchtv24.com,drakescans.com,mangatoo.net,francaisfacile.net,o-pro.online,eda-ah
 dongknows.com#$#div[id^="chp_ads_block"] { display: none !important; }
 dongknows.com#$#html > body[class*="chp_ads_blocker"] { overflow: auto !important; }
 dongknows.com#%#//scriptlet("abort-current-inline-script", "document.getElementById", "pagead2.googlesyndication.com")
-chpadblock.com,idevicecentral.com,fcportables.com,codehelppro.com#%#//scriptlet("abort-on-property-read", "reqServers")
+javboys.com,4horlover.com,chpadblock.com,idevicecentral.com,fcportables.com,codehelppro.com#%#//scriptlet("abort-on-property-read", "reqServers")
 !#if (adguard_app_ios || adguard_ext_android_cb)
 @@||dongknows.com^$generichide
 @@||codehelppro.com^$generichide
@@ -3035,6 +3055,15 @@ uaclips.com,kzclip.com,ru-clip.com,ruclip.com###morev
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardForAndroid/issues/4235
+ads.snapchat.com#@#.banner_ad
+! https://github.com/AdguardTeam/AdguardFilters/issues/128862
+||csspoint101.com/wp-content/uploads/klydig.js
+! https://github.com/AdguardTeam/AdguardFilters/issues/129118
+9anime.skin#@#.ad-placement
+! https://github.com/AdguardTeam/AdguardFilters/issues/129114
+@@||toolsincloud.com/assets/js/prebid-ads.js
+toolsincloud.com#%#//scriptlet("set-constant", "canRunAds", "true")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/128775
 work.ink#@#.waldo-display-unit
 ! https://github.com/AdguardTeam/AdguardFilters/issues/128760
@@ -6729,8 +6758,12 @@ duplichecker.com##.dpn
 duplichecker.com#%#//scriptlet("abort-current-inline-script", "jQuery", "pagead2.googlesyndication.com")
 duplichecker.com#%#//scriptlet("abort-current-inline-script", "$", "pagead2.googlesyndication.com")
 duplichecker.com#%#//scriptlet("prevent-setInterval", "isAdBlockActive")
+duplichecker.com#@#.adtab
+duplichecker.com#@#.o-zergnet
+@@||delivery.adrecover.com/*/adRecover.js$domain=duplichecker.com
 @@||cdn.adpushup.com/*/adpushup.js$domain=duplichecker.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=duplichecker.com
+duplichecker.com#$#closePopupss ~ div[class]:not([id]) { display: block !important; }
 !#if (adguard_app_ios || adguard_ext_android_cb)
 duplichecker.com#@#.adsbygoogle
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl*.js$domain=duplichecker.com
