@@ -2699,8 +2699,8 @@ beforeitsnews.com#%#//scriptlet("abort-on-property-write", "__reg_events")
 ! NOTE: MediaNews Group, Inc. sites
 ||d1wa9546y9kg0n.cloudfront.net^$badfilter
 @@||paywall-ad-bucket.s3.amazonaws.com/ad_300_250.jpg
-reviewjournal.com,record-bee.com,dailylocal.com,saratogian.com,union-bulletin.com,reporterherald.com,sgvtribune.com,bostonherald.com,theoaklandpress.com,dailybreeze.com,eastbaytimes.com,mercurynews.com,ocregister.com,chicoer.com,delcotimes.com,denverpost.com,macombdaily.com,newsday.com,pe.com,trentonian.com,twincities.com,marinij.com,dailybulletin.com,timescall.com,dailydemocrat.com,tampabay.com,adn.com,times-standard.com,montereyherald.com,spokesman.com,ajc.com#@#.adBanner
-reviewjournal.com,record-bee.com,dailylocal.com,saratogian.com,union-bulletin.com,reporterherald.com,sgvtribune.com,bostonherald.com,theoaklandpress.com,dailybreeze.com,eastbaytimes.com,mercurynews.com,ocregister.com,chicoer.com,delcotimes.com,denverpost.com,macombdaily.com,newsday.com,pe.com,trentonian.com,twincities.com,marinij.com,dailybulletin.com,timescall.com,dailydemocrat.com,tampabay.com,adn.com,times-standard.com,montereyherald.com,spokesman.com,ajc.com#%#//scriptlet("abort-on-property-read", "MG2Loader.init")
+santacruzsentinel.com,reviewjournal.com,record-bee.com,dailylocal.com,saratogian.com,union-bulletin.com,reporterherald.com,sgvtribune.com,bostonherald.com,theoaklandpress.com,dailybreeze.com,eastbaytimes.com,mercurynews.com,ocregister.com,chicoer.com,delcotimes.com,denverpost.com,macombdaily.com,newsday.com,pe.com,trentonian.com,twincities.com,marinij.com,dailybulletin.com,timescall.com,dailydemocrat.com,tampabay.com,adn.com,times-standard.com,montereyherald.com,spokesman.com,ajc.com#@#.adBanner
+santacruzsentinel.com,reviewjournal.com,record-bee.com,dailylocal.com,saratogian.com,union-bulletin.com,reporterherald.com,sgvtribune.com,bostonherald.com,theoaklandpress.com,dailybreeze.com,eastbaytimes.com,mercurynews.com,ocregister.com,chicoer.com,delcotimes.com,denverpost.com,macombdaily.com,newsday.com,pe.com,trentonian.com,twincities.com,marinij.com,dailybulletin.com,timescall.com,dailydemocrat.com,tampabay.com,adn.com,times-standard.com,montereyherald.com,spokesman.com,ajc.com#%#//scriptlet("abort-on-property-read", "MG2Loader.init")
 !
 !*****
 !* adf.ly, q.gs, j.gs etc.
@@ -2940,6 +2940,8 @@ openculture.com##div[id$="-blanket"]
 ##body > div.demo-wrapper[style="display:none;"] + div[id][class]
 ##div.fadeInDown[id$="____equal"][class$="____equal"]
 !
+26g.me##body > #container > .content ~ script + div[id][class*=" "]
+myqqjd.com##body > .wshop-pay-button + div[class][style="display:none;"] + div[id][class*=" "]
 poapan.xyz,javboys.com##body > #site-wrapper > div.demo-wrapper[style="display:none;"] + div[id][class]
 dragontea.ink#$#body > div[id][class][style="display: block;"] { display: none !important; }
 dragontea.ink#$#html[style="overflow: hidden;"] { overflow: auto !important; }
@@ -2947,11 +2949,11 @@ dragontea.ink#$#html[style="overflow: hidden;"] { overflow: auto !important; }
 @@||pubads.g.doubleclick.net/gampad/adx?iu=$xmlhttprequest,domain=dragontea.ink
 francaisfacile.net,o-pro.online,eda-ah.com,ta2deem7arbya.com,leechyscripts.com,killdhack.com,rarovhs.com,jpopsingles.eu,tenbaiquest.com,daemon-hentai.com,technicalatg.com,anreiter.at,moewalls.com,frenchweb.fr,freemagazines.top,desktopsolution.org,zuariya.com,bankofinfo.com,knightnoscanlation.com,mazen-ve.com,pasokau.com,pathshalanepal.com,angolopsicologia.com,courserecap.com,cyberbump.net,mikrometoxos.gr,geezwild.com,manga-fenix.com,codehelppro.com,9movierulz.*,rbs.ta36.com,icongnghe.com,pulpitandpen.org,turbolangs.com,skincaredupes.com,codeastro.com,saniaowner.space,chineseanime.co.in,hentai-mega-mix.com,ragnarokscan.com,codecap.org,themehits.com,katmoviefix.*,dragontea.ink,twinkybf.com,softfully.com,windowsbulletin.com,udemycoupons.me,365tips.be,animeactua.com,galaxytranslations97.com,myviptuto.com,tienichmaytinh.net,coursevania.com,youfriend.it,7misr4day.com,technicalatg.xyz,gourmetscans.net,mangakik.com,michaelemad.com,javgayplus.com,gaypornhdfree.com,fcportables.com,gaypornhdfree.to,netfuck.net,romadd.com,mkvhouse.com,toptechtalk.xyz##div[id^="chp_ads_block"]
 mikrometoxos.gr,geezwild.com,manga-fenix.com,codehelppro.com,9movierulz.*,icongnghe.com,turbolangs.com,skincaredupes.com,codeastro.com,saniaowner.space,chineseanime.co.in,katmoviefix.*###chp_branding
-watchtv24.com,drakescans.com,mangatoo.net,francaisfacile.net,o-pro.online,eda-ah.com,ta2deem7arbya.com,leechyscripts.com,killdhack.com,rarovhs.com,jpopsingles.eu,tenbaiquest.com,daemon-hentai.com,technicalatg.com,anreiter.at,moewalls.com,frenchweb.fr,bankofinfo.com,knightnoscanlation.com,mazen-ve.com,pasokau.com,pathshalanepal.com,angolopsicologia.com,mikrometoxos.gr,geezwild.com,manga-fenix.com,codehelppro.com,9movierulz.*,rbs.ta36.com,icongnghe.com,pulpitandpen.org,turbolangs.com,skincaredupes.com,codeastro.com,saniaowner.space,chineseanime.co.in,hentai-mega-mix.com,ragnarokscan.com,codecap.org,themehits.com,katmoviefix.*,twinkybf.com,softfully.com,windowsbulletin.com,udemycoupons.me,365tips.be,animeactua.com,galaxytranslations97.com,myviptuto.com,tienichmaytinh.net,coursevania.com,youfriend.it,7misr4day.com,technicalatg.xyz,gourmetscans.net,mangakik.com,michaelemad.com,javgayplus.com,gaypornhdfree.com,gaypornhdfree.to,netfuck.net,romadd.com,mkvhouse.com,toptechtalk.xyz#%#//scriptlet("abort-on-property-read", "adsBlocked")
+26g.me,watchtv24.com,drakescans.com,mangatoo.net,francaisfacile.net,o-pro.online,eda-ah.com,ta2deem7arbya.com,leechyscripts.com,killdhack.com,rarovhs.com,jpopsingles.eu,tenbaiquest.com,daemon-hentai.com,technicalatg.com,anreiter.at,moewalls.com,frenchweb.fr,bankofinfo.com,knightnoscanlation.com,mazen-ve.com,pasokau.com,pathshalanepal.com,angolopsicologia.com,mikrometoxos.gr,geezwild.com,manga-fenix.com,codehelppro.com,9movierulz.*,rbs.ta36.com,icongnghe.com,pulpitandpen.org,turbolangs.com,skincaredupes.com,codeastro.com,saniaowner.space,chineseanime.co.in,hentai-mega-mix.com,ragnarokscan.com,codecap.org,themehits.com,katmoviefix.*,twinkybf.com,softfully.com,windowsbulletin.com,udemycoupons.me,365tips.be,animeactua.com,galaxytranslations97.com,myviptuto.com,tienichmaytinh.net,coursevania.com,youfriend.it,7misr4day.com,technicalatg.xyz,gourmetscans.net,mangakik.com,michaelemad.com,javgayplus.com,gaypornhdfree.com,gaypornhdfree.to,netfuck.net,romadd.com,mkvhouse.com,toptechtalk.xyz#%#//scriptlet("abort-on-property-read", "adsBlocked")
 dongknows.com#$#div[id^="chp_ads_block"] { display: none !important; }
 dongknows.com#$#html > body[class*="chp_ads_blocker"] { overflow: auto !important; }
 dongknows.com#%#//scriptlet("abort-current-inline-script", "document.getElementById", "pagead2.googlesyndication.com")
-poapan.xyz,javboys.com,4horlover.com,chpadblock.com,idevicecentral.com,fcportables.com,codehelppro.com#%#//scriptlet("abort-on-property-read", "reqServers")
+26g.me,myqqjd.com,poapan.xyz,javboys.com,4horlover.com,chpadblock.com,idevicecentral.com,fcportables.com,codehelppro.com#%#//scriptlet("abort-on-property-read", "reqServers")
 !#if (adguard_app_ios || adguard_ext_android_cb)
 @@||dongknows.com^$generichide
 @@||codehelppro.com^$generichide
@@ -3760,8 +3762,11 @@ r3owners.net#%#//scriptlet("abort-current-inline-script", "$", "adsBlocked")
 @@||r3owners.net^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116868
 insideedition.com#@#.adBanner
+! https://github.com/AdguardTeam/AdguardFilters/issues/129136
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116826
-wcostream.com#@#.adBanner
+wcostream.net,wcostream.com#@#.adBanner
+wcostream.net,wcostream.com#%#//scriptlet("prevent-setTimeout", "AdBlock")
+wcostream.net,wcostream.com#%#//scriptlet("set-constant", "isAdBlockActive", "false")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116557
 racedepartment.com#%#//scriptlet("abort-current-inline-script", "$", "adsBlocked")
 !+ PLATFORM(ios, ext_android_cb)
