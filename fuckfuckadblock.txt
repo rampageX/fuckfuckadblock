@@ -1122,8 +1122,6 @@ imgur.com##+js(set-constant.js, ADBLOCKED, false)
 
 extremetube.com,keezmovies.com,pornhub.*,pornhubthbh7ap3u.onion,redtube.*,spankwire.com,tube8.*,youporn.*,youporngay.com,youpornru.com##+js(abort-current-inline-script.js, Object.defineProperty, trafficjunky)
 
-soft98.ir##+js(no-setTimeout-if.js, (), 3000)
-
 cambabe.*,camgirlbay.net,camwhores.*,camwhorestv.*,candid.tube,filesamba.*,homewhores.net,hotbabes.tv,movie4kproxy.net,mysexyslaves.com,pbproxy.*,pbproxy2.*,pirateaccess.info,proxybay.*,purelyceleb.com,rarbg.*,rarbgaccess.org,rarbgmirror.*,rarbgproxied.org,rarbgproxy.org,rarbgprx.org,rarbgto.org,rarbgunblock.*,recorded-webcams.com,sexysluts.tv,sportbet.tips,thepiratebay.*,thepiratebeach.net,tpbproxy.org,tsumino.com,ukrainenude.eu,videowood.tv,webcamsluts.net##+js(abort-on-property-read.js, _wm)
 
 badassdownloader.com,badasshardcore.com,badassoftcore.com,darmowa-tv.ws,gearingcommander.com,nin10news.com,nulljungle.com,nullphpscript.com,otakukan.com,premid.app,rjno1.com,softcobra.com,teevee.asia,texture-packs.com,themes-dl.com##+js(no-setTimeout-if.js, innerHTML)
