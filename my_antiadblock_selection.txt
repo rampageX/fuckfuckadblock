@@ -9,7 +9,6 @@
 !	1. https://raw.githack.com/rampageX/fuckfuckadblock/master/my_antiadblock_selection.txt
 !	2. https://cdn.statically.io/gh/rampageX/fuckfuckadblock/master/my_antiadblock_selection.txt
 !	3. https://cdn.jsdelivr.net/gh/rampageX/fuckfuckadblock/my_antiadblock_selection.txt
-404: Not Found
 !
 ! First of all, this section has common rules that prevent most known ad block detections. In that case domain should be added to the common rules.
 ! The section contains the list of the rules are against all kinds of ads reinjection or ad-blocking circumvention scripts. If such a script does not cripple the website, we add rules to the Annoyances filter.
