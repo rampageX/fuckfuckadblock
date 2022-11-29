@@ -548,6 +548,7 @@ oploverz.*,194.163.152.200,65.108.132.145##[class*="sgpb-popup"],.swal-overlay, 
 slmaxed.com,streamlare.com##body > div[style^="position: fixed; display: block"][style*="inset: 0px;"]
 madshiba.fun##div[id^="link"][id$="-snp"]:style(display: block !important;)
 promo-visits.site,satoshi-win.xyz,shorterall.com##.btn-primary:style(visibility: visible !important;)
+typezebra.com###holder-of-fortunes
 
 comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com,edoujin.net##+js(refresh-defuser.js)
 comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com,edoujin.net$$meta[http-equiv="refresh"]
