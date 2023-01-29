@@ -712,6 +712,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 ||ads.facebook.com^$xmlhttprequest,redirect-rule=noop.txt
 ||ads.reddit.com^$xmlhttprequest,redirect-rule=noop.txt
 ||ads-api.twitter.com^$xmlhttprequest,redirect-rule=noop.txt
+||ads.kiktu.com^$xmlhttprequest,redirect-rule=noop.txt
 ||pubads.g.doubleclick.net/gampad/ads$xmlhttprequest,redirect-rule=nooptext,domain=imasdk.googleapis.com
 ||hosept.com/script/$script
 |http*:*/rockblogger/anti-adblocker$script,third-party,important
