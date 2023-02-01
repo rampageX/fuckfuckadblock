@@ -551,6 +551,7 @@ slmaxed.com,streamlare.com##body > div[style^="position: fixed; display: block"]
 madshiba.fun##div[id^="link"][id$="-snp"]:style(display: block !important;)
 promo-visits.site,satoshi-win.xyz,shorterall.com##.btn-primary:style(visibility: visible !important;)
 typezebra.com###holder-of-fortunes
+rjno1.com##div:matches-css(position:/fixed/)
 
 comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com,edoujin.net##+js(refresh-defuser.js)
 comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com,edoujin.net$$meta[http-equiv="refresh"]
@@ -603,7 +604,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 /^https?:\/\/[^\s]+\/1\?z=\d{7}$/$third-party,important,script
 |http*:*$image,redirect-rule=1x1.gif,domain=kijk.nl
 |http*:*$image,redirect-rule=32x32.png,domain=streameast.*|dropgalaxy.com|dropgalaxy.in|financemonk.net|ruokareseptit.online|techthematter.xyz
-|http*:*$script,redirect-rule=noopjs,domain=dropgalaxy.com|dropgalaxy.in|ebookdz.com|excelviewer.herokuapp.com|exifviewer.herokuapp.com|extremereportbot.com|financemonk.net|hackintoshshop.com|linternaute.com|pdfrecover.herokuapp.com|protvplus.ro|rbxscripts.xyz|rtxkeeda.com|ruokareseptit.online|speedtesting.herokuapp.com|techthematter.xyz|adshnk.com|ad-doge.com|clickscoin.com|watchdoge.xyz|dogeclick.net|techydino.net|feyorra.fun|madshiba.fun|cssreference.io|freesolana.top|uniqueten.net|ultraten.net|mshort.top|lightnovelworld.com|sms24.*|btcbunch.com|pianoweb.fr|vidmoly.me|vidmoly.net|vidmoly.to
+|http*:*$script,redirect-rule=noopjs,domain=dropgalaxy.com|dropgalaxy.in|ebookdz.com|excelviewer.herokuapp.com|exifviewer.herokuapp.com|extremereportbot.com|financemonk.net|hackintoshshop.com|linternaute.com|pdfrecover.herokuapp.com|protvplus.ro|rbxscripts.xyz|rtxkeeda.com|ruokareseptit.online|speedtesting.herokuapp.com|techthematter.xyz|adshnk.com|ad-doge.com|clickscoin.com|watchdoge.xyz|dogeclick.net|techydino.net|feyorra.fun|madshiba.fun|cssreference.io|freesolana.top|uniqueten.net|ultraten.net|mshort.top|lightnovelworld.com|sms24.*|btcbunch.com|pianoweb.fr|vidmoly.me|vidmoly.net|vidmoly.to|rjno1.com
 |http*:*$xmlhttprequest,redirect-rule=nooptext,domain=dropgalaxy.com|dropgalaxy.in|financemonk.net|marie-claire.es|miarevista.es|muyhistoria.es|muyinteresante.es|muynegociosyeconomia.es|ruokareseptit.online|serpadres.es|techthematter.xyz|thingiverse.com|chd4.com|crazyhd.com|freesolana.top|1cloudfile.com|luffytra.xyz
 |http*:*$subdocument,redirect-rule=noopframe,domain=dropgalaxy.com|dropgalaxy.in|financemonk.net|ruokareseptit.online|techthematter.xyz|promo-visits.site|xfreehd.com
 |http*:*/ad-m.js|$important,script
@@ -1149,7 +1150,9 @@ extremetube.com,keezmovies.com,pornhub.*,pornhubthbh7ap3u.onion,redtube.*,spankw
 
 cambabe.*,camgirlbay.net,camwhores.*,camwhorestv.*,candid.tube,filesamba.*,homewhores.net,hotbabes.tv,movie4kproxy.net,mysexyslaves.com,pbproxy.*,pbproxy2.*,pirateaccess.info,proxybay.*,purelyceleb.com,rarbg.*,rarbgaccess.org,rarbgmirror.*,rarbgproxied.org,rarbgproxy.org,rarbgprx.org,rarbgto.org,rarbgunblock.*,recorded-webcams.com,sexysluts.tv,sportbet.tips,thepiratebay.*,thepiratebeach.net,tpbproxy.org,tsumino.com,ukrainenude.eu,videowood.tv,webcamsluts.net##+js(abort-on-property-read.js, _wm)
 
-badassdownloader.com,badasshardcore.com,badassoftcore.com,darmowa-tv.ws,gearingcommander.com,nin10news.com,nulljungle.com,nullphpscript.com,otakukan.com,premid.app,rjno1.com,softcobra.com,teevee.asia,texture-packs.com,themes-dl.com##+js(no-setTimeout-if.js, innerHTML)
+badassdownloader.com,badasshardcore.com,badassoftcore.com,darmowa-tv.ws,gearingcommander.com,nin10news.com,nulljungle.com,nullphpscript.com,otakukan.com,premid.app,softcobra.com,teevee.asia,texture-packs.com,themes-dl.com##+js(no-setTimeout-if.js, innerHTML)
+
+rjno1.com##+js(abort-current-inline-script.js, document.getElementById, innerHTML)
 
 kmo.to,freeplayervideo.com,playhydrax.com,hydracdn.*,hydrax.*,player-cdn.com##+js(remove-attr.js, style, #over)
 
