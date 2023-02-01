@@ -551,7 +551,7 @@ slmaxed.com,streamlare.com##body > div[style^="position: fixed; display: block"]
 madshiba.fun##div[id^="link"][id$="-snp"]:style(display: block !important;)
 promo-visits.site,satoshi-win.xyz,shorterall.com##.btn-primary:style(visibility: visible !important;)
 typezebra.com###holder-of-fortunes
-rjno1.com##div:matches-css(position:/fixed/)
+rjno1.com##div:has-text(" a d   b l o c k e r ")
 
 comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com,edoujin.net##+js(refresh-defuser.js)
 comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com,edoujin.net$$meta[http-equiv="refresh"]
