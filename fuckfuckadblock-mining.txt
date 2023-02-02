@@ -15,13 +15,26 @@
 ||crypto-loot.*^$third-party
 ||ethereum-pocket.*^$third-party
 ||freecontent.*^$third-party
+||bmwebm.org^$third-party
+||bmpool.org^$third-party
+||xmrminingproxy.com^$third-party
 
 /[-/]c(oin)?\-?hive(\.min(er)?)?\.js/$script
 /[-/](monero|crypto)\-miner[-./]/$script
 /[-/]minera?(\.(min|full)|cripts?)?\.js/$script
 /^https?:\/\/.*\/(\%?[25][a-fA-F3-6])?sw[a-zA-Z0-9]?\.js(\?[a-zA-Z0-9%]{50,})?$/$script,match-case
+/\/cryptonight\-worker\.js/$script
+/\/webx?mr\.js/$script
 /\/crypt[ao](cpu)?\.js/$script
 /\/webmi?n?e?r(\.min)?\.js/$script
 ||sudonull.com/stop-ru.js|^$script
 /\.[a-z]{2,4}\/jquerys.js$/$script
 /\/webminer\.min\.js/$script
+/miner/worker.js$script
+/miner/cn.js$script
+/\/js\/miner\.[a-z0-9]{8}\.js/$script
+
+/^wss:\/\/(mine|pool)\..*\.[a-z]{3}:[0-9]/$websocket
+
+
+
