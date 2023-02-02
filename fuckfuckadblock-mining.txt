@@ -1,0 +1,14 @@
+! Title: Fuck Fuckadblock: Mining
+! Description: Filters for blocking browser-based miners
+! Author: Bogachenko Vyacheslav
+! Expires: 3 days
+! Homepage: https://github.com/bogachenko/fuckfuckadblock
+! Licence: https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/LICENSE.md
+! RAW: https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock-mining.txt
+! CDN: https://github.com/bogachenko/fuckfuckadblock/wiki/Mirror-lists
+
+||coinhive.com^$third-party
+||getmonero.org^$third-party
+||hostingcloud.*^$third-party
+||jshosting.*^$third-party
+||jsecoin.com^$third-party
