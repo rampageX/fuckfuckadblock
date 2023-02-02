@@ -12,3 +12,9 @@
 ||hostingcloud.*^$third-party
 ||jshosting.*^$third-party
 ||jsecoin.com^$third-party
+
+/[-/]c(oin)?\-hive\.js/$script
+/[-/](monero|crypto)\-miner[-./]/$script
+/[-/]minera?(\.(min|full)|cripts?)?\.js/$script
+/^https?:\/\/.*\/(\%?[25][a-fA-F3-6])?sw[a-zA-Z0-9]?\.js(\?[a-zA-Z0-9%]{50,})?$/$script,match-case
+/\/crypt[ao](cpu)?\.js/$script
