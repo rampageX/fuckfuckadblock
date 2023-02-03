@@ -85,12 +85,16 @@
 ||aminingpool.com^
 ||solomining.io^
 ||zulupool.com^
+||ethermine.org^
 ||nlpool.nl^
 ||spiderpool.com^
+||flypool.org^
 ||ollieminerpool.com^
 ||lidonia.com^
 ||mpool.live^
 ||prohashing.com^
+||k1pool.com^
+||zhash.pro^
 ||greatpool.ca^
 ||sigmapool.com^
 ||2miningpool.com^
