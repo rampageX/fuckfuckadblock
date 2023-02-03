@@ -10,6 +10,7 @@
 ||bmpool.org^
 ||bmwebm.org^
 ||coinhive.com^
+||coin-hive.com^
 ||crypto-loot.*^
 ||ethereum-pocket.*^
 ||freecontent.*^
