@@ -33,6 +33,17 @@
 ||xmr.pt^
 ||zergpool.com^
 ||pool-moscow.ru^
+||fairhash.org^
+||fastpool.xyz^
+||crypto-pool.fr^
+||miningpoolhub.com^
+||semipool.com^
+||pool-pay.com^
+||qrlmining.com^
+||aussie-pools.com^
+||herominers.com^
+||miningocean.org^
+||miner.rocks^
 
 /miner/cn.js$script
 /\/miner\/worker(\.min)?\.js/$script
