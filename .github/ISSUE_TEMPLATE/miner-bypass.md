@@ -1,15 +1,15 @@
 ---
-name: Adblock Bypass
-about: Notification about the use of the ad blocker
+name: Mining Bypass
+about: Notification of coin mining
 title: 'ENTER DOMAIN HERE'
-labels: 'antiadblock'
+labels: 'miner'
 ---
 
 <!-- Please read this https://github.com/bogachenko/fuckfuckadblock/wiki/Support-policy#report before posting your report. -->
 ### Basic information
 
 **Check the link:** <!-- Next to this phrase, include the link you want to test. -->
-**Category:** Anti-adblock
+**Category:** Mining
 **Reported from:** <!-- In which country is your IP address? -->
 
 ### User environment
