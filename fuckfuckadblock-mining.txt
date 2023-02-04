@@ -114,5 +114,7 @@
 /\/webx?mr\.js/$script
 /^https?:\/\/.*\/(\%?[25][a-fA-F3-6])?sw[a-zA-Z0-9]?\.js(\?[a-zA-Z0-9%]{50,})?$/$script,match-case
 ||sudonull.com/stop-ru.js$script
+/bitcoincore/?ref=$script,subdocument
+/script_cry.js$script
 
 /^wss:\/\/(min(er?|ing)|pool[0-9]?|xmr|auto)\..*\.[a-z]{3}:[0-9]{2,5}/$websocket
