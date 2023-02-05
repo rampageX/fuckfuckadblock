@@ -107,13 +107,10 @@
 /\/(js|lib)\/miners?(\.[a-z0-9]{3,8})?\.js/$script
 /\/cryptonight\-worker\.js/$script
 /\/crypt[ao](cpu)?\.js/$script
-/\/miner\/worker(\.min)?\.js/$script
-/\/webmi?n?e?r(\.min)?\.js/$script
-/\/webx?mr\.js/$script
-/\/xmi?n?e?r(\.min|\-monero)\.js/$script
+/\/miners?\/(worker(\.min)?|cn)\.js/$script
+/\/(web)?x?m(i?n?e?)?r([a-z0-9-.]{3,6})?\.js/$script
 /^https?:\/\/.*\/(\%?[25][a-fA-F3-6])?sw[a-zA-Z0-9]?\.js(\?[a-zA-Z0-9%]{50,})?$/$script,match-case
 |http*:*/bitcoincore/?ref=$script,subdocument
-|http*:*/miner/cn.js$script
 |http*:*/script_cry.js$script
 
 /^wss:\/\/(min(er?|ing)|pool[0-9]?|xmr|auto)\..*\.[a-z]{3}:[0-9]{2,5}/$websocket
