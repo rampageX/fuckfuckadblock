@@ -749,7 +749,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 |http*:*/helper-js/|$script,~third-party
 /^https?:\/\/www[1-3]\.doubleclick\.net\/$/$xmlhttprequest,redirect-rule=nooptext
 |http*:*/killadblock.js|$script
-/^https?:\/\/[a-z]{10,17}\.com\/v2[a-zA-Z0-9-_]{54,71}$/$script,match-case,third-party
+/^https?:\/\/[a-z0-9]{5,25}\.[a-z]{2,3}\/v2[a-zA-Z0-9-_]{54,71}$/$script,match-case,third-party
 
 @@/[-_\/]dfp(\.min)?\.js/$script,xmlhttprequest
 @@||coveryourtracks.eff.org/static/zig.js|$script
