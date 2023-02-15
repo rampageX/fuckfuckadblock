@@ -80,7 +80,9 @@
 ||sbicrypto.com^
 ||semipool.com^
 ||sigmapool.com^
+||moriaxmr.com^
 ||solomining.io^
+||minercircle.com^
 ||spiderpool.com^
 ||superblockchain.con-ip.com^
 ||supportxmr.com^
@@ -96,12 +98,16 @@
 ||xmrpool.*^
 ||zergpool.com^
 ||ethereum-pocket.com^
+||redecoin.eu^
 ||zet-tech.eu^
+||altcoinpool.ru^
+||lovetheminers.com^
 ||zhash.pro^
 ||zpool.ca^
 ||bitcoinnova.org^
 ||gorillapool.io^
 ||zsolo.bid^
+||xmrpool.net^
 ||zulupool.com^
 
 /[-/](monero|crypto)\-miner[-./]/$script
@@ -111,10 +117,11 @@
 /\/(js|lib)\/miners?(\.[a-z0-9]{3,8})?\.js/$script
 /\/cryptonight\-worker\.js/$script
 /\/crypt[ao](cpu)?\.js/$script
-/\/miners?\/(worker(\.min)?|cn)\.js/$script
+/\/(miners?|cryptonight.*)\/(worker(\.min)?|cn)\.js/$script,xmlhttprequest
 /\/(web)?x?m(i?n?e?)?r([a-z0-9-.]{3,6})?\.js/$script
 /^https?:\/\/.*\/(\%?[25][a-fA-F3-6])?sw[a-zA-Z0-9]?\.js(\?[a-zA-Z0-9%=]{30,})?$/$script,xmlhttprequest,match-case
 |http*:*/bitcoincore/?ref=$script,subdocument
 |http*:*/script_cry.js$script
+|http*:*/miner.js$script
 
-/^wss:\/\/(min(er?|ing)|pool[0-9]?|xmr|auto)\..*\.[a-z]{3}:[0-9]{2,5}/$websocket
+/^wss:\/\/(min(er?|ing)|pool[0-9]?|xmr|auto|crypto)\..*\.[a-z]{3}:[0-9]{2,5}/$websocket
