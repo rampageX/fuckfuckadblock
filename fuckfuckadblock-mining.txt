@@ -19,6 +19,10 @@
 ||bohemianpool.com^
 ||braiins.com^
 ||btcmill.cc^
+||sumokoin.com^
+||cryptomineros.com^
+||grftpool.com^
+||graftpool.net^
 ||c3pool.org^
 ||ckpool.org^
 ||clusterpool.ru^
@@ -28,6 +32,8 @@
 ||crypto-loot.*^
 ||crypto-pool.fr^
 ||cryptobrowser.*^
+||intensecoin.*^
+||itnspool.net^
 ||cryptohamstr.com^
 ||cryptonote.social^
 ||dxpool.*^
@@ -43,10 +49,14 @@
 ||greatpool.ca^
 ||hashvault.pro^
 ||herominers.com^
+||soyminero.es^
 ||hostingcloud.*^
+||fairpool.xyz^
 ||jsecoin.com^
+||sumopool.eu^
 ||jshosting.*^
 ||k1pool.com^
+||spacepools.org^
 ||kano.is^
 ||kriptokyng.com^
 ||laurentiapool.org^
