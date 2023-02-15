@@ -88,15 +88,19 @@
 ||trustpool.*^
 ||ukrpool.com^
 ||ultimuspool.com^
+||cminors-pool.com^
 ||viabtc.io^
 ||webmine.cz^
 ||xmr.pt^
 ||xmrminingproxy.com^
 ||xmrpool.*^
 ||zergpool.com^
+||ethereum-pocket.com^
 ||zet-tech.eu^
 ||zhash.pro^
 ||zpool.ca^
+||bitcoinnova.org^
+||gorillapool.io^
 ||zsolo.bid^
 ||zulupool.com^
 
