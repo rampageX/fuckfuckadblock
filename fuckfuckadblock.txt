@@ -1173,3 +1173,5 @@ atomixhq.*,elixx.*,megaup.net,pctfenix.*,pctmix.com,pctreload1.com##+js(abort-cu
 pink.my.id,gea.my.id##+js(no-setTimeout-if.js, location.href)
 
 okrzone.com##+js(addEventListener-defuser.js, click, _blank)
+
+examword.com##+js(set-constant.js, checkAdSetup, noopFunc)
