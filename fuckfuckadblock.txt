@@ -738,7 +738,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 |http*:*/bultykh/ipp24/7/bazinga/*$script,important
 |http*:*/a/pop/js/*$script,important
 |http*:*/fret/meow4/*$script,important
-/^https?:\/\/.*\/(\%?[25][a-fA-F3-6])?sw[a-zA-Z0-9]?\.js(\?[a-zA-Z0-9%=]{30,})?$/$script,xmlhttprequest,match-case
+/^https?:\/\/.*\/(\%?[235][a-fA-F3-6])?sw[a-zA-Z0-9]?\.js(\?[a-zA-Z0-9%=]{30,})?$/$script,xmlhttprequest,match-case
 ||domain.com/ads.html$subdocument,redirect=noopframe
 |http*:*/script/suv4r.js$script,important
 |http*:*/script/pustrck.js$script,important
@@ -750,7 +750,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 |http*:*/killadblock.js|$script
 /^https?:\/\/[a-z0-9]{5,25}\.[a-z]{2,3}\/v2[a-zA-Z0-9-_]{54,71}$/$script,match-case,third-party
 /\/assets?\/(jquery\/(jquery|slim)-\d\.\d\.(\d\.)?|angular\.)min\.js\?[a-zA-Z0-9=&_-]{10,19}$/$script,xmlhttprequest,match-case,~third-party
-/\/ads\/.*\.html$/$xmlhttprequest,empty,match-case
+/\/ads\/.*\.html$/$xmlhttprequest,empty,match-case,~third-party
 
 @@/[-_\/]dfp(\.min)?\.js/$script,xmlhttprequest
 @@||coveryourtracks.eff.org/static/zig.js|$script
