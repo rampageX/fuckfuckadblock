@@ -1136,7 +1136,7 @@ deinesexfilme.com,duden.de,einfachtitten.com,guideautoweb.com,gutesexfilme.com,h
 
 kmo.to,freeplayervideo.com,playhydrax.com,hydracdn.*,hydrax.*,player-cdn.com##+js(abort-on-property-read.js, detectAdBlockAll)
 
-apkandroidhub.in,apkmaven.*,beelink.pro,blisseyhusband.in,fox.com,gaminplay.com,informaxonline.com,iptvjournal.com,moddingzone.in,onejailbreak.com,prepostseo.com,rajsayt.xyz,rontechtips.com,stringreveals.com,worldappsstore.xyz,faucetcrypto.com,oko.sh,tii.la##+js(no-fetch-if.js, googlesyndication)
+apkandroidhub.in,apkmaven.*,beelink.pro,blisseyhusband.in,fox.com,gaminplay.com,informaxonline.com,iptvjournal.com,moddingzone.in,onejailbreak.com,prepostseo.com,rajsayt.xyz,rontechtips.com,stringreveals.com,worldappsstore.xyz,faucetcrypto.com,oko.sh,tii.la,bg-gledai.live##+js(no-fetch-if.js, googlesyndication)
 
 adbull.*,mega4up.*,uploadfiles.pw,w4files.ws,wstream.*##+js(remove-attr.js, onclick)
 
