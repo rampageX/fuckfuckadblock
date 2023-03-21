@@ -756,7 +756,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 ||securepubads.g.doubleclick.net/pagead/$image,redirect-rule=1x1.gif
 ||tpc.googlesyndication.com^$image,redirect-rule=1x1.gif
 |http*:*/js/script-*.*.js|$script,from=divxplayer.ml|domonosok.tk|haes.tech|hcdn.online|hqq.to|hqq.tv|kinokrad.in.net|metaverseid.tk|player.cvary.org|porn-watch.ru|vidxhot.net
-/\/prebid[0-9.]{5,6}\.js/$empty,xmlhttprequest
+/\/prebid[0-9.]{5,6}\.js/$redirect-rule=nooptext,xmlhttprequest
 
 @@/[-_\/]dfp(\.min)?\.js/$script,xmlhttprequest
 @@||coveryourtracks.eff.org/static/zig.js|$script
@@ -1138,7 +1138,7 @@ deinesexfilme.com,duden.de,einfachtitten.com,guideautoweb.com,gutesexfilme.com,h
 
 kmo.to,freeplayervideo.com,playhydrax.com,hydracdn.*,hydrax.*,player-cdn.com##+js(abort-on-property-read.js, detectAdBlockAll)
 
-apkandroidhub.in,apkmaven.*,beelink.pro,blisseyhusband.in,fox.com,gaminplay.com,informaxonline.com,iptvjournal.com,moddingzone.in,onejailbreak.com,prepostseo.com,rajsayt.xyz,rontechtips.com,stringreveals.com,worldappsstore.xyz,faucetcrypto.com,oko.sh,tii.la,bg-gledai.*##+js(no-fetch-if.js, googlesyndication)
+apkandroidhub.in,apkmaven.*,beelink.pro,blisseyhusband.in,fox.com,gaminplay.com,informaxonline.com,iptvjournal.com,moddingzone.in,onejailbreak.com,prepostseo.com,rajsayt.xyz,rontechtips.com,stringreveals.com,worldappsstore.xyz,faucetcrypto.com,oko.sh,tii.la,bg-gledai.*,onroid.com##+js(no-fetch-if.js, googlesyndication)
 
 adbull.*,mega4up.*,uploadfiles.pw,w4files.ws,wstream.*##+js(remove-attr.js, onclick)
 
