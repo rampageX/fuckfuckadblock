@@ -756,6 +756,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 ||securepubads.g.doubleclick.net/pagead/$image,redirect-rule=1x1.gif
 ||tpc.googlesyndication.com^$image,redirect-rule=1x1.gif
 |http*:*/js/script-*.*.js|$script,from=divxplayer.ml|domonosok.tk|haes.tech|hcdn.online|hqq.to|hqq.tv|kinokrad.in.net|metaverseid.tk|player.cvary.org|porn-watch.ru|vidxhot.net
+/\/prebid[0-9.]{5,6}\.js/$empty,xmlhttprequest
 
 @@/[-_\/]dfp(\.min)?\.js/$script,xmlhttprequest
 @@||coveryourtracks.eff.org/static/zig.js|$script
