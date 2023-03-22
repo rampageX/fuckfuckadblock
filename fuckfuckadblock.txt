@@ -719,6 +719,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 ||ads.facebook.com^$xmlhttprequest,redirect-rule=noop.txt
 ||ads.reddit.com^$xmlhttprequest,redirect-rule=noop.txt
 ||ads-api.twitter.com^$xmlhttprequest,redirect-rule=noop.txt
+||imasdk.googleapis.com^$xmlhttprequest,redirect-rule=noop.txt
 ||ads.kiktu.com^$xmlhttprequest,redirect-rule=noop.txt
 ||pubads.g.doubleclick.net/gampad/ads$xmlhttprequest,redirect-rule=nooptext,domain=imasdk.googleapis.com
 ||hosept.com/script/$script
@@ -1141,7 +1142,7 @@ deinesexfilme.com,duden.de,einfachtitten.com,guideautoweb.com,gutesexfilme.com,h
 
 kmo.to,freeplayervideo.com,playhydrax.com,hydracdn.*,hydrax.*,player-cdn.com##+js(abort-on-property-read.js, detectAdBlockAll)
 
-apkandroidhub.in,apkmaven.*,beelink.pro,blisseyhusband.in,fox.com,gaminplay.com,informaxonline.com,iptvjournal.com,moddingzone.in,onejailbreak.com,prepostseo.com,rajsayt.xyz,rontechtips.com,stringreveals.com,worldappsstore.xyz,faucetcrypto.com,oko.sh,tii.la,bg-gledai.*,onroid.com,jpopsingles.eu##+js(no-fetch-if.js, googlesyndication)
+apkandroidhub.in,apkmaven.*,beelink.pro,blisseyhusband.in,fox.com,gaminplay.com,informaxonline.com,iptvjournal.com,moddingzone.in,onejailbreak.com,prepostseo.com,rajsayt.xyz,rontechtips.com,stringreveals.com,worldappsstore.xyz,faucetcrypto.com,oko.sh,tii.la,bg-gledai.*,onroid.com,jpopsingles.eu,euskalnews.tv##+js(no-fetch-if.js, googlesyndication)
 
 adbull.*,mega4up.*,uploadfiles.pw,w4files.ws,wstream.*##+js(remove-attr.js, onclick)
 
