@@ -835,6 +835,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 @@/^https?:\/\/imasdk\.googleapis\.com\/\d{10}\.js$/$xmlhttprequest,third-party
 @@|http*:*/player/js/anidub-ad2.js$script
 @@|http*:*/_advert.js|$script
+@@|http*:*/adblock_detector.js$script
 @@||megaup.net/*.gif$image
 @@||protagcdn.com/s/dropgalaxy.com/site.js$script,domain=dropgalaxy.com
 @@||script.4dex.io/localstore.js$script,domain=dropgalaxy.com
