@@ -597,15 +597,9 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 /^https?:\/\/[a-z]{6,15}\.[a-z]{3}(\/(?:\d{1,5}|0NaN|articles?|browse|wiki|pages?|index|news|web|static|view|movie)){1,4}(\/|\.html)$/$subdocument,third-party,match-case
 /^https?:\/\/[a-z]{6,15}\.[a-z]{3}\/[-a-z]{4,}\.(css|png)\?aHR0c[\/0-9a-zA-Z]{33,}=?=?$/$stylesheet,image,third-party,match-case
 /^https?:\/\/[a-z]{6,15}\.[a-z]{3}\/[a-z]{4,30}\.json$/$third-party,xmlhttprequest,match-case
-/^https?:\/\/[a-z0-9]{7,40}\.com\/([a-z0-9]{2}\/){2,3}[0-9a-f]{32}\.js(on)?\??/$important,script,xmlhttprequest,third-party
-/^https:\/\/[0-9a-f]{10}\.[0-9a-f]{10}\.com\/[0-9a-f]{32}\.js$/$important,script,third-party
-/^https?:\/\/[^\s]+\.com\/magic\/[0-9a-f]{32}\.js$/$important,script,~third-party
 /^https?:\/\/[^\s]+\.com\/[a-z]{1,2}\/[a-zA-Z0-9=]{65,}\.js$/$third-party,important,script
 /^https?:\/\/[^\s]+\/1clkn\/\d{4,5}$/$third-party,important,script
-/^https?:\/\/[^\s]+\/[45](0[01])?\/\d{7}$/$third-party,important,script,subdocument
-/^https?:\/\/[^\s]+\/[45](0[01])?\/\d{7}[/?]/$xmlhttprequest,third-party,important
 |http*:*?oo=1^$xmlhttprequest,third-party,important
-/^https?:\/\/[^\s]+\/[a-zA-Z0-9]{10,23}\/\d{4,5}(\?.*\d+)?$/$third-party,important,script
 /^https?:\/\/[^\s]+\/1\?z=\d{7}$/$third-party,important,script
 |http*:*$image,redirect-rule=1x1.gif,domain=kijk.nl|xpornium.net
 |http*:*$image,redirect-rule=32x32.png,domain=streameast.*|dropgalaxy.com|dropgalaxy.in|financemonk.net|ruokareseptit.online|techthematter.xyz
@@ -727,7 +721,6 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 |http*:*/rockblogger/anti-adblocker$script,third-party,important
 |http*:*/vli-platform/adb-analytics$script,third-party,important
 /\/[0-9a-f]{32}\/invoke\.js$/$script,third-party,important
-/\/[A-Z]\/[-0-9a-z]{5,}\.com\/(?:[0-9a-f]{2}\/){3}[0-9a-f]{32}\.js$/$script,~third-party,match-case
 ||hazmolive.stream/hazmoLive.js$script
 ||hazmo.stream/hazmo.js$script
 /\.[a-z]{3}\/js\/adultpc\.js/$script,~third-party,important
@@ -736,7 +729,6 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 /^https?:\/\/\w{30,}.me\/\w{30,}\.js$/$script,third-party,important
 ||an.yandex.ru/mapuid/$image,redirect-rule=1x1.gif
 ||mysexbossy.com/scripts/$script,important
-/^https?:\/\/[a-z]{2}\.[0-9a-z]{7,16}\.com\/[0-9a-zA-Z]{3,27}\/\d+$/$script,xmlhttprequest,subdocument,third-party,match-case
 /\/js\/(dola|baf|skrrt)\.js$/$script,domain=filemoon.*,important
 ||static.surfe.pro/js/net.js$script,redirect-rule=noopjs
 ||static.surfe.pro/js/net.js$xmlhttprequest,redirect-rule=nooptext
@@ -762,6 +754,10 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 ||tpc.googlesyndication.com^$image,redirect-rule=1x1.gif
 |http*:*/js/script-*.*.js|$script,from=divxplayer.ml|domonosok.tk|haes.tech|hcdn.online|hqq.to|hqq.tv|kinokrad.in.net|metaverseid.tk|player.cvary.org|porn-watch.ru|vidxhot.net
 /\/prebid[0-9.]{5,6}\.js/$redirect-rule=nooptext,xmlhttprequest
+/^https?:\/\/(([0-9a-f]{10}|www)\.)?([0-9a-f]{10}|[a-z0-9]{5,40})\.com\/(([a-z0-9]{2}\/){2,3})?[0-9a-f]{32}\.js(on)?\??/$script,xmlhttprequest,important,third-party,match-case
+/^https?:\/\/.*(\/[A-Z]{1,2}\/)?[-0-9a-z]{5,}\.com\/(([0-9a-f]{2}\/){3}|magic\/)[0-9a-f]{32}\.js$/$script,~third-party,match-case,important
+/^https?:\/\/[^\s]+\/[45](0[01])?\/\d{7}[/?]?/$third-party,important,script,subdocument,xmlhttprequest
+/^https?:\/\/([a-z]{2}\.)?[0-9a-z]{7,16}\.com\/[0-9a-zA-Z]{3,27}\/\d{4,5}\??/$third-party,important,script,xmlhttprequest,subdocument,match-case
 
 @@/[-_\/]dfp(\.min)?\.js/$script,xmlhttprequest
 @@||coveryourtracks.eff.org/static/zig.js|$script
