@@ -522,6 +522,7 @@
 #@#.ws_contentAd660
 #@#.adHeadlineSummary
 #@#.left_col_ad
+#@#ins.adsbygoogle
 #@#.c-ad--text-only
 pl#@#.ads
 pl#@#.ad
@@ -1174,7 +1175,7 @@ anigogo.net,animepl.xyz,anxcinema.*,asianclub.*,av4asia.com,avhost.xyz,bazavox.c
 
 3dmodelshare.org,3dzip.org,4horlover.com,adonisfansub.com,andreyex.ru,apfelpatient.de,avoiderrors.com,bitcoinegypt.news,cgtips.org,citychilli.com,codesnail.com,codingshiksha.com,dailyvideoreports.net,dbsysupgrade.com,dongknows.com,elquintobeatle.com,empregoestagios.com,everydayonsales.com,fileoops.com,freetutorialsdownload.online,freetutorialsudemy.com,gatcha.org,gaypornhdfree.com,getfreecourses.net,graphicux.com,javsex.to,justandroid.net,kitguru.net,kusonime.com,livenewsof.com,ma-x.org,mitsmits.com,musenboya.com,musike.net,onlyfanesse.com,openculture.com,ovagames.com,pinoyalbums.com,samuraiscan.com,satcesc.com,sayrodigital.com,sevenjournals.com,sitarchive.com,sonixgvn.net,talkjarvis.com,textfonts.net,toolss.net,topnewsshow.com,tutsgalaxys.com,udemycoursesfree.me,unityassetcollection.com,vladan.fr,w3layouts.com,windowsmatters.com,woiden.com,4allprograms.*##+js(no-setInterval-if.js, css_class.show)
 
-javgay.com##+js(no-setTimeout-if, css_class.show)
+javgay.com,boyfuck.me##+js(no-setTimeout-if, css_class.show)
 
 atomixhq.*,elixx.*,megaup.net,pctfenix.*,pctmix.com,pctreload1.com##+js(abort-current-inline-script.js, I833)
 
