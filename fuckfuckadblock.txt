@@ -1142,6 +1142,8 @@ kmo.to,freeplayervideo.com,playhydrax.com,hydracdn.*,hydrax.*,player-cdn.com##+j
 
 apkandroidhub.in,apkmaven.*,beelink.pro,blisseyhusband.in,fox.com,gaminplay.com,informaxonline.com,iptvjournal.com,moddingzone.in,onejailbreak.com,prepostseo.com,rajsayt.xyz,rontechtips.com,stringreveals.com,worldappsstore.xyz,faucetcrypto.com,oko.sh,tii.la,bg-gledai.*,onroid.com,jpopsingles.eu,euskalnews.tv,happy-living.online,ingmecafenix.com,woiden.id,reviewtech.me##+js(no-fetch-if.js, googlesyndication)
 
+altechen.com,cashearn.cc##+js(no-fetch-if.js, doubleclick)
+
 adbull.*,mega4up.*,uploadfiles.pw,w4files.ws,wstream.*,mobiletvshows.net##+js(remove-attr.js, onclick)
 
 mac-torrent-download.net##+js(abort-on-property-read.js, popBlockAlert)
@@ -1172,7 +1174,7 @@ rjno1.com##+js(abort-current-inline-script.js, document.getElementById, innerHTM
 
 kmo.to,freeplayervideo.com,playhydrax.com,hydracdn.*,hydrax.*,player-cdn.com##+js(remove-attr.js, style, #over)
 
-2the.space,38.242.198.170,38.242.199.52,allotech-dz.com,audiotools.*,australianfrequentflyer.com.au,bestwego.xyz,brizzynovel.com,bullfrag.com,cinemakottaga.*,closetopic.site,coursesghar.com,crazytechgo.com,crypto4tun.com,dotadostube.com,downloadudemy.com,dvdgayonline.com,dvdgayporn.com,edunil.com,freegogpcgames.com,freejav.guru,freewebcart.com,gamesrepacks.com,gigacourse.com,hotxfans.com,iimanga.com,infinityblogger.in,iptv-list.live,iptvrun.com,khatrimaza.*,moddedguru.com,myqqjd.com,myshopify.com,novinhastop.com,nullpk.com,omerbozdi.com.tr,oyuncusoruyor.com,pbarecap.ph,pcwarehub.com,phpscripttr.com,pinsystem.co.uk,privatemoviez.*,rbxscripts.net,rtilinks.com,sakarnewz.com,scrapywar.com,simulatormods.com,smgplaza.com,sourds.net,sportnews.to,sportsdark.com,sqlserveregitimleri.com,streameast.*,taradinhos.com,teknobalta.com,tinyppt.com,trgamestudio.com,trickznhax.in,tutcourse.com,tvinternetowa.info,vectogravic.com,warddogs.com,weadown.com,whncourses.com,zetrotranslation.com,zivinice-carsija.com,rttar.com,drakescans.com,torrentmac.net,dktechnicalmate.com,unofficialtwrp.com##+js(noeval-if.js, DOMContentLoaded, showModal)
+2the.space,38.242.198.170,38.242.199.52,allotech-dz.com,audiotools.*,australianfrequentflyer.com.au,bestwego.xyz,brizzynovel.com,bullfrag.com,cinemakottaga.*,closetopic.site,coursesghar.com,crazytechgo.com,crypto4tun.com,dotadostube.com,downloadudemy.com,dvdgayonline.com,dvdgayporn.com,edunil.com,freegogpcgames.com,freejav.guru,freewebcart.com,gamesrepacks.com,gigacourse.com,hotxfans.com,iimanga.com,infinityblogger.in,iptv-list.live,iptvrun.com,khatrimaza.*,moddedguru.com,myqqjd.com,myshopify.com,novinhastop.com,nullpk.com,omerbozdi.com.tr,oyuncusoruyor.com,pbarecap.ph,pcwarehub.com,phpscripttr.com,pinsystem.co.uk,privatemoviez.*,rbxscripts.net,rtilinks.com,sakarnewz.com,scrapywar.com,simulatormods.com,smgplaza.com,sourds.net,sportnews.to,sportsdark.com,sqlserveregitimleri.com,streameast.*,taradinhos.com,teknobalta.com,tinyppt.com,trgamestudio.com,trickznhax.in,tutcourse.com,tvinternetowa.info,vectogravic.com,warddogs.com,weadown.com,whncourses.com,zetrotranslation.com,zivinice-carsija.com,rttar.com,drakescans.com,torrentmac.net,dktechnicalmate.com,unofficialtwrp.com,teluguflix.*##+js(noeval-if.js, DOMContentLoaded, showModal)
 
 akumanimes.com,allpremium.net,allstreaming.online,apkmagic.com.ar,bithub.win,eroti.ga,freeallcourse.com,freedwnlds.com,freeshib.biz,infinityblogger.in,kostenloseklingeltone.com,mangaprotm.com,needrombd.com,proviralhost.com,sampledrive.in,urbharat.xyz##+js(abort-current-inline-script.js, eval, replace)
 
