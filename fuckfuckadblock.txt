@@ -606,7 +606,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 /^https?:\/\/[^\s]+\/1clkn\/\d{4,5}$/$third-party,important,script
 |http*:*?oo=1^$xmlhttprequest,third-party,important
 /^https?:\/\/[^\s]+\/1\?z=\d{7}$/$third-party,important,script
-|http*:*$image,redirect-rule=1x1.gif,domain=kijk.nl|xpornium.net
+|http*:*$image,redirect-rule=1x1.gif,domain=kijk.nl|xpornium.net|viralpornhub.com
 |http*:*$image,redirect-rule=32x32.png,domain=streameast.*|dropgalaxy.com|dropgalaxy.in|financemonk.net|ruokareseptit.online|techthematter.xyz|houseofblogger.com
 |http*:*$script,redirect-rule=noopjs,domain=dropgalaxy.com|dropgalaxy.in|ebookdz.com|excelviewer.herokuapp.com|exifviewer.herokuapp.com|extremereportbot.com|financemonk.net|hackintoshshop.com|linternaute.com|pdfrecover.herokuapp.com|protvplus.ro|rbxscripts.xyz|rtxkeeda.com|ruokareseptit.online|speedtesting.herokuapp.com|techthematter.xyz|adshnk.com|ad-doge.com|clickscoin.com|watchdoge.xyz|dogeclick.net|techydino.net|feyorra.fun|madshiba.fun|cssreference.io|freesolana.top|uniqueten.net|ultraten.net|mshort.top|lightnovelworld.com|sms24.*|btcbunch.com|pianoweb.fr|vidmoly.me|vidmoly.net|vidmoly.to|rjno1.com|mdn.lol|houseofblogger.com|tii.la|oko.sh|release-apk.com
 |http*:*$xmlhttprequest,redirect-rule=nooptext,domain=dropgalaxy.com|dropgalaxy.in|financemonk.net|marie-claire.es|miarevista.es|muyhistoria.es|muyinteresante.es|muynegociosyeconomia.es|ruokareseptit.online|serpadres.es|techthematter.xyz|thingiverse.com|chd4.com|crazyhd.com|freesolana.top|1cloudfile.com|luffytra.xyz|houseofblogger.com|release-apk.com
