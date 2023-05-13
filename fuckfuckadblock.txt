@@ -760,6 +760,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 /^https?:\/\/([a-z]{2}\.)?[0-9a-z]{7,16}\.com\/[0-9a-zA-Z]{3,27}\/\d{4,5}$/$third-party,important,script,xmlhttprequest,subdocument,match-case
 /^https?:\/\/[a-z]{20}\.com\/advertisers\.js$/$xmlhttprequest,script,third-party,important
 
+@@||pub.network^$xmlhttprequest,third-party
 @@||dl.a2zapk.com^$xmlhttprequest
 @@/[-_\/]dfp(\.min)?\.js/$script,xmlhttprequest
 @@||coveryourtracks.eff.org/static/zig.js|$script
