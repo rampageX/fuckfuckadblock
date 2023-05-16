@@ -560,6 +560,7 @@ typezebra.com###holder-of-fortunes
 rjno1.com##div:has-text(" a d   b l o c k e r ")
 dragontea.ink##html, body:style(overflow: visible !important;)
 jpopsingles.eu##style[id$="-css"]:remove()
+wooseotools.com##div[style^="position: fixed; width: 100vw;"][style$="z-index: 999999;"]
 
 comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com,edoujin.net##+js(refresh-defuser.js)
 
