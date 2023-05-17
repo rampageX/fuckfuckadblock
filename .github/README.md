@@ -12,13 +12,13 @@ To add the list for blocking miners, you can click on this button — [subscribe
 
 1. `https://raw.githack.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt`
 2. `https://cdn.statically.io/gh/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt`
-3. `https://cdn.jsdelivr.net/gh/bogachenko/fuckfuckadblock/fuckfuckadblock.txt`
+3. `https://cdn.jsdelivr.net/gh/bogachenko/fuckfuckadblock@master/fuckfuckadblock.txt`
 
 and
 
 1. `https://raw.githack.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock-mining.txt`
 2. `https://cdn.statically.io/gh/bogachenko/fuckfuckadblock/master/fuckfuckadblock-mining.txt`
-3. `https://cdn.jsdelivr.net/gh/bogachenko/fuckfuckadblock/fuckfuckadblock-mining.txt`
+3. `https://cdn.jsdelivr.net/gh/bogachenko/fuckfuckadblock@master/fuckfuckadblock-mining.txt`
 
 ### License<sup>[So?](https://github.com/bogachenko/fuckfuckadblock/blob/master/LICENSE.md)</sup>
 
