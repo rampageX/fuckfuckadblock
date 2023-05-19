@@ -20,6 +20,10 @@
 ||tdcoincore.org^
 ||atomminer.com^
 ||aussie-pools.com^
+||mail.ghmproperties.com^
+||mail.itseasy.com^
+||mail.shaferglazer.com^
+||mail.techniservinc.com^
 ||bitaps.com^
 ||bitcoinnova.org^
 ||blockwarepool.com^
