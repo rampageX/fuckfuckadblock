@@ -558,7 +558,7 @@ slmaxed.com,streamlare.com##body > div[style^="position: fixed; display: block"]
 madshiba.fun##div[id^="link"][id$="-snp"]:style(display: block !important;)
 promo-visits.site,satoshi-win.xyz,shorterall.com##.btn-primary:style(visibility: visible !important;)
 typezebra.com###holder-of-fortunes
-rjno1.com##div:has-text(" a d   b l o c k e r ")
+rjno1.com##div:has-text("/ a d   b l o c k e r |_a_d_ _b_l_o_c_k_e_r_/")
 dragontea.ink##html, body:style(overflow: visible !important;)
 jpopsingles.eu##style[id$="-css"]:remove()
 wooseotools.com##div[style^="position: fixed; width: 100vw;"][style$="z-index: 999999;"]
