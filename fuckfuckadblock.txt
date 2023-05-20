@@ -1155,7 +1155,7 @@ deinesexfilme.com,duden.de,einfachtitten.com,guideautoweb.com,gutesexfilme.com,h
 
 kmo.to,freeplayervideo.com,playhydrax.com,hydracdn.*,hydrax.*,player-cdn.com,abysscdn.com##+js(abort-on-property-read.js, detectAdBlockAll)
 
-apkandroidhub.in,apkmaven.*,beelink.pro,blisseyhusband.in,fox.com,gaminplay.com,informaxonline.com,iptvjournal.com,moddingzone.in,onejailbreak.com,prepostseo.com,rajsayt.xyz,rontechtips.com,stringreveals.com,worldappsstore.xyz,faucetcrypto.com,oko.sh,tii.la,bg-gledai.*,onroid.com,jpopsingles.eu,euskalnews.tv,happy-living.online,ingmecafenix.com,woiden.id,reviewtech.me,forexit.online,healthy4pepole.com,bluetechno.net,mobi2c.com,try2link.com##+js(no-fetch-if.js, googlesyndication)
+apkandroidhub.in,apkmaven.*,beelink.pro,blisseyhusband.in,fox.com,gaminplay.com,informaxonline.com,iptvjournal.com,moddingzone.in,onejailbreak.com,prepostseo.com,rajsayt.xyz,rontechtips.com,stringreveals.com,worldappsstore.xyz,faucetcrypto.com,oko.sh,tii.la,bg-gledai.*,onroid.com,jpopsingles.eu,euskalnews.tv,happy-living.online,ingmecafenix.com,woiden.id,reviewtech.me,forexit.online,healthy4pepole.com,bluetechno.net,mobi2c.com,try2link.com,quackr.io##+js(no-fetch-if.js, googlesyndication)
 
 altechen.com,cashearn.cc##+js(no-fetch-if.js, doubleclick)
 
