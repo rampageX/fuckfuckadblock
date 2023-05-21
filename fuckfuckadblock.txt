@@ -1048,7 +1048,7 @@ agdlab.pl,bestchooses.ru,birdz.sk,blogs-narod.ru,boyens-medien.de,buyon.it,camar
 
 empflix.com,tnaflix.com##+js(abort-on-property-read.js, ads.pop_url)
 
-badcomics.it,badgames.it,badtaste.it,badtv.it,esportes.r7.com,gamepur.com,satoshiquiz.com,thesimsresource.com,worder.cat##+js(abort-on-property-write.js, ga)
+badcomics.it,badgames.it,badtaste.it,badtv.it,esportes.r7.com,gamepur.com,satoshiquiz.com,thesimsresource.com,worder.cat,magesy.blog##+js(abort-on-property-write.js, ga)
 
 outerspace.com.br,uiz.io,varagh.com##+js(abort-current-inline-script.js, $, adBlock)
 
