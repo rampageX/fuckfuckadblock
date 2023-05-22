@@ -561,6 +561,8 @@ rjno1.com##div:has-text("/ a d   b l o c k e r |_a_d_ _b_l_o_c_k_e_r_|banana-det
 dragontea.ink##html, body:style(overflow: visible !important;)
 jpopsingles.eu##style[id$="-css"]:remove()
 wooseotools.com##div[style^="position: fixed; width: 100vw;"][style$="z-index: 999999;"]
+nopay.info##body:style(visibility:visible !important)
+nopay.info###babasbmsgx
 
 comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com,edoujin.net##+js(refresh-defuser.js)
 
