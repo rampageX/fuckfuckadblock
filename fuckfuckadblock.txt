@@ -813,7 +813,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 @@||doubleclick.net^$xmlhttprequest,domain=cclickondetroit.com|clickorlando.com|digi24.ro|ksat.com|lectulandia.me|lick2houston.com|linksht.com|local10.com|news4jax.com|softonic.com|timesnowhindi.com|timesnowmarathi.com|timesnownews.com|wsls.com|dropgalaxy.com|dropgalaxy.in|financemonk.net|ruokareseptit.online|techthematter.xyz|13tv.co.il|mahobeachcam.com|houseofblogger.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js|$script,third-party,domain=thecubexguide.com|devuploads.com|miuiflash.com|djxmaza.in
 @@||securepubads.g.doubleclick.net/pagead/ppub_config?ippd=$xmlhttprequest,third-party,domain=thecubexguide.com|devuploads.com|miuiflash.com|djxmaza.in
-@@||securepubads.g.doubleclick.net/pagead/*/pubads_impl.js|$script,third-party
+@@||securepubads.g.doubleclick.net/pagead/*/pubads_impl.js$script,third-party
 @@||experience.tinypass.com^$xmlhttprequest
 @@||gemius.pl/gplayer.js|$script,third-party
 @@||gemius.pl/gstream.js|$script,third-party
