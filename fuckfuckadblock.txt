@@ -767,6 +767,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 /^https?:\/\/([a-z]{2}\.)?[0-9a-z]{7,16}\.com\/1clkn\/\d{4,5}$/$third-party,important,script
 /^https?:\/\/[a-z]{8,15}\.(com|net)\/tag\.min\.js$/$script,third-party,important
 /\/[0-9a-f]{20}\/[0-9a-f]{10}\/\?placementName\=default$/$script,redirect-rule=noopjs
+||asacdn.com^$subdocument,redirect-rule=noopframe
 
 @@||pub.network^$xmlhttprequest,third-party
 @@||dl.a2zapk.com^$xmlhttprequest
