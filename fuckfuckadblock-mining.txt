@@ -180,7 +180,7 @@
 /\/(miners?|cryptonight.*)\/(worker(\.min)?|cn)\.js/$script,xmlhttprequest
 /\/cryptonight\-worker\.js/$script
 /\/crypt[ao](cpu)?\.js/$script
-/^https?:\/\/.*\/(\%?[235][a-fA-F3-6])?[Ss](ervice)?[-_]?[Ww](orker)?[a-zA-Z0-9]?\.js(\?.*)?$/$script,xmlhttprequest,match-case,domain=~twitter.com|~youtube.com
+/^https?:\/\/.*\/(\%?[235][a-fA-F3-6])?[Ss](ervice)?[-_]?[Ww](orker)?[a-zA-Z0-9]?\.js(\?.*)?$/$script,xmlhttprequest,match-case,domain=~twitter.com|~youtube.com|~tiktok.com
 |http*:*/bitcoincore/?ref=$script,subdocument
 |http*:*/miner.js$script
 |http*:*/script_cry.js$script
