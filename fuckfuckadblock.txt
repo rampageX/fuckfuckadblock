@@ -791,6 +791,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 @@/^https?:\/\/(www\.)?[^\s]+\/ad[vs](er(ve)?t?(ise|ising|isement)?)?[-_]?[a-z]{1,15}\.js/$xmlhttprequest,script
 @@/^https?:\/\/(www\.)?[^\s]+\/ad[svbxo]?([0-9-_]{1,5})?\.js/$script,xmlhttprequest
 @@/^https?:\/\/(www\.)?[^\s]+\/ad[vs](er(ve)?t?(ise|ising|isement)?)?([0-9]{1,3})?\.js/$xmlhttprequest,script
+@@/\/ad[vs](er(ve)?t?(ise|ising|isement)?)?(\.min)?\.js$/$xmlhttprequest,script
 @@/^https?:\/\/static\.ads\-twitter\.com\/[a-z]{3}\.js$/$xmlhttprequest,script,third-party
 @@|http*:*/ad/banner/_adsense_/_adserver/_adview_.ad.json$xmlhttprequest
 @@|http*:*/ads.txt|$script,xmlhttprequest
