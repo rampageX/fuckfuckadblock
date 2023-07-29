@@ -1173,6 +1173,8 @@ apkandroidhub.in,apkmaven.*,beelink.pro,blisseyhusband.in,fox.com,gaminplay.com,
 
 altechen.com,cashearn.cc##+js(no-fetch-if.js, doubleclick)
 
+emailnator.com##+js(no-setTimeout-if.js, .adsbygoogle)
+
 adbull.*,mega4up.*,uploadfiles.pw,w4files.ws,wstream.*,mobiletvshows.net##+js(remove-attr.js, onclick)
 
 mac-torrent-download.net##+js(abort-on-property-read.js, popBlockAlert)
