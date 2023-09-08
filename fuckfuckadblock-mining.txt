@@ -73,7 +73,6 @@
 ||flockpool.com^
 ||flypool.org^
 ||freecontent.*^
-||getmonero.org^
 ||gorillapool.io^
 ||graftpool.net^
 ||greatpool.ca^
