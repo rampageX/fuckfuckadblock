@@ -874,7 +874,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 @@||cdn.fuseplatform.net/publift/*/fuse.js|$xmlhttprequest
 @@||chili.com/*/ad-manager/$xmlhttprequest
 @@||api.adinplay.com/libs/aiptag/*/tag.min.js$script
-@@|http*:*/tag.min.js|$third-party,domain=darkino.online
+@@|http*:*/tag.min.js|$third-party,domain=darkino.online|darkino.biz
 @@|http*:*/roturl.js$script
 @@||adspeed.net/ad.php?do=detectadblocker$script
 @@||an.yandex.ru/system/context.js|$script,xmlhttprequest
