@@ -849,6 +849,8 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 ! SCRIPT END
 
 ! XMLHTTPREQUEST START
+@@|http*:*/adsbygoogle.js|$xmlhttprequest,third-party
+@@|http*:*/adsbygoogle.min.js|$xmlhttprequest,~third-party
 @@|http*:*/fuckadblock-$xmlhttprequest
 @@|http*:*/fuckadblock.$xmlhttprequest
 @@|http*:*/ima3.js|$xmlhttprequest
