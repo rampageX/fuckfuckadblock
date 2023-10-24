@@ -769,6 +769,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 /\/[0-9a-f]{20}\/[0-9a-f]{10}\/\?placementName\=default$/$script,redirect-rule=noopjs
 ||asacdn.com^$subdocument,redirect-rule=noopframe
 /static/js/adblocker.js$important,script,domain=hindimearticles.net|gameophobias.com|solution-hub.com
+||adligature.com^$xmlhttprequest,redirect-rule=noopjs,domain=work.ink
 
 ! SCRIPT START
 @@|http*:*/adview_pic_cpc_cpm_cpa_guanggao_gg_ads_300x250.js|$script
