@@ -584,6 +584,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 ||jads.co^$third-party,important
 ||usualt.com^$third-party,important
 ||wpadmngr.com^$third-party,important
+||streetuptowind.com^$third-party,important
 
 /\/browser\/show\?i=[a-z0-9]{16}$/$important,popup
 /^https?:\/\/[a-z]{7,15}\.top\/[a-zA-Z0-9]{12}$/$important,popup
@@ -596,6 +597,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 |http*:*/ngo.html?lu=$popup,important
 /\/out\.php\?mode=main&c=[A-Z]{2}#https?:\/\//$popup,important
 /\/v2\/a\/pop\/\d{6}\?subid=https?:\/\//$popup,important
+/\.com\/clicks?\/[A-Za-z0-9=]{120,}/$popup,important
 
 /\/local\_(p|ssu)\.js/$script,important
 /\/pu(\-script)?\.js/$script,important
@@ -770,6 +772,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 ||asacdn.com^$subdocument,redirect-rule=noopframe
 /static/js/adblocker.js$important,script,domain=hindimearticles.net|gameophobias.com|solution-hub.com
 ||adligature.com^$xmlhttprequest,redirect-rule=noopjs,domain=work.ink
+|http*:*/vinos.js$script,third-party,important
 
 ! SCRIPT START
 @@|http*:*/adview_pic_cpc_cpm_cpa_guanggao_gg_ads_300x250.js|$script
