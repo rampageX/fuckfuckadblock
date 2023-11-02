@@ -945,7 +945,7 @@ allywebsite.com,amirantivirus.com,animecracks.com,bleachmx.fr,bollyholic.*,bolly
 
 3dmili.com,bestopbook.info,cardiagn.com,cuitandokter.com,dcleakers.com,esgeeks.com,fikiri.net,hitsebeats.eu,homni-tech.com,luccisan.com,maccanismi.it,mangaturf.com,myhackingworld.com,novel18.biz,pugliain.net,siamblockchain.com,tapchipi.com,tech-blogs.com,tehnobzor.ru,tinyppt.com,tunovelaligera.com,uplod.net,usnovels.*,vpnbrothers.com##+js(no-setTimeout-if.js, mdp)
 
-cinemakottaga.top,gourmetscans.net,mhdtv.world##+js(no-setTimeout-if.js, show)
+cinemakottaga.top,gourmetscans.net,mhdtv.world,bizdustry.com##+js(no-setTimeout-if.js, show)
 
 ebalka.info,file4.net,hotvideo.fr,kinostate.net,nefig.me,pornk.name,pornmult.art,porno-hd.xxx,pornosexrolik.com,pornosexrolik.info,pussyspace.*,xn--80aa3agbm7d.com,xn--80aqfgb.org,xn--e1afprfv.org,xn--e1afprfv.tv##+js(abort-current-inline-script.js, encodeURIComponent)
 
