@@ -845,10 +845,8 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 @@/[./]pop(ads?|unders?)?\.js$/$script,~third-party
 @@/\?pub\_300x250\&pub\_300x250m\&pub\_728x90\&/$script,third-party
 @@/\&text\-ad\&textAd\&text\_ad\&text\_ads\&text\-ads\&text\-ad\-links\&ads\&advert/$script,third-party
-@@/^https?:\/\/(www\.)?[^\s]+\/[a-z]{1,15}[-_]?ad[svbxo]?(\.min)?\.js/$script
-@@/^https?:\/\/(www\.)?[^\s]+\/[a-z]{1,15}[-_]?ad[vs](er(ve)?t?(ise|ising|isement)?)?(\.min)?\.js/$script
-@@/^https?:\/\/(www\.)?[^\s]+\/ad[svbxo]?\.js$/$script
-@@/^https?:\/\/(www\.)?[^\s]+\/ad[vs](er(ve)?t?(ise|ising|isement)?)\.js$/$script
+@@/^https?:\/\/(www\.)?[^\s]+\/ad[svbxo]?(\.min)?\.js/$script
+@@/^https?:\/\/(www\.)?[^\s]+\/ad[vs](er(ve)?t?(ise|ising|isement)?)?(\.min)?\.js/$script
 @@/^https?:\/\/static\.ads\-twitter\.com\/[a-z]{3}\.js$/$script,third-party
 ! SCRIPT END
 
@@ -893,10 +891,8 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 @@/\/ads(ense)?\.txt\?/$xmlhttprequest
 @@/\/adblockdetect(or)?(\.min)?\.js/$xmlhttprequest
 @@/^https?:\/\/[a-z]{8,15}\.(com|net)\/tag\.min\.js$/$xmlhttprequest,third-party,domain=tii.la
-@@/^https?:\/\/(www\.)?[^\s]+\/[a-z]{1,15}[-_]?ad[svbxo]?(\.min)?\.js/$xmlhttprequest
-@@/^https?:\/\/(www\.)?[^\s]+\/[a-z]{1,15}[-_]?ad[vs](er(ve)?t?(ise|ising|isement)?)?(\.min)?\.js/$xmlhttprequest
-@@/^https?:\/\/(www\.)?[^\s]+\/ad[svbxo]?\.js$/$xmlhttprequest
-@@/^https?:\/\/(www\.)?[^\s]+\/ad[vs](er(ve)?t?(ise|ising|isement)?)\.js$/$xmlhttprequest
+@@/^https?:\/\/(www\.)?[^\s]+\/ad[svbxo]?(\.min)?\.js/$xmlhttprequest
+@@/^https?:\/\/(www\.)?[^\s]+\/ad[vs](er(ve)?t?(ise|ising|isement)?)?(\.min)?\.js/$xmlhttprequest
 @@/^https?:\/\/static\.ads\-twitter\.com\/[a-z]{3}\.js$/$xmlhttprequest,third-party
 @@/^https?:\/\/doubleclick\.(net|com)\/\d{10}\.js$/$xmlhttprequest,third-party
 @@/^https?:\/\/mail\-ads\.google.com\/\d{10}\.js$/$xmlhttprequest,third-party
