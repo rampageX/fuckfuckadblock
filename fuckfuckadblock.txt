@@ -837,7 +837,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 @@||cdn.tsyndicate.com^$script,domain=popjav.tv|hpjav.tv|redwap3.com|redwap2.com|redwap.me
 @@||googletagmanager.com^$script,domain=linternaute.com|atefaucet.com
 @@||imasdk.googleapis.com^$script,domain=10play.com.au|1plus1.video|amc.com|animedigitalnetwork.fr|arkadiumarena.com|aupetitparieur.com|babygames.com|bbcamerica.com|bloomberg.com|chillicams.net|click2houston.com|clickondetroit.com|clickorlando.com|digi24.ro|discoveryplus.in|echirurgia.pl|elevensports.pl|flashgirlgames.com|gamak.tv|gazzetta.it|geekweek.pl|hindipix.in|hqq.tv|hqq.watch|ipla.tv|klix.ba|koreanpornmovie.xyz|ksat.com|ladbible.com|local10.com|mariogames.be|motorsport.tv|mypodboxx.com|national-geographic.pl|newgames.com|news4jax.com|nova.cz|observatornews.ro|olimpicos.marcaclaro.com|olympics.com|online-rossiya1.tv|onlinesudoku.games|ottwow.com|player.tubia.com|pluscdn.pl|poki-gdn.com|polsatgo.pl|polsatnews.pl|polsatsport.pl|rtl.it|stack.com|tubitv.com|tvp.info|tvp.pl|twojapogoda.pl|uptostream.com|usatoday.com|videotarget.pl|viki.com|vivo.st|vivo.sx|waaw.tv|waaw1.tv|waaws.tk|wifire.tv|wilmaa.com|wsls.com|wuxiaworld.com|x-link.pl|yandexcdn.com|realmadrid.com|webplaypro.com|oyohd.one|oyohd.com|player.unlimitedfiles.xyz|hydrax.xyz|haes.tech|netusia.xyz|player.askim-bg.com|richhioon.eu|watchonlinehd123.sbs|rpdrlatino.live|opvid.org|netu.ac|cinecalidad.cat|strcdn.org|str1.site|realyplayonli.xyz|ytms.one|waaw.ac
-@@||pagead2.googlesyndication.com^$script,domain=10play.com.au|3dzip.org|4horlover.com|4lpha.one|a2zapk.com|a2zupload.com|baddiehub.com|bowandtie.ru|calculate.plus|camera.aeonax.com|dropgalaxy.com|extremereportbot.com|ff14angler.com|financemonk.net|freemen.jp|gatcha.org|globaldjmix.com|haoweichi.com|huljjang.com|kitchennovel.com|ladbible.com|linkneverdie.net|messletters.com|meteologix.com|miroir1.trackr.fr|myjest.com|namobilu.com|player.glomex.com|release-apk.com|rte.ie|rtxkeeda.com|sfirmware.com|skmedix.pl|techthematter.xyz|unlockapk.com|weather.us|techydino.net|feyorra.fun|madshiba.fun|tamrieltradecentre.com|sms24.*|houseofblogger.com
+@@||pagead2.googlesyndication.com^$script,domain=10play.com.au|3dzip.org|4horlover.com|4lpha.one|a2zapk.com|a2zupload.com|baddiehub.com|bowandtie.ru|calculate.plus|camera.aeonax.com|dropgalaxy.com|extremereportbot.com|ff14angler.com|financemonk.net|freemen.jp|gatcha.org|globaldjmix.com|haoweichi.com|huljjang.com|kitchennovel.com|ladbible.com|linkneverdie.net|messletters.com|meteologix.com|miroir1.trackr.fr|myjest.com|namobilu.com|player.glomex.com|release-apk.com|rte.ie|rtxkeeda.com|sfirmware.com|skmedix.pl|techthematter.xyz|unlockapk.com|weather.us|techydino.net|feyorra.fun|madshiba.fun|tamrieltradecentre.com|sms24.*|houseofblogger.com|heidisql.com
 @@||adservice.google.com^$script,domain=player.tubia.com|dropgalaxy.com|financemonk.net|techthematter.xyz|houseofblogger.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js|$script,third-party,domain=thecubexguide.com|devuploads.com|miuiflash.com|djxmaza.in
 @@/\/adblockdetect(or)?(\.min)?\.js/$script
@@ -885,7 +885,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 @@||chili.com/*/ad-manager/$xmlhttprequest
 @@||raw.githubusercontent.com/wmcmurray/just-detect-adblock/master/baits/pagead2.googlesyndication.com$xmlhttprequest
 @@||doubleclick.net^$xmlhttprequest,domain=cclickondetroit.com|clickorlando.com|digi24.ro|ksat.com|lectulandia.me|lick2houston.com|linksht.com|local10.com|news4jax.com|softonic.com|timesnowhindi.com|timesnowmarathi.com|timesnownews.com|wsls.com|dropgalaxy.com|financemonk.net|techthematter.xyz|13tv.co.il|mahobeachcam.com|houseofblogger.com
-@@||pagead2.googlesyndication.com^$xmlhttprequest,domain=10play.com.au|dropgalaxy.com|extremereportbot.com|financemonk.net|techthematter.xyz|gamalk-sehetk.com|tiodonghua.com|mahobeachcam.com|houseofblogger.com|thecubexguide.com|devuploads.com|miuiflash.com|djxmaza.in
+@@||pagead2.googlesyndication.com^$xmlhttprequest,domain=10play.com.au|dropgalaxy.com|extremereportbot.com|financemonk.net|techthematter.xyz|gamalk-sehetk.com|tiodonghua.com|mahobeachcam.com|houseofblogger.com|thecubexguide.com|devuploads.com|miuiflash.com|djxmaza.in|heidisql.com
 @@||adservice.google.com^$xmlhttprequest,domain=player.tubia.com|dropgalaxy.com|financemonk.net|techthematter.xyz|houseofblogger.com
 @@||securepubads.g.doubleclick.net/pagead/ppub_config?ippd=$xmlhttprequest,third-party,domain=thecubexguide.com|devuploads.com|miuiflash.com|djxmaza.in
 @@/\/ads(ense)?\.txt\?/$xmlhttprequest
@@ -1097,7 +1097,7 @@ badcomics.it,badgames.it,badtaste.it,badtv.it,esportes.r7.com,gamepur.com,satosh
 
 outerspace.com.br,uiz.io,varagh.com##+js(abort-current-inline-script.js, $, adBlock)
 
-allmusic.com,asiatv.online,heidisql.com,vz.lt##+js(abort-current-inline-script.js, $, adblock)
+allmusic.com,asiatv.online,vz.lt##+js(abort-current-inline-script.js, $, adblock)
 
 carbonite.co.za,lcpdfr.com,nirjonmela.com,techtobo.com,turkmmo.com##+js(abort-current-inline-script.js, $, AdBlock)
 
