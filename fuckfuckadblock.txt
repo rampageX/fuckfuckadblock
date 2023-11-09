@@ -744,7 +744,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 |http*:*/bultykh/ipp24/7/bazinga/*$script,important
 |http*:*/a/pop/js/*$script,important
 |http*:*/fret/meow4/*$script,important
-/^https?:\/\/.*\/(\%?[235][a-fA-F3-6])?[Ss](ervice)?[-_]?[Ww](orker)?[a-zA-Z0-9]?\.js(\?.*)?$/$script,xmlhttprequest,match-case,domain=~twitter.com|~youtube.com|~tiktok.com
+/^https?:\/\/.*\/(\%?[235][a-fA-F3-6])?[Ss](ervice)?[-_]?[Ww](orker)?[a-zA-Z0-9]?\.js(\?.*)?$/$script,xmlhttprequest,match-case,domain=~twitter.com|~youtube.com|~tiktok.com|~dagrasso.pl
 ||domain.com/ads.html$subdocument,redirect=noopframe
 |http*:*/script/suv4r.js$script,important
 |http*:*/script/pustrck.js$script,important
