@@ -850,6 +850,8 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 @@/^https?:\/\/(www\.)?[^\s]+\/ad[svbxo]?(\.min)?\.js/$script
 @@/^https?:\/\/(www\.)?[^\s]+\/ad[vs](er(ve)?t?(ise|ising|isement)?)?(\.min)?\.js/$script
 @@/^https?:\/\/static\.ads\-twitter\.com\/[a-z]{3}\.js$/$script,third-party
+@@||download.megaup.net/oncc-ad.js|$script,domain=megaup.net
+@@||download.megaup.net/openads.js|$script,domain=megaup.net
 ! SCRIPT END
 
 ! XMLHTTPREQUEST START
