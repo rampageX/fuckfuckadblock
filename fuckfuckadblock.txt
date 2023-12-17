@@ -856,6 +856,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 @@||download.megaup.net/oncc-ad.js|$script,domain=megaup.net
 @@||download.megaup.net/openads.js|$script,domain=megaup.net
 @@||gplinks.in/track/$script
+@@||viptorpro.ru/ads/banner.js|$script
 ! SCRIPT END
 
 ! XMLHTTPREQUEST START
