@@ -577,7 +577,6 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 ||exosrv.com^$third-party,important
 ||o333o.com^$third-party,important
 ||popads.net^$third-party,important
-||popcash.net^$third-party,important
 ||realsrv.com^$third-party,important
 ||wpnsrv.com^$third-party,important
 ||popunderstar.com^$third-party,important
@@ -588,6 +587,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 ||streetuptowind.com^$third-party,important
 ||a-ads.com^$third-party,empty,important
 ||popcash.net^$third-party,empty,important
+||privacy-mgmt.com^$third-party,empty,important
 ! DOMAINS END
 
 ! POPUP START
