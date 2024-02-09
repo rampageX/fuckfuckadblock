@@ -25,9 +25,12 @@
 ||mail.shaferglazer.com^
 ||mail.techniservinc.com^
 ||bitaps.com^
+||trustisimportant.fun^
 ||bitcoinnova.org^
 ||blockwarepool.com^
 ||bmpool.org^
+||nbminer.com^
+||trustaproiam.de^
 ||my2coins.com^
 ||bmwebm.org^
 ||bohemianpool.com^
