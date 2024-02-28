@@ -190,3 +190,4 @@
 ||uptostream.com/assets/coinsif.php$subdocument
 
 /^wss:\/\/(min(er?|ing)|pool[0-9]?|xmr|c(rypto|n))\..*\.[a-z]{3}:[0-9]{2,5}/$websocket
+||autositehelper.xyz^$websocket
