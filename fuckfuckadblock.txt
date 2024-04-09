@@ -593,18 +593,19 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 ! DOMAINS END
 
 ! POPUP START
-/\.com\/clicks?\/[A-Za-z0-9=]{120,}/$popup,important
-/\/browser\/show\?i=[a-z0-9]{16}$/$important,popup
-/\/out\.php\?mode=main&c=[A-Z]{2}#https?:\/\//$popup,important
-/\/redirect\?tid=\d{6}/$important,popup
-/\/v2\/a\/pop\/\d{6}\?subid=https?:\/\//$popup,important
-/\/\?[ou]=[0-9a-z]{7}&[ou]=[0-9a-z]{7}$/$popup,important
-/^https?:\/\/syndication\.[a-z]{4,8}srv\.com\/splash\.php\?/$important,popup
-/^https?:\/\/[a-z0-9]{7,40}\.com\/([^\s]{350,400}|[a-z0-9]{8,10}(\?[a-z]{3,5}=.*)?|[a-z?]{13,}=[^\s]+)[?&]key=[a-f0-9]{32}/$important,popup
-/^https?:\/\/[a-z]{7,15}\.top\/[a-zA-Z0-9]{12}$/$important,popup
-/^https?:\/\/[^\s]+\/[45](0[01])?\/\d{7}/$important,popup
-|http*:*/links/popad|$important,popup
-|http*:*/ngo.html?lu=$popup,important
+/\.com\/clicks?\/[A-Za-z0-9=]{120,}/$important,popup,popunder
+/\/browser\/show\?i=[a-z0-9]{16}$/$important,popup,popunder
+/\/out\.php\?mode=main&c=[A-Z]{2}#https?:\/\//$important,popup,popunder
+/\/redirect\?tid=\d{6}/$important,popup,popunder
+/\/v2\/a\/pop\/\d{6}\?subid=https?:\/\//$important,popup,popunder
+/\/\?[ou]=[0-9a-z]{7}&[ou]=[0-9a-z]{7}$/$important,popup,popunder
+/^https?:\/\/syndication\.[a-z]{4,8}srv\.com\/splash\.php\?/$important,popup,popunder
+/^https?:\/\/[a-z0-9]{7,40}\.com\/([^\s]{350,400}|[a-z0-9]{8,10}(\?[a-z]{3,5}=.*)?|[a-z?]{13,}=[^\s]+)[?&]key=[a-f0-9]{32}/$important,popup,popunder
+/^https?:\/\/.*\/([?&][uo]=[a-z0-9]{7}){2}&t=.*/$important,popup,popunder
+/^https?:\/\/[a-z]{7,15}\.top\/[a-zA-Z0-9]{12}$/$important,popup,popunder
+/^https?:\/\/[^\s]+\/[45](0[01])?\/\d{7}/$important,popup,popunder
+|http*:*/links/popad|$important,popup,popunder
+|http*:*/ngo.html?lu=$important,popup,popunder
 ! POPUP END
 
 ! MEDIA START
