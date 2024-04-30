@@ -923,7 +923,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 /^https?:\/\/(([0-9a-z]{7,10}|www)\.)?([0-9a-f]{10}|[a-z0-9]{5,40})\.com\/(([a-z0-9]{2}\/){2,3})?[0-9a-f]{32}\.js(on)?$/$script,xmlhttprequest,important,third-party,match-case
 /^https?:\/\/([a-z]{2}\.)?[0-9a-z]{7,16}\.[a-z]{3,7}\/[0-9a-zA-Z]{10,27}\/[\d\w]{4,5}$/$third-party,important,script,xmlhttprequest,subdocument,match-case
 /^https?:\/\/([a-z]{2}\.)?[0-9a-z]{7,16}\.[a-z]{3}\/[45](0[01])?\/\d{7}(\/(.*[$=0-9]))?$/$third-party,important,script,subdocument,xmlhttprequest,match-case
-/^https?:\/\/.*\/(\%?[235][a-fA-F3-6]|[a-f-_]{3,})?[Ss](ervice)?[-_]?[Ww](orker)?[a-zA-Z0-9]?\.js(\?.*)?$/$script,xmlhttprequest,match-case,domain=~twitter.com|~youtube.com|~tiktok.com|~dagrasso.pl|~idx.google.com
+/^https?:\/\/.*\/(\%?[235][a-fA-F3-6]|[a-f-_]{3,})?[Ss](ervice)?[-_]?[Ww](orker)?\.js(\?.*)?$/$script,xmlhttprequest,match-case,domain=~twitter.com|~youtube.com|~tiktok.com|~dagrasso.pl|~idx.google.com
 /^https?:\/\/[0-9a-zA-Z]{10,16}\.cloudfront\.net\/\?[a-z]{3,7}=\d{4,8}$/$script,xmlhttprequest,third-party,important
 /^https?:\/\/[a-z]{6,15}\.[a-z]{3}\/[-a-z]{4,}\.(css|png)\?aHR0c[\/0-9a-zA-Z]{33,}=?=?$/$stylesheet,image,third-party,match-case
 @@/\.[a-z]{2,3}\/vast\.(php|js)$/$xmlhttprequest,script
