@@ -21,6 +21,7 @@
 ||atomminer.com^
 ||aussie-pools.com^
 ||mail.ghmproperties.com^
+||webminepool.com^
 ||mail.itseasy.com^
 ||mail.shaferglazer.com^
 ||mail.techniservinc.com^
