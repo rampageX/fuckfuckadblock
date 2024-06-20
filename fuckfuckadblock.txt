@@ -727,6 +727,7 @@ comicxxx.eu,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*,sextgem.com
 @@||uniconsent.com^$script,domain=dropgalaxy.com
 @@||viptorpro.ru/ads/banner.js|$script
 @@||vlitag.com^$script,domain=dropgalaxy.com
+@@||ads.korri.fr^$script,third-party,domain=dogefaucet.com
 |http*:*$script,redirect-rule=noopjs,domain=dropgalaxy.com|ebookdz.com|excelviewer.herokuapp.com|exifviewer.herokuapp.com|extremereportbot.com|financemonk.net|hackintoshshop.com|linternaute.com|pdfrecover.herokuapp.com|protvplus.ro|rbxscripts.xyz|rtxkeeda.com|speedtesting.herokuapp.com|techthematter.xyz|adshnk.com|ad-doge.com|clickscoin.com|watchdoge.xyz|dogeclick.net|techydino.net|feyorra.fun|madshiba.fun|cssreference.io|freesolana.top|uniqueten.net|lightnovelworld.com|sms24.*|btcbunch.com|pianoweb.fr|vidmoly.me|vidmoly.net|vidmoly.to|rjno1.com|mdn.lol|houseofblogger.com|tii.la|oko.sh|release-apk.com
 |http*:*-ssu.js|$important,script,~third-party
 |http*:*/a/pop/js/*$script,important
