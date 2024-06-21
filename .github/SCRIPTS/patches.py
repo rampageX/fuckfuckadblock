@@ -13,14 +13,14 @@
 #          Binance Coin (BNB) uses the ETH address.
 #          Tether (USDT) or USD Coin (USDC) uses ETH, TRX or TON addresses, depending on the type of chain chosen.
 
-import os
-def sort_domains_in_file(filename):
-    def sort_domains(domain_part):
-        domains = domain_part.split('|')
+import os, shutil
+def patches(main_filename):
+    def sort_domains(domains_part):
+        domains = domains_part.split('|')
         sorted_domains = sorted(set(domains))
         return '|'.join(sorted_domains)
     script_dir = os.path.dirname(__file__)
-    file_path = os.path.abspath(os.path.join(script_dir, '..', '..', filename))
+    file_path = os.path.abspath(os.path.join(script_dir, '..', '..', main_filename))
     temp_file = file_path + '.tmp'
     with open(file_path, 'r') as file, open(temp_file, 'w') as temp:
         for line in file:
@@ -31,8 +31,8 @@ def sort_domains_in_file(filename):
                     end_index = line.find('$', start_index)
                 if end_index == -1:
                     end_index = len(line)
-                domain_part = line[start_index:end_index].strip()
-                updated_domain_line = line[:start_index] + sort_domains(domain_part) + line[end_index:]
+                domains_part = line[start_index:end_index].strip()
+                updated_domain_line = line[:start_index] + sort_domains(domains_part) + line[end_index:]
                 if not updated_domain_line.endswith('\n'):
                     updated_domain_line += '\n'
                 temp.write(updated_domain_line)
@@ -49,7 +49,7 @@ def sort_domains_in_file(filename):
                 temp.write(sorted_params_line)
             else:
                 temp.write(line)
-    os.replace(temp_file, file_path)
-    print(f'Patches have been added to file {filename} and overwritten.')
-filename = 'fuckfuckadblock.txt'
-sort_domains_in_file(filename)
+    shutil.move(temp_file, file_path)
+    print(f'Patches have been added to file {main_filename} and overwritten.')
+main_filename = 'fuckfuckadblock.txt'
+patches(main_filename)
