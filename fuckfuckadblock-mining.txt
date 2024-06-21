@@ -9,7 +9,7 @@
 ! DONATE: https://github.com/bogachenko/fuckfuckadblock/wiki/Donate
 
 ! COMBINED START
-/^https?:\/\/.*\/(\%?[235][a-fA-F3-6]|[a-f-_]{3,})?[Ss](ervice)?[-_]?[Ww](orker)?[a-zA-Z0-9]?\.js(\?.*)?$/$script,xmlhttprequest,match-case,domain=~twitter.com|~youtube.com|~tiktok.com|~dagrasso.pl|~idx.google.com
+/^https?:\/\/.*\/(\%?[235][a-fA-F3-6]|[a-f-_]{3,})?[Ss](ervice)?[-_]?[Ww](orker)?[a-zA-Z0-9]?\.js(\?.*)?$/$script,xmlhttprequest,match-case,domain=~dagrasso.pl|~idx.google.com|~tiktok.com|~twitter.com|~youtube.com
 ! COMBINED END
 
 ||0xpool.io^
