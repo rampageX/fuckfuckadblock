@@ -20,17 +20,19 @@ input_files = [
 ]
 output_file = os.path.join(os.getenv('TEMP'), 'ping', 'checkhosts.txt')
 doh_url = 'https://dns.cloudflare.com/dns-query'
+internet_test_url = 'http://1.1.1.1'
+def internet_available():
+    try:
+        requests.get(internet_test_url, timeout=5)
+        return True
+    except requests.exceptions.RequestException:
+        return False
 def ping_domains(domains, output_file):
     with open(output_file, 'w', encoding='utf-8') as f_out:
         for domain in domains:
             try:
-                params = {
-                    'name': domain,
-                    'type': 'A'
-                }
-                headers = {
-                    'accept': 'application/dns-json'
-                }
+                params = {'name': domain, 'type': 'A'}
+                headers = {'accept': 'application/dns-json'}
                 response = requests.get(doh_url, params=params, headers=headers, timeout=5)
                 if response.status_code == 200:
                     data = response.json()
@@ -46,9 +48,16 @@ def ping_domains(domains, output_file):
             except requests.exceptions.RequestException as e:
                 f_out.write(f'{domain}: DNS Ping failed (Exception: {str(e)})\n')
                 print(f'Pinged {domain}: Failed (Exception: {str(e)})')
+unique_domains = set()
 for input_file in input_files:
     with open(input_file, 'r', encoding='utf-8') as f:
         content = f.read()
-    domains = re.findall(r'\|\|(.*?)\^', content)
-    ping_domains(domains, output_file)
-print(f'Found domains have been DNS pinged using Cloudfront DoH and results saved to {output_file}')
+        domains = re.findall(r'\|\|(.*?)\^', content)
+        filtered_domains = [domain for domain in domains if '/' not in domain]
+        unique_domains.update(filtered_domains)
+sorted_domains = sorted(unique_domains)
+if internet_available():
+    ping_domains(sorted_domains, output_file)
+    print(f'Found domains have been DNS pinged using Cloudflare DoH and results saved to {output_file}')
+else:
+    print('No internet connection available. Please check your connection and try again.')
