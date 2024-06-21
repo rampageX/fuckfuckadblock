@@ -14,42 +14,45 @@
 #          Tether (USDT) or USD Coin (USDC) uses ETH, TRX or TON addresses, depending on the type of chain chosen.
 
 import os, shutil
-def patches(main_filename):
+def patches(main_filename, mining_filename):
     def sort_domains(domains_part):
-        domains = domains_part.split('|')
-        sorted_domains = sorted(set(domains))
-        return '|'.join(sorted_domains)
+        return '|'.join(sorted(set(domains_part.split('|'))))
+    def sort_params(params_part):
+        return ','.join(sorted(set(params_part.split(','))))
+    def process_line(line):
+        if 'domain=' in line:
+            start_index = line.find('domain=') + len('domain=')
+            end_index = line.find(',', start_index)
+            if end_index == -1:
+                end_index = line.find('$', start_index)
+            if end_index == -1:
+                end_index = len(line)
+            domains_part = line[start_index:end_index].strip()
+            return line[:start_index] + sort_domains(domains_part) + line[end_index:]
+        elif '##' in line or '###' in line:
+            separator_index = line.find('##') if '##' in line else line.find('###')
+            domains_part = line[:separator_index].strip()
+            return ','.join(sorted(set(domains_part.split(',')))) + line[separator_index:]
+        elif '$' in line:
+            dollar_index = line.find('$')
+            params_part = line[dollar_index + 1:].strip()
+            return line[:dollar_index + 1] + sort_params(params_part)
+        return line
+    def process_file(file_path):
+        temp_file = file_path + '.tmp'
+        with open(file_path, 'r') as file, open(temp_file, 'w') as temp:
+            for line in file:
+                processed_line = process_line(line)
+                if not processed_line.endswith('\n'):
+                    processed_line += '\n'
+                temp.write(processed_line)
+        shutil.move(temp_file, file_path)
     script_dir = os.path.dirname(__file__)
-    file_path = os.path.abspath(os.path.join(script_dir, '..', '..', main_filename))
-    temp_file = file_path + '.tmp'
-    with open(file_path, 'r') as file, open(temp_file, 'w') as temp:
-        for line in file:
-            if 'domain=' in line:
-                start_index = line.find('domain=') + len('domain=')
-                end_index = line.find(',', start_index)
-                if end_index == -1:
-                    end_index = line.find('$', start_index)
-                if end_index == -1:
-                    end_index = len(line)
-                domains_part = line[start_index:end_index].strip()
-                updated_domain_line = line[:start_index] + sort_domains(domains_part) + line[end_index:]
-                if not updated_domain_line.endswith('\n'):
-                    updated_domain_line += '\n'
-                temp.write(updated_domain_line)
-            elif '##' in line or '###' in line:
-                separator_index = line.find('##') if '##' in line else line.find('###')
-                domains_part = line[:separator_index].strip()
-                sorted_domains_line = ','.join(sorted(set(domains_part.split(','))))
-                updated_line = sorted_domains_line + line[separator_index:].strip() + '\n'
-                temp.write(updated_line)
-            elif '$' in line:
-                dollar_index = line.find('$')
-                params_part = line[dollar_index + 1:].strip()
-                sorted_params_line = line[:dollar_index + 1] + ','.join(sorted(set(params_part.split(',')))) + '\n'
-                temp.write(sorted_params_line)
-            else:
-                temp.write(line)
-    shutil.move(temp_file, file_path)
-    print(f'Patches have been added to file {main_filename} and overwritten.')
+    main_file_path = os.path.abspath(os.path.join(script_dir, '..', '..', main_filename))
+    mining_file_path = os.path.abspath(os.path.join(script_dir, '..', '..', mining_filename))
+    process_file(main_file_path)
+    process_file(mining_file_path)
+    print(f'Patches have been added to files {main_filename} and {mining_filename}, and they have been overwritten.')
 main_filename = 'fuckfuckadblock.txt'
-patches(main_filename)
+mining_filename = 'fuckfuckadblock-mining.txt'
+patches(main_filename, mining_filename)
