@@ -31,7 +31,7 @@ def sort_domains_in_file(filename):
             if end_index == -1:
                 end_index = len(line)
             domain_part = line[start_index:end_index].strip()
-            domains = domain_part.split('|')
+            domains = set(domain_part.split('|'))
             sorted_domains = sorted(domains)
             updated_domain_line = line[:start_index]
             updated_domain_line += '|'.join(sorted_domains)
@@ -42,7 +42,7 @@ def sort_domains_in_file(filename):
         elif '##+js(' in line:
             js_start_index = line.find('##+js(')
             js_domains_part = line[:js_start_index].strip()
-            js_domains = js_domains_part.split(',')
+            js_domains = set(js_domains_part.split(','))
             sorted_js_domains = sorted(js_domains)
             updated_js_line = ','.join(sorted_js_domains)
             updated_js_line += line[js_start_index:].strip() + '\n'
@@ -50,7 +50,7 @@ def sort_domains_in_file(filename):
         elif '##^script:has-text(' in line:
             script_start_index = line.find('##^script:has-text(')
             script_domains_part = line[:script_start_index].strip()
-            script_domains = script_domains_part.split(',')
+            script_domains = set(script_domains_part.split(','))
             sorted_script_domains = sorted(script_domains)
             updated_script_line = ','.join(sorted_script_domains)
             updated_script_line += line[script_start_index:].strip() + '\n'
