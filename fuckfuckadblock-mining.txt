@@ -12,6 +12,7 @@
 /^https?:\/\/.*\/(\%?[235][a-fA-F3-6]|[a-f-_]{3,})?[Ss](ervice)?[-_]?[Ww](orker)?[a-zA-Z0-9]?\.js(\?.*)?$/$script,xmlhttprequest,match-case,domain=~dagrasso.pl|~idx.google.com|~tiktok.com|~twitter.com|~youtube.com
 ! COMBINED END
 
+! DOMAINS START
 ||0xpool.io^
 ||1pool.org^
 ||2miners.com^
@@ -107,7 +108,6 @@
 ||mo2tor2amawhphlrgyaqlrqx7o27jaj7yldnx3t6jip3ow4bujlwz6id.onion^
 ||monerohash.com^
 ||moneroocean.stream^
-||moneroocean.stream^
 ||monminepool.org^
 ||mpool.live^
 ||multicoin.co^
@@ -163,3 +163,4 @@
 ||zpool.ca^
 ||zsolo.bid^
 ||zulupool.com^
+! DOMAINS END
