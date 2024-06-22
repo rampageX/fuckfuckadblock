@@ -13,18 +13,26 @@
 #          Binance Coin (BNB) uses the ETH address.
 #          Tether (USDT) or USD Coin (USDC) uses ETH, TRX or TON addresses, depending on the type of chain chosen.
 
-import os, re
-def sort_and_remove_duplicates(filename):
+import os, re, shutil, tempfile
+main_filename = 'fuckfuckadblock.txt'
+mining_filename = 'fuckfuckadblock-mining.txt'
+def patch(filename):
     script_dir = os.path.dirname(__file__)
     file_path = os.path.abspath(os.path.join(script_dir, '..', '..', filename))
+    if not os.path.exists(file_path):
+        print(f'File {filename} does not exist.')
+        return
+    temp_dir = tempfile.mkdtemp()
+    temp_file_path = os.path.join(temp_dir, os.path.basename(filename))
+    shutil.copy(file_path, temp_file_path)
     sorted_lines = []
     pattern = re.compile(r'#[#?$@]?#')
-    with open(file_path, 'r') as file:
+    with open(temp_file_path, 'r') as file:
         for line in file:
             match = pattern.search(line)
             if match:
                 separator_index = match.start()
-                if separator_index > 0:  # Check if there is text before '##' or '###'
+                if separator_index > 0:
                     words_part = line[:separator_index].strip()
                     unique_sorted_words = sorted(set(words_part.split(',')))
                     sorted_line = ','.join(unique_sorted_words) + line[separator_index:]
@@ -35,10 +43,7 @@ def sort_and_remove_duplicates(filename):
                 sorted_lines.append(line)
     with open(file_path, 'w') as file:
         file.writelines(sorted_lines)
-    print(f'Sorted and removed duplicates in lines matching pattern #[#?$@]?# in {filename}.')
-    print(f'Lines have been sorted alphabetically and duplicates removed before the pattern.')
+    shutil.rmtree(temp_dir)
     print(f'File {filename} has been updated.')
-main_filename = 'fuckfuckadblock.txt'
-mining_filename = 'fuckfuckadblock-mining.txt'
-sort_and_remove_duplicates(main_filename)
-sort_and_remove_duplicates(mining_filename)
+patch(main_filename)
+patch(mining_filename)
