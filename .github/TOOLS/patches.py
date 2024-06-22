@@ -27,8 +27,12 @@ def patch(filename):
     shutil.copy(file_path, temp_file_path)
     sorted_lines = []
     pattern = re.compile(r'#[#?$@]?#')
+    pattern1 = re.compile(r'^[^a-zA-Z0-9#@!/|]+')
     with open(temp_file_path, 'r') as file:
         for line in file:
+            match1 = pattern1.search(line)
+            if match1:
+                line = line[match1.end():]
             match = pattern.search(line)
             if match:
                 separator_index = match.start()
