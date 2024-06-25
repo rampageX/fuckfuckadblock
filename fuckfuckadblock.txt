@@ -569,7 +569,6 @@ comicxxx.eu,edoujin.net,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*
 ! DOMAINS START
 ||0i0i0i0.com^$important,third-party
 ||a-ads.com^$empty,important,third-party
-||exdynsrv.com^$important,third-party
 ||exoclick.com^$important,third-party
 ||jads.co^$important,third-party
 ||popads.net^$important,third-party
@@ -597,25 +596,25 @@ comicxxx.eu,edoujin.net,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*
 ! MEDIA END
 ! SCRIPT START
 /[0-9]{7}\?zoneid=[0-9]{7}/$important,script,third-party
-/\.(com|porn|xxx|tube)\/[a-z]{8,12}\/[a-z]{8,12}\.js$/$important,script,~third-party,domain=555.porn|desiporn.tube|hclips.com|hdzog.com|hotmovs.com|imzog.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.com|txxxporn.tube|upornia.*|vjav.com|vjav.tube|voyeurhit.com|vxxx.com
-/\.net\/js\/popup\.js\?v(er)?=1\./$important,script,~third-party
-/\.[a-z]{3}\/js\/adultpc\.js/$important,script,~third-party
+/\.(com|porn|xxx|tube)\/[a-z]{8,12}\/[a-z]{8,12}\.js$/$important,script,first-party,domain=555.porn|desiporn.tube|hclips.com|hdzog.com|hotmovs.com|imzog.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.com|txxxporn.tube|upornia.*|vjav.com|vjav.tube|voyeurhit.com|vxxx.com
+/\.net\/js\/popup\.js\?v(er)?=1\./$important,script,first-party
+/\.[a-z]{3}\/js\/adultpc\.js/$important,script,first-party
 /\/esnk\/[0-9]{7}\/code\.js$/$important,match-case,script,third-party
 /\/js\/(dola|baf|skrrt)\.js$/$script,important,domain=filemoon.*
 /\/local\_(p|ssu)\.js/$important,script
 /\/pu(\-script)?\.js/$important,script
-/\/pu\/[.a-s]{1,5}\.js$/$important,script,~third-party
-/\/shrinker\/js\/h[12]j\.js$/$script,~third-party
+/\/pu\/[.a-s]{1,5}\.js$/$important,script,first-party
+/\/shrinker\/js\/h[12]j\.js$/$script,first-party
 /\/t\.js\?\w=[a-z0-9]{21}&\w{2}=\d{19}$/$important,script,third-party
 /\/vki\/[0-9]{7}\/[a-z0-9]{8}\.js$/$important,match-case,script,third-party
-/\/xvideo(\-js)?\.js/$important,script,~third-party
+/\/xvideo(\-js)?\.js/$important,script,first-party
 /\/[0-9a-f]{20}\/[0-9a-f]{10}\/\?placementName\=default$/$script,redirect-rule=noopjs
 /\/[0-9a-f]{32}\/invoke\.js$/$script,important,third-party
 /\/[a-zA-Z0-9]{7}\.js$/script,important,third-party,domain=xozilla.com
-/\/[a-z]{4,}\/(?!holly7)[a-z]{3,6}\d\.\d\.\d{1,2}\.[0-9a-f]{32}\.js$/$script,important,~third-party
-/^http:\/\/img[a-z]+\.(?:buzz|xyz)\/(?!shrinker).*/$script,~third-party,domain=buzz|xyz
+/\/[a-z]{4,}\/(?!holly7)[a-z]{3,6}\d\.\d\.\d{1,2}\.[0-9a-f]{32}\.js$/$script,important,first-party
+/^http:\/\/img[a-z]+\.(?:buzz|xyz)\/(?!shrinker).*/$script,first-party,domain=buzz|xyz
 /^https?:\/\/([a-z]{2}\.)?[0-9a-z]{7,16}\.com\/1clkn\/\d{4,5}$/$third-party,important,script
-/^https?:\/\/.*(\/[A-Z]{1,3}\/)?[-0-9a-z]{5,}\.com\/(([0-9a-f]{2}\/){3}|magic\/)[0-9a-f]{32}\.js$/$script,important,match-case,~third-party
+/^https?:\/\/.*(\/[A-Z]{1,3}\/)?[-0-9a-z]{5,}\.com\/(([0-9a-f]{2}\/){3}|magic\/)[0-9a-f]{32}\.js$/$script,important,match-case,first-party
 /^https?:\/\/www\.[a-z]{6,16}\.com\/[a-z]{1,4}\.js$/$script,important,third-party
 /^https?:\/\/[0-9a-zA-Z]{10,16}\.cloudfront\.net\/[^\s]{300,}$/$script,important,third-party
 /^https?:\/\/[a-z0-9]{5,25}\.[a-z]{2,3}\/v2[a-zA-Z0-9-_]{54,71}$/$script,match-case,third-party
@@ -626,22 +625,22 @@ comicxxx.eu,edoujin.net,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*
 /^https?:\/\/[^\s]+\/1\?z=\d{7}$/$third-party,important,script
 /^https?:\/\/\w{30,}\.me\/\w{30,}\.js$/$script,important,third-party
 @@/https?:\/\/[0-9a-zA-Z]{10,}\.cloudfront\.net\/$/$script,third-party,domain=picyield.com
-@@/[./]pop(ads?|unders?)?\.js$/$script,~third-party
+@@/[./]pop(ads?|unders?)?\.js$/$script,first-party
 @@/\&text\-ad\&textAd\&text\_ad\&text\_ads\&text\-ads\&text\-ad\-links\&ads\&advert/$script,third-party
 @@/\/adblockdetect(or)?(\.min)?\.js/$script
-@@/\/reklama[1-5]?\.js/$script,~third-party
+@@/\/reklama[1-5]?\.js/$script,first-party
 @@/\?pub\_300x250\&pub\_300x250m\&pub\_728x90\&/$script,third-party
 @@/^https?:\/\/(www\.)?[^\s]+\/ad[svbxo]?(\.min)?\.js/$script
 @@/^https?:\/\/(www\.)?[^\s]+\/ad[vs](er(ve)?t?(ise|ising|isement)?)?(\.min)?\.js/$script
 @@/^https?:\/\/static\.ads\-twitter\.com\/[a-z]{3}\.js$/$script,third-party
 @@|http*:*-adfliction/$script
-@@|http*:*-vast.js|$script,~third-party
+@@|http*:*-vast.js|$script,first-party
 @@|http*:*/adblock_detector.js$script
 @@|http*:*/adblock_notify.$script
 @@|http*:*/adfliction-$script
 @@|http*:*/ads.txt|$script
 @@|http*:*/adsbygoogle.js|$script,third-party
-@@|http*:*/adsbygoogle.min.js|$script,~third-party
+@@|http*:*/adsbygoogle.min.js|$script,first-party
 @@|http*:*/adview_pic_cpc_cpm_cpa_guanggao_gg_ads_300x250.js|$script
 @@|http*:*/auditudebanners.js$script
 @@|http*:*/dfp.js|$script
@@ -658,13 +657,13 @@ comicxxx.eu,edoujin.net,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*
 @@|http*:*/peel1.js$script
 @@|http*:*/player/js/anidub-ad2.js$script
 @@|http*:*/player_ads.html$script
-@@|http*:*/prebid.js|$script,~third-party
+@@|http*:*/prebid.js|$script,first-party
 @@|http*:*/pubfig.js$script
 @@|http*:*/reklama.js|$script
 @@|http*:*/roturl.js$script
 @@|http*:*/sailthru.js$script
 @@|http*:*/tag.min.js|$script,third-party,domain=darkino.biz|darkino.online
-@@|http*:*/vast.js|$script,~third-party
+@@|http*:*/vast.js|$script,first-party
 @@|http*:*/wp-content/*/ad-inserter/$script
 @@|http*:*/wp-content/*/dh-anti-adblocker/$script
 @@|http*:*/wp-content/detect-adblock/$script
@@ -711,7 +710,7 @@ comicxxx.eu,edoujin.net,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*
 @@||vlitag.com^$script,domain=dropgalaxy.com
 @@||ads.korri.fr^$script,third-party,domain=dogefaucet.com
 |http*:*$script,redirect-rule=noopjs,domain=ad-doge.com|adshnk.com|btcbunch.com|clickscoin.com|cssreference.io|dogeclick.net|dropgalaxy.com|ebookdz.com|excelviewer.herokuapp.com|exifviewer.herokuapp.com|extremereportbot.com|feyorra.fun|financemonk.net|freesolana.top|hackintoshshop.com|houseofblogger.com|lightnovelworld.com|linternaute.com|madshiba.fun|mdn.lol|oko.sh|pdfrecover.herokuapp.com|pianoweb.fr|protvplus.ro|rbxscripts.xyz|release-apk.com|rjno1.com|rtxkeeda.com|sms24.*|speedtesting.herokuapp.com|techthematter.xyz|techydino.net|tii.la|uniqueten.net|vidmoly.me|vidmoly.net|vidmoly.to|watchdoge.xyz
-|http*:*-ssu.js|$important,script,~third-party
+|http*:*-ssu.js|$important,script,first-party
 |http*:*/a/pop/js/*$important,script
 |http*:*/ad-m.js|$important,script
 |http*:*/antiboomclick.js$important,script,third-party
@@ -730,16 +729,16 @@ comicxxx.eu,edoujin.net,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*
 |http*:*/fuckadblock.$redirect=fuckadblock.js-3.2.0,script
 |http*:*/fuckadblock.$redirect=prevent-fab-3.2.0,script
 |http*:*/glx_*.js$important,script
-|http*:*/helper-js/|$script,~third-party
+|http*:*/helper-js/|$script,first-party
 |http*:*/hmrads.js|$script,third-party
 |http*:*/j/m/qqqq.js$important,script,third-party
 |http*:*/jquery.notify.js|$important,script
 |http*:*/js/script-*.*.js|$script,domain=haes.tech|hcdn.online|hqq.to|hqq.tv|vidxhot.net
-|http*:*/js/ssu.$important,script,~third-party
+|http*:*/js/ssu.$important,script,first-party
 |http*:*/killadblock.js|$important,script
 |http*:*/lazeyuz.js$script,third-party
 |http*:*/lazyads.js$script,third-party
-|http*:*/mavennofile.js|$important,script,~third-party
+|http*:*/mavennofile.js|$important,script,first-party
 |http*:*/ntfc.php?$important,script,third-party
 |http*:*/pustrck.js$important,script,third-party
 |http*:*/redirect/?spot_id=$script,third-party
@@ -799,7 +798,7 @@ comicxxx.eu,edoujin.net,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*
 ||xnxx-cdn.com/*/ppsuma*.js$script
 ! SCRIPT END
 ! XMLHTTPREQUEST START
-/\/ads\/.*\.html$/$xmlhttprequest,empty,match-case,~third-party
+/\/ads\/.*\.html$/$xmlhttprequest,empty,match-case,first-party
 /\/prebid[0-9.]{5,6}\.js/$redirect-rule=nooptext,xmlhttprequest
 /^https?:\/\/www[1-3]\.doubleclick\.net\/$/$xmlhttprequest,redirect-rule=nooptext
 /^https?:\/\/[a-z]{6,15}\.[a-z]{3}\/[a-z]{4,30}\.json$/$third-party,match-case,xmlhttprequest
@@ -815,7 +814,7 @@ comicxxx.eu,edoujin.net,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*
 @@|http*:*/ad/banner/_adsense_/_adserver/_adview_.ad.json$xmlhttprequest
 @@|http*:*/ads.txt|$xmlhttprequest
 @@|http*:*/adsbygoogle.js|$third-party,xmlhttprequest
-@@|http*:*/adsbygoogle.min.js|$xmlhttprequest,~third-party
+@@|http*:*/adsbygoogle.min.js|$xmlhttprequest,first-party
 @@|http*:*/dfp.js|$xmlhttprequest
 @@|http*:*/dfp.min.js|$xmlhttprequest
 @@|http*:*/dfp/dfp-$xmlhttprequest
@@ -854,7 +853,7 @@ comicxxx.eu,edoujin.net,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*
 @@||yandex.ru/ads/system/context.js|$third-party,xmlhttprequest
 @@||zmctrack.net^$third-party,xmlhttprequest
 |http*:*$xmlhttprequest,redirect-rule=nooptext,domain=1cloudfile.com|chd4.com|crazyhd.com|dropgalaxy.com|examhubz.com|financemonk.net|freesolana.top|houseofblogger.com|luffytra.xyz|marie-claire.es|miarevista.es|muyhistoria.es|muyinteresante.es|muynegociosyeconomia.es|myfirstname.in|release-apk.com|serpadres.es|techthematter.xyz|thingiverse.com
-|http*:*/ajax/banner/list?$xmlhttprequest,~third-party
+|http*:*/ajax/banner/list?$xmlhttprequest,first-party
 |http*:*?oo=1^$important,third-party,xmlhttprequest
 ||adligature.com^$xmlhttprequest,redirect-rule=noopjs,domain=work.ink
 ||ads-api.twitter.com^$redirect-rule=noop.txt,xmlhttprequest
@@ -892,14 +891,14 @@ comicxxx.eu,edoujin.net,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*
 @@||imasdk.googleapis.com/js/core/bridge*.html$subdocument
 @@||protagcdn.com/check-bot/index.html$subdocument,domain=dropgalaxy.com
 |http*:*$subdocument,redirect-rule=noopframe,domain=dropgalaxy.com|financemonk.net|houseofblogger.com|promo-visits.site|release-apk.com|techthematter.xyz|xfreehd.com
-|http*:*/player/html.php?aid=post_roll_html^$redirect=noopframe,subdocument,~third-party
+|http*:*/player/html.php?aid=post_roll_html^$redirect=noopframe,subdocument,first-party
 ||asacdn.com^$redirect-rule=noopframe,subdocument
 ||domain.com/ads.html$redirect=noopframe,subdocument
 ||doubleclick.net/pagead/ads?client=$redirect-rule=noopframe,subdocument
 ! SUBDOCUMENT END
 ! COMBINED START
 /\/([a-z0-9]{7}\/){2}$/$xmlhttprequest,script,domain=ebalovo.porn|ebalovo.xxx|lenkino.adult
-/\/assets?\/(jquery\/(jquery|slim)-\d\.\d\.(\d\.)?|angular\.)min\.js\?[a-zA-Z0-9=&_-]{10,19}$/$script,match-case,xmlhttprequest,~third-party
+/\/assets?\/(jquery\/(jquery|slim)-\d\.\d\.(\d\.)?|angular\.)min\.js\?[a-zA-Z0-9=&_-]{10,19}$/$script,match-case,xmlhttprequest,first-party
 /\/[a-z0-9]{8,10}\?.*?key=[0-9a-f]{32}$/$important,document,match-case,subdocument
 /^https?:\/\/(([0-9a-z]{7,10}|www)\.)?([0-9a-f]{10}|[a-z0-9]{5,40})\.com\/(([a-z0-9]{2}\/){2,3})?[0-9a-f]{32}\.js(on)?$/$script,important,match-case,third-party,xmlhttprequest
 /^https?:\/\/([a-z]{2}\.)?[0-9a-z]{7,16}\.[a-z]{3,7}\/[0-9a-zA-Z]{10,27}\/[\d\w]{4,5}$/$third-party,important,match-case,script,subdocument,xmlhttprequest
