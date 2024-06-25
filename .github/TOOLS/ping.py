@@ -13,12 +13,12 @@
 #          Binance Coin (BNB) uses the ETH address.
 #          Tether (USDT) or USD Coin (USDC) uses ETH, TRX or TON addresses, depending on the type of chain chosen.
 
-import os, re, requests
+import os, re, requests, tempfile
 input_files = [
     os.path.join(os.path.dirname(__file__), '..', '..', 'fuckfuckadblock-mining.txt'),
     os.path.join(os.path.dirname(__file__), '..', '..', 'fuckfuckadblock.txt')
 ]
-output_file = os.path.join(os.getenv('TEMP'), 'ping', 'checkhosts.txt')
+output_file = os.path.join(tempfile.gettempdir(), 'ping', 'checkhosts.txt')
 doh_url = 'https://dns.cloudflare.com/dns-query'
 internet_test_url = 'http://1.1.1.1'
 def internet_available():
@@ -55,9 +55,16 @@ for input_file in input_files:
         domains = re.findall(r'\|\|(.*?)\^', content)
         filtered_domains = [domain for domain in domains if '/' not in domain]
         unique_domains.update(filtered_domains)
+        domain_lines = re.findall(r'domain=(.*?)(?:\s|$)', content)
+        for line in domain_lines:
+            domains = line.split('|')
+            filtered_domains = [domain.strip() for domain in domains if '/' not in domain]
+            unique_domains.update(filtered_domains)
 sorted_domains = sorted(unique_domains)
 if internet_available():
+    output_dir = os.path.dirname(output_file)
+    os.makedirs(output_dir, exist_ok=True)
     ping_domains(sorted_domains, output_file)
-    print(f'Found domains have been DNS pinged using Cloudflare DoH and results saved to {output_file}')
+    print(f'Checking the availability and quality of the network connection for the domains has been completed.')
 else:
     print('No internet connection available. Please check your connection and try again.')
