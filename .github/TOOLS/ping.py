@@ -19,6 +19,7 @@ input_files = [
     os.path.join(os.path.dirname(__file__), '..', '..', 'fuckfuckadblock.txt')
 ]
 output_file = os.path.join(tempfile.gettempdir(), 'ping', 'checkhosts.txt')
+dead_hosts_file = os.path.join(tempfile.gettempdir(), 'ping', 'deadhosts.txt')
 doh_url = 'https://dns.cloudflare.com/dns-query'
 internet_test_url = 'http://1.1.1.1'
 def internet_available():
@@ -28,8 +29,11 @@ def internet_available():
     except requests.exceptions.RequestException:
         return False
 def ping_domains(domains, output_file):
+    dead_hosts = []
     with open(output_file, 'w', encoding='utf-8') as f_out:
         for domain in domains:
+            if domain.startswith('~'):
+                domain = domain[1:]
             try:
                 params = {'name': domain, 'type': 'A'}
                 headers = {'accept': 'application/dns-json'}
@@ -42,12 +46,18 @@ def ping_domains(domains, output_file):
                     else:
                         f_out.write(f'{domain}: DNS Ping failed (No answer)\n')
                         print(f'Pinged {domain}: Failed (No answer)')
+                        dead_hosts.append(f'{domain}: DNS Ping failed (No answer)')
                 else:
                     f_out.write(f'{domain}: DNS Ping failed (Status Code: {response.status_code})\n')
                     print(f'Pinged {domain}: Failed (Status Code: {response.status_code})')
+                    dead_hosts.append(f'{domain}: DNS Ping failed (Status Code: {response.status_code})')
             except requests.exceptions.RequestException as e:
                 f_out.write(f'{domain}: DNS Ping failed (Exception: {str(e)})\n')
                 print(f'Pinged {domain}: Failed (Exception: {str(e)})')
+                dead_hosts.append(f'{domain}: DNS Ping failed (Exception: {str(e)})')
+    with open(dead_hosts_file, 'w', encoding='utf-8') as f_dead:
+        for line in dead_hosts:
+            f_dead.write(f'{line}\n')
 unique_domains = set()
 for input_file in input_files:
     with open(input_file, 'r', encoding='utf-8') as f:
@@ -65,6 +75,6 @@ if internet_available():
     output_dir = os.path.dirname(output_file)
     os.makedirs(output_dir, exist_ok=True)
     ping_domains(sorted_domains, output_file)
-    print(f'Checking the availability and quality of the network connection for the domains has been completed.')
+    print('Checking the availability and quality of the network connection for the domains has been completed.')
 else:
     print('No internet connection available. Please check your connection and try again.')
