@@ -13,6 +13,9 @@
 #          Binance Coin (BNB) uses the ETH address.
 #          Tether (USDT) or USD Coin (USDC) uses ETH, TRX or TON addresses, depending on the type of chain chosen.
 
+REDCOLOR = '\033[91m'
+YELLOWCOLOR = '\033[93m'
+RESETCOLOR = '\033[0m'
 import os, re, requests, tempfile
 input_files = [
     os.path.join(os.path.dirname(__file__), '..', '..', 'fuckfuckadblock-mining.txt'),
@@ -42,18 +45,18 @@ def ping_domains(domains, output_file):
                     data = response.json()
                     if 'Answer' in data:
                         f_out.write(f'{domain}: DNS Ping successful\n')
-                        print(f'Pinged {domain}: Success')
+                        print(f'Pinged {YELLOWCOLOR}{domain}{RESETCOLOR}: Success')
                     else:
                         f_out.write(f'{domain}: DNS Ping failed (No answer)\n')
-                        print(f'Pinged {domain}: Failed (No answer)')
+                        print(f'Pinged {REDCOLOR}{domain}{RESETCOLOR}: Failed (No answer)')
                         dead_hosts.append(f'{domain}: DNS Ping failed (No answer)')
                 else:
                     f_out.write(f'{domain}: DNS Ping failed (Status Code: {response.status_code})\n')
-                    print(f'Pinged {domain}: Failed (Status Code: {response.status_code})')
+                    print(f'Pinged {REDCOLOR}{domain}{RESETCOLOR}: Failed (Status Code: {response.status_code})')
                     dead_hosts.append(f'{domain}: DNS Ping failed (Status Code: {response.status_code})')
             except requests.exceptions.RequestException as e:
                 f_out.write(f'{domain}: DNS Ping failed (Exception: {str(e)})\n')
-                print(f'Pinged {domain}: Failed (Exception: {str(e)})')
+                print(f'Pinged {REDCOLOR}{domain}{RESETCOLOR}: Failed (Exception: {str(e)})')
                 dead_hosts.append(f'{domain}: DNS Ping failed (Exception: {str(e)})')
     with open(dead_hosts_file, 'w', encoding='utf-8') as f_dead:
         for line in dead_hosts:
@@ -65,7 +68,7 @@ for input_file in input_files:
         domains = re.findall(r'\|\|(.*?)\^', content)
         filtered_domains = [domain for domain in domains if '/' not in domain]
         unique_domains.update(filtered_domains)
-        domain_lines = re.findall(r'domain=(.*?)(?:\s|$)', content)
+        domain_lines = re.findall(r'domain=(.*?)(?:\s|,|$)', content)
         for line in domain_lines:
             domains = line.split('|')
             filtered_domains = [domain.strip() for domain in domains if '/' not in domain]
