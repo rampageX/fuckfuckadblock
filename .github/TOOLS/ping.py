@@ -73,6 +73,12 @@ for input_file in input_files:
             domains = line.split('|')
             filtered_domains = [domain.strip() for domain in domains if '/' not in domain]
             unique_domains.update(filtered_domains)
+        rules_pattern = r'([a-zA-Z0-9\-_.]+(?:,[a-zA-Z0-9\-_.]+)*)(?=##[#?$@]?)'
+        rule_matches = re.finditer(rules_pattern, content)
+        for match in rule_matches:
+            domains = match.group(1).split(',')
+            filtered_domains = [domain.strip() for domain in domains if '/' not in domain]
+            unique_domains.update(filtered_domains)
 sorted_domains = sorted(unique_domains)
 if internet_available():
     output_dir = os.path.dirname(output_file)
