@@ -38,51 +38,41 @@ def ping_domains(domains, output_file):
             if domain.startswith('~'):
                 domain = domain[1:]
             try:
-                params = {'name': domain, 'type': 'A'}
-                headers = {'accept': 'application/dns-json'}
-                response = requests.get(doh_url, params=params, headers=headers, timeout=5)
-                if response.status_code == 200:
-                    data = response.json()
-                    if 'Answer' in data:
-                        f_out.write(f'{domain}: DNS Ping successful\n')
-                        print(f'Pinged {YELLOWCOLOR}{domain}{RESETCOLOR}: Success')
-                    else:
-                        f_out.write(f'{domain}: DNS Ping failed (No answer)\n')
-                        print(f'Pinged {REDCOLOR}{domain}{RESETCOLOR}: Failed (No answer)')
-                        dead_hosts.append(f'{domain}: DNS Ping failed (No answer)')
+                response = requests.get(doh_url, params={'name': domain, 'type': 'A'}, headers={'accept': 'application/dns-json'}, timeout=5)
+                if response.status_code == 200 and 'Answer' in response.json():
+                    f_out.write(f'{domain}: DNS Ping successful\n')
+                    print(f'Pinged {YELLOWCOLOR}{domain}{RESETCOLOR}: Success')
                 else:
-                    f_out.write(f'{domain}: DNS Ping failed (Status Code: {response.status_code})\n')
-                    print(f'Pinged {REDCOLOR}{domain}{RESETCOLOR}: Failed (Status Code: {response.status_code})')
-                    dead_hosts.append(f'{domain}: DNS Ping failed (Status Code: {response.status_code})')
+                    error_msg = f'{domain}: DNS Ping failed (No answer)' if response.status_code == 200 else f'{domain}: DNS Ping failed (Status Code: {response.status_code})'
+                    f_out.write(f'{error_msg}\n')
+                    print(f'Pinged {REDCOLOR}{domain}{RESETCOLOR}: {error_msg}')
+                    dead_hosts.append(error_msg)
             except requests.exceptions.RequestException as e:
-                f_out.write(f'{domain}: DNS Ping failed (Exception: {str(e)})\n')
-                print(f'Pinged {REDCOLOR}{domain}{RESETCOLOR}: Failed (Exception: {str(e)})')
-                dead_hosts.append(f'{domain}: DNS Ping failed (Exception: {str(e)})')
+                error_msg = f'{domain}: DNS Ping failed (Exception: {str(e)})'
+                f_out.write(f'{error_msg}\n')
+                print(f'Pinged {REDCOLOR}{domain}{RESETCOLOR}: {error_msg}')
+                dead_hosts.append(error_msg)
     with open(dead_hosts_file, 'w', encoding='utf-8') as f_dead:
         for line in dead_hosts:
             f_dead.write(f'{line}\n')
 unique_domains = set()
+domain_patterns = [
+    r'\|\|(.*?)\^',
+    r'domain=(.*?)(?:\s|,|$)',
+    r'([a-zA-Z0-9\-_.]+(?:,[a-zA-Z0-9\-_.]+)*)(?=##[#?$@]?)'
+]
 for input_file in input_files:
     with open(input_file, 'r', encoding='utf-8') as f:
         content = f.read()
-        domains = re.findall(r'\|\|(.*?)\^', content)
-        filtered_domains = [domain for domain in domains if '/' not in domain]
-        unique_domains.update(filtered_domains)
-        domain_lines = re.findall(r'domain=(.*?)(?:\s|,|$)', content)
-        for line in domain_lines:
-            domains = line.split('|')
-            filtered_domains = [domain.strip() for domain in domains if '/' not in domain]
-            unique_domains.update(filtered_domains)
-        rules_pattern = r'([a-zA-Z0-9\-_.]+(?:,[a-zA-Z0-9\-_.]+)*)(?=##[#?$@]?)'
-        rule_matches = re.finditer(rules_pattern, content)
-        for match in rule_matches:
-            domains = match.group(1).split(',')
-            filtered_domains = [domain.strip() for domain in domains if '/' not in domain]
-            unique_domains.update(filtered_domains)
+        for pattern in domain_patterns:
+            matches = re.findall(pattern, content)
+            for match in matches:
+                domains = match.split(',') if ',' in match else match.split('|')
+                filtered_domains = [domain.strip() for domain in domains if '/' not in domain]
+                unique_domains.update(filtered_domains)
 sorted_domains = sorted(unique_domains)
 if internet_available():
-    output_dir = os.path.dirname(output_file)
-    os.makedirs(output_dir, exist_ok=True)
+    os.makedirs(os.path.dirname(output_file), exist_ok=True)
     ping_domains(sorted_domains, output_file)
     print('Checking the availability and quality of the network connection for the domains has been completed.')
 else:
