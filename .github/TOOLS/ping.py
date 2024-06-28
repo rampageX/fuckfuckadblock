@@ -13,10 +13,10 @@
 #          Binance Coin (BNB) uses the ETH address.
 #          Tether (USDT) or USD Coin (USDC) uses ETH, TRX or TON addresses, depending on the type of chain chosen.
 
-REDCOLOR = '\033[91m'
-YELLOWCOLOR = '\033[93m'
-RESETCOLOR = '\033[0m'
 import os, re, requests, tempfile
+redcolor = '\033[91m'
+yellowcolor = '\033[93m'
+resetcolor = '\033[0m'
 input_files = [
     os.path.join(os.path.dirname(__file__), '..', '..', 'fuckfuckadblock-mining.txt'),
     os.path.join(os.path.dirname(__file__), '..', '..', 'fuckfuckadblock.txt')
@@ -41,16 +41,16 @@ def ping_domains(domains, output_file):
                 response = requests.get(doh_url, params={'name': domain, 'type': 'A'}, headers={'accept': 'application/dns-json'}, timeout=5)
                 if response.status_code == 200 and 'Answer' in response.json():
                     f_out.write(f'{domain}: DNS Ping successful\n')
-                    print(f'Pinged {YELLOWCOLOR}{domain}{RESETCOLOR}: Success')
+                    print(f'Pinged {yellowcolor}{domain}{resetcolor}: Success')
                 else:
                     error_msg = f'{domain}: DNS Ping failed (No answer)' if response.status_code == 200 else f'{domain}: DNS Ping failed (Status Code: {response.status_code})'
                     f_out.write(f'{error_msg}\n')
-                    print(f'Pinged {REDCOLOR}{domain}{RESETCOLOR}: {error_msg}')
+                    print(f'Pinged {redcolor}{domain}{resetcolor}: {error_msg}')
                     dead_hosts.append(error_msg)
             except requests.exceptions.RequestException as e:
                 error_msg = f'{domain}: DNS Ping failed (Exception: {str(e)})'
                 f_out.write(f'{error_msg}\n')
-                print(f'Pinged {REDCOLOR}{domain}{RESETCOLOR}: {error_msg}')
+                print(f'Pinged {redcolor}{domain}{resetcolor}: {error_msg}')
                 dead_hosts.append(error_msg)
     with open(dead_hosts_file, 'w', encoding='utf-8') as f_dead:
         for line in dead_hosts:
@@ -59,7 +59,7 @@ unique_domains = set()
 domain_patterns = [
     r'\|\|(.*?)\^',
     r'domain=(.*?)(?:\s|,|$)',
-    r'([a-zA-Z0-9\-_.]+(?:,[a-zA-Z0-9\-_.]+)*)(?=##[#?$@]?)'
+    r'([a-zA-Z0-9\-_.]+(?:,[a-zA-Z0-9\-_.]+)*)(?=##[#$?@]?)'
 ]
 for input_file in input_files:
     with open(input_file, 'r', encoding='utf-8') as f:
@@ -67,9 +67,10 @@ for input_file in input_files:
         for pattern in domain_patterns:
             matches = re.findall(pattern, content)
             for match in matches:
-                domains = match.split(',') if ',' in match else match.split('|')
-                filtered_domains = [domain.strip() for domain in domains if '/' not in domain]
-                unique_domains.update(filtered_domains)
+                if match:
+                    domains = match.split(',') if ',' in match else match.split('|')
+                    filtered_domains = [domain.strip() for domain in domains if '/' not in domain]
+                    unique_domains.update(filtered_domains)
 sorted_domains = sorted(unique_domains)
 if internet_available():
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
