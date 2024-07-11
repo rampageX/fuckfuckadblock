@@ -2,7 +2,7 @@
 # Homepage: https://github.com/bogachenko/fuckfuckadblock
 # Author: Bogachenko Vyacheslav <bogachenkove@gmail.com>
 # License: MIT license <https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/LICENSE.md>
-# Last update: June 2024
+# Last update: July 2024
 # Donate:
 #          Bitcoin (BTC) - 3JfwK6ULJ1xY8xjpu6uzpBKLm4ghkdSBzG
 #          Ethereum (ETH) - 0xb08eE5bC90C2fCAFE453b7d536f158215Cca979A
@@ -33,6 +33,7 @@ def internet_available():
         return False
 def ping_domains(domains, output_file):
     dead_hosts = []
+    os.makedirs(os.path.dirname(output_file), exist_ok=True)
     with open(output_file, 'w', encoding='utf-8') as f_out:
         for domain in domains:
             if domain.startswith('~'):
@@ -73,7 +74,6 @@ for input_file in input_files:
                     unique_domains.update(filtered_domains)
 sorted_domains = sorted(unique_domains)
 if internet_available():
-    os.makedirs(os.path.dirname(output_file), exist_ok=True)
     ping_domains(sorted_domains, output_file)
     print('Checking the availability and quality of the network connection for the domains has been completed.')
 else:

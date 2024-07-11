@@ -2,7 +2,7 @@
 # Homepage: https://github.com/bogachenko/fuckfuckadblock
 # Author: Bogachenko Vyacheslav <bogachenkove@gmail.com>
 # License: MIT license <https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/LICENSE.md>
-# Last update: June 2024
+# Last update: July 2024
 # Donate:
 #          Bitcoin (BTC) - 3JfwK6ULJ1xY8xjpu6uzpBKLm4ghkdSBzG
 #          Ethereum (ETH) - 0xb08eE5bC90C2fCAFE453b7d536f158215Cca979A
@@ -28,11 +28,13 @@ def patch(filename):
     sorted_lines = []
     pattern = re.compile(r'#[#?$@]?#')
     pattern1 = re.compile(r'^[^a-zA-Z0-9#@!/|]+')
+    pattern2 = re.compile(r'domain=(.*?)(,|$)')
     with open(temp_file_path, 'r') as file:
         for line in file:
             match1 = pattern1.search(line)
             if match1:
                 line = line[match1.end():]
+            line = pattern2.sub(lambda m: f'domain={"|".join(sorted(set(m.group(1).split("|"))))}{m.group(2)}', line)
             match = pattern.search(line)
             if match:
                 separator_index = match.start()
