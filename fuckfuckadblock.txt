@@ -692,6 +692,7 @@ comicxxx.eu,edoujin.net,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*
 @@||gfinityesports.com/js/googleadsense.js$script
 @@||googletagmanager.com^$script,domain=atefaucet.com|linternaute.com
 @@||gplinks.in/track/$script
+@@||1bit.space/default/public/assets/*$script
 @@||imasdk.googleapis.com^$script,domain=10play.com.au|1plus1.video|amc.com|animedigitalnetwork.fr|arkadiumarena.com|aupetitparieur.com|babygames.com|bbcamerica.com|bloomberg.com|cinecalidad.cat|click2houston.com|clickondetroit.com|clickorlando.com|digi24.ro|discoveryplus.in|echirurgia.pl|elevensports.pl|flashgirlgames.com|gamak.tv|gazzetta.it|geekweek.pl|haes.tech|hqq.tv|hqq.watch|hydrax.xyz|ipla.tv|klix.ba|koreanpornmovie.xyz|ksat.com|ladbible.com|local10.com|mariogames.be|motorsport.tv|national-geographic.pl|netu.ac|netusia.xyz|newgames.com|news4jax.com|nova.cz|observatornews.ro|olimpicos.marcaclaro.com|olympics.com|online-rossiya1.tv|onlinesudoku.games|opvid.org|ottwow.com|oyohd.com|oyohd.one|player.askim-bg.com|player.unlimitedfiles.xyz|pluscdn.pl|poki-gdn.com|polsatgo.pl|polsatnews.pl|polsatsport.pl|realmadrid.com|realyplayonli.xyz|richhioon.eu|rpdrlatino.live|rtl.it|stack.com|str1.site|strcdn.org|tubitv.com|tvp.info|tvp.pl|twojapogoda.pl|uptostream.com|usatoday.com|videotarget.pl|viki.com|waaw.ac|waaw.tv|waaw1.tv|webplaypro.com|wifire.tv|wilmaa.com|wsls.com|wuxiaworld.com|x-link.pl|yandexcdn.com|ytms.one
 @@||notebookcheck.*/*/nbc-ads-ns.js$script
 @@||pagead2.googlesyndication.com^$script,domain=10play.com.au|3dzip.org|4horlover.com|a2zapk.com|a2zupload.com|baddiehub.com|bowandtie.ru|calculate.plus|camera.aeonax.com|dropgalaxy.com|extremereportbot.com|feyorra.fun|ff14angler.com|financemonk.net|freemen.jp|gatcha.org|globaldjmix.com|haoweichi.com|heidisql.com|houseofblogger.com|kitchennovel.com|ladbible.com|linkneverdie.net|madshiba.fun|messletters.com|meteologix.com|miroir1.trackr.fr|myjest.com|namobilu.com|player.glomex.com|release-apk.com|rte.ie|rtxkeeda.com|sfirmware.com|skmedix.pl|sms24.me|sms24.info|tamrieltradecentre.com|techthematter.xyz|techydino.net|unlockapk.com|weather.us
@@ -1105,3 +1106,4 @@ mediafire.com##+js(addEventListener-defuser.js, click, ClickHandler)
 dragontea.ink##+js(remove-attr.js, style, body > div, stay)
 2ix2com.de,2ix2tv.de,nydus.org##+js(no-setTimeout-if.js, /ab==|window\.getComputedStyle\(el\)/)
 fadedfeet.com,homeculina.com,ineedskin.com,kenzo-flowertag.com,lawyex.co,mdn.lol##+js(no-setTimeout-if.js, /adblock|isRequestPresent/)
+1bit.space,1bitspace.com##+js(abort-on-property-read.js, u_cfg)
