@@ -8,7 +8,7 @@
 ! CDN: https://github.com/bogachenko/fuckfuckadblock/wiki/Mirror-lists
 ! DONATE: https://github.com/bogachenko/fuckfuckadblock/wiki/Donate
 ! COMBINED START
-/^https?:\/\/.*\/(\%?[235][a-fA-F3-6]|[a-f-_]{3,})?[Ss](ervice)?[-_]?[Ww](orker)?[a-zA-Z0-9]?\.js(\?.*)?$/$script,xmlhttprequest,match-case,domain=~dagrasso.pl|~idx.google.com|~tiktok.com|~twitter.com|~youtube.com
+/^https?:\/\/.*\/(\%?[235][a-fA-F3-6]|[a-f-_]{3,})?[Ss](ervice)?[-_]?[Ww](orker)?[a-zA-Z0-9]?\.js(\?.*)?$/$domain=~dagrasso.pl|~idx.google.com|~tiktok.com|~twitter.com|~youtube.com,match-case,script,xmlhttprequest
 ! COMBINED END
 ! DOMAINS START
 ||0xpool.io^
