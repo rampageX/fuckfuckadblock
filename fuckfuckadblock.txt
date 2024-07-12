@@ -662,7 +662,7 @@ comicxxx.eu,edoujin.net,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*
 @@|http*:*/reklama.js|$script
 @@|http*:*/roturl.js$script
 @@|http*:*/sailthru.js$script
-@@|http*:*/tag.min.js|$script,third-party,domain=darkino.biz|darkino.online|iir.la
+@@|http*:*/tag.min.js|$script,third-party,domain=darkino.biz|darkino.online
 @@|http*:*/vast.js|$script,first-party
 @@|http*:*/wp-content/*/ad-inserter/$script
 @@|http*:*/wp-content/*/dh-anti-adblocker/$script
@@ -823,7 +823,7 @@ comicxxx.eu,edoujin.net,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*
 @@|http*:*/ima3.js|$xmlhttprequest
 @@|http*:*/peel1.js$xmlhttprequest
 @@|http*:*/reklama.js|$xmlhttprequest
-@@|http*:*/tag.min.js|$xmlhttprequest,third-party,domain=oko.sh
+@@|http*:*/tag.min.js|$xmlhttprequest,third-party,domain=oko.sh|iir.la
 @@||a2zapk.com^$xmlhttprequest,third-party,domain=dropgalaxy.com
 @@||adblockanalytics.com^$third-party,xmlhttprequest
 @@||ads.adfox.ru^$xmlhttprequest,domain=kinopoisk.ru
