@@ -29,6 +29,7 @@ def patch(filename):
     pattern = re.compile(r'#[#?$@]?#')
     pattern1 = re.compile(r'^[^a-zA-Z0-9#@!/|]+')
     pattern2 = re.compile(r'domain=(.*?)(,|$)')
+    pattern3 = re.compile(r'(.*\$)(.*)')
     with open(temp_file_path, 'r') as file:
         for line in file:
             match1 = pattern1.search(line)
@@ -46,7 +47,15 @@ def patch(filename):
                 else:
                     sorted_lines.append(line)
             else:
-                sorted_lines.append(line)
+                match3 = pattern3.search(line)
+                if match3:
+                    pre_dollar = match3.group(1)
+                    post_dollar = match3.group(2).strip()
+                    sorted_params = ','.join(sorted(post_dollar.split(',')))
+                    sorted_line = f'{pre_dollar}{sorted_params}\n'
+                    sorted_lines.append(sorted_line)
+                else:
+                    sorted_lines.append(line)
     with open(file_path, 'w') as file:
         file.writelines(sorted_lines)
     shutil.rmtree(temp_dir)
