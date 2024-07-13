@@ -4,14 +4,20 @@
 # License: MIT license <https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/LICENSE.md>
 # Last update: July 2024
 # Donate:
-#          Bitcoin (BTC) - 3JfwK6ULJ1xY8xjpu6uzpBKLm4ghkdSBzG
+#          Bitcoin (BTC) - 1PvKpxpGRiw83afJi2kWFUXwSdxpFXLUW9
+#          Bitcoin Cash (BCH) - 1hE3asiyEzVoMPQifKq8c34yAgVE1BquX
 #          Ethereum (ETH) - 0xb08eE5bC90C2fCAFE453b7d536f158215Cca979A
+#          Ethereum Classic (ETC) - 0x908E4623Ba8a0518F2CCAb9b4123B336AE4e0078
 #          Tron (TRX) - THXmTuAbnMrUWFXPJn92YkWbEzjBDGAEXZ
 #          Toncoin (TON) - UQDohNKO4GJj4VGDNwK2GYXtnvWbwgiECYB6V6aijfS2RY28
 #          Dogecoin (DOGE) - DFuMmJb8DstHZQpqaCtQaeW5D6CVZHvqFa
 #          Litecoin (LTC) - LfW2NSBZ3UwG7Sm9MWKLjEdVt45XVZ1je2
+#          Solana (SOL) - 9oboHCvKTcwc47eFyhuYpwYcsyyvybv4qsspsbn1q9gA
+#          Ripple (XRP) - rUPys7DwSu9BPSKJNcX9NknjrMHiD6KZmL
 #          Binance Coin (BNB) uses the ETH address.
-#          Tether (USDT) or USD Coin (USDC) uses ETH, TRX or TON addresses, depending on the type of chain chosen.
+#          Tether (USDT) uses TRX, ETH, BNB, TON or SOL addresses, depending on the type of chain chosen.
+#          USD Coin (USDC) uses TRX, ETH, BNB or SOL addresses, depending on the type of chain chosen.
+#          Binance USD (BUSD) uses TRX, ETH, BNB addresses, depending on the type of chain chosen.
 
 import os, re, shutil, tempfile
 main_filename = 'fuckfuckadblock.txt'
