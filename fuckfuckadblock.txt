@@ -638,6 +638,7 @@ comicxxx.eu,edoujin.net,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*
 @@|http*:*/adblock_detector.js$script
 @@|http*:*/adblock_notify.$script
 @@|http*:*/adfliction-$script
+@@|http*:*/adv_teasers.js$script
 @@|http*:*/ads.txt|$script
 @@|http*:*/adsbygoogle.js|$script,third-party
 @@|http*:*/adsbygoogle.min.js|$first-party,script
