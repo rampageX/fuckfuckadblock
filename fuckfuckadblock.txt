@@ -635,6 +635,7 @@ comicxxx.eu,edoujin.net,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*
 @@/^https?:\/\/static\.ads\-twitter\.com\/[a-z]{3}\.js$/$script,third-party
 @@|http*:*-adfliction/$script
 @@|http*:*-vast.js|$first-party,script
+@@|http*:*/pustrck.js$first-party,script
 @@|http*:*/adblock_detector.js$script
 @@|http*:*/adblock_notify.$script
 @@|http*:*/adfliction-$script
@@ -747,7 +748,6 @@ comicxxx.eu,edoujin.net,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*
 |http*:*/safu/safu.js$important,script
 |http*:*/script/intrf.js$important,script
 |http*:*/script/ippg.js$important,script,third-party
-|http*:*/script/pustrck.js$important,script
 |http*:*/script/su.js$important,script,third-party
 |http*:*/script/suv4.js$important,script,third-party
 |http*:*/script/suv4r.js$important,script
