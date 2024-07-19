@@ -4,20 +4,22 @@
 # License: MIT license <https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/LICENSE.md>
 # Last update: July 2024
 # Donate:
-#          Bitcoin (BTC) - 1PvKpxpGRiw83afJi2kWFUXwSdxpFXLUW9
-#          Bitcoin Cash (BCH) - 1hE3asiyEzVoMPQifKq8c34yAgVE1BquX
-#          Ethereum (ETH) - 0xb08eE5bC90C2fCAFE453b7d536f158215Cca979A
-#          Ethereum Classic (ETC) - 0x908E4623Ba8a0518F2CCAb9b4123B336AE4e0078
-#          Tron (TRX) - THXmTuAbnMrUWFXPJn92YkWbEzjBDGAEXZ
-#          Toncoin (TON) - UQDohNKO4GJj4VGDNwK2GYXtnvWbwgiECYB6V6aijfS2RY28
-#          Dogecoin (DOGE) - DFuMmJb8DstHZQpqaCtQaeW5D6CVZHvqFa
-#          Litecoin (LTC) - LfW2NSBZ3UwG7Sm9MWKLjEdVt45XVZ1je2
-#          Solana (SOL) - 9oboHCvKTcwc47eFyhuYpwYcsyyvybv4qsspsbn1q9gA
-#          Ripple (XRP) - rUPys7DwSu9BPSKJNcX9NknjrMHiD6KZmL
-#          Binance Coin (BNB) uses the ETH address.
-#          Tether (USDT) uses TRX, ETH, BNB, TON or SOL addresses, depending on the type of chain chosen.
-#          USD Coin (USDC) uses TRX, ETH, BNB or SOL addresses, depending on the type of chain chosen.
-#          Binance USD (BUSD) uses TRX, ETH, BNB addresses, depending on the type of chain chosen.
+#   Bitcoin (BTC) - bc1qnmderzmag45pa3a0jyaqah654x0055n6y8madh
+#   Bitcoin Cash (BCH) - qzptqmjr0vrj053wgcxa5yesdlejk973xq9xctmxcg
+#   Ethereum (ETH) - 0xE4869C3140134522383E316d329612bC886F85E2
+#   Ethereum Classic (ETC) - 0x4A11511a9C69eA1CFa8B1135c9B8A3B27c84eE55
+#   Tron (TRX) - TW8ocDJLPTnVFG4Karb7zctbBfjFaZfuJn
+#   Toncoin (TON) - UQCt3JyjW8EvFidU18qnrnfMnSdTWdqKJkJpvuxW9W0dwTU7
+#   Dogecoin (DOGE) - D7BHKJ4ymU5uZKrju5BbYQpSfdENc5qtr1
+#   Litecoin (LTC) - ltc1q3t9hmgqyze8qlrw56rxepyw8ll44jcl7uc8z4p
+#   Solana (SOL) - 5fsRA5NiQKX5GLzatbmYS7UbZ9Q2LMqdCH7pBgtrXDJM
+#   Ripple (XRP) - rnEWArfEDm4yFJeG7xnvDCkW7GKperxf6t
+#   Cardano (ADA) - addr1q8yjcner4yq7kgd0gleq4qf0gae2xemvvpu790nhfk7a3y8gje4zxphcq0kyg3ry5yvgtzy2huhd49l9rdwmh6khmm4se2er3a
+#   Zcash (ZEC) - t1N8QRJg6jFt2m92DyFkYVDEv36ZK3JnQP2
+#   Binance Coin (BNB) uses the ETH address.
+#   Tether (USDT) uses TRX, ETH, BNB, TON or SOL addresses, depending on the type of chain chosen.
+#   USD Coin (USDC) uses TRX, ETH, BNB or SOL addresses, depending on the type of chain chosen.
+#   Binance USD (BUSD) uses TRX, ETH, BNB addresses, depending on the type of chain chosen.
 
 import os, re, requests, tempfile
 redcolor = '\033[91m'
