@@ -595,6 +595,7 @@ comicxxx.eu,edoujin.net,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*
 ||redcdn.pl^$domain=fakty.tvn24.pl,media,redirect-rule=noopmp4-1s
 ! MEDIA END
 ! SCRIPT START
+/\/script\/su(v[45]r?)?\.js/$important,script,third-party
 /[0-9]{7}\?zoneid=[0-9]{7}/$important,script,third-party
 /\.(com|porn|xxx|tube)\/[a-z]{8,12}\/[a-z]{8,12}\.js$/$domain=555.porn|desiporn.tube|hclips.com|hdzog.com|hotmovs.com|imzog.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.com|txxxporn.tube|upornia.*|vjav.com|vjav.tube|voyeurhit.com|vxxx.com,first-party,important,script
 /\.net\/js\/popup\.js\?v(er)?=1\./$first-party,important,script
@@ -748,10 +749,6 @@ comicxxx.eu,edoujin.net,enrt.eu,getcopy.link,legendas.dev,novsport.com,seulink.*
 |http*:*/safu/safu.js$important,script
 |http*:*/script/intrf.js$important,script
 |http*:*/script/ippg.js$important,script,third-party
-|http*:*/script/su.js$important,script,third-party
-|http*:*/script/suv4.js$important,script,third-party
-|http*:*/script/suv4r.js$important,script
-|http*:*/script/suv5.js$important,script,third-party
 |http*:*/script/tbeomspv.js|$important,script
 |http*:*/script/utils.js$important,script,third-party
 |http*:*/smpop.$important,script,third-party
