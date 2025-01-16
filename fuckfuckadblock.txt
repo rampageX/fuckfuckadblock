@@ -8,7 +8,23 @@
 ! CDN: https://github.com/bogachenko/fuckfuckadblock/wiki/Mirror-lists
 ! DONATE: https://github.com/bogachenko/fuckfuckadblock/wiki/Donate
 
+! SCRIPTS START
+@@/^https?:\/\/(www\.)?[^\s]+\/ad[svbxo]?(\.min)?\.js/$script
+@@/^https?:\/\/(www\.)?[^\s]+\/ad[vs](er(ve)?t?(ise|ising|isement)?)?(\.min)?\.js/$script
+
+! XMLHTTPREQUEST START
+||srtb.msn.com^$xmlhttprequest,redirect-rule=nooptext
+@@/^https?:\/\/(www\.)?[^\s]+\/ad[svbxo]?(\.min)?\.js/$xmlhttprequest
+@@/^https?:\/\/(www\.)?[^\s]+\/ad[vs](er(ve)?t?(ise|ising|isement)?)?(\.min)?\.js/$xmlhttprequest
+
+! IMAGE START
+||googleads.g.doubleclick.net/favicon.ico$image,redirect=32x32.png
+
 ! expressurl.net
 @@*$domain=expressurl.net,generichide
 expressurl.net##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
 expressurl.net##+js(noeval-if.js, DOMContentLoaded, showModal)
+
+! mixrootmod.com
+@@$domain=mixrootmod.com,generichide
+mixrootmod.com##+js(no-setInterval-if.js, css_class.show)
