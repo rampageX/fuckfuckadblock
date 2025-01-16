@@ -40,3 +40,7 @@ altervista.org##+js(noeval-if.js, DOMContentLoaded, showModal)
 
 # mlwbd.com
 fojik.site##+js(abort-current-script.js, document.documentElement, break)
+
+# doodstream.com
+doodstream.com,dooodster.com,d0000d.com,dood.*##+js(abort-current-script, decodeURI, decodeURIComponent)
+doodstream.com,dooodster.com,d0000d.com,dood.*##+js(no-window-open-if.js)
