@@ -31,3 +31,6 @@ mixrootmod.com##+js(no-setInterval-if.js, css_class.show)
 
 ! 6ziz.com
 6ziz.com##+js(noeval-if.js, DOMContentLoaded, showModal)
+
+! altervista.org
+altervista.org##+js(noeval-if.js, DOMContentLoaded, showModal)
