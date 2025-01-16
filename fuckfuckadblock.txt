@@ -20,6 +20,9 @@
 ! IMAGE START
 ||googleads.g.doubleclick.net/favicon.ico$image,redirect=32x32.png
 
+! POPUP START
+/^https?:\/\/[^\s]+\/[45](0[01])?\/\d{7}/$popunder,popup
+
 ! expressurl.net
 @@*$domain=expressurl.net,generichide
 expressurl.net##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
@@ -34,3 +37,6 @@ mixrootmod.com##+js(no-setInterval-if.js, css_class.show)
 
 ! altervista.org
 altervista.org##+js(noeval-if.js, DOMContentLoaded, showModal)
+
+# mlwbd.com
+fojik.site##+js(abort-current-script.js, document.documentElement, break)
