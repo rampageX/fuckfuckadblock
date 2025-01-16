@@ -28,3 +28,6 @@ expressurl.net##+js(noeval-if.js, DOMContentLoaded, showModal)
 ! mixrootmod.com
 @@$domain=mixrootmod.com,generichide
 mixrootmod.com##+js(no-setInterval-if.js, css_class.show)
+
+! 6ziz.com
+6ziz.com##+js(noeval-if.js, DOMContentLoaded, showModal)
