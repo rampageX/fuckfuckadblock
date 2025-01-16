@@ -7,3 +7,8 @@
 ! RAW: https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt
 ! CDN: https://github.com/bogachenko/fuckfuckadblock/wiki/Mirror-lists
 ! DONATE: https://github.com/bogachenko/fuckfuckadblock/wiki/Donate
+
+! expressurl.net
+@@*$domain=expressurl.net,generichide
+expressurl.net##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
+expressurl.net##+js(noeval-if.js, DOMContentLoaded, showModal)
