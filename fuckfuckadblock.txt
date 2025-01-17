@@ -11,6 +11,7 @@
 ! SCRIPTS START
 @@/^https?:\/\/(www\.)?[^\s]+\/ad[svbxo]?(\.min)?\.js/$script
 @@/^https?:\/\/(www\.)?[^\s]+\/ad[vs](er(ve)?t?(ise|ising|isement)?)?(\.min)?\.js/$script
+||imasdk.googleapis.com^$script,redirect-rule=noopjs
 
 ! XMLHTTPREQUEST START
 ||srtb.msn.com^$xmlhttprequest,redirect-rule=nooptext
@@ -22,6 +23,11 @@
 
 ! POPUP START
 /^https?:\/\/[^\s]+\/[45](0[01])?\/\d{7}/$popunder,popup
+/[?&]key=[a-f0-9]{32}$/$popunder,popup
+
+! COMBINED START
+/\?key=[0-9a-f]{32}$/$document,xmlhttprequest,match-case,subdocument,script
+/^https?:\/\/(([0-9a-z]{7,10}|www)\.)?([0-9a-f]{10}|[a-z0-9]{5,40})\.com\/(([a-z0-9]{2}\/){2,3})?[0-9a-f]{32}\.js(on)?$/$match-case,script,third-party,xmlhttprequest
 
 ! expressurl.net
 @@*$domain=expressurl.net,generichide
@@ -38,9 +44,13 @@ mixrootmod.com##+js(no-setInterval-if.js, css_class.show)
 ! altervista.org
 altervista.org##+js(noeval-if.js, DOMContentLoaded, showModal)
 
-# mlwbd.com
+! mlwbd.com
 fojik.site##+js(abort-current-script.js, document.documentElement, break)
 
-# doodstream.com
+! doodstream.com
 doodstream.com,dooodster.com,d0000d.com,dood.*##+js(abort-current-script, decodeURI, decodeURIComponent)
 doodstream.com,dooodster.com,d0000d.com,dood.*##+js(no-window-open-if.js)
+
+! voe.sx
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,third-party,redirect-rule=google-ima.js,domain=robertordercharacter.com|sharonwhiledemocratic.com|voe.sx|susanhavekeep.com|toddpartneranimal.com|shannonpersonalcost.com|sethniceletter.com|seanshowcould.com|sandrataxeight.com|sandratableother.com|jayservicestuff.com|ryanagoinvolve.com|robertplacespace.com|roberteachfinal.com|rebeccaneverbase.com|morganoperationface.com|michaelapplysome.com|loriwithinfamily.com|lorimuchbenefit.com|josephseveralconcern.com|johntryopen.com|jessicaglassauthor.com|jasonresponsemeasure.com|jasminetesttry.com|jamesstartstudent.com|jamessoundcost.com|heatherdiscussionwhen.com|graceaddresscommunity.com|evelynthankregion.com|erikcoldperson.com|donaldlineelse.com|cindyeyefinal.com|brucevotewithin.com|brookethoughi.com|brittneystandardwestern.com|bethshouldercan.com|alleneconomicmatter.com
+robertordercharacter.com|sharonwhiledemocratic.com|voe.sx|susanhavekeep.com|toddpartneranimal.com|shannonpersonalcost.com|sethniceletter.com|seanshowcould.com|sandrataxeight.com|sandratableother.com|jayservicestuff.com|ryanagoinvolve.com|robertplacespace.com|roberteachfinal.com|rebeccaneverbase.com|morganoperationface.com|michaelapplysome.com|loriwithinfamily.com|lorimuchbenefit.com|josephseveralconcern.com|johntryopen.com|jessicaglassauthor.com|jasonresponsemeasure.com|jasminetesttry.com|jamesstartstudent.com|jamessoundcost.com|heatherdiscussionwhen.com|graceaddresscommunity.com|evelynthankregion.com|erikcoldperson.com|donaldlineelse.com|cindyeyefinal.com|brucevotewithin.com|brookethoughi.com|brittneystandardwestern.com|bethshouldercan.com|alleneconomicmatter.com##+js(no-window-open-if)
