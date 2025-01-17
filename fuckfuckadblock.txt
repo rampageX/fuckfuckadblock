@@ -63,3 +63,6 @@ waploaded.com##+js(addEventListener-defuser.js, /^(?:load|click)$/, popMagic)
 
 ! vidsrc.xyz
 vidsrc.*##+js(no-window-open-if.js)
+
+! sexpopcorn.com
+sexpopcorn.com##+js(addEventListener-defuser.js, /^(?:load|click)$/, popMagic)
