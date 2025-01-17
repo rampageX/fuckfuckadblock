@@ -29,7 +29,8 @@
 
 ! COMBINED START
 /\?key=[0-9a-f]{32}$/$document,xmlhttprequest,match-case,subdocument,script
-/^https?:\/\/(([0-9a-z]{7,10}|www)\.)?([0-9a-f]{10}|[a-z0-9]{5,40})\.com\/(([a-z0-9]{2}\/){2,3})?[0-9a-f]{32}\.js(on)?$/$match-case,script,third-party,xmlhttprequest
+/^https?:\/\/(([0-9a-z]{7,10}|www)\.)?.*\.com\/(([a-z0-9]{2}\/){2,3})?[0-9a-f]{32}\.js(on)?$/$match-case,script,third-party,xmlhttprequest
+/^https?:\/\/([a-z]{2}\.)?.*\/[45](0[01])?\/\d{7}/$third-party,script,document,subdocument,xmlhttprequest,match-case
 
 ! expressurl.net
 @@*$domain=expressurl.net,generichide
@@ -59,3 +60,6 @@ robertordercharacter.com|sharonwhiledemocratic.com|voe.sx|susanhavekeep.com|todd
 
 ! waploaded.com
 waploaded.com##+js(addEventListener-defuser.js, /^(?:load|click)$/, popMagic)
+
+! vidsrc.xyz
+vidsrc.*##+js(no-window-open-if.js)
