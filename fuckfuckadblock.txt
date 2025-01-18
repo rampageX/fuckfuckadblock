@@ -83,3 +83,6 @@ sexpopcorn.com##+js(addEventListener-defuser.js, /^(?:load|click)$/, popMagic)
 
 ! smashystream.com
 smashy.stream##+js(no-window-open-if.js)
+
+! aerolla.net
+aeromods.app,aeroinsta.com,aerolla.net,aerowitter.com##+js(abort-on-property-read.js, HTMLIFrameElement)
