@@ -86,3 +86,7 @@ smashy.stream##+js(no-window-open-if.js)
 
 ! aerolla.net
 aeromods.app,aeroinsta.com,aerolla.net,aerowitter.com##+js(abort-on-property-read.js, HTMLIFrameElement)
+
+! megaup.net
+megaup.net##+js(no-window-open-if.js)
+megaup.net##+js(abort-current-inline-script.js, Math, break)
