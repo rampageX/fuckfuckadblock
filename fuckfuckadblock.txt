@@ -8,17 +8,28 @@
 ! CDN: https://github.com/bogachenko/fuckfuckadblock/wiki/Mirror-lists
 ! DONATE: https://github.com/bogachenko/fuckfuckadblock/wiki/Donate
 
+! CASCADING STYLE SHEETS START
+##div[style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;"]
+###video_player ~ div[id] div[style^="position:fixed;inset:0px;z-index:"]
+
 ! SCRIPTS START
 @@/^https?:\/\/(www\.)?[^\s]+\/ad[svbxo]?(\.min)?\.js/$script
 @@/^https?:\/\/(www\.)?[^\s]+\/ad[vs](er(ve)?t?(ise|ising|isement)?)?(\.min)?\.js/$script
 ||imasdk.googleapis.com^$script,redirect-rule=noopjs
+|http*:*/blockadblock-$redirect=fuckadblock.js-3.2.0,script
+|http*:*/blockadblock.$redirect=fuckadblock.js-3.2.0,script
+|http*:*/fuckadblock-$redirect=fuckadblock.js-3.2.0,script
+|http*:*/fuckadblock.$redirect=fuckadblock.js-3.2.0,script
 
 ! XMLHTTPREQUEST START
 ||srtb.msn.com^$xmlhttprequest,redirect-rule=nooptext
 ||googletagmanager.com/gtag/$redirect-rule=googletagmanager_gtm.js,xmlhttprequest
+||googletagmanager.com/gtm.js$redirect-rule=googletagmanager_gtm.js,xmlhttprequest
+||googletagservices.com/tag/$redirect-rule=googletagservices_gpt.js,xmlhttprequest
 /^https?:\/\/([a-z]{2}\.)?[0-9a-z]{7,16}\.com\/1clkn\/\d{4,5}$/$third-party,script
 @@/^https?:\/\/(www\.)?[^\s]+\/ad[svbxo]?(\.min)?\.js/$xmlhttprequest
 @@/^https?:\/\/(www\.)?[^\s]+\/ad[vs](er(ve)?t?(ise|ising|isement)?)?(\.min)?\.js/$xmlhttprequest
+/^https?:\/\/[-a-z]{5,12}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,21}=[%0-9a-zA-Z]{200,1300}/$xmlhttprequest,third-party,match-case
 
 ! IMAGE START
 ||googleads.g.doubleclick.net/favicon.ico$image,redirect=32x32.png
@@ -56,7 +67,7 @@ doodstream.com,dooodster.com,d0000d.com,dood.*##+js(no-window-open-if.js)
 
 ! voe.sx
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,third-party,redirect-rule=google-ima.js,domain=robertordercharacter.com|sharonwhiledemocratic.com|voe.sx|susanhavekeep.com|toddpartneranimal.com|shannonpersonalcost.com|sethniceletter.com|seanshowcould.com|sandrataxeight.com|sandratableother.com|jayservicestuff.com|ryanagoinvolve.com|robertplacespace.com|roberteachfinal.com|rebeccaneverbase.com|morganoperationface.com|michaelapplysome.com|loriwithinfamily.com|lorimuchbenefit.com|josephseveralconcern.com|johntryopen.com|jessicaglassauthor.com|jasonresponsemeasure.com|jasminetesttry.com|jamesstartstudent.com|jamessoundcost.com|heatherdiscussionwhen.com|graceaddresscommunity.com|evelynthankregion.com|erikcoldperson.com|donaldlineelse.com|cindyeyefinal.com|brucevotewithin.com|brookethoughi.com|brittneystandardwestern.com|bethshouldercan.com|alleneconomicmatter.com
-robertordercharacter.com|sharonwhiledemocratic.com|voe.sx|susanhavekeep.com|toddpartneranimal.com|shannonpersonalcost.com|sethniceletter.com|seanshowcould.com|sandrataxeight.com|sandratableother.com|jayservicestuff.com|ryanagoinvolve.com|robertplacespace.com|roberteachfinal.com|rebeccaneverbase.com|morganoperationface.com|michaelapplysome.com|loriwithinfamily.com|lorimuchbenefit.com|josephseveralconcern.com|johntryopen.com|jessicaglassauthor.com|jasonresponsemeasure.com|jasminetesttry.com|jamesstartstudent.com|jamessoundcost.com|heatherdiscussionwhen.com|graceaddresscommunity.com|evelynthankregion.com|erikcoldperson.com|donaldlineelse.com|cindyeyefinal.com|brucevotewithin.com|brookethoughi.com|brittneystandardwestern.com|bethshouldercan.com|alleneconomicmatter.com##+js(no-window-open-if)
+robertordercharacter.com,sharonwhiledemocratic.com,voe.sx,susanhavekeep.com,toddpartneranimal.com,shannonpersonalcost.com,sethniceletter.com,seanshowcould.com,sandrataxeight.com,sandratableother.com,jayservicestuff.com,ryanagoinvolve.com,robertplacespace.com,roberteachfinal.com,rebeccaneverbase.com,morganoperationface.com,michaelapplysome.com,loriwithinfamily.com,lorimuchbenefit.com,josephseveralconcern.com,johntryopen.com,jessicaglassauthor.com,jasonresponsemeasure.com,jasminetesttry.com,jamesstartstudent.com,jamessoundcost.com,heatherdiscussionwhen.com,graceaddresscommunity.com,evelynthankregion.com,erikcoldperson.com,donaldlineelse.com,cindyeyefinal.com,brucevotewithin.com,brookethoughi.com,brittneystandardwestern.com,bethshouldercan.com,alleneconomicmatter.com##+js(no-window-open-if)
 
 ! waploaded.com
 waploaded.com##+js(addEventListener-defuser.js, /^(?:load|click)$/, popMagic)
