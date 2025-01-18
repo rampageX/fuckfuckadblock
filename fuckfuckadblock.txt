@@ -10,11 +10,13 @@
 
 ! CASCADING STYLE SHEETS START
 ##div[style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;"]
-###video_player ~ div[id] div[style^="position:fixed;inset:0px;z-index:"]
+##div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"]
+##div[style^="position: fixed; inset: 0px; z-index: 2147483647; background: black; opacity: 0.01"]
 
 ! SCRIPTS START
 @@/^https?:\/\/(www\.)?[^\s]+\/ad[svbxo]?(\.min)?\.js/$script
 @@/^https?:\/\/(www\.)?[^\s]+\/ad[vs](er(ve)?t?(ise|ising|isement)?)?(\.min)?\.js/$script
+/^https?:\/\/[a-z]{8,15}\.(com|net)\/tag\.min\.js$/$script,third-party
 ||imasdk.googleapis.com^$script,redirect-rule=noopjs
 |http*:*/blockadblock-$redirect=fuckadblock.js-3.2.0,script
 |http*:*/blockadblock.$redirect=fuckadblock.js-3.2.0,script
@@ -41,6 +43,7 @@
 ! COMBINED START
 /\?key=[0-9a-f]{32}$/$document,xmlhttprequest,match-case,subdocument,script
 /^https?:\/\/(([0-9a-z]{7,10}|www)\.)?.*\.com\/(([a-z0-9]{2}\/){2,3})?[0-9a-f]{32}\.js(on)?$/$match-case,script,third-party,xmlhttprequest
+/^https?:\/\/([a-z]{2,4}\.)?[0-9a-z]{7,16}\.[a-z]{3,7}\/[0-9a-zA-Z]{10,27}\/[a-zA-Z0-9]{4,6}/$third-party,script,xmlhttprequest,subdocument,popup,match-case
 /^https?:\/\/([a-z]{2}\.)?.*\/[45](0[01])?\/\d{7}/$third-party,script,document,subdocument,xmlhttprequest,match-case
 
 ! expressurl.net
@@ -77,3 +80,6 @@ vidsrc.*##+js(no-window-open-if.js)
 
 ! sexpopcorn.com
 sexpopcorn.com##+js(addEventListener-defuser.js, /^(?:load|click)$/, popMagic)
+
+! smashystream.com
+smashy.stream##+js(no-window-open-if.js)
