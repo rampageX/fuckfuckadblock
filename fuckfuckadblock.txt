@@ -69,8 +69,8 @@ doodstream.com,dooodster.com,d0000d.com,dood.*##+js(abort-current-script, decode
 doodstream.com,dooodster.com,d0000d.com,dood.*##+js(no-window-open-if.js)
 
 ! voe.sx
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,third-party,redirect-rule=google-ima.js,domain=robertordercharacter.com|sharonwhiledemocratic.com|voe.sx|susanhavekeep.com|toddpartneranimal.com|shannonpersonalcost.com|sethniceletter.com|seanshowcould.com|sandrataxeight.com|sandratableother.com|jayservicestuff.com|ryanagoinvolve.com|robertplacespace.com|roberteachfinal.com|rebeccaneverbase.com|morganoperationface.com|michaelapplysome.com|loriwithinfamily.com|lorimuchbenefit.com|josephseveralconcern.com|johntryopen.com|jessicaglassauthor.com|jasonresponsemeasure.com|jasminetesttry.com|jamesstartstudent.com|jamessoundcost.com|heatherdiscussionwhen.com|graceaddresscommunity.com|evelynthankregion.com|erikcoldperson.com|donaldlineelse.com|cindyeyefinal.com|brucevotewithin.com|brookethoughi.com|brittneystandardwestern.com|bethshouldercan.com|alleneconomicmatter.com
-robertordercharacter.com,sharonwhiledemocratic.com,voe.sx,susanhavekeep.com,toddpartneranimal.com,shannonpersonalcost.com,sethniceletter.com,seanshowcould.com,sandrataxeight.com,sandratableother.com,jayservicestuff.com,ryanagoinvolve.com,robertplacespace.com,roberteachfinal.com,rebeccaneverbase.com,morganoperationface.com,michaelapplysome.com,loriwithinfamily.com,lorimuchbenefit.com,josephseveralconcern.com,johntryopen.com,jessicaglassauthor.com,jasonresponsemeasure.com,jasminetesttry.com,jamesstartstudent.com,jamessoundcost.com,heatherdiscussionwhen.com,graceaddresscommunity.com,evelynthankregion.com,erikcoldperson.com,donaldlineelse.com,cindyeyefinal.com,brucevotewithin.com,brookethoughi.com,brittneystandardwestern.com,bethshouldercan.com,alleneconomicmatter.com##+js(no-window-open-if)
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,third-party,redirect-rule=google-ima.js,domain=robertordercharacter.com|voe.sx
+robertordercharacter.com,voe.sx##+js(no-window-open-if)
 
 ! waploaded.com
 waploaded.com##+js(addEventListener-defuser.js, /^(?:load|click)$/, popMagic)
@@ -93,3 +93,6 @@ megaup.net##+js(abort-current-inline-script.js, Math, break)
 
 ! farlad.com
 farlad.com##+js(noeval-if.js, DOMContentLoaded, showModal)
+
+! sendvid.com
+sendvid.com##+js(no-window-open-if.js)
