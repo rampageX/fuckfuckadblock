@@ -90,3 +90,6 @@ aeromods.app,aeroinsta.com,aerolla.net,aerowitter.com##+js(abort-on-property-rea
 ! megaup.net
 megaup.net##+js(no-window-open-if.js)
 megaup.net##+js(abort-current-inline-script.js, Math, break)
+
+! farlad.com
+farlad.com##+js(noeval-if.js, DOMContentLoaded, showModal)
