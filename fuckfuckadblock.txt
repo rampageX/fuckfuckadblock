@@ -96,3 +96,6 @@ farlad.com##+js(noeval-if.js, DOMContentLoaded, showModal)
 
 ! sendvid.com
 sendvid.com##+js(no-window-open-if.js)
+
+! nxbrew.net
+nxbrew.net##+js(noeval-if.js, DOMContentLoaded, showModal)
