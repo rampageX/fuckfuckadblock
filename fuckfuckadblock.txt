@@ -9,9 +9,10 @@
 ! DONATE: https://github.com/bogachenko/fuckfuckadblock/wiki/Donate
 
 ! CASCADING STYLE SHEETS START
-##div[style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;"]
+##div[style^="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;"]
 ##div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"]
 ##div[style^="position: fixed; inset: 0px; z-index: 2147483647; background: black; opacity: 0.01"]
+##div[style^="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; z-index: 2147483646;"]
 
 ! SCRIPTS START
 @@/^https?:\/\/(www\.)?[^\s]+\/ad[svbxo]?(\.min)?\.js/$script
@@ -145,3 +146,7 @@ gayvidsclub.com##+js(no-window-open-if.js)
 
 ! aethersx2.net
 aethersx2.net##+js(no-setTimeout-if.js, ai_adb)
+
+! mixdrop.to
+mixdrop.*##+js(window.open-defuser)
+mixdrop.*##+js(abort-current-inline-script.js, Math, break)
