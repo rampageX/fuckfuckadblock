@@ -131,3 +131,6 @@ capo4play.com##+js(abort-current-script.js, document.documentElement, break)
 
 ! rojadirectaenhd.net
 rojadirectaenhd.net##+js(abort-current-script.js, document.documentElement, break)
+
+! visorsmr.com
+visorsmr.com##+js(noeval-if.js, DOMContentLoaded, showModal)
