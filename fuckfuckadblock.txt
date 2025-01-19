@@ -156,3 +156,6 @@ fu-1fbolpvq.nl,filemoon.*##+js(window.open-defuser)
 
 ! veev.to
 veev.to##+js(window.open-defuser)
+
+! princetechzone.in
+princetechzone.in##+js(noeval-if.js, DOMContentLoaded, showModal)
