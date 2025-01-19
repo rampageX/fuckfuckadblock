@@ -162,3 +162,6 @@ princetechzone.in##+js(noeval-if.js, DOMContentLoaded, showModal)
 
 ! pokeca-chart.com
 pokeca-chart.com##+js(noeval-if.js, DOMContentLoaded, showModal)
+
+! noodlemagazine.com
+noodlemagazine.com##+js(addEventListener-defuser.js, /^(?:load|click)$/, popMagic)
