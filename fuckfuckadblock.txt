@@ -142,3 +142,6 @@ visorsmr.com##+js(noeval-if.js, DOMContentLoaded, showModal)
 
 ! gayvidsclub.com
 gayvidsclub.com##+js(no-window-open-if.js)
+
+! aethersx2.net
+aethersx2.net##+js(no-setTimeout-if.js, ai_adb)
