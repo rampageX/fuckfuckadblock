@@ -159,3 +159,6 @@ veev.to##+js(window.open-defuser)
 
 ! princetechzone.in
 princetechzone.in##+js(noeval-if.js, DOMContentLoaded, showModal)
+
+! pokeca-chart.com
+pokeca-chart.com##+js(noeval-if.js, DOMContentLoaded, showModal)
