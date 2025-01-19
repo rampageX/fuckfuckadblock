@@ -17,7 +17,11 @@
 @@/^https?:\/\/(www\.)?[^\s]+\/ad[svbxo]?(\.min)?\.js/$script
 @@/^https?:\/\/(www\.)?[^\s]+\/ad[vs](er(ve)?t?(ise|ising|isement)?)?(\.min)?\.js/$script
 /^https?:\/\/[a-z]{8,15}\.(com|net)\/tag\.min\.js$/$script,third-party
-||imasdk.googleapis.com^$script,redirect-rule=noopjs
+||imasdk.googleapis.com^$script,redirect-rule=google-ima.js
+||googletagmanager.com/gtag/$redirect-rule=googletagmanager_gtm.js,script
+||googletagmanager.com/gtm.js$redirect-rule=googletagmanager_gtm.js,script
+||googletagservices.com/tag/$redirect-rule=googletagservices_gpt.js,script
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication_adsbygoogle.js
 |http*:*/blockadblock-$redirect=fuckadblock.js-3.2.0,script
 |http*:*/blockadblock.$redirect=fuckadblock.js-3.2.0,script
 |http*:*/fuckadblock-$redirect=fuckadblock.js-3.2.0,script
@@ -28,6 +32,7 @@
 ||googletagmanager.com/gtag/$redirect-rule=googletagmanager_gtm.js,xmlhttprequest
 ||googletagmanager.com/gtm.js$redirect-rule=googletagmanager_gtm.js,xmlhttprequest
 ||googletagservices.com/tag/$redirect-rule=googletagservices_gpt.js,xmlhttprequest
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,redirect=googlesyndication_adsbygoogle.js
 /^https?:\/\/([a-z]{2}\.)?[0-9a-z]{7,16}\.com\/1clkn\/\d{4,5}$/$third-party,script
 @@/^https?:\/\/(www\.)?[^\s]+\/ad[svbxo]?(\.min)?\.js/$xmlhttprequest
 @@/^https?:\/\/(www\.)?[^\s]+\/ad[vs](er(ve)?t?(ise|ising|isement)?)?(\.min)?\.js/$xmlhttprequest
@@ -134,3 +139,6 @@ rojadirectaenhd.net##+js(abort-current-script.js, document.documentElement, brea
 
 ! visorsmr.com
 visorsmr.com##+js(noeval-if.js, DOMContentLoaded, showModal)
+
+! gayvidsclub.com
+gayvidsclub.com##+js(no-window-open-if.js)
