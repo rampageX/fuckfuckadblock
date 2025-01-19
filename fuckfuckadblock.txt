@@ -99,3 +99,16 @@ sendvid.com##+js(no-window-open-if.js)
 
 ! nxbrew.net
 nxbrew.net##+js(noeval-if.js, DOMContentLoaded, showModal)
+
+! abysscdn.com
+abysscdn.com##+js(no-window-open-if.js)
+
+! vidguard.site
+vidguard.site##+js(no-window-open-if.js)
+
+! waaw.to
+waaw.to##+js(no-window-open-if.js)
+
+! vudeo.ws
+vudeo.ws##+js(no-window-open-if.js)
+vudeo.ws##+js(abort-current-script.js, document.documentElement, break)
