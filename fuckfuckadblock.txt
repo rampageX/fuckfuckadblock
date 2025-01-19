@@ -153,3 +153,6 @@ mixdrop.*##+js(abort-current-inline-script.js, Math, break)
 
 ! filemoon.sx
 fu-1fbolpvq.nl,filemoon.*##+js(window.open-defuser)
+
+! veev.to
+veev.to##+js(window.open-defuser)
