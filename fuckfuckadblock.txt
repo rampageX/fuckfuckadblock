@@ -67,6 +67,7 @@ fojik.site##+js(abort-current-script.js, document.documentElement, break)
 ! doodstream.com
 doodstream.com,dooodster.com,d0000d.com,dood.*##+js(abort-current-script, decodeURI, decodeURIComponent)
 doodstream.com,dooodster.com,d0000d.com,dood.*##+js(no-window-open-if.js)
+doodstream.com,dooodster.com,d0000d.com,dood.*##+js(abort-current-script.js, document.documentElement, break)
 
 ! voe.sx
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,third-party,redirect-rule=google-ima.js,domain=robertordercharacter.com|voe.sx
@@ -112,3 +113,21 @@ waaw.to##+js(no-window-open-if.js)
 ! vudeo.ws
 vudeo.ws##+js(no-window-open-if.js)
 vudeo.ws##+js(abort-current-script.js, document.documentElement, break)
+
+! uqload.net
+uqload.net##+js(abort-current-script.js, document.documentElement, break)
+
+! hqq.to
+hqq.to##+js(no-window-open-if.js)
+
+! hoca4.com
+hoca4.com##+js(abort-current-script.js, document.documentElement, break)
+
+! tarjetarojaenvivo.lat
+tarjetarojaenvivo.lat##+js(abort-current-script.js, document.documentElement, break)
+
+! capo4play.com
+capo4play.com##+js(abort-current-script.js, document.documentElement, break)
+
+! rojadirectaenhd.net
+rojadirectaenhd.net##+js(abort-current-script.js, document.documentElement, break)
