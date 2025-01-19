@@ -148,14 +148,14 @@ gayvidsclub.com##+js(no-window-open-if.js)
 aethersx2.net##+js(no-setTimeout-if.js, ai_adb)
 
 ! mixdrop.to
-mixdrop.*##+js(window.open-defuser)
+mixdrop.*##+js(no-window-open-if.js)
 mixdrop.*##+js(abort-current-inline-script.js, Math, break)
 
 ! filemoon.sx
-fu-1fbolpvq.nl,filemoon.*##+js(window.open-defuser)
+fu-1fbolpvq.nl,filemoon.*##+js(no-window-open-if.js)
 
 ! veev.to
-veev.to##+js(window.open-defuser)
+veev.to##+js(no-window-open-if.js)
 
 ! princetechzone.in
 princetechzone.in##+js(noeval-if.js, DOMContentLoaded, showModal)
@@ -172,3 +172,7 @@ moviesjoyhd.*,moviesjoytv.*##+js(abort-current-script.js, Object.defineProperty,
 ! streamingnow.mov
 streamingnow.mov##+js(abort-on-property-read.js, open)
 streamingnow.mov##+js(abort-current-inline-script.js, document.createElement, script)
+
+! ustream.to
+ustream.to##+js(no-window-open-if.js)
+ustream.to##+js(abort-current-inline-script.js, document.createElement, script)
