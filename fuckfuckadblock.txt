@@ -150,3 +150,6 @@ aethersx2.net##+js(no-setTimeout-if.js, ai_adb)
 ! mixdrop.to
 mixdrop.*##+js(window.open-defuser)
 mixdrop.*##+js(abort-current-inline-script.js, Math, break)
+
+! filemoon.sx
+fu-1fbolpvq.nl,filemoon.*##+js(window.open-defuser)
