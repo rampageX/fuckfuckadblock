@@ -182,4 +182,11 @@ upfiles.*##+js(no-window-open-if.js)
 upfiles.*##+js(abort-current-inline-script.js, document.createElement, script)
 
 ! 9anime.to
-9animetv.to##+js(abort-current-inline-script.js, Math, break)
+9animetv.to,9anime.*,9-anime.com,9animes.*##+js(abort-current-inline-script.js, Math, break)
+9animetv.to,9anime.*,9-anime.com,9animes.*##+js(abort-current-script.js, document.documentElement, break)
+
+! s3embtaku.pro
+s3embtaku.pro##+js(abort-current-script.js, document.documentElement, break)
+
+! fstream365.com
+fstream365.com##+js(abort-current-script.js, document.documentElement, break)
