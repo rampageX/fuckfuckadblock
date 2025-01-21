@@ -15,6 +15,8 @@
 ##div[style^="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; z-index: 2147483646;"]
 
 ! SCRIPTS START
+@@*/ad?type=$script,~third-party
+@@*/adcgi?$script,~third-party
 @@/^https?:\/\/(www\.)?[^\s]+\/ad[svbxo]?(\.min)?\.js/$script
 @@/^https?:\/\/(www\.)?[^\s]+\/ad[vs](er(ve)?t?(ise|ising|isement)?)?(\.min)?\.js/$script
 /^https?:\/\/[a-z]{8,15}\.(com|net)\/tag\.min\.js$/$script,third-party
@@ -191,9 +193,10 @@ s3embtaku.pro##+js(abort-current-script.js, document.documentElement, break)
 ! fstream365.com
 fstream365.com##+js(abort-current-script.js, document.documentElement, break)
 
-! iplayerhls.com
-@@*/ad?type=$script,domain=iplayerhls.com
-@@*/adcgi?$script,domain=iplayerhls.com
-
 ! odiadance.com
 odiadance.com##+js(noeval-if.js, DOMContentLoaded, showModal)
+
+! streamtape.com
+@@*/prebid.min.js|$script,domain=watchadsontape.com
+watchadsontape.com##+js(no-window-open-if.js)
+watchadsontape.com##+js(abort-current-inline-script.js, document.createElement, script)
