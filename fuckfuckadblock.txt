@@ -190,3 +190,7 @@ s3embtaku.pro##+js(abort-current-script.js, document.documentElement, break)
 
 ! fstream365.com
 fstream365.com##+js(abort-current-script.js, document.documentElement, break)
+
+! iplayerhls.com
+@@*/ad?type=$script,domain=iplayerhls.com
+@@*/adcgi?$script,domain=iplayerhls.com
