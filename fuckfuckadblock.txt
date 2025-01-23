@@ -19,6 +19,7 @@
 @@*/adcgi?$script,~third-party
 @@/^https?:\/\/(www\.)?[^\s]+\/ad[svbxo]?(\.min)?\.js/$script
 @@/^https?:\/\/(www\.)?[^\s]+\/ad[vs](er(ve)?t?(ise|ising|isement)?)?(\.min)?\.js/$script
+@@||yandex.ru/ads/system/adsdk.js|$script,third-party
 /^https?:\/\/[a-z]{8,15}\.(com|net)\/tag\.min\.js$/$script,third-party
 ||imasdk.googleapis.com^$script,redirect-rule=google-ima.js
 ||googletagmanager.com/gtag/$redirect-rule=googletagmanager_gtm.js,script
