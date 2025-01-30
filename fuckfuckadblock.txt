@@ -204,3 +204,6 @@ watchadsontape.com##+js(abort-current-inline-script.js, document.createElement, 
 
 ! q34r.org
 q34r.org##+js(no-window-open-if.js)
+
+! kyiv.ua
+kyiv.ua##+js(remove-node-text.js, script, mdpDeblocker)
