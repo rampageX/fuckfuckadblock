@@ -201,3 +201,6 @@ odiadance.com##+js(noeval-if.js, DOMContentLoaded, showModal)
 @@*/prebid.min.js|$script,domain=watchadsontape.com
 watchadsontape.com##+js(no-window-open-if.js)
 watchadsontape.com##+js(abort-current-inline-script.js, document.createElement, script)
+
+! q34r.org
+q34r.org##+js(no-window-open-if.js)
