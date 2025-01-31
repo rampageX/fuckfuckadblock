@@ -55,6 +55,9 @@
 /^https?:\/\/([a-z]{2,4}\.)?[0-9a-z]{7,16}\.[a-z]{3,7}\/[0-9a-zA-Z]{10,27}\/[a-zA-Z0-9]{4,6}$/$third-party,script,xmlhttprequest,subdocument,popup,match-case
 /^https?:\/\/([a-z]{2}\.)?.*\/[45](0[01])?\/\d{7}$/$third-party,script,document,subdocument,xmlhttprequest,match-case
 
+! EMPTY START
+||magsrv.com^$empty
+
 ! expressurl.net
 @@*$domain=expressurl.net,generichide
 expressurl.net##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
@@ -207,3 +210,6 @@ q34r.org##+js(no-window-open-if.js)
 
 ! kyiv.ua
 kyiv.ua##+js(remove-node-text.js, script, mdpDeblocker)
+
+! in91vip.win
+in91vip.win##+js(abort-current-script.js, document.querySelectorAll, popMagic)
