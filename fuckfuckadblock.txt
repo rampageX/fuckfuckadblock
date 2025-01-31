@@ -219,3 +219,7 @@ solewe.com##+js(noeval-if.js, DOMContentLoaded, showModal)
 
 ! igay69.com
 igay69.com##+js(abort-current-inline-script.js, decodeURIComponent, ai_)
+igay69.com##+js(no-window-open-if.js)
+
+! pawastreams.pro
+pawastreams.pro##+js(no-setTimeout-if.js, ai_adb)
