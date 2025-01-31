@@ -216,3 +216,6 @@ in91vip.win##+js(abort-current-script.js, document.querySelectorAll, popMagic)
 
 ! solewe.com
 solewe.com##+js(noeval-if.js, DOMContentLoaded, showModal)
+
+! igay69.com
+igay69.com##+js(abort-current-inline-script.js, decodeURIComponent, ai_)
