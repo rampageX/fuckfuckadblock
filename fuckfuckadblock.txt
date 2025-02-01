@@ -232,3 +232,7 @@ computer76.ru##+js(no-setTimeout-if.js, ai_adb)
 
 ! camhub.tv
 camhub.*##+js(abort-on-property-read.js, open)
+
+! listeamed.net
+*$xmlhttprequest,third-party,redirect-rule=nooptext,domain=listeamed.net
+listeamed.net##+js(no-window-open-if.js)
