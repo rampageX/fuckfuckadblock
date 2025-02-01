@@ -189,6 +189,7 @@ ustream.to##+js(abort-current-inline-script.js, document.createElement, script)
 ! upfiles.com
 upfiles.*##+js(no-window-open-if.js)
 upfiles.*##+js(abort-current-inline-script.js, document.createElement, script)
+upfiles.*##+js(set-constant.js, shouldOpenPopUp, false)
 
 ! 9anime.to
 9animetv.to,9anime.*,9-anime.com,9animes.*##+js(abort-current-inline-script.js, Math, break)
