@@ -237,3 +237,9 @@ camhub.*##+js(abort-on-property-read.js, open)
 ! listeamed.net
 *$xmlhttprequest,third-party,redirect-rule=nooptext,domain=listeamed.net
 listeamed.net##+js(no-window-open-if.js)
+
+! animeunity.tv
+animeunity.*##+js(abort-current-script.js, document.documentElement, break)
+
+! vixcloud.co
+vixcloud.co##+js(abort-current-script.js, document.documentElement, break)
