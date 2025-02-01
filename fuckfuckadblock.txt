@@ -223,3 +223,6 @@ igay69.com##+js(no-window-open-if.js)
 
 ! pawastreams.pro
 pawastreams.pro##+js(no-setTimeout-if.js, ai_adb)
+
+! computer76.ru
+computer76.ru##+js(no-setTimeout-if.js, ai_adb)
